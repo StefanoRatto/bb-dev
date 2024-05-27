@@ -1,12 +1,36 @@
 # bb-dev
 
+## Tools
+
+### ```now.sh```
+
+Bash script that prints the current timnestamp in the format +%y-%m-%d_%H_%M_%S_UTC
+
+### ```workflow1.sh```
+
+Bash script that...
+
 ```Bash
 Bash code here
 ```
 
-```Python
-Python code here
+### ```workflow2.sh```
+
+Bash script that...
+
+```Bash
+Bash code here
 ```
+
+## TODOs
+
+* ```workflow1.sh```
+  - Aaa
+  - Aaa
+
+* ```workflow2.sh```
+  - Aaa
+  - Aaa
 
 ## Licensing
 
@@ -15,13 +39,3 @@ The tool is licensed under the [GNU General Public License](https://www.gnu.org/
 ## Legal disclaimer
 
 Usage of this tool to interact with targets without prior mutual consent is illegal. It's the end user's responsibility to obey all applicable local, state and federal laws. Developers assume no liability and are not responsible for any misuse or damage caused by this program. Only use for educational purposes.
-
-## TODOs
-
-* Aaa
-  - Aaa
-  - Aaa
-
-* Aaa
-  - Aaa
-  - Aaa
