@@ -1,14 +1,30 @@
 # bb-dev
 
+First attempt at a recon automation framework, bear with me...
+
 ## Tools
 
 ### ```now.sh```
 
 Bash script that prints the current timnestamp in the format +%y-%m-%d_%H_%M_%S_UTC
 
-### ```workflow1.sh```
+### ```runner.sh```
+
+```runner.sh``` is kept always running on the host in a "runner.sh" tmux session and is responsible for the persistence of the entire framework. ```runner.sh``` launches all workflows at different times/cadences, depending on the workflows.
+
+### ```email.sh```
 
 Bash script that...
+
+```Bash
+Bash code here
+```
+
+### ```workflow1.sh```
+
+This workflow is all about ```subfinder``` -> ```httpx``` -> ```nuclei``` 
+
+```workflow1.sh``` is run by ```runner.sh``` at the top of every hour.
 
 ```Bash
 Bash code here
