@@ -9,12 +9,33 @@ timestamp=$($home/now.sh)
 #echo $timestamp
 
 # output directory is created
-mkdir $home/output/$timestamp
+output_folder=$home/output/$timestamp
+#mkdir $output_folder
 
 # loop over programs/scopes
 # all programs scope files with name starting with "urls" are processed
 # all programs scope files with name starting with "_" are ignored
-# aaa
+input_folder=$home/input
+
+for file in "input_folder"/*; do
+  # check if it's a regular file and skip anything else
+  if [[ -f "$file" ]]; then
+    # extract filename without path
+    filename=$(basename "$file")
+
+    echo $filename
+
+    if [[ "${filename}" =~ \.txt$ ]]; then
+      if [[ "${filename}" =~ ^urls ]]; then
+        echo "GO"
+      elif [[ "${filename}" =~ ^_urls ]]; then
+        echo "OLD"
+      fi
+    else
+      echo "IGNORE"
+    fi
+  fi
+done
 
 # subfinder
 #subfinder -d hackerone.com -silent| httpx -title -tech-detect -status-code
