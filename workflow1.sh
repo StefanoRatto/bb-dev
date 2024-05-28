@@ -5,10 +5,15 @@ home=$(pwd)
 #echo $home
 
 # define time stamp
-timestamp=$($(pwd)/now.sh)
+timestamp=$($home/now.sh)
 #echo $timestamp
 
+# output directory is created
+mkdir $home/output/$timestamp
+
 # loop over programs/scopes
+# all programs scope files with name starting with "urls" are processed
+# all programs scope files with name starting with "_" are ignored
 # aaa
 
 # subfinder
@@ -33,5 +38,4 @@ timestamp=$($(pwd)/now.sh)
 #server.starttls()
 #server.login(sender_email, password)
 #server.sendmail(sender_email, receiver_email, message.as_string())
-
 
