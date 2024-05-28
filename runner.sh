@@ -22,7 +22,8 @@ while true; do
 
     # launches workflows
     $home/workflow1.sh
-    
+    #$home/workflow2.sh
+
     # sleeps 30 seconds not to tax the cpu
   fi
   

@@ -4,6 +4,10 @@ First attempt at a recon automation framework, bear with me...
 
 ## Tools
 
+### ```.bb-dev_config```
+
+Config file to store all configuration parameters and secrets for the framework. It is meant to be stored in the user's home folder and assigned 600 permissions.
+
 ### ```now.sh```
 
 Bash script that prints the current timnestamp in the format +%y-%m-%d_%H_%M_%S_UTC
