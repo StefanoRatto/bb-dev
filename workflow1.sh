@@ -15,24 +15,25 @@ output_folder=$home/output/$timestamp
 # loop over programs/scopes
 # all programs scope files with name starting with "urls" are processed
 # all programs scope files with name starting with "_" are ignored
-input_folder=$home/input
+input_folder=$home/input/
 
-for file in "input_folder"/*; do
-  # check if it's a regular file and skip anything else
-  if [[ -f "$file" ]]; then
-    # extract filename without path
-    filename=$(basename "$file")
+for file in "$input_folder"/*; do
+  if [ -f "$file" ]; then
+   
+    ext="${file##*.}"
+    filename="$(basename "$file")"
 
-    echo $filename
-
-    if [[ "${filename}" =~ \.txt$ ]]; then
-      if [[ "${filename}" =~ ^urls ]]; then
-        echo "GO"
-      elif [[ "${filename}" =~ ^_urls ]]; then
-        echo "OLD"
+    if [ "$ext" == "txt" ]; then
+      if [[ "$filename" == urls* ]]; then
+        #echo "GO!!:     $filename"
+        #go and be awesome...
+      elif [[ "$filename" == _urls* ]]; then
+        # skips "_urls" input files 
+        #echo "SKIPPED:  $filename"
       fi
     else
-      echo "IGNORE"
+      # ignores non-text files
+      #echo "IGNORED:  $filename"
     fi
   fi
 done
@@ -41,22 +42,10 @@ done
 #subfinder -d hackerone.com -silent| httpx -title -tech-detect -status-code
 
 # httpx
-# aaa
+#aaa
 
 # anything interesting?
-# aaa
+#aaa
 
-# send email
-#sender_email = "c3rlzmfuby5yyxr0bw@gmail.com"
-#receiver_email = "team7261737465@gmail.com"
-#password = "kavj hhkd zpak ryqo"
-#body = f"[{datetime.now().astimezone().isoformat()}] [PID:{os.getpid()}] [{target}] has CHANGED!"
-#message = MIMEText(f"{body} Please check it out...", 'plain')
-#message['From'] = "@gmail.com"
-#message['To'] = "@gmail.com"
-#message['Subject'] = body
-#server = smtplib.SMTP('smtp.gmail.com', 587) 
-#server.starttls()
-#server.login(sender_email, password)
-#server.sendmail(sender_email, receiver_email, message.as_string())
-
+# send email notification
+#aaa
