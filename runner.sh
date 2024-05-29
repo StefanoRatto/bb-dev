@@ -21,8 +21,8 @@ while true; do
     echo "[$timestamp] runner.sh is alive with PID $$"
 
     # launches workflows
-    $home/workflow1.sh
-    #$home/workflow2.sh
+    $home/workflow1.sh &
+    #$home/workflow2.sh &
 
     # sleeps 30 seconds not to tax the cpu
   fi
