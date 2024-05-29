@@ -10,7 +10,7 @@ Config file to store all configuration parameters and secrets for the framework.
 
 ### ```now.sh```
 
-Bash script that prints the current timnestamp in the format +%y-%m-%d_%H_%M_%S_UTC
+Bash script that prints the current timnestamp in the format ```+%y-%m-%d_%H_%M_%S_UTC```
 
 ### ```runner.sh```
 
