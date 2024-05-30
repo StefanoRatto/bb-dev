@@ -1,1 +1,2 @@
-*.hackerone.com
+hackerone.com
+projectdiscovery.io
