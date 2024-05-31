@@ -12,8 +12,8 @@ timestamp=$($home/now.sh)
 output_folder=$home/output/workflow1/$timestamp
 mkdir $output_folder
 
-# confirmation that the script is running
-echo "[$timestamp] workflow1.sh kicked off at $output_folder"
+# confirmation that the script started
+echo "[$timestamp] workflow1.sh started at $output_folder"
 
 # loop over programs/scopes
 # all programs scope files with name starting with "urls" are processed
@@ -56,14 +56,11 @@ for file in "$input_folder"/*; do
   fi
 done
 
-# subfinder
-#subfinder -d hackerone.com -silent| httpx -title -tech-detect -status-code
-
-# httpx
-#aaa
-
 # anything interesting?
 #aaa
 
 # send email notification
 #aaa
+
+# confirmation that the script completed successfully
+echo "[$timestamp] workflow1.sh completed at $output_folder"

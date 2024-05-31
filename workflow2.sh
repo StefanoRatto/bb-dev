@@ -10,10 +10,10 @@ timestamp=$($home/now.sh)
 
 # output directory is created
 output_folder=$home/output/workflow2/$timestamp
-mkdir $output_folder
+#mkdir $output_folder
 
-# confirmation that the script is running
-echo "[$timestamp] workflow2.sh kicked off at $output_folder"
+# confirmation that the script started
+echo "[$timestamp] workflow2.sh started at $output_folder"
 
 # loop over programs/scopes
 # all programs scope files with name starting with "urls" are processed
@@ -30,7 +30,7 @@ for file in "$input_folder"/*; do
       if [[ "$filename" == urls* ]]; then
         #go and be awesome...
         #echo "GO!!:     $filename"
-
+        sleep 1
       elif [[ "$filename" == _urls* ]]; then
         # skips "_urls" input files 
         #echo "SKIPPED:  $filename"
@@ -43,3 +43,6 @@ for file in "$input_folder"/*; do
     fi
   fi
 done
+
+# confirmation that the script completed successfully
+echo "[$timestamp] workflow2.sh completed at $output_folder"

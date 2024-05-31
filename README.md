@@ -34,6 +34,10 @@ This workflow is all about ```subfinder``` -> ```httpx``` -> ```nuclei```
 Bash code here
 ```
 
+#### TODOs
+  - Aaa
+  - Aaa
+  
 ### ```workflow2.sh```
 
 Bash script that...
@@ -41,14 +45,7 @@ Bash script that...
 ```Bash
 Bash code here
 ```
-
-## TODOs
-
-* ```workflow1.sh```
-  - Aaa
-  - Aaa
-
-* ```workflow2.sh```
+#### TODOs
   - Aaa
   - Aaa
 
