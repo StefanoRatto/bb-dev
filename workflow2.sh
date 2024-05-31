@@ -9,11 +9,11 @@ timestamp=$($home/now.sh)
 #echo $timestamp
 
 # output directory is created
-output_folder=$home/output/workflow1/$timestamp
+output_folder=$home/output/workflow2/$timestamp
 mkdir $output_folder
 
 # confirmation that the script is running
-echo "[$timestamp] workflow1.sh kicked off at $output_folder"
+echo "[$timestamp] workflow2.sh kicked off at $output_folder"
 
 # loop over programs/scopes
 # all programs scope files with name starting with "urls" are processed
@@ -30,18 +30,6 @@ for file in "$input_folder"/*; do
       if [[ "$filename" == urls* ]]; then
         #go and be awesome...
         #echo "GO!!:     $filename"
-        
-        # subfinder
-        subfinder -dL $input_folder/$filename -silent \
-          > $output_folder/subfinder_$filename
-
-        # httpx
-        httpx -list $output_folder/subfinder_$filename \
-          -silent -title -tech-detect -status-code \
-          -screenshot -srd $output_folder > $output_folder/httpx_$filename
-
-        # nuclei
-        #doawesomenucleistuff
 
       elif [[ "$filename" == _urls* ]]; then
         # skips "_urls" input files 
@@ -55,15 +43,3 @@ for file in "$input_folder"/*; do
     fi
   fi
 done
-
-# subfinder
-#subfinder -d hackerone.com -silent| httpx -title -tech-detect -status-code
-
-# httpx
-#aaa
-
-# anything interesting?
-#aaa
-
-# send email notification
-#aaa
