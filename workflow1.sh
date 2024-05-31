@@ -40,7 +40,7 @@ for file in "$input_folder"/*; do
 
         # httpx
         httpx -list $output_folder/subfinder_$filename \
-          -silent -title -tech-detect -status-code --no-fallback -follow-redirects \
+          -silent -no-color -title -tech-detect -status-code -no-fallback -follow-redirects \
           -mc 200 -screenshot -srd $output_folder > $output_folder/httpx_$filename
 
         # nuclei
