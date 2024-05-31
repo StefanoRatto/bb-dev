@@ -8,6 +8,9 @@ home=$(pwd)
 timestamp=$($home/now.sh)
 #echo $timestamp
 
+# update nuclei templates database
+nuclei -ut -silent
+
 # output directory is created
 output_folder=$home/output/workflow1/$timestamp
 mkdir $output_folder
@@ -37,11 +40,12 @@ for file in "$input_folder"/*; do
 
         # httpx
         httpx -list $output_folder/subfinder_$filename \
-          -silent -title -tech-detect -status-code \
-          -screenshot -srd $output_folder > $output_folder/httpx_$filename
+          -silent -title -tech-detect -status-code --no-fallback -follow-redirects \
+          -mc 200 -screenshot -srd $output_folder > $output_folder/httpx_$filename
 
         # nuclei
-        #doawesomenucleistuff
+        nuclei -l $output_folder/httpx_$filename -s critical,high,medium,low -silent \
+          > $output_folder/nuclei_$filename
 
       elif [[ "$filename" == _urls* ]]; then
         # skips "_urls" input files 
