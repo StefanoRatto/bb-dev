@@ -29,11 +29,13 @@ for file in "$input_folder"/*; do
         #echo "GO!!:     $filename"
         
         # subfinder
-        #subfinder -dL $input_folder/$filename -silent -o $output_folder/subfinder_$filename
-        subfinder -dL $input_folder/$filename -silent > $output_folder/subfinder_$filename
+        subfinder -dL $input_folder/$filename -silent \
+          > $output_folder/subfinder_$filename
 
         # httpx
-        #doawesomehttpxstuff
+        httpx -list $output_folder/subfinder_$filename \
+          -silent -title -tech-detect -status-code \
+          -screenshot -srd $output_folder > $output_folder/httpx_$filename
 
         # nuclei
         #doawesomenucleistuff

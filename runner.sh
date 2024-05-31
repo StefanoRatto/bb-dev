@@ -8,6 +8,18 @@ home=$(pwd)
 timestamp=$($home/now.sh)
 #echo $timestamp
 
+
+# welcome to runner.sh
+echo "                                                                        "
+echo " ██████╗ ██╗   ██╗███╗  ██╗███╗  ██╗███████╗██████╗     ██████╗██╗  ██╗ "
+echo " ██╔══██╗██║   ██║████╗ ██║████╗ ██║██╔════╝██╔══██╗   ██╔════╝██║  ██║ "
+echo " ██████╔╝██║   ██║██╔██╗██║██╔██╗██║█████╗  ██████╔╝   ╚█████╗ ███████║ "
+echo " ██╔══██╗██║   ██║██║╚████║██║╚████║██╔══╝  ██╔══██╗    ╚═══██╗██╔══██║ "
+echo " ██║  ██║╚██████╔╝██║ ╚███║██║ ╚███║███████╗██║  ██║██╗██████╔╝██║  ██║ "
+echo " ╚═╝  ╚═╝ ╚═════╝ ╚═╝  ╚══╝╚═╝  ╚══╝╚══════╝╚═╝  ╚═╝╚═╝╚═════╝ ╚═╝  ╚═╝ "
+echo "      unelegant and simplistic recon automation framework by team7      "
+echo "                                                                        "
+
 # confirmation that the script is running
 echo "[$timestamp] runner.sh is alive with PID $$"
 
