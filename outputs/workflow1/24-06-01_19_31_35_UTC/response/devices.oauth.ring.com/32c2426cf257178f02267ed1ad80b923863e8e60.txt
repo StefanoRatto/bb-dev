@@ -1,0 +1,17 @@
+GET / HTTP/1.1
+Host: devices.oauth.ring.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.1 Safari/605.1.15
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 404 Not Found
+Connection: close
+Content-Length: 18
+Content-Type: text/plain; charset=utf-8
+Date: Sat, 01 Jun 2024 19:40:49 GMT
+Server: awselb/2.0
+
+404 page not found
+
+
+https://devices.oauth.ring.com

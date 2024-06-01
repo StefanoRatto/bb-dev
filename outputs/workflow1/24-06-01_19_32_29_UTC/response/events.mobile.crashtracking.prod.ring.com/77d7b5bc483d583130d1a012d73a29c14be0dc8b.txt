@@ -1,0 +1,20 @@
+GET / HTTP/1.1
+Host: events.mobile.crashtracking.prod.ring.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36 Edg/88.0.705.74
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 405 Method Not Allowed
+Connection: close
+Content-Length: 94
+Content-Type: text/plain; charset=utf-8
+Date: Sat, 01 Jun 2024 19:40:11 GMT
+Server: nginx
+
+Please POST to this URL.
+
+For documentation, see https://docs.bugsnag.com/api/error-reporting
+
+
+
+https://events.mobile.crashtracking.prod.ring.com

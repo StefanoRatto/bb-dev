@@ -1,0 +1,30 @@
+GET / HTTP/1.1
+Host: dashboard.qa.ring.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36 Edg/100.0.1185.44
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 200 OK
+Connection: close
+Content-Length: 1233
+Accept-Ranges: bytes
+Age: 2
+Content-Type: text/html
+Date: Sat, 01 Jun 2024 19:40:32 GMT
+Etag: "98d83954d4e5b7caf59374d3026a9877"
+Last-Modified: Fri, 31 May 2024 15:37:46 GMT
+Server: AmazonS3
+Via: 1.1 44b13d2e12ad74e58c5a56d9c368da6c.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: 18EtIcMeiqpYXcy2qAb2EnUSyxrWH0K_1xNUlMKrHjNF3krWQWv2EA==
+X-Amz-Cf-Pop: IAD61-P3
+X-Amz-Meta-Codebuild-Buildarn: arn:aws:codebuild:us-east-1:340852304747:build/ring-support_qa_app-build:45027e2f-e8da-44dc-a859-28876adb8ada
+X-Amz-Meta-Codebuild-Content-Md5: 7af0d2a392965f5fdac460b387c0c95c
+X-Amz-Meta-Codebuild-Content-Sha256: 392f3a57b41a1dccc437e5b86d94f91492660370da946ec51bf3d802d96c84e2
+X-Amz-Server-Side-Encryption: AES256
+X-Amz-Version-Id: rvUUiw78Ekm6SZjv4515H6b5TF4Vz6mj
+X-Cache: Hit from cloudfront
+
+<!DOCTYPE html><html><head><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1"><link rel="shortcut icon" type=image/png href=/static/images/favico.png><title>ring-admin-frontend</title><script type=text/javascript>window.heap=window.heap||[],heap.load=function(e,t){window.heap.appid=e,window.heap.config=t=t||{};var r=document.createElement("script");r.type="text/javascript",r.async=!0,r.src="https://cdn.heapanalytics.com/js/heap-"+e+".js";var a=document.getElementsByTagName("script")[0];a.parentNode.insertBefore(r,a);for(var n=function(e){return function(){heap.push([e].concat(Array.prototype.slice.call(arguments,0)))}},p=["addEventProperties","addUserProperties","clearEventProperties","identify","resetIdentity","removeEventProperty","setEventProperties","track","unsetEventProperty"],o=0;o<p.length;o++)heap[p[o]]=n(p[o])};</script><link href=/static/css/vendors~app.92548681933b43b9054e.css rel=stylesheet><link href=/static/css/app.8904ac717d752e964544.css rel=stylesheet></head><body><div id=app></div><script type=text/javascript src=/static/js/vendors~app.899df231aa218a3c3e61.js></script><script type=text/javascript src=/static/js/app.c644985c667713117288.js></script></body></html>
+
+
+https://dashboard.qa.ring.com

@@ -1,0 +1,22 @@
+GET / HTTP/1.1
+Host: firmwares.dev.ring.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36 Edg/116.0.1938.76
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 530 
+Connection: close
+Content-Length: 16
+Cache-Control: private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Cf-Ray: 88d1acc3fa4d820f-IAD
+Content-Type: text/plain; charset=UTF-8
+Date: Sat, 01 Jun 2024 19:40:20 GMT
+Expires: Thu, 01 Jan 1970 00:00:01 GMT
+Referrer-Policy: same-origin
+Server: cloudflare
+X-Frame-Options: SAMEORIGIN
+
+error code: 1016
+
+
+http://firmwares.dev.ring.com

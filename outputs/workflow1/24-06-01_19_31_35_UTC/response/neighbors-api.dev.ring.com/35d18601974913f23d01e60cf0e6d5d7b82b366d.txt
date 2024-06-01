@@ -1,0 +1,16 @@
+GET / HTTP/1.1
+Host: neighbors-api.dev.ring.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 404 Not Found
+Connection: close
+Date: Sat, 01 Jun 2024 19:42:20 GMT
+Server: awselb/2.0
+Content-Length: 0
+
+
+
+
+https://neighbors-api.dev.ring.com

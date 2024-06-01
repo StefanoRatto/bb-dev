@@ -1,0 +1,18 @@
+GET / HTTP/1.1
+Host: es.nhadmin.qa.ring.com
+User-Agent: Mozilla/5.0 (X11; CrOS x86_64 15230.0.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Content-Length: 136
+Access-Control-Allow-Origin: *
+Content-Type: application/json
+Date: Sat, 01 Jun 2024 19:40:04 GMT
+Server: nginx/1.22.1
+
+{"Message":"User: anonymous is not authorized to perform: es:ESHttpGet because no resource-based policy allows the es:ESHttpGet action"}
+
+
+https://es.nhadmin.qa.ring.com

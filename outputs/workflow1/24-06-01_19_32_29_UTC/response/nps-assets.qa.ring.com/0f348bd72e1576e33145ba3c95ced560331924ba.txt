@@ -1,0 +1,30 @@
+GET / HTTP/1.1
+Host: nps-assets.qa.ring.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.5.2 Safari/605.2.20
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 200 OK
+Connection: close
+Accept-Ranges: bytes
+Age: 15909
+Content-Type: application/x-directory
+Date: Sat, 01 Jun 2024 15:16:37 GMT
+Etag: "d41d8cd98f00b204e9800998ecf8427e"
+Last-Modified: Tue, 29 Sep 2020 04:27:51 GMT
+Referrer-Policy: strict-origin-when-cross-origin
+Server: AmazonS3
+Strict-Transport-Security: max-age=31536000
+Via: 1.1 5d1a51a1eb09caa5b28051dd961c7c40.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: dnJyh3LPdqKm_nWG6wvW2RU4_DfQX1zQ24qcyuE-SGd1-qB_oBffww==
+X-Amz-Cf-Pop: IAD55-P5
+X-Cache: Hit from cloudfront
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-Xss-Protection: 1; mode=block
+Content-Length: 0
+
+
+
+
+http://nps-assets.qa.ring.com

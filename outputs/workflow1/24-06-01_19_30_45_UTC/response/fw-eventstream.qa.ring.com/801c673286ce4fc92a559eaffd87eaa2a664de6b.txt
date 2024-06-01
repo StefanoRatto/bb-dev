@@ -1,0 +1,18 @@
+GET / HTTP/1.1
+Host: fw-eventstream.qa.ring.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0: Win64: x64) AppleWebKit/537.36 (KHTML: like Gecko) Chrome/121.0.0.0 Safari/537.36 Edg/121.0.0.0
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 404 Not Found
+Connection: close
+Content-Length: 40
+Content-Type: application/json; charset=utf-8
+Date: Sat, 01 Jun 2024 19:40:39 GMT
+Server: awselb/2.0
+
+{"error":"Not Found","status_code":404}
+
+
+
+https://fw-eventstream.qa.ring.com

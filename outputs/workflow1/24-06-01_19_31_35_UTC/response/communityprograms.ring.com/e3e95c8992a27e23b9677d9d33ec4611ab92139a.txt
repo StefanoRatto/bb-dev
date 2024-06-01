@@ -1,0 +1,33 @@
+GET / HTTP/1.1
+Host: communityprograms.ring.com
+User-Agent: Mozilla/5.0 (X11; CrOS x86_64 15232.0.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 200 OK
+Connection: close
+Content-Length: 573
+Accept-Ranges: bytes
+Age: 41762
+Content-Type: text/html
+Cross-Origin-Opener-Policy: same-origin
+Cross-Origin-Resource-Policy: same-origin
+Date: Sat, 01 Jun 2024 08:04:20 GMT
+Etag: "0c58b85930051d8bb89b2ce6aa84b870"
+Last-Modified: Mon, 27 May 2024 06:34:15 GMT
+Referrer-Policy: same-origin
+Server: AmazonS3
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+Vary: Accept-Encoding
+Via: 1.1 8a66d5eadee9b730a388e117efe2af72.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: jSLAJyeDuE0xNDZ_VCxnGWAQ3G6Spc16a0eKK5K-43S39JXH87dPKQ==
+X-Amz-Cf-Pop: IAD61-P2
+X-Amz-Server-Side-Encryption: AES256
+X-Amz-Version-Id: BsMhGvnxaiexp1gyJIseQOrNyaMXSAVg
+X-Cache: Hit from cloudfront
+X-Content-Type-Options: nosniff
+
+<!doctype html><html lang="en"><head><meta charset="utf-8"/><meta name="viewport" content="width=device-width,initial-scale=1"/><meta name="theme-color" content="#000000"/><meta name="description" content="Web site created using create-react-app"/><title>Ring | Community Programs</title><link rel="icon" href="/favicon.ico"><script defer="defer" src="/811.d2409351fb659b479a99.js"></script><script defer="defer" src="/main.d2409351fb659b479a99.js"></script></head><body><noscript>You need to enable JavaScript to run this app.</noscript><div id="root"></div></body></html>
+
+
+http://communityprograms.ring.com

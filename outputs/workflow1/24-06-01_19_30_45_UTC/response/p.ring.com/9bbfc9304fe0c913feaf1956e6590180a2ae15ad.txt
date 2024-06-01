@@ -1,0 +1,27 @@
+GET / HTTP/1.1
+Host: p.ring.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Transfer-Encoding: chunked
+Content-Type: application/xml
+Date: Sat, 01 Jun 2024 19:42:02 GMT
+Server: AmazonS3
+Via: 1.1 a1157b69a14bebe8162237750a074fae.cloudfront.net (CloudFront)
+X-Amz-Bucket-Region: us-east-1
+X-Amz-Cf-Id: AlKL1pQDa0KQ9NEi0Ggd_dbCisBGeE5k6xubN_PsddS7HfgrryHHLw==
+X-Amz-Cf-Pop: IAD89-C3
+X-Cache: Error from cloudfront
+
+f3
+<?xml version="1.0" encoding="UTF-8"?>
+<Error><Code>AccessDenied</Code><Message>Access Denied</Message><RequestId>1X9Z0KZRB77VZ7WR</RequestId><HostId>UC2TtjX8IFVwCBMWZCSNYvZYjmLLlRgxxXZva6saSxEuOcS16xps45G47n+NG669YiFk2LyVCcs=</HostId></Error>
+0
+
+
+
+
+http://p.ring.com

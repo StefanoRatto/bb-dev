@@ -1,0 +1,23 @@
+GET / HTTP/1.1
+Host: kiali.us-east-1.lds.qa.ring.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/11.1.2 Safari/605.1.15
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Content-Length: 118
+Content-Type: text/html
+Date: Sat, 01 Jun 2024 19:41:22 GMT
+Server: awselb/2.0
+
+<html>
+<head><title>403 Forbidden</title></head>
+<body>
+<center><h1>403 Forbidden</h1></center>
+</body>
+</html>
+
+
+
+http://kiali.us-east-1.lds.qa.ring.com

@@ -1,0 +1,24 @@
+GET / HTTP/1.1
+Host: schema-registry.qa.ring.com
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Content-Length: 42
+Content-Type: application/json
+Date: Sat, 01 Jun 2024 19:42:35 GMT
+Via: 1.1 32c5b7040885724e78019cc31f0ef3e8.cloudfront.net (CloudFront)
+X-Amz-Apigw-Id: Ys_y6EyboAMEB4g=
+X-Amz-Cf-Id: eYVUt-b9YaIv2y5cOP1f2vy4dNIGdAOrYf8vqnXKk2p9_W9oad2EmQ==
+X-Amz-Cf-Pop: IAD89-C2
+X-Amzn-Errortype: MissingAuthenticationTokenException
+X-Amzn-Requestid: 8c7ccfc6-0629-40e8-a203-ac6496fc4998
+X-Amzn-Trace-Id: Root=1-665b79ab-65d5e22f4c29da1a7ee23b70
+X-Cache: Error from cloudfront
+
+{"message":"Missing Authentication Token"}
+
+
+http://schema-registry.qa.ring.com

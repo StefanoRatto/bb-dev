@@ -1,0 +1,17 @@
+GET / HTTP/1.1
+Host: devices.oauth.release.ring.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:102.0) Gecko/20100101 Firefox/102.0
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 404 Not Found
+Connection: close
+Content-Length: 18
+Content-Type: text/plain; charset=utf-8
+Date: Sat, 01 Jun 2024 19:40:51 GMT
+Server: awselb/2.0
+
+404 page not found
+
+
+https://devices.oauth.release.ring.com

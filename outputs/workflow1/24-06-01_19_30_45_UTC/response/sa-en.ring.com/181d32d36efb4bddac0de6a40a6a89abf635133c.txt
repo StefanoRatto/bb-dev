@@ -1,0 +1,3035 @@
+GET / HTTP/1.1
+Host: sa-en.ring.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.58
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 200 OK
+Connection: close
+Transfer-Encoding: chunked
+Alt-Svc: h3=":443"; ma=86400
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 88d1b023cf87592f-IAD
+Content-Language: en
+Content-Security-Policy: block-all-mixed-content; frame-ancestors 'none'; upgrade-insecure-requests;
+Content-Type: text/html; charset=utf-8
+Date: Sat, 01 Jun 2024 19:42:38 GMT
+Etag: W/"cacheable:66a796c0e34d3bc294d0e13594f4a793"
+Link: <https://cdn.shopify.com>; rel="preconnect", <https://cdn.shopify.com>; rel="preconnect"; crossorigin
+Nel: {"success_fraction":0.01,"report_to":"cf-nel","max_age":604800}
+Powered-By: Shopify
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=l%2FjtN3sBKa3kYAa5935wrCTxdXw%2FsDf0LB1ni3t2s3KR5EuS1x3DXXpoGwHCRxEjr392qp3A7yWUZ2HxFelotYHjJV9D5Oi1MYK%2F5qxwYdVhFSTpecHYQuUSBDSp3Nsa"}],"group":"cf-nel","max_age":604800}
+Server: cloudflare
+Server-Timing: processing;dur=13, db;dur=3, asn;desc="14618", edge;desc="IAD", country;desc="US", theme;desc="40505671798", pageType;desc="index", servedBy;desc="rvb8", requestID;desc="af7623f2-2e47-49ff-b841-8ef1a6c26325-1717270958"
+Server-Timing: cfRequestDuration;dur=52.000046
+Set-Cookie: secure_customer_sig=; path=/; expires=Sun, 01 Jun 2025 19:42:38 GMT; secure; HttpOnly; SameSite=Lax
+Set-Cookie: localization=SA; path=/; expires=Sun, 01 Jun 2025 19:42:38 GMT
+Set-Cookie: _cmp_a=%7B%22purposes%22%3A%7B%22a%22%3Atrue%2C%22p%22%3Atrue%2C%22m%22%3Atrue%2C%22t%22%3Atrue%7D%2C%22display_banner%22%3Afalse%2C%22sale_of_data_region%22%3Afalse%7D; domain=ring.com; path=/; expires=Sun, 02 Jun 2024 19:42:38 GMT; SameSite=Lax
+Set-Cookie: _tracking_consent=%7B%22reg%22%3A%22CCPA%22%2C%22con%22%3A%7B%22CMP%22%3A%7B%22p%22%3A%22%22%2C%22s%22%3A%22%22%2C%22m%22%3A%22%22%2C%22a%22%3A%22%22%7D%7D%2C%22region%22%3A%22USVA%22%2C%22v%22%3A%222.1%22%7D; Expires=Sun, 01-Jun-25 19:42:38 GMT; Domain=ring.com; Path=/; SameSite=Lax
+Set-Cookie: _shopify_y=e29253cb-862a-4e18-b451-1e6751659268; Expires=Sun, 01-Jun-25 19:42:38 GMT; Domain=ring.com; Path=/; SameSite=Lax
+Set-Cookie: _shopify_s=551c34df-c412-441d-85f4-aa9e0475bfc2; Expires=Sat, 01-Jun-24 20:12:38 GMT; Domain=ring.com; Path=/; SameSite=Lax
+Set-Cookie: _orig_referrer=; Expires=Sat, 15-Jun-24 19:42:38 GMT; Domain=ring.com; Path=/; HttpOnly; SameSite=Lax
+Set-Cookie: _landing_page=%2F; Expires=Sat, 15-Jun-24 19:42:38 GMT; Domain=ring.com; Path=/; HttpOnly; SameSite=Lax
+Strict-Transport-Security: max-age=7889238
+X-Cache: hit, server
+X-Content-Type-Options: nosniff
+X-Dc: gcp-us-east4,gcp-us-east1,gcp-us-east1
+X-Download-Options: noopen
+X-Frame-Options: DENY
+X-Permitted-Cross-Domain-Policies: none
+X-Request-Id: af7623f2-2e47-49ff-b841-8ef1a6c26325-1717270958
+X-Shardid: 170
+X-Shopid: 4048912502
+X-Shopify-Privacy-Api-Migration-Beta: 0
+X-Sorting-Hat-Podid: 170
+X-Sorting-Hat-Shopid: 4048912502
+X-Storefront-Renderer-Rendered: 1
+X-Xss-Protection: 1; mode=block
+
+1045f
+
+
+<!doctype html>
+<!--[if IE 9]> <html class="ie9 no-js" lang="en"> <![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+  
+  <!-- start Mixpanel -->
+  <script>
+    var mixpanel = window.mixpanel = {};
+    mixpanel.register = mixpanel.register_once = mixpanel.track = mixpanel.track_forms = mixpanel.track_links = function() {console.warn('Mixpanel disabled', args)};
+  </script>
+  <!-- end Mixpanel -->
+  
+
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#7796a8">
+  <link rel="canonical" href="">
+
+  
+    <link rel="shortcut icon" href="//sa-en.ring.com/cdn/shop/t/4/assets/favicon.png?v=30309912662987291271529736216" type="image/png">
+  
+
+  
+  <title>
+    Ring SA
+    
+    
+    
+  </title>
+
+  
+
+  <!-- /snippets/social-meta-tags.liquid -->
+<meta property="og:site_name" content="Ring SA">
+<meta property="og:url" content="https://sa-en.ring.com/">
+<meta property="og:title" content="Ring SA">
+<meta property="og:type" content="website">
+<meta property="og:description" content="Ring SA">
+
+
+<meta name="twitter:site" content="@ring">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Ring SA">
+<meta name="twitter:description" content="Ring SA">
+
+  
+  <script src="//sa-en.ring.com/cdn/shop/t/4/assets/jquery-3.3.1.min.js?v=61395414644828968241710428921" type="text/javascript"></script>
+  
+  
+    <link href="//sa-en.ring.com/cdn/shop/t/4/assets/bootstrap.css?v=137465920974320191661532270301" rel="stylesheet" type="text/css" media="all" />
+    <link href="//sa-en.ring.com/cdn/shop/t/4/assets/ring.min.css?v=169072249211999435981710515307" rel="stylesheet" type="text/css" media="all" />
+    <link href="//sa-en.ring.com/cdn/shop/t/4/assets/ring_homepage.min.css?v=122517857543934550471567440188" rel="stylesheet" type="text/css" media="all" />
+
+  
+
+  
+
+  <link href="//fonts.googleapis.com/css?family=Work+Sans:400,700" rel="stylesheet" type="text/css" media="all" />
+
+
+  
+
+    <link href="//fonts.googleapis.com/css?family=Work+Sans:600" rel="stylesheet" type="text/css" media="all" />
+  
+
+
+
+  
+    <script src="//sa-en.ring.com/cdn/shop/t/4/assets/ring.min.js?v=42501217031460285161570540150" ></script>
+  
+
+  <link href="//sa-en.ring.com/cdn/shop/t/4/assets/ring.min-874de0d2f3d751cb6817bdc72b984ad0.css?v=156536580403039582101710515208" rel="stylesheet" type="text/css" media="all" />
+  <script src="//sa-en.ring.com/cdn/shop/t/4/assets/ring.min-f838a0a483e15943c0b47560d6718b23.js?v=60288609284911591881626103911" type="text/javascript"></script>
+  <link href="//sa-en.ring.com/cdn/shop/t/4/assets/custom-mea.css?v=98758530224500046701717167999" rel="stylesheet" type="text/css" media="all" />
+  <script src="//sa-en.ring.com/cdn/shop/t/4/assets/custom-mea.js?v=55624531894729874401710461150" type="text/javascript"></script>
+
+  <script>
+    var theme = {
+      strings: {
+        addToCart: "Add to cart",
+        soldOut: "Sold out",
+        unavailable: "Unavailable",
+        showMore: "Show More",
+        showLess: "Show Less",
+        addressError: "Error looking up that address",
+        addressNoResults: "No results for that address",
+        addressQueryLimit: "You have exceeded the Google API usage limit. Consider upgrading to a \u003ca href=\"https:\/\/developers.google.com\/maps\/premium\/usage-limits\"\u003ePremium Plan\u003c\/a\u003e.",
+        authError: "There was a problem authenticating your Google Maps account."
+      },
+      moneyFormat: "{{amount}} SR"
+    }
+
+    document.documentElement.className = document.documentElement.className.replace('no-js', 'js');
+  </script>
+
+  <!--[if (lte IE 9) ]><script src="//sa-en.ring.com/cdn/shop/t/4/assets/match-media.min.js?v=22265819453975888031529736219" type="text/javascript"></script><![endif]-->
+
+  
+
+  <!--[if (gt IE 9)|!(IE)]><!--><script src="//sa-en.ring.com/cdn/shop/t/4/assets/lazysizes.js?v=68441465964607740661529736219" async="async"></script><!--<![endif]-->
+  <!--[if lte IE 9]><script src="//sa-en.ring.com/cdn/shop/t/4/assets/lazysizes.min.js?4200"></script><![endif]-->
+
+  <!--[if (gt IE 9)|!(IE)]><!--><script src="//sa-en.ring.com/cdn/shop/t/4/assets/vendor.js?v=136118274122071307521529736222" defer="defer"></script><!--<![endif]-->
+  <!--[if lte IE 9]><script src="//sa-en.ring.com/cdn/shop/t/4/assets/vendor.js?v=136118274122071307521529736222"></script><![endif]-->
+
+  <!--[if (gt IE 9)|!(IE)]><!--><script src="//sa-en.ring.com/cdn/shop/t/4/assets/theme.js?v=15154156998094181791686673297" defer="defer"></script><!--<![endif]-->
+  <!--[if lte IE 9]><script src="//sa-en.ring.com/cdn/shop/t/4/assets/theme.js?v=15154156998094181791686673297"></script><![endif]-->
+  
+  <script>window.performance && window.performance.mark && window.performance.mark('shopify.content_for_header.start');</script><meta id="shopify-digital-wallet" name="shopify-digital-wallet" content="/4048912502/digital_wallets/dialog">
+<link rel="alternate" hreflang="x-default" href="https://sa-en.ring.com/">
+<link rel="alternate" hreflang="en-SA" href="https://sa-en.ring.com/">
+<link rel="alternate" hreflang="ar-SA" href="https://sa-en.ring.com/ar">
+<script async="async" src="/checkouts/internal/preloads.js?locale=en-SA"></script>
+<script async="async" src="https://shop.app/checkouts/internal/preloads.js?locale=en-SA&shop_id=4048912502" crossorigin="anonymous"></script>
+<script id="shopify-features" type="application/json">{"accessToken":"6fc9c136ad7e4fe0a071077f47803a59","betas":["rich-media-storefront-analytics"],"domain":"sa-en.ring.com","predictiveSearch":true,"shopId":4048912502,"smart_payment_buttons_url":"https:\/\/sa-en.ring.com\/cdn\/shopifycloud\/payment-sheet\/assets\/latest\/spb.en.js","dynamic_checkout_cart_url":"https:\/\/sa-en.ring.com\/cdn\/shopifycloud\/payment-sheet\/assets\/latest\/dynamic-checkout-cart.en.js","locale":"en"}</script>
+<script>var Shopify = Shopify || {};
+Shopify.shop = "ring-sa.myshopify.com";
+Shopify.locale = "en";
+Shopify.currency = {"active":"SAR","rate":"1.0"};
+Shopify.country = "SA";
+Shopify.theme = {"name":"ring-sa","id":40505671798,"theme_store_id":null,"role":"main"};
+Shopify.theme.handle = "null";
+Shopify.theme.style = {"id":null,"handle":null};
+Shopify.cdnHost = "sa-en.ring.com/cdn";
+Shopify.routes = Shopify.routes || {};
+Shopify.routes.root = "/";</script>
+<script type="module">!function(o){(o.Shopify=o.Shopify||{}).modules=!0}(window);</script>
+<script>!function(o){function n(){var o=[];function n(){o.push(Array.prototype.slice.apply(arguments))}return n.q=o,n}var t=o.Shopify=o.Shopify||{};t.loadFeatures=n(),t.autoloadFeatures=n()}(window);</script>
+<script id="shop-js-features" type="application/json">{"compact":true}</script>
+<script id="shop-js-analytics" type="application/json">{"pageType":"index"}</script>
+<script id="__st">var __st={"a":4048912502,"offset":-14400,"reqid":"b8ef224c-e4ab-4e7c-830c-9601b1d6442c-1717250430","pageurl":"sa-en.ring.com\/","u":"38d809c53144","p":"home"};</script>
+<script>window.ShopifyPaypalV4VisibilityTracking = true;</script>
+<script id="captcha-bootstrap">!function(){'use strict';const e='contact',t='account',n='new_comment',o=e=>e.map((([e,t])=>`form[action*='/${e}'] input[name='form_type'][value='${t}']`)).join(',');function c(e,t){try{const n=window.sessionStorage;for(const[o,c]of Object.entries(JSON.parse(n.getItem(t))))e.elements[o]&&(e.elements[o].value=c);n.removeItem(t)}catch{}}const s='form_type',r='cptcha';((a,i,m,f,u,d)=>{if(0)return;let l=!1;a[m]=a[m]||{},a[m][f]=a[m][f]||{},a[m][f].q=[],function(a,i,m,f,u,d){const[l,_,p]=function(c,s,r){const a=s?[[e,e],['blogs',n],['comments',n],[e,'customer']]:[],i=c?[[t,'customer_login'],[t,'guest_login'],[t,'recover_customer_password'],[t,'create_customer']]:[],m=[...a,...i],f=o(m),u=o(a.slice(0,3)),d=r&&o(m.filter((([e,t])=>r.includes(t)))),l=e=>()=>e?[...document.querySelectorAll(e)].map((e=>e.form)):[];return[l(f),l(u),l(d)]}(!0,!0,d),E=e=>{const t=e.target,n=t instanceof HTMLFormElement?t:t&&t.form;return n&&l().find((e=>n===e))};a.addEventListener('submit',(e=>{E(e)&&e.preventDefault()}));const T=(e,t)=>{m(e,t.some((t=>t===e))),e.dataset[r]=!0};for(const e of['focusin','change'])a.addEventListener(e,(e=>{const t=E(e);t&&!t.dataset[r]&&T(t,_())}));const g=i.get('form_key'),v=i.get(s),h=g&&v,y=d&&d.length;(y||h)&&a.addEventListener('DOMContentLoaded',(()=>{const e=_();if(h)for(const t of e)t.elements[s].value===v&&c(t,g);if(y)for(const t of p())T(t,e)}))}(i,new URLSearchParams(a.location.search),((e,t)=>{const n=a[m][f],o=n.bindForm,c='6LeHG2ApAAAAAO4rPaDW-qVpPKPOBfjbCpzJB9ey',s={infoText:'',privacyText:'',termsText:''};if(o)return o(e,c,t,s);n.q.push([e,c,t,s]),l||(i.body.append(Object.assign(i.createElement('script'),{id:'captcha-provider',async:!0,src:'https://cdn.shopify.com/shopifycloud/storefront-forms-hcaptcha/ce_storefront_forms_captcha_recaptcha.v1.1.1.iife.js'})),l=!0)}),0,0,['guest_login'])})(window,document,'Shopify','ce_forms')}();</script>
+<script integrity="sha256-n5Uet9jVOXPHGd4hH4B9Y6+BxkTluaaucmYaxAjUcvY=" data-source-attribution="shopify.loadfeatures" defer="defer" src="//sa-en.ring.com/cdn/shopifycloud/shopify/assets/storefront/load_feature-9f951eb7d8d53973c719de211f807d63af81c644e5b9a6ae72661ac408d472f6.js" crossorigin="anonymous"></script>
+<script integrity="sha256-HAs5a9TQVLlKuuHrahvWuke+s1UlxXohfHeoYv8G2D8=" data-source-attribution="shopify.dynamic-checkout" defer="defer" src="//sa-en.ring.com/cdn/shopifycloud/shopify/assets/storefront/features-1c0b396bd4d054b94abae1eb6a1bd6ba47beb35525c57a217c77a862ff06d83f.js" crossorigin="anonymous"></script>
+
+
+<script>window.performance && window.performance.mark && window.performance.mark('shopify.content_for_header.end');</script>
+  <link rel="alternate" hreflang="en" href="http://sa-en.ring.com/" /><link rel="alternate" hreflang="ar" href="http://sa-ar.ring.com/" />
+
+  
+
+  
+  
+  
+  <template class="consent-optimizely append-to-head">
+    <script src="https://cdn.optimizely.com/js/3179610124.js"></script>
+  </template>
+
+<link href="https://monorail-edge.shopifysvc.com" rel="dns-prefetch">
+<script>(function(){if ("sendBeacon" in navigator && "performance" in window) {var session_token = document.cookie.match(/_shopify_s=([^;]*)/);function handle_abandonment_event(e) {var entries = performance.getEntries().filter(function(entry) {return /monorail-edge.shopifysvc.com/.test(entry.name);});if (!window.abandonment_tracked && entries.length === 0) {window.abandonment_tracked = true;var currentMs = Date.now();var navigation_start = performance.timing.navigationStart;var payload = {shop_id: 4048912502,url: window.location.href,navigation_start,duration: currentMs - navigation_start,session_token: session_token && session_token.length === 2 ? session_token[1] : "",page_type: "index"};window.navigator.sendBeacon("https://monorail-edge.shopifysvc.com/v1/produce", JSON.stringify({schema_id: "online_store_buyer_site_abandonment/1.1",payload: payload,metadata: {event_created_at_ms: currentMs,event_sent_at_ms: currentMs}}));}}window.addEventListener('pagehide', handle_abandonment_event);}}());</script>
+<script id="web-pixels-manager-setup">(function e(e,n,a,t,r){var o="function"==typeof BigInt&&-1!==BigInt.toString().indexOf("[native code]")?"modern":"legacy";window.Shopify=window.Shopify||{};var i=window.Shopify;i.analytics=i.analytics||{};var s=i.analytics;s.replayQueue=[],s.publish=function(e,n,a){return s.replayQueue.push([e,n,a]),!0};try{self.performance.mark("wpm:start")}catch(e){}var l=[a,"/wpm","/b",r,o.substring(0,1),".js"].join("");!function(e){var n=e.src,a=e.async,t=void 0===a||a,r=e.onload,o=e.onerror,i=document.createElement("script"),s=document.head,l=document.body;i.async=t,i.src=n,r&&i.addEventListener("load",r),o&&i.addEventListener("error",o),s?s.appendChild(i):l?l.appendChild(i):console.error("Did not find a head or body element to append the script")}({src:l,async:!0,onload:function(){var a=window.webPixelsManager.init(e);n(a);var t=window.Shopify.analytics;t.replayQueue.forEach((function(e){var n=e[0],t=e[1],r=e[2];a.publishCustomEvent(n,t,r)})),t.replayQueue=[],t.publish=a.publishCustomEvent,t.visitor=a.visitor},onerror:function(){var n=e.storefrontBaseUrl.replace(/\/$/,""),a="".concat(n,"/.well-known/shopify/monorail/unstable/produce_batch"),r=JSON.stringify({metadata:{event_sent_at_ms:(new Date).getTime()},events:[{schema_id:"web_pixels_manager_load/2.0",payload:{version:t||"latest",page_url:self.location.href,status:"failed",error_msg:"".concat(l," has failed to load")},metadata:{event_created_at_ms:(new Date).getTime()}}]});try{if(self.navigator.sendBeacon.bind(self.navigator)(a,r))return!0}catch(e){}var o=new XMLHttpRequest;try{return o.open("POST",a,!0),o.setRequestHeader("Content-Type","text/plain"),o.send(r),!0}catch(e){console&&console.warn&&console.warn("[Web Pixels Manager] Got an unhandled error while logging a load error.")}return!1}})})({shopId: 4048912502,storefrontBaseUrl: "https://sa-en.ring.com",extensionsBaseUrl: "https://extensions.shopifycdn.com/cdn/shopifycloud/web-pixels-manager",surface: "storefront-renderer",enabledBetaFlags: ["5de24938","3b4293f9"],webPixelsConfigList: [{"id":"shopify-app-pixel","configuration":"{}","eventPayloadVersion":"v1","runtimeContext":"STRICT","scriptVersion":"090","apiClientId":"shopify-pixel","type":"APP","purposes":["ANALYTICS","MARKETING"]},{"id":"shopify-custom-pixel","eventPayloadVersion":"v1","runtimeContext":"LAX","scriptVersion":"090","apiClientId":"shopify-pixel","type":"CUSTOM","purposes":["ANALYTICS","MARKETING"]}],initData: {"cart":null,"checkout":null,"customer":null,"productVariants":[],"shop":{"name":"Ring SA","paymentSettings":{"currencyCode":"SAR"},"myshopifyDomain":"ring-sa.myshopify.com","countryCode":"US","storefrontUrl":"https:\/\/sa-en.ring.com"}},},function pageEvents(webPixelsManagerAPI) {webPixelsManagerAPI.publish("page_viewed");},"https://sa-en.ring.com/cdn","c20d7c0cc409fec97683d4ec0869ade0d56752f1","a5e579e2w294b04aepacdcb86cme97ddbc7",);</script>  <script>window.ShopifyAnalytics = window.ShopifyAnalytics || {};
+window.ShopifyAnalytics.meta = window.ShopifyAnalytics.meta || {};
+window.ShopifyAnalytics.meta.currency = 'SAR';
+var meta = {"page":{"pageType":"home"}};
+for (var attr in meta) {
+  window.ShopifyAnalytics.meta[attr] = meta[attr];
+}</script>
+<script>window.ShopifyAnalytics.merchantGoogleAnalytics = function() {
+  
+};
+</script>
+<script class="analytics">(function () {
+    var customDocumentWrite = function(content) {
+      var jquery = null;
+
+      if (window.jQuery) {
+        jquery = window.jQuery;
+      } else if (window.Checkout && window.Checkout.$) {
+        jquery = window.Checkout.$;
+      }
+
+      if (jquery) {
+        jquery('body').append(content);
+      }
+    };
+
+    var hasLoggedConversion = function(token) {
+      if (token) {
+        return document.cookie.indexOf('loggedConversion=' + token) !== -1;
+      }
+      return false;
+    }
+
+    var setCookieIfConversion = function(token) {
+      if (token) {
+        var twoMonthsFromNow = new Date(Date.now());
+        twoMonthsFromNow.setMonth(twoMonthsFromNow.getMonth() + 2);
+
+        document.cookie = 'loggedConversion=' + token + '; expires=' + twoMonthsFromNow;
+      }
+    }
+
+    var trekkie = window.ShopifyAnalytics.lib = window.trekkie = window.trekkie || [];
+    if (trekkie.integrations) {
+      return;
+    }
+    trekkie.methods = [
+      'identify',
+      'page',
+      'ready',
+      'track',
+      'trackForm',
+      'trackLink'
+    ];
+    trekkie.factory = function(method) {
+      return function() {
+        var args = Array.prototype.slice.call(arguments);
+        args.unshift(method);
+        trekkie.push(args);
+        return trekkie;
+      };
+    };
+    for (var i = 0; i < trekkie.methods.length; i++) {
+      var key = trekkie.methods[i];
+      trekkie[key] = trekkie.factory(key);
+    }
+    trekkie.load = function(config) {
+      trekkie.config = config || {};
+      trekkie.config.initialDocumentCookie = document.cookie;
+      var first = document.getElementsByTagName('script')[0];
+      var script = document.createElement('script');
+      script.type = 'text/javascript';
+      script.onerror = function(e) {
+        var scriptFallback = document.createElement('script');
+        scriptFallback.type = 'text/javascript';
+        scriptFallback.onerror = function(error) {
+                var Monorail = {
+      produce: function produce(monorailDomain, schemaId, payload) {
+        var currentMs = new Date().getTime();
+        var event = {
+          schema_id: schemaId,
+          payload: payload,
+          metadata: {
+            event_created_at_ms: currentMs,
+            event_sent_at_ms: currentMs
+          }
+        };
+        return Monorail.sendRequest("https://" + monorailDomain + "/v1/produce", JSON.stringify(event));
+      },
+      sendRequest: function sendRequest(endpointUrl, payload) {
+        // Try the sendBeacon API
+        if (window && window.navigator && typeof window.navigator.sendBeacon === 'function' && typeof window.Blob === 'function' && !Monorail.isIos12()) {
+          var blobData = new window.Blob([payload], {
+            type: 'text/plain'
+          });
+
+          if (window.navigator.sendBeacon(endpointUrl, blobData)) {
+            return true;
+          } // sendBeacon was not successful
+
+        } // XHR beacon
+
+        var xhr = new XMLHttpRequest();
+
+        try {
+          xhr.open('POST', endpointUrl);
+          xhr.setRequestHeader('Content-Type', 'text/plain');
+          xhr.send(payload);
+        } catch (e) {
+          console.log(e);
+        }
+
+        return false;
+      },
+      isIos12: function isIos12() {
+        return window.navigator.userAgent.lastIndexOf('iPhone; CPU iPhone OS 12_') !== -1 || window.navigator.userAgent.lastIndexOf('iPad; CPU OS 12_') !== -1;
+      }
+    };
+    Monorail.produce('monorail-edge.shopifysvc.com',
+      'trekkie_storefront_load_errors/1.1',
+      {shop_id: 4048912502,
+      theme_id: 40505671798,
+      app_name: "storefront",
+      context_url: window.location.href,
+      source_url: "//sa-en.ring.com/cdn/s/trekkie.storefront.99bdfbca815ea24ab1705979a783df6e7810b51d.min.js"});
+
+        };
+        scriptFallback.async = true;
+        scriptFallback.src = '//sa-en.ring.com/cdn/s/trekkie.storefront.99bdfbca815ea24ab1705979a783df6e7810b51d.min.js';
+        first.parentNode.insertBefore(scriptFallback, first);
+      };
+      script.async = true;
+      script.src = '//sa-en.ring.com/cdn/s/trekkie.storefront.99bdfbca815ea24ab1705979a783df6e7810b51d.min.js';
+      first.parentNode.insertBefore(script, first);
+    };
+    trekkie.load(
+      {"Trekkie":{"appName":"storefront","development":false,"defaultAttributes":{"shopId":4048912502,"isMerchantRequest":null,"themeId":40505671798,"themeCityHash":"12434947129431509412","contentLanguage":"en","currency":"SAR"},"isServerSideCookieWritingEnabled":true,"monorailRegion":"shop_domain","enabledBetaFlags":["bbcf04e6"]},"Session Attribution":{},"S2S":{"facebookCapiEnabled":false,"source":"trekkie-storefront-renderer"}}
+    );
+
+    var loaded = false;
+    trekkie.ready(function() {
+      if (loaded) return;
+      loaded = true;
+
+      window.ShopifyAnalytics.lib = window.trekkie;
+
+  
+      var originalDocumentWrite = document.write;
+      document.write = customDocumentWrite;
+      try { window.ShopifyAnalytics.merchantGoogleAnalytics.call(this); } catch(error) {};
+      document.write = originalDocumentWrite;
+
+      window.ShopifyAnalytics.lib.page(null,{"pageType":"home"});
+
+      var match = window.location.pathname.match(/checkouts\/(.+)\/(thank_you|post_purchase)/)
+      var token = match? match[1]: undefined;
+      if (!hasLoggedConversion(token)) {
+        setCookieIfConversion(token);
+        
+      }
+    });
+
+
+        var eventsListenerScript = document.createElement('script');
+        eventsListenerScript.async = true;
+        eventsListenerScript.src = "//sa-en.ring.com/cdn/shopifycloud/shopify/assets/shop_events_listener-61fa9e0a912c675e178777d2b27f6cbd482f8912a6b0aa31fa3515985a8cd626.js";
+        document.getElementsByTagName('head')[0].appendChild(eventsListenerScript);
+
+})();</script>
+<script class="boomerang">
+(function () {
+  if (window.BOOMR && (window.BOOMR.version || window.BOOMR.snippetExecuted)) {
+    return;
+  }
+  window.BOOMR = window.BOOMR || {};
+  window.BOOMR.snippetStart = new Date().getTime();
+  window.BOOMR.snippetExecuted = true;
+  window.BOOMR.snippetVersion = 12;
+  window.BOOMR.application = "storefront-renderer";
+  window.BOOMR.themeName = "Debut";
+  window.BOOMR.themeVersion = "1.6.4";
+  window.BOOMR.shopId = 4048912502;
+  window.BOOMR.themeId = 40505671798;
+  window.BOOMR.renderRegion = "gcp-us-east1";
+  window.BOOMR.url =
+    "https://sa-en.ring.com/cdn/shopifycloud/boomerang/shopify-boomerang-1.0.0.min.js";
+  var where = document.currentScript || document.getElementsByTagName("script")[0];
+  var parentNode = where.parentNode;
+  var promoted = false;
+  var LOADER_TIMEOUT = 3000;
+  function promote() {
+    if (promoted) {
+      return;
+    }
+    var script = document.createElement("script");
+    script.id = "boomr-scr-as";
+    script.src = window.BOOMR.url;
+    script.async = true;
+    parentNode.appendChild(script);
+    promoted = true;
+  }
+  function iframeLoader(wasFallback) {
+    promoted = true;
+    var dom, bootstrap, iframe, iframeStyle;
+    var doc = document;
+    var win = window;
+    window.BOOMR.snippetMethod = wasFallback ? "if" : "i";
+    bootstrap = function(parent, scriptId) {
+      var script = doc.createElement("script");
+      script.id = scriptId || "boomr-if-as";
+      script.src = window.BOOMR.url;
+      BOOMR_lstart = new Date().getTime();
+      parent = parent || doc.body;
+      parent.appendChild(script);
+    };
+    if (!window.addEventListener && window.attachEvent && navigator.userAgent.match(/MSIE [67]./)) {
+      window.BOOMR.snippetMethod = "s";
+      bootstrap(parentNode, "boomr-async");
+      return;
+    }
+    iframe = document.createElement("IFRAME");
+    iframe.src = "about:blank";
+    iframe.title = "";
+    iframe.role = "presentation";
+    iframe.loading = "eager";
+    iframeStyle = (iframe.frameElement || iframe).style;
+    iframeStyle.width = 0;
+    iframeStyle.height = 0;
+    iframeStyle.border = 0;
+    iframeStyle.display = "none";
+    parentNode.appendChild(iframe);
+    try {
+      win = iframe.contentWindow;
+      doc = win.document.open();
+    } catch (e) {
+      dom = document.domain;
+      iframe.src = "javascript:var d=document.open();d.domain='" + dom + "';void(0);";
+      win = iframe.contentWindow;
+      doc = win.document.open();
+    }
+    if (dom) {
+      doc._boomrl = function() {
+        this.domain = dom;
+        bootstrap();
+      };
+      doc.write("<body onload='document._boomrl();'>");
+    } else {
+      win._boomrl = function() {
+        bootstrap();
+      };
+      if (win.addEventListener) {
+        win.addEventListener("load", win._boomrl, false);
+      } else if (win.attachEvent) {
+        win.attachEvent("onload", win._boomrl);
+      }
+    }
+    doc.close();
+  }
+  var link = document.createElement("link");
+  if (link.relList &&
+    typeof link.relList.supports === "function" &&
+    link.relList.supports("preload") &&
+    ("as" in link)) {
+    window.BOOMR.snippetMethod = "p";
+    link.href = window.BOOMR.url;
+    link.rel = "preload";
+    link.as = "script";
+    link.addEventListener("load", promote);
+    link.addEventListener("error", function() {
+      iframeLoader(true);
+    });
+    setTimeout(function() {
+      if (!promoted) {
+        iframeLoader(true);
+      }
+    }, LOADER_TIMEOUT);
+    BOOMR_lstart = new Date().getTime();
+    parentNode.appendChild(link);
+  } else {
+    iframeLoader(false);
+  }
+  function boomerangSaveLoadTime(e) {
+    window.BOOMR_onload = (e && e.timeStamp) || new Date().getTime();
+  }
+  if (window.addEventListener) {
+    window.addEventListener("load", boomerangSaveLoadTime, false);
+  } else if (window.attachEvent) {
+    window.attachEvent("onload", boomerangSaveLoadTime);
+  }
+  if (document.addEventListener) {
+    document.addEventListener("onBoomerangLoaded", function(e) {
+      e.detail.BOOMR.init({
+        ResourceTiming: {
+          enabled: true,
+          trackedResourceTypes: ["script", "img", "css"]
+        },
+      });
+      e.detail.BOOMR.t_end = new Date().getTime();
+    });
+  } else if (document.attachEvent) {
+    document.attachEvent("onpropertychange", function(e) {
+      if (!e) e=event;
+      if (e.propertyName === "onBoomerangLoaded") {
+        e.detail.BOOMR.init({
+          ResourceTiming: {
+            enabled: true,
+            trackedResourceTypes: ["script", "img", "css"]
+          },
+        });
+        e.detail.BOOMR.t_end = new Date().getTime();
+      }
+    });
+  }
+})();</script>
+</head>
+
+<body class="main-body template-index page_" >
+
+     <!-- Google Tag Manager (noscript) -->
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MRCTTBD"
+  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  <!-- End Google Tag Manager (noscript) -->
+  <div id="shopify-section-header" class="shopify-section">
+
+
+
+
+
+
+
+
+
+<header role="banner">
+	<div>
+	
+      <h1  itemscope itemtype="http://schema.org/Organization">
+    
+      
+        <a href="https://sa-en.ring.com" itemprop="url"><img src="//sa-en.ring.com/cdn/shop/t/4/assets/ring_logo.png?v=44621871874631498581529736220" alt="Ring SA"/></a>
+      
+    
+      </h1>
+    
+ </div><div>
+  
+<div class="mobile_menu mobile_menu--htx" onclick="toggleNav()"><span></span></div>
+<ul class="header_links">
+  
+	
+
+	
+	<li>
+		<a href="/pages/all-products">
+			
+				
+					All Products
+				
+			
+		</a>
+		
+			<ul class="
+
+products">
+				
+					<li class="video-doorbells">
+						<a href="/collections/video-doorbells">
+							
+								<img src="//sa-en.ring.com/cdn/shop/collections/doorbells-asset-d7f981f0149a09d22bd3635b8624f127_1024x1024.png?v=1528151408" alt="Video Doorbells" />
+							 
+							
+							<div>
+								
+									
+										Video Doorbells
+									
+								
+							</div>
+						</a>
+					</li>
+				
+					<li class="security-cams">
+						<a href="/collections/security-cams">
+							
+								<img src="//sa-en.ring.com/cdn/shop/collections/security-cams-header-v2_2x-8cf92c8cc317881718b1314c831b6a51_1024x1024.png?v=1528151406" alt="Security Cams" />
+							 
+							
+							<div>
+								
+									
+										Security Cams
+									
+								
+							</div>
+						</a>
+					</li>
+				
+					<li class="accessories">
+						<a href="/collections/accessories">
+							
+								<img src="//sa-en.ring.com/cdn/shop/collections/accessories-asset-bca6b7cfd2ed8d0203926da84ba0b6d6_1024x1024.png?v=1528151406" alt="Ring Accessories" />
+							 
+							
+							<div>
+								
+									
+										Accessories
+									
+								
+							</div>
+						</a>
+					</li>
+				
+			</ul>
+		
+	</li>
+   
+  
+	
+
+	
+	<li>
+		<a href="/pages/protect-plans">
+			
+				
+					Protect Plans
+				
+			
+		</a>
+		
+	</li>
+   
+  
+	
+
+	
+	<li>
+		<a href="/pages/our-store">
+			
+				
+					Where to Buy
+				
+			
+		</a>
+		
+	</li>
+   
+  
+	
+
+	
+	<li>
+		<a href="https://ring.com/help-center">
+			
+				
+
+Help
+			
+		</a>
+		
+			<ul class="
+
+help">
+				
+					<li class="faq">
+						<a href="/pages/faq">
+							
+								<img src="//sa-en.ring.com/cdn/shopifycloud/shopify/assets/no-image-2048-5e88c1b20e087fb7bbe9a3771824e743c244f437e4f8ba93bbf7b11b53f7824c_1024x1024.gif" alt="" />
+							 
+							
+							<div>
+								
+									
+
+FAQ
+								
+							</div>
+						</a>
+					</li>
+				
+					<li class="blog">
+						<a href="https://blog.ring.com/">
+							
+								<img src="//sa-en.ring.com/cdn/shopifycloud/shopify/assets/no-image-2048-5e88c1b20e087fb7bbe9a3771824e743c244f437e4f8ba93bbf7b11b53f7824c_1024x1024.gif" alt="" />
+							 
+							
+							<div>
+								
+									
+
+Blog
+								
+							</div>
+						</a>
+					</li>
+				
+					<li class="help-center">
+						<a href="https://ring.com/help-center">
+							
+								<img src="//sa-en.ring.com/cdn/shopifycloud/shopify/assets/no-image-2048-5e88c1b20e087fb7bbe9a3771824e743c244f437e4f8ba93bbf7b11b53f7824c_1024x1024.gif" alt="" />
+							 
+							
+							<div>
+								
+									
+
+Help Center
+								
+							</div>
+						</a>
+					</li>
+				
+					<li class="setup-guide">
+						<a href="/pages/setup">
+							
+								<img src="//sa-en.ring.com/cdn/shopifycloud/shopify/assets/no-image-2048-5e88c1b20e087fb7bbe9a3771824e743c244f437e4f8ba93bbf7b11b53f7824c_1024x1024.gif" alt="" />
+							 
+							
+							<div>
+								
+									
+
+Setup Guide
+								
+							</div>
+						</a>
+					</li>
+				
+			</ul>
+		
+	</li>
+   
+  
+</ul>
+ </div><div>
+  
+  <div class="buy-cart">
+<ul class="header_links">
+ <!-- <li><select id="ly-languages-switcher" class="ly-languages-switcher"><option value="ly76764">English</option><option value="ly76796">Arabic</option></select></li>  -->
+ 
+  
+  
+<li>
+<a href="https://ring.com/users/sign_in" target="_blank" class="log-in" id="account-header">Log In</a>
+</li>
+   
+</ul>
+</div>
+  
+ 		<!--<a href="/search"><svg aria-hidden="true" focusable="false" role="presentation" class="icon icon-search" viewBox="0 0 37 40"><path d="M35.6 36l-9.8-9.8c4.1-5.4 3.6-13.2-1.3-18.1-5.4-5.4-14.2-5.4-19.7 0-5.4 5.4-5.4 14.2 0 19.7 2.6 2.6 6.1 4.1 9.8 4.1 3 0 5.9-1 8.3-2.8l9.8 9.8c.4.4.9.6 1.4.6s1-.2 1.4-.6c.9-.9.9-2.1.1-2.9zm-20.9-8.2c-2.6 0-5.1-1-7-2.9-3.9-3.9-3.9-10.1 0-14C9.6 9 12.2 8 14.7 8s5.1 1 7 2.9c3.9 3.9 3.9 10.1 0 14-1.9 1.9-4.4 2.9-7 2.9z"/></svg></a>-->
+ 	<!--	
+ 		
+ 			
+              <a class="account_link" href="https://ring-za.myshopify.com/users/sign_in">Log In</a>
+            
+           
+  -->
+        </div>
+ </div>
+</header>
+
+
+</div>
+  <!-- <section class="page-container"> -->
+    <main class="content">
+<div class="ring_home">
+	
+
+	<div class="shopify-section promo">
+		
+			<div class="bg-en-desktop">
+				<img src="//sa-en.ring.com/cdn/shop/t/4/assets/Ring-Mussels-Launch-collateral_Ring-Banners-English-2600x797px.jpg?v=150597623033205494651717167900" alt="Battery Doorbell Pro" />
+			</div>
+			<div class="bg-en-mobile">
+				<img src="//sa-en.ring.com/cdn/shop/t/4/assets/Ring-Mussels-Launch-collateral_Ring-Banners-English-2600x797px.jpg?v=150597623033205494651717167900" alt="Battery Doorbell Pro" />
+			</div>
+			<div class="text">
+				<h1 class="h2">Ring’s best battery-powered doorbell camera.</h1>
+				<p>Loaded with cutting-edge features, Battery Doorbell Pro delivers Head-to-Toe HD+ Video, super-precise 3D Motion Detection that shows you where visitors went on an overhead map of your property, and more.</p>
+				<a class="btn round" href="/products/battery-doorbell-pro">Shop now</a>
+			</div>
+		
+	</div>
+
+	<div id="shopify-section-1540572450789" class="shopify-section ring_double"> 
+		<div class="block_1 dark">
+			<div>
+			<!-- <div class="badge">New</div>  -->
+	 		<h3 style="color:#ffffff;">
+	 			
+					Goes everywhere. Sees everything.
+				
+	 		</h3>
+			<div style="color:#ffffff;">Stick Up Cam</div>
+			<div>
+				<a class="btn round white" href="products/stick-up-cam-battery">
+					
+						Learn More
+					
+				</a>
+			</div>
+			</div>
+		</div>
+		<style>
+			#shopify-section-1540572450789 .block_1{
+				background-image: url('//cdn.shopify.com/s/files/1/0040/4891/2502/t/4/assets/Stickup-Cam-Banner.jpg');
+			}
+			#shopify-section-1540572450789 .block_1 > div{
+				margin-left: 60%;
+				width: 40%;
+			}
+			@media screen and (max-width:600px){
+				
+				#shopify-section-1540572450789 .block_1{
+					background-position: 30% center;
+				}
+				#shopify-section-1540572450789 .block_1  > div{
+					margin-left: 50%;
+					width: 50%;
+				}
+			}
+			@media screen and (max-width:350px){
+				#shopify-section-1540572450789 .block_1  > div{
+					margin-left: 40%;
+				}
+			}
+		</style>
+	 	
+		<div class="block_2 light">
+	 		<div>
+		 		<h3>
+		 			
+		 				Watch Over Your Property
+					
+		 		</h3>
+				<div>Spotlight Cam</div>
+				<div>
+					<a class="btn round white" href="collections/security-cams">
+						
+			 				Learn More
+						
+					</a>
+				</div>
+	 		</div>
+		</div>
+		<style>
+			#shopify-section-1540572450789 .block_2{
+				background-image: url(//images.ctfassets.net/a3peezndovsu/40DMYiwb7EOmpVpfoH40Jj/806f6dffe615c182606bd334840e97ba/JP_ring_homepage_tiles_pufferfish_desktop_1524x716.jpg);
+			}
+			#shopify-section-1540572450789 .block_2 > div{
+				/*margin-left: 60%;*/
+				width: 40%;
+			}
+			@media screen and (max-width:1000px){
+			{
+			  background-image: url(//cdn.shopify.com/s/files/1/2416/6223/files/block_2_b2090312-83c5-41df-ac00-e09cd0695315_2600x2600.jpg?v=1540506747);
+			  background-size: cover;
+			  background-position: 50% 40%;
+			}
+			@media screen and (max-width:600px){
+				
+				#shopify-section-1540572450789 .block_2{
+					background-position: 50% center;
+				}
+				#shopify-section-1540572450789 .block_2  > div{
+					margin-left: 50%;
+					width: 50%;
+				}
+		        
+		        #shopify-section-1540506497191 .block_1  > div{
+					margin-left: 60%;
+					width: 40%;
+				} 
+			}
+			@media screen and (max-width:350px){
+				#shopify-section-1540572450789 .block_2  > div{
+					
+						margin-left: 40%;
+					
+				}
+			}
+		</style>
+	</div>
+
+	<div id="shopify-section-1540506497191" class="shopify-section ring_double"> 
+		<div class="block_1 dark">
+			<div>
+	 		<h3>
+	 			
+					Security Cameras
+				
+	 		</h3>
+				<div>
+				<a class="btn round white" href="collections/security-cams">
+					
+						View All
+					
+				</a>
+			</div>
+			</div>
+		</div>
+		<style>
+			#shopify-section-1540506497191 .block_1{
+				background-image: url(//cdn.shopify.com/s/files/1/2416/6223/files/block_3_2600x2600.jpg?v=1540514557);
+			}
+			#shopify-section-1540506497191 .block_1 > div{
+				margin-left: 60%;
+				width: 40%;
+			}
+		@media screen and (max-width:600px){
+			#shopify-section-1540506497191 .block_1{
+				background-image: url(//cdn.shopify.com/s/files/1/2416/6223/files/block_3_m_750x750.jpg?v=1540514626);
+			}
+			#shopify-section-1540506497191 .block_1{
+				background-position: 60% center;
+			}
+			#shopify-section-1540506497191 .block_1  > div{
+				margin-left: 50%;
+				width: 50%;
+			}
+		}
+		@media screen and (max-width:350px){
+			#shopify-section-1540506497191 .block_1  > div{
+				margin-left: 40%;
+			}
+		}
+		</style>
+		<div class="block_2 dark">
+			<div>
+	 		<h3>
+	 			
+					Video<br>Doorbells
+				
+	 		</h3>
+	 		<div>
+				<a class="btn round white" href="collections/video-doorbells">
+					
+						View All
+					
+				</a>
+			</div>
+			</div>
+		</div>
+		<style>
+			#shopify-section-1540506497191 .block_2{
+				background-image: url(//cdn.shopify.com/s/files/1/2416/6223/files/block_4_2600x2600.jpg?v=1540514775);
+			}
+			#shopify-section-1540506497191 .block_2 > div{
+				margin-left: 60%;
+				width: 40%;
+			}
+		@media screen and (max-width:600px){
+			#shopify-section-1540506497191 .block_2{
+				background-image: url(//cdn.shopify.com/s/files/1/2416/6223/files/block_4_m_750x750.jpg?v=1540514856);
+			}
+			#shopify-section-1540506497191 .block_2{
+				background-position: 50% center;
+			}
+			#shopify-section-1540506497191 .block_2  > div{
+				margin-left: 50%;
+				width: 50%;
+			}
+		}
+		@media screen and (max-width:350px){
+			#shopify-section-1540506497191 .block_2  > div{
+				margin-left: 40%;
+			}
+		}
+		</style>
+	</div>
+
+	<div id="shopify-section-1540514884432" class="shopify-section ring_hero">
+		<div class="dark mobile_top content_left">
+			<h1>
+				
+					A Ring of Security<br>Around Your Home
+				
+			</h1>
+			<div>
+				
+					Ring lets you monitor every corner of your property. With a Video Doorbell at your door and Security Cams around the house, you can create a Ring of Security around your entire home.
+				
+			</div>
+			<div>
+				<a class="btn round round" href="pages/all-products">
+					
+						Explore More Products
+					
+				</a>
+			</div>
+		</div>
+
+		<style>
+			#shopify-section-1540514884432{
+				background-image: url(//cdn.shopify.com/s/files/1/2416/6223/files/hero_2_2600x2600.jpg?v=1540572842);
+				background-position: left center;
+			}
+			/*#shopify-section-1540514884432 > div{
+				width: 100%;
+			}*/
+			#shopify-section-1540514884432 > div.content_center{
+				max-width: 100%;
+			}
+			@media screen and (max-width:600px){
+				
+					#shopify-section-1540514884432{
+						background-image: url(//cdn.shopify.com/s/files/1/2416/6223/files/hero_2_m_750x750.jpg?v=1540573003);
+					}
+				
+				#shopify-section-1540514884432 > div{
+					width: 100%;
+				}
+			}
+		</style>
+	</div>
+
+</div>
+</main>
+  <!-- </section> -->
+  <div>
+    <div id="shopify-section-app" class="shopify-section">
+<div class="app">
+	<img src="//sa-en.ring.com/cdn/shop/t/4/assets/ring_logo.png?v=44621871874631498581529736220" alt="Ring logo">
+	<a href="https://support.ring.com/hc/en-us/articles/204384784-Downloading-and-Updating-the-Ring-App" target="_blank">Get the App</a>
+</div></div>
+    <div id="shopify-section-footer" class="shopify-section">
+<footer>
+	<div>
+		
+			<div style="background:none;">
+				<h5>Company</h5>
+				<div>
+					<ul>
+						
+							<li><a href="/pages/about">
+
+About</a></li>
+						
+							<li><a href="https://blog.ring.com">
+
+Blog</a></li>
+						
+							<li><a href="https://ring.com/press">
+
+Press</a></li>
+						
+							<li><a href="/pages/terms">
+
+Terms of Service</a></li>
+						
+							<li><a href="/pages/privacy">
+
+Privacy Notice</a></li>
+						
+							<li><a href="https://jobs.lever.co/ring">
+
+Careers</a></li>
+						
+							<li><a href="https://static.ring.com/assets/static/ring_media_kit-370a87d2eca677451674e5eb02d689d8.pdf">
+
+Media Kit</a></li>
+						
+					</ul>
+				</div>
+			</div>
+		
+		
+		
+			<div>
+				<h5>Support</h5>
+				<div>
+					<ul>
+						
+							<li><a href="https://ring.com/help-center">
+
+Help</a></li>
+						
+							<li><a href="/pages/faq">
+
+FAQ</a></li>
+						
+							<li><a href="https://ring.com/status">
+
+System Status</a></li>
+						
+							<li><a href="/pages/warranty">
+
+Warranty</a></li>
+						
+						<li>
+							<a class="consent-manage-link">
+  							
+										Manage cookies
+								
+							</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		
+		
+		<div>
+			<h5>Call Us</h5>
+			<div>
+				<ul class="full">
+					<!-- <li><span>US: </span><a href="tel:1-800-656-1918">+1(800) 656-1918 (24/7)</a></li>
+					<li><span>US: </span><a href="tel:1-888-981-8993">+1(888) 981-8993 (Español - 24/7)</a></li> -->
+					<li><span>INTL: </span><a href="tel:1-310-929-7085">+1(310) 929-7085</a></li>
+                    <!-- <li><span>Saudi Arabia: </span><a href="tel:8008147867">8008147867 (24/7)</a></li> -->
+                    <li><span>SA: </span><a href="tel:800 814 7867">800 814 7867</a></li>
+                    <!-- <li><span>South Africa: </span><a href="tel:800993700">800993700 (24/7)</a></li> -->
+				</ul>
+			</div>
+		</div>
+		
+		<div>
+			<h5>Follow Us</h5>
+			<div>
+				<ul class="full">
+					<li>
+						
+			              <a href="https://www.youtube.com/ring" title="Ring SA on YouTube" target="_blank">
+			                  <img src="//sa-en.ring.com/cdn/shop/t/4/assets/youtube.svg?v=93890970309314306791529736222">
+			                </a>
+			            
+			            
+			                <a href="https://www.twitter.com/ring" title="Ring SA on Twitter" target="_blank">
+			                  <img src="//sa-en.ring.com/cdn/shop/t/4/assets/twitter.svg?v=123301439468371100671529736222">
+			                </a>
+			            
+			            
+			                <a href="https://www.facebook.com/ring" title="Ring SA on Facebook" target="_blank">
+			                  <img src="//sa-en.ring.com/cdn/shop/t/4/assets/facebook.svg?v=119754766303872213471529736216">
+			                </a>
+			            
+			            
+			                <a href="https://www.instagram.com/ring" title="Ring SA on Instagram" target="_blank">
+			                  <img src="//sa-en.ring.com/cdn/shop/t/4/assets/instagram.svg?v=141084524996535514671529736219">
+			                </a>
+			            
+					</li>
+				</ul>
+                <div style="float: left; width: 100%; margin-top: 15px;">
+                  <ul class="full">
+                    <li>
+											<a href="https://ring.com/country-selector"><img src="https://cdn.shopify.com/s/files/1/2393/8647/t/2/assets/flag_SB.png?15754690003453319024" style="width: 22px; margin-right: 5px;"><span style="font-size: 14px; text-decoration: underline; color: #999;">Change</span></a>
+                       <!--     <select id="ly-languages-switcher" class="ly-languages-switcher"><option value="ly76764">English</option><option value="ly76796">Arabic</option></select> -->
+              			</li>
+                  </ul>
+              </div>
+			</div>
+		</div>
+	</div>
+	<select id="lang-switcher" onchange="this.options[this.selectedIndex].value && (window.location = this.options[this.selectedIndex].value);">
+	
+		<option value="https://sa-en.ring.com/" selected="selected">English</option>
+		<option value="https://sa-ar.ring.com/ar/">عربي</option>
+	
+</select>
+</footer></div>
+  </div>
+  <script>
+	Shopify.AjaxifyCart = (function($) {
+	  
+	  // Some configuration options.
+	  // I have separated what you will never need to change from what
+	  // you might change.
+	  
+	  var _config = {
+	    
+	    // What you might want to change
+	    addToCartBtnLabel:             'Add to cart',
+	    addedToCartBtnLabel:           'Thank you!',
+	    addingToCartBtnLabel:          'Adding...',
+	    soldOutBtnLabel:               'Sold Out',
+	    howLongTillBtnReturnsToNormal: 1000, // in milliseconds.
+	    cartCountSelector:             '.cart-count, #cart-count a:first, #gocart p a, #cart .checkout em, .item-count, #CartCount',
+	    cartTotalSelector:             '#cart-price',
+	    // 'aboveForm' for top of add to cart form, 
+	    // 'belowForm' for below the add to cart form, and 
+	    // 'nextButton' for next to add to cart button.
+	    feedbackPosition:              'nextButton',
+	    
+	    // What you will never need to change
+	    addToCartBtnSelector:          '[type="submit"]',
+	    addToCartFormSelector:         'form[action="/cart/add"]',
+	    shopifyAjaxAddURL:             '/cart/add.js',
+	    shopifyAjaxCartURL:            '/cart.js'
+	  };
+	  
+	  // We need some feedback when adding an item to the cart.
+	  // Here it is.  
+	  var _showFeedback = function(success, html, $addToCartForm) {
+	    $('.ajaxified-cart-feedback').remove();
+	    var feedback = '<p class="ajaxified-cart-feedback ' + success + '">' + html + '</p>';
+	    switch (_config.feedbackPosition) {
+	      case 'aboveForm':
+	        $addToCartForm.before(feedback);
+	        break;
+	      case 'belowForm':
+	        $addToCartForm.after(feedback);
+	        break;
+	      case 'nextButton':
+	      default:
+	        $addToCartForm.find(_config.addToCartBtnSelector).after(feedback);
+	        break;   
+	    }
+	    // If you use animate.css
+	    // $('.ajaxified-cart-feedback').addClass('animated bounceInDown');
+	    $('.ajaxified-cart-feedback').slideDown();
+	  };
+	  var _setText = function($button, label) {
+	    if ($button.children().length) {
+	      $button.children().each(function() {
+	        if ($.trim($(this).text()) !== '') {
+	          $(this).text(label);
+	        }
+	      });
+	    }
+	    else {
+	      $button.val(label).text(label);
+	    }
+	  };
+	  var _init = function() {   
+	    $(document).ready(function() { 
+	      $(_config.addToCartFormSelector).submit(function(e) {
+	        e.preventDefault();
+	        var $addToCartForm = $(this);
+	        var $addToCartBtn = $addToCartForm.find(_config.addToCartBtnSelector);
+	        _setText($addToCartBtn, _config.addingToCartBtnLabel);
+	        $addToCartBtn.addClass('disabled').prop('disabled', true);
+	        // Add to cart.
+	        $.ajax({
+	          url: _config.shopifyAjaxAddURL,
+	          dataType: 'json',
+	          type: 'post',
+	          data: $addToCartForm.serialize(),
+	          success: function(itemData) {
+	            // Re-enable add to cart button.
+	            $addToCartBtn.addClass('inverted');
+	            _setText($addToCartBtn, _config.addedToCartBtnLabel);
+	            _showFeedback('success','<i class="fa fa-check"></i> Added to cart! <a href="/cart">View cart</a>.',$addToCartForm);
+	            window.setTimeout(function(){
+	              $addToCartBtn.prop('disabled', false).removeClass('disabled').removeClass('inverted');
+	              _setText($addToCartBtn,_config.addToCartBtnLabel);
+	            }, _config.howLongTillBtnReturnsToNormal);
+	            // Update cart count and show cart link.
+	            $.getJSON(_config.shopifyAjaxCartURL, function(cart) {
+		            
+		            
+		            
+		            console.log(cart)
+		            
+		            $(cart.items).each(function(i,v){
+			            var found = false;
+			            $('#shopify-section-header .item').each(function(p,t){
+				            if($(this).data('variant') == v.variant_id){
+					            $(this).find('.qty').text(v.quantity)
+					            found = true;
+				            }
+				         })
+				         if(!found){
+					         $('#shopify-section-header .items').prepend('<a href="'+v.url+'"><div class="item" data-variant="'+v.variant_id+'"><div class="img"><img class="cart__image" src="'+v.image+'" alt="'+v.title+'"></div><div><span class="title">'+v.title+'</span><br>QTY: <span class="qty">'+v.quantity+'</span></div><div></div></div></a>')
+				         }
+		            })
+		            $('#mini-cart').stop(true,true).fadeIn(200).delay(5000).fadeOut(500);
+		            
+		            
+		            
+		            
+	              if (_config.cartCountSelector && $(_config.cartCountSelector).size()) {
+	                var value = $(_config.cartCountSelector).html() || '0';
+	                $(_config.cartCountSelector).html(value.replace(/[0-9]+/,cart.item_count)).removeClass('hidden-count');
+	              }
+	              if (_config.cartTotalSelector && $(_config.cartTotalSelector).size()) {
+	                if (typeof Currency !== 'undefined' && typeof Currency.moneyFormats !== 'undefined') {
+	                  var newCurrency = '';
+	                  if ($('[name="currencies"]').size()) {
+	                    newCurrency = $('[name="currencies"]').val();
+	                  }
+	                  else if ($('#currencies span.selected').size()) {
+	                    newCurrency = $('#currencies span.selected').attr('data-currency');
+	                  }
+	                  if (newCurrency) {
+	                    $(_config.cartTotalSelector).html('<span class=money>' + Shopify.formatMoney(Currency.convert(cart.total_price, "SAR", newCurrency), Currency.money_format[newCurrency]) + '</span>');
+	                  } 
+	                  else {
+	                    $(_config.cartTotalSelector).html(Shopify.formatMoney(cart.total_price, "{{amount}} SR"));
+	                  }
+	                }
+	                else {
+	                  $(_config.cartTotalSelector).html(Shopify.formatMoney(cart.total_price, "{{amount}} SR"));
+	                }
+	              };
+	            });        
+	          }, 
+	          error: function(XMLHttpRequest) {
+	            var response = eval('(' + XMLHttpRequest.responseText + ')');
+	            response = response.description;
+	            if (response.slice(0,4) === 'All ') {
+	              _showFeedback('error', response.replace('All 1 ', 'All '), $addToCartForm);
+	              $addToCartBtn.prop('disabled', false);
+	              _setText($addToCartBtn, _config.soldOutBtnLabel);
+	              $addToCartBtn.prop('disabled',true);
+	            }
+	            else {
+	              _showFeedback('error', '<i class="fa fa-warning"></i> ' + response, $addToCartForm);
+	              $addToCartBtn.prop('disabled', false).removeClass('disabled');
+	              _setText($addToCartBtn, _config.addToCartBtnLabel);
+	            }
+	          }
+	        });   
+	        return false;    
+	      });
+	    });
+	  };
+	  return {
+	    init: function(params) {
+	        // Configuration
+	        params = params || {};
+	        // Merging with defaults.
+	        $.extend(_config, params);
+	        // Action
+	        $(function() {
+	          _init();
+	        });
+	    },    
+	    getConfig: function() {
+	      return _config;
+	    }
+	  }  
+	})(jQuery);
+	
+	Shopify.AjaxifyCart.init();
+	
+	</script>
+	
+	
+	
+	
+	
+	<link href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet" type="text/css" media="all" />
+	
+	<style>
+	.ajaxified-cart-feedback {
+		position: absolute;
+	  display: block;
+	  line-height: 36px;
+	  font-size: 90%;
+	  vertical-align: middle;
+	}
+	.ajaxified-cart-feedback.success { 
+	  color: #1998d5;
+	}
+	.ajaxified-cart-feedback.error { 
+	  color: #f16522; 
+	} 
+	.ajaxified-cart-feedback a {
+	  border-bottom: 1px solid;
+	}
+</style>
+
+
+  <div id="shopify-section-kustomer" class="shopify-section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+	<script>var token = false;</script>
+	
+
+	<script src="https://cdn.kustomerapp.com/chat-web/widget.js" data-kustomer-api-key="eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjViODU5NzY5ZGJhM2MxMDAxODJmNTlhYyIsInVzZXIiOiI1Yjg1OTc2OWFjYzk0ZDA5Njc5ODI2MTEiLCJvcmciOiI1OTQzZWE0OTc5N2Q4ODAwMTJmYTE2NmYiLCJvcmdOYW1lIjoicmluZyIsInVzZXJUeXBlIjoibWFjaGluZSIsInJvbGVzIjpbIm9yZy50cmFja2luZyJdLCJhdWQiOiJ1cm46Y29uc3VtZXIiLCJpc3MiOiJ1cm46YXBpIiwic3ViIjoiNWI4NTk3NjlhY2M5NGQwOTY3OTgyNjExIn0.y3cMRSibNmowwGazxb2PBvGikmcw-i89S-LRO0LVK30"></script>
+	
+	<script>
+		Kustomer.start({}, function () {
+		  Kustomer.login({
+		    jwtToken: "token"
+		  });
+		});
+	</script>
+	
+
+
+<!-- Solvvy Snippet for Kustomer -->
+<script src="https://cdn.solvvy.com/deflect/customization/ring/solvvy.js" async></script>
+<!-- End Solvvy Snippet for Kustomer -->
+
+
+</div>
+  
+<script>var ShopifyAPI = ShopifyAPI || {};var langify = langify || {};langify.tools = langify.tools || {compareJQueryVersion: function(a,b) {if (a === b) {return 0;}var a_components = a.split(".");var b_components = b.split(".");var len = Math.min(a_components.length, b_components.length);for (var i = 0; i < len; i++) {if (parseInt(a_components[i]) > parseInt(b_components[i])) {return 1;}if (parseInt(a_components[i]) < parseInt(b_components[i])) {return -1;}}if (a_components.length > b_components.length) {return 1;}if (a_components.length < b_components.length) {return -1;}return 0;}};langify.helper = langify.helper || {getVersion: function() {return 1;},getSelectedLanguage: function() {var selectedLanguage = '';if(selectedLanguage == '') {selectedLanguage = 'ly76764';}return selectedLanguage;},saveLanguage: function(language) {ShopifyAPI.getCart(function (cart) {var note = cart.note;if(note == 'null') {note = '';}ShopifyAPI.updateCartNote(note, function () {ShopifyAPI.updateCartAttributes({'language': language}, function() {langify.loader.reload();});});});}};langify.loader = langify.loader || {loadScript: function(url, callback) {var script = document.createElement('script');script.type = 'text/javascript';if(script.readyState) {script.onreadystatechange = function () {if(script.readyState == 'loaded' || script.readyState == 'complete') {script.onreadystatechange = null;callback();}};} else {script.onload = function () {callback();};}script.src = url;document.getElementsByTagName('head')[0].appendChild(script);},reload: function() {window.location.reload();}};langify.switcher = langify.switcher || {getSlickSwitcher: function() {var switcher = langify.jquery('select[id="ly-slick-languages-switcher"]');if(switcher.length > 0) {return switcher;}return undefined;},getSwitcher: function() {var switcher = $('select[id="ly-languages-switcher"]');if (switcher.length > 0) {return switcher;}return undefined;},init: function() {var slickSwitcher = langify.switcher.getSlickSwitcher();if(slickSwitcher) {var selectedLanguage = langify.helper.getSelectedLanguage();if(selectedLanguage != '') {slickSwitcher.val(selectedLanguage);}langify.loader.loadScript('//sa-en.ring.com/cdn/shop/t/4/assets/ly-select-box.js?v=118790186492285961491560141039', function () {slickSwitcher.ddslick({onSelected: function (data) {langify.helper.saveLanguage(data.selectedData.value);}});});}var switcher = langify.switcher.getSwitcher();if(switcher) {var selectedLanguage = langify.helper.getSelectedLanguage();if(selectedLanguage != '') {switcher.val(selectedLanguage);}switcher.change(function () {langify.helper.saveLanguage(switcher.val());});}$('.ly-languages-switcher-link').click(function () {langify.helper.saveLanguage(this.id);});}};langify.translator = langify.translator || {init:function() { 
+var customContents = [];
+var customTranslations = [];
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+var translateTextNode = function(node) {
+if(node.textContent && node.textContent.trim().length > 0) {
+var src = node.textContent.trim().replace(/(\r\n|\n|\r)/gm,"").replace(/\s+/g," ").toUpperCase();
+if(customContents[src] && node.textContent !== customContents[src]) {
+var newContent = node.textContent.replace(node.textContent.trim(), customContents[src]); if (newContent != node.textContent) { node.textContent = newContent }
+}
+}
+}
+try {var textNodes = $('body').find('*').addBack().not('script').not('style').contents().filter(function() {
+if(this.nodeType === 3) {
+translateTextNode(this);
+}
+});
+} catch(e) {};var target = document.querySelector('body');
+var observer = new MutationObserver(function(mutations) {
+mutations.forEach(function(mutation) {
+var newNodes = mutation.addedNodes;
+if(newNodes) {
+for(i = 0; i < newNodes.length; i++) {
+try {var textNodes = $(newNodes[i]).find('*').addBack().not('script').not('style').contents().filter(function() {
+if(this.nodeType === 3) {
+translateTextNode(this);
+}
+});
+} catch(e) {};}
+}
+if(mutation.type === 'characterData') {
+translateTextNode(mutation.target);
+}
+});
+});
+var config = { childList: true, characterData: true, subtree: true }
+observer.observe(target, config);
+}};langify.idToLocale = function(languageId) {
+
+if(languageId == 'ly76764') {
+return 'en';
+}
+
+if(languageId == 'ly76796') {
+return 'ar';
+}
+
+return false;
+};
+langify.currency = langify.currency || {getHasSelectedCurrency: function() {return '' == 'true';},getCurrencyForLanguage: function(language) {var languageToCurrencies = [];return languageToCurrencies[language];},getCurrencySwitcher: function() {var currencySwitcher = $('#currencies');if(currencySwitcher.length) {return currencySwitcher;} else {return null;}},init: function() {if(!langify.currency.getHasSelectedCurrency()) {  }}};langify.core = langify.core || {onComplete: function() {ShopifyAPI.attributeToString = function(attribute) {if((typeof attribute) !== 'string') {attribute += '';if(attribute === 'undefined') {attribute = '';}}return jQuery.trim(attribute);};ShopifyAPI.getCart = function(callback) {jQuery.getJSON('/cart.js', function (cart, textStatus) {if((typeof callback) === 'function') {callback(cart);}});};ShopifyAPI.updateCartNote = function(note, callback) {var params = {type: 'POST',url: '/cart/update.js',data: 'note=' + this.attributeToString(note),dataType: 'json',success: function(cart) {if((typeof callback) === 'function') {callback(cart);}},error: this.onError};jQuery.ajax(params);};ShopifyAPI.updateCartAttributes = function(attributes, callback) {var data = '';var that = this;if(jQuery.isArray(attributes)) {jQuery.each(attributes, function(indexInArray, valueOfElement) {var key = that.attributeToString(valueOfElement.key);if (key !== '') {data += 'attributes[' + key + ']=' + that.attributeToString(valueOfElement.value) + '&';}});} else if ((typeof attributes === 'object') && attributes !== null) {jQuery.each(attributes, function(key, value) {data += 'attributes[' + that.attributeToString(key) + ']=' + that.attributeToString(value) + '&';});}var params = {type: 'POST',url: '/cart/update.js',data: data,dataType: 'json',success: function(cart) {if((typeof callback) === 'function') {callback(cart);}},error: this.onError};jQuery.ajax(params);};ShopifyAPI.onError = function(XMLHttpRequest, textStatus) {};langify.switcher.init();langify.translator.init();langify.currency.init();
+if((typeof langifyCompleteCallback) === 'function') {var languages = [];languages["ly76764"] = {name: "English"};languages["ly76796"] = {name: "Arabic"};langifyCompleteCallback({protocol: "https://",useDomains: false,languages: languages,saveLanguage: langify.helper.saveLanguage || langify.helper.changeLanguage,currentLanguage: langify.helper.getSelectedLanguage()});}
+var LySwitcherDrawer = LySwitcherDrawer || {
+  templateList: new Array(),
+  init: function() {
+    LySwitcherDrawer._fetchDrawerData();
+    setTimeout(function() {
+      for(var i=0; i<LySwitcherDrawer.templateList.length; i++) {
+        var template = LySwitcherDrawer.templateList[i];
+
+        if(template.target){
+          var $orientationTargets = $('body').find(template.target);
+        } else {
+          var $orientationTargets = $('body').find('a[href="/cart"], a[href="#cart"], .cart-toggle, .site-header__cart');
+        }
+
+        $orientationTargets.each(function() {
+          LySwitcherDrawer._draw(template, $(this));
+        });
+      }
+      LySwitcherDrawer._bindSwitcherEvents();
+    }, 500);
+  },
+  _fetchDrawerData: function() {
+    var me = this;
+    $('.ly-drawer-template').each(function(i) {
+      me.templateList.push({
+        id: i,
+        align: $(this).data('align'),
+        target: $(this).data('target'),
+        targetIsContainer: $(this).data('target-is-container'),
+        type: $(this).data('type'),
+        css: $(this).data('css'),
+        class: $(this).data('class'),
+        template: $(this).html()
+      });
+      $(this).remove();
+    });
+  },
+
+
+  _draw: function(template, $orientationTarget) {
+    var $switcherElem = null;
+    var switcherHtml = template.template;
+    var $target = $orientationTarget;
+    if(template.targetIsContainer === true) {
+      if(template.align === 'left') {
+        $switcherElem = $orientationTarget.prepend(switcherHtml);
+      } else if(template.align === 'right') {
+        $switcherElem = $orientationTarget.append(switcherHtml);
+      } else {
+        $switcherElem = $orientationTarget.append(switcherHtml);
+      }
+    } else {
+      if(template.align === 'left') {
+        $switcherElem = $orientationTarget.before(switcherHtml);
+      } else if(template.align === 'right') {
+        $switcherElem = $orientationTarget.after(switcherHtml);
+      } else {
+        $switcherElem = $orientationTarget.after(switcherHtml);
+      }
+    }
+    $switcherElem.find('.ly-languages-switcher-dropdown, .ly-languages-image-dropdown-switcher, .ly-languages-image-dropdown-icons-switcher, .ly-languages-links-switcher, .ly-languages-links-icons-switcher').attr('style', template.css);
+  },
+  _bindSwitcherEvents: function() {
+    $('.ly-languages-image-dropdown-switcher, .ly-languages-image-dropdown-icons-switcher').click(function(e) {
+      e.preventDefault();
+      var dropdownList = $(this).find('ul');
+      if($(this).data('dropup') === true) {
+        dropdownList.css('bottom', $(this).outerHeight());
+      } else {
+        dropdownList.css('top', $(this).outerHeight());
+      }
+      if($(this).hasClass('ly-is-open')) {
+        $(this).removeClass('ly-is-open');
+        dropdownList.attr('style', 'display:none !important;')
+      } else {
+        $(this).addClass('ly-is-open');
+        if($(this).data('dropup') === true) {
+          dropdownList.attr('style', 'display:inline-block !important;bottom:' + $(this).outerHeight() + 'px')
+        } else {
+          dropdownList.attr('style', 'display:inline-block !important;top:' + $(this).outerHeight() + 'px')
+        }
+      }
+    });
+    $('.ly-languages-link').click(function (e) {
+      langify.helper.saveLanguage(this.id);
+    });
+    $('.ly-languages-switcher-dropdown').change(function(e) {
+      langify.helper.saveLanguage($(this).val());
+    });
+  },
+};
+LySwitcherDrawer.init();},init: function() {if(typeof jQuery === 'undefined') {langify.loader.loadScript('//cdn.jsdelivr.net/jquery/1.9.1/jquery.min.js', function() {langify.jquery = $;langify.core.onComplete();});} else if(langify.tools.compareJQueryVersion(jQuery.fn.jquery, '1.7.0') <= 0) {langify.loader.loadScript('//cdn.jsdelivr.net/jquery/1.9.1/jquery.min.js', function() {langify.jquery = jQuery.noConflict(true);langify.core.onComplete();});} else {langify.jquery = $;langify.core.onComplete();}}};
+!function(e,t){typeof module!="undefined"?module.exports=t():typeof define=="function"&&typeof define.amd=="object"?define(t):this[e]=t()}("domready",function(){var e=[],t,n=typeof document=="object"&&document,r=n&&n.documentElement.doScroll,i="DOMContentLoaded",s=n&&(r?/^loaded|^c/:/^loaded|^i|^c/).test(n.readyState);return!s&&n&&n.addEventListener(i,t=function(){n.removeEventListener(i,t),s=1;while(t=e.shift())t()}),function(t){s?setTimeout(t,0):e.push(t)}})
+try {domready(langify.core.init);} catch(error) {langify.core.init();}</script>
+<style>
+.ly-arrow-white  {
+    background:url(data:image/svg+xml;utf8;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIHZpZXdCb3g9IjAgMCAxMjkgMTI5IiBlbmFibGUtYmFja2dyb3VuZD0ibmV3IDAgMCAxMjkgMTI5IiB3aWR0aD0iMTZweCIgaGVpZ2h0PSIxNnB4Ij4KICA8Zz4KICAgIDxwYXRoIGQ9Im0xMjEuMywzNC42Yy0xLjYtMS42LTQuMi0xLjYtNS44LDBsLTUxLDUxLjEtNTEuMS01MS4xYy0xLjYtMS42LTQuMi0xLjYtNS44LDAtMS42LDEuNi0xLjYsNC4yIDAsNS44bDUzLjksNTMuOWMwLjgsMC44IDEuOCwxLjIgMi45LDEuMiAxLDAgMi4xLTAuNCAyLjktMS4ybDUzLjktNTMuOWMxLjctMS42IDEuNy00LjIgMC4xLTUuOHoiIGZpbGw9IiNGRkZGRkYiLz4KICA8L2c+Cjwvc3ZnPgo=) no-repeat top left;
+    display: inline-block;
+    height: 16px;
+    width: 16px;
+    position: relative;
+    -webkit-transition: transform 0.25s;
+    -moz-transition: transform 0.25s;
+    transition: transform 0.25s;
+}
+.ly-arrow-black {
+    background:url(data:image/svg+xml;utf8;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIHZpZXdCb3g9IjAgMCAxMjkgMTI5IiBlbmFibGUtYmFja2dyb3VuZD0ibmV3IDAgMCAxMjkgMTI5IiB3aWR0aD0iMTZweCIgaGVpZ2h0PSIxNnB4Ij4KICA8Zz4KICAgIDxwYXRoIGQ9Im0xMjEuMywzNC42Yy0xLjYtMS42LTQuMi0xLjYtNS44LDBsLTUxLDUxLjEtNTEuMS01MS4xYy0xLjYtMS42LTQuMi0xLjYtNS44LDAtMS42LDEuNi0xLjYsNC4yIDAsNS44bDUzLjksNTMuOWMwLjgsMC44IDEuOCwxLjIgMi45LDEuMiAxLDAgMi4xLTAuNCAyLjktMS4ybDUzLjktNTMuOWMxLjctMS42IDEuNy00LjIgMC4xLTUuOHoiIGZpbGw9IiMwMDAwMDAiLz4KICA8L2c+Cjwvc3ZnPgo=) no-repeat top left;;
+    display: inline-block;
+    height: 16px;
+    width: 16px;
+    position: relative;
+    -webkit-transition: transform 0.25s;
+    -moz-transition: transform 0.25s;
+    transition: transform 0.25s;
+}
+.ly-languages-image-dropdown-switcher,
+.ly-languages-image-dropdown-icons-switcher {
+    text-align: left;
+    display: inline-block;
+    color: #ffffff;
+    padding: 5px 10px 5px 10px;
+    background: #000000;
+    position: relative;
+    user-select: none;
+    cursor: pointer;
+}
+.ly-image-dropdown-current {
+    display: block;
+    vertical-align: middle;
+}
+.ly-image-dropdown-current-inner {
+    display: inline-block;
+    vertical-align: middle;
+}
+.ly-image-dropdown-current-inner-image {
+    margin-right: 10px;
+}
+.ly-image-dropdown-current-inner-text {
+    margin-right: 10px;
+}
+.ly-image-dropdown-icons-list,
+.ly-image-dropdown-list {
+    display: none !important;
+    list-style: none;
+    position: absolute;
+    left: 0;
+    padding: inherit !important;
+    margin: 0;
+    background: #000000;
+    z-index: 99999;
+    text-align: left;
+    width: auto !important;
+}
+.ly-image-dropdown-list-element,
+.ly-image-dropdown-icons-list-element {
+    color: inherit !important;
+}
+.ly-image-dropdown-list > li,
+.ly-image-dropdown-icons-list > li {
+    margin: 0;
+    display: block;
+}
+.ly-image-dropdown-list-element-left {
+    margin-right: 10px;
+}
+.ly-image-dropdown-list-element-right {
+    text-align: left;
+}
+.ly-image-dropdown-list-element-left,
+.ly-image-dropdown-list-element-right {
+    vertical-align: middle;
+}
+.ly-languages-switcher-dropdown {
+    display: inline-block;
+}
+.ly-languages-links-icons-switcher,
+.ly-languages-links-switcher {
+    display: inline-block;
+}
+.ly-languages-links-icons-switcher > .ly-languages-link,
+.ly-languages-links-switcher > .ly-languages-link {
+    margin-right: 10px;
+    padding: inherit !important;
+    color: inherit !important;
+}
+.ly-image-dropdown-list-element,
+.ly-image-dropdown-icons-list-element {
+    padding: inherit !important;
+}
+.ly-is-uppercase {
+    text-transform: uppercase;
+}
+.ly-bright-theme {
+    background: #ffffff;
+    color: #000000;
+}
+.ly-arrow-up {
+    transform: rotateZ(180deg);
+}
+
+.ly-languages-image-dropdown-switcher.ly-is-open .ly-arrow-white,
+.ly-languages-image-dropdown-switcher.ly-is-open .ly-arrow-black,
+.ly-languages-image-dropdown-icons-switcher.ly-is-open .ly-arrow-white,
+.ly-languages-image-dropdown-icons-switcher.ly-is-open .ly-arrow-black {
+    transform: rotate(180deg);
+}
+.ly-languages-image-dropdown-switcher.ly-is-open .ly-arrow-white.ly-arrow-up,
+.ly-languages-image-dropdown-switcher.ly-is-open .ly-arrow-black.ly-arrow-up,
+.ly-languages-image-dropdown-icons-switcher.ly-is-open .ly-arrow-white.ly-arrow-up,
+.ly-languages-image-dropdown-icons-switcher.ly-is-open .ly-arrow-black.ly-arrow-up {
+    transform: rotate(360deg);
+}
+</style>
+</body>
+</html>
+
+0
+
+
+
+
+https://sa-en.ring.com

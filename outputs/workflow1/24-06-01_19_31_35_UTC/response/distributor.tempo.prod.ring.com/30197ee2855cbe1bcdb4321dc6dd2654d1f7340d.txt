@@ -1,0 +1,16 @@
+GET / HTTP/1.1
+Host: distributor.tempo.prod.ring.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0 Safari/605.1.15
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Date: Sat, 01 Jun 2024 19:40:54 GMT
+Server: awselb/2.0
+Content-Length: 0
+
+
+
+
+https://distributor.tempo.prod.ring.com

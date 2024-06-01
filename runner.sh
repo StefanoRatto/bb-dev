@@ -27,20 +27,28 @@ echo "[$timestamp] runner.sh is alive with PID $$, ctrl+c to exit"
 while true; do
 
   current_mins=$(date -u +"%M")
-  
-  # performs actions at the top of every hour
-  #if [[ "$current_mins" == "00" ]]; then
-  if true; then
+  current_hours=$(date -u +"%H")
 
+  # for testing
+  current_mins="00"
+  current_hours="00"
+
+  # main scheduler
+  if [[ "$current_mins" == "00" ]]; then
+    
     echo "[$timestamp] runner.sh is alive with PID $$, ctrl+c to exit"
-
-    # launches workflows
+    
+    if [[ "$current_hours" == "00" ]]; then
+      # launches workflows at the top of every hour
+      $home/workflow2.sh &
+    fi
+    
+    # launches workflows at the top of every hour
     $home/workflow1.sh &
-    #$home/workflow2.sh &
-
-    # sleeps 30 seconds not to tax the cpu
+    #$home/workflow3.sh &
   fi
-  
+
+  # sleeps 30 seconds not to tax the cpu
   sleep 30
 
 done

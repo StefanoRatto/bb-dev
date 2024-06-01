@@ -14,7 +14,8 @@ Bash script that prints the current timnestamp in the format ```+%y-%m-%d_%H_%M_
 
 ### ```runner.sh```
 
-```runner.sh``` is kept always running on the host in a "runner.sh" tmux session and is responsible for the persistence of the entire framework. ```runner.sh``` launches all workflows at different times/cadences, depending on the workflows.
+```runner.sh``` is being kept always running on the host in a "runner.sh" tmux session and is responsible for the persistence of the entire framework. ```runner.sh``` launches all workflows at different times/cadences, depending on the workflows.
+At the current stage, ```runner.sh``` supports hourly and daily cadences.
 
 ### ```email.sh```
 
@@ -28,7 +29,14 @@ Bash code here
 
 This workflow is all about ```subfinder``` -> ```httpx``` -> ```nuclei``` 
 
-```workflow1.sh``` is run by ```runner.sh``` at the top of every hour.
+```workflow1.sh``` is run by ```runner.sh``` at the top of every hour. It loops over programs/scopes files in the ```$home/inputs/``` folder, where all scope files have names starting with ```urls_*``` or ```_urls_*```. Files with name starting with ```urls_*``` are processed, while all programs scope files with name starting with ```_urls_*``` are ignored.
+
+```workflow1.sh``` then processes all URLs/FQDNs in the scope files and runs each one of them thru the pipe ```subfinder``` -> ```httpx``` -> ```nuclei```. All results are saved in the ```$home/outputs/workflow1/``` folder in text files with names starting respectively with ```subfinder_urls_*```, ```httpx_urls_*``` and ```nuclei_urls_*```.
+
+Required underlying tools:
+* ```subfinder```
+* ```httpx```
+* ```nuclei```
 
 ```Bash
 Bash code here
@@ -39,6 +47,27 @@ Bash code here
   - Aaa
   
 ### ```workflow2.sh```
+
+This workflow is all about ```subfinder``` -> ```nmap```
+
+```workflow2.sh``` is run by ```runner.sh``` every day at midnight. It loops over programs/scopes files in the ```$home/inputs/``` folder, where all scope files have names starting with ```urls_*``` or ```_urls_*```. Files with name starting with ```urls_*``` are processed, while all programs scope files with name starting with ```_urls_*``` are ignored.
+
+```workflow2.sh``` then processes all URLs/FQDNs in the scope files and runs each one of them thru the pipe ```subfinder``` -> ```nmap```. All results are saved in the ```$home/outputs/workflow2/``` folder in text files with names starting respectively with ```subfinder_urls_*``` and ```nmap_urls_*```.
+
+Required underlying tools:
+* ```subfinder```
+* ```nmap```
+* ```s```
+
+```Bash
+Bash code here
+```
+
+#### TODOs
+  - Aaa
+  - Aaa
+
+### ```workflow3.sh```
 
 Bash script that...
 

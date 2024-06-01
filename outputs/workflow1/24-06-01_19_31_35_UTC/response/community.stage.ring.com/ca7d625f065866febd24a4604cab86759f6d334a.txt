@@ -1,0 +1,524 @@
+GET / HTTP/1.1
+Host: community.stage.ring.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 200 OK
+Connection: close
+Transfer-Encoding: chunked
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Headers: Content-Type, Cache-Control, X-Requested-With, X-CSRF-Token, Discourse-Present, User-Api-Key, User-Api-Client-Id, Authorization
+Access-Control-Allow-Methods: POST, PUT, GET, OPTIONS, DELETE
+Access-Control-Allow-Origin: https://ring.com
+Access-Control-Max-Age: 7200
+Cache-Control: no-cache, no-store
+Content-Security-Policy: upgrade-insecure-requests; base-uri 'self'; object-src 'none'; script-src 'nonce-SUjDh8eg8pxdyOmxL6dx8pyGy' 'strict-dynamic'; frame-ancestors 'self'; manifest-src 'self'
+Content-Type: text/html; charset=utf-8
+Cross-Origin-Opener-Policy: same-origin-allow-popups
+Date: Sat, 01 Jun 2024 19:40:20 GMT
+Discourse-No-Onebox: 1
+Referrer-Policy: strict-origin-when-cross-origin
+Server: nginx
+Strict-Transport-Security: max-age=31536000
+Vary: Accept-Encoding
+Vary: Accept
+X-Content-Type-Options: nosniff
+X-Discourse-Route: static/show
+X-Discourse-Trackview: 1
+X-Download-Options: noopen
+X-Frame-Options: SAMEORIGIN
+X-Permitted-Cross-Domain-Policies: none
+X-Request-Id: 11c263e2-0d6e-4f42-8e7e-c51efd9a0004
+X-Xss-Protection: 0
+
+cef4
+<!DOCTYPE html>
+<html lang="en" class="desktop-view not-mobile-device text-size-normal anon">
+  <head>
+    <meta charset="utf-8">
+    <title>Ring Community</title>
+    <meta name="description" content="">
+    <meta name="discourse_theme_id" content="3">
+    <meta name="discourse_current_homepage" content="latest">
+
+    <meta name="generator" content="Discourse 3.3.0.beta3-dev - https://github.com/discourse/discourse version 359dccf19111002735f41e35595bfce05028ca36">
+<link rel="icon" type="image/png" href="https://d3h4o2ol298pf7.cloudfront.net/optimized/2X/e/e0742e0739eb584c19b6c58e39cc252502222e41_2_32x32.svg">
+<link rel="apple-touch-icon" type="image/png" href="https://d3h4o2ol298pf7.cloudfront.net/optimized/2X/1/1596c9540fafa2a31ec49e4e7edf563c8f8b48fb_2_180x180.svg">
+<meta name="theme-color" media="all" content="#ffffff">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, user-scalable=yes, viewport-fit=cover">
+<link rel="canonical" href="https://community.stage.ring.com/login" />
+
+<link rel="search" type="application/opensearchdescription+xml" href="https://community.stage.ring.com/opensearch.xml" title="Ring Community Search">
+
+    
+
+      <meta name="fragment" content="!">
+
+
+    
+
+    <link rel="preload" href="https://d3h4o2ol298pf7.cloudfront.net/assets/start-discourse-9f921142b762fb91207051d0a28e571b9455bab74e7d0e03726024c286cff8d5.gz.js" as="script" nonce="SUjDh8eg8pxdyOmxL6dx8pyGy">
+    <link rel="preload" href="https://d3h4o2ol298pf7.cloudfront.net/assets/browser-update-9070f07226d022f68c06506e046ae33f8fe725302ff53955cd3d483f2fc47ff6.gz.js" as="script" nonce="SUjDh8eg8pxdyOmxL6dx8pyGy">
+    
+    <script defer src="https://d3h4o2ol298pf7.cloudfront.net/assets/browser-detect-99f42f91bffa8ca1606d62b70bb92f981d83921e78ccdbd3d9538f07007f27ac.gz.js" data-discourse-entrypoint="browser-detect" nonce="SUjDh8eg8pxdyOmxL6dx8pyGy"></script>
+
+
+    <script defer src="https://d3h4o2ol298pf7.cloudfront.net/assets/vendor.ff29780b9fed784cce2d843dcb93a803-608f4f77d8437d715d8d39c739c0c8bbe0fe51c9305e55f1ec7d0bee19f5571f.gz.js" data-discourse-entrypoint="vendor" nonce="SUjDh8eg8pxdyOmxL6dx8pyGy"></script>
+
+    <script defer src="https://d3h4o2ol298pf7.cloudfront.net/assets/chunk.3fafbb12e1e5a7807283.d41d8cd9.gz.js" data-discourse-entrypoint="discourse" nonce="SUjDh8eg8pxdyOmxL6dx8pyGy"></script>
+
+<script defer src="https://d3h4o2ol298pf7.cloudfront.net/assets/chunk.dd12e97364a2568f7138.d41d8cd9.gz.js" data-discourse-entrypoint="discourse" nonce="SUjDh8eg8pxdyOmxL6dx8pyGy"></script>
+
+      <script defer src="https://d3h4o2ol298pf7.cloudfront.net/assets/plugins/checklist-55813a5bacc3c99fda0b099a80401f124870fa9b510ced078af32f8a82364461.gz.js" data-discourse-entrypoint="plugins/checklist" nonce="SUjDh8eg8pxdyOmxL6dx8pyGy"></script>
+
+      <script defer src="https://d3h4o2ol298pf7.cloudfront.net/assets/plugins/discourse-assign-bf985a6eab094179eea157ce8420db94b45a987c4219269d5467e01a37e5173f.gz.js" data-discourse-entrypoint="plugins/discourse-assign" nonce="SUjDh8eg8pxdyOmxL6dx8pyGy"></script>
+
+      <script defer src="https://d3h4o2ol298pf7.cloudfront.net/assets/plugins/discourse-cakeday-e375c39de321de9a571e91b72b9edad7d12affa938f39b63d280b447871390b6.gz.js" data-discourse-entrypoint="plugins/discourse-cakeday" nonce="SUjDh8eg8pxdyOmxL6dx8pyGy"></script>
+
+      <script defer src="https://d3h4o2ol298pf7.cloudfront.net/assets/plugins/discourse-data-explorer-35e6ff6ba9ffdefecd15d40a6d95832224ed0e6633d36aef4bfc46828b7bb459.gz.js" data-discourse-entrypoint="plugins/discourse-data-explorer" nonce="SUjDh8eg8pxdyOmxL6dx8pyGy"></script>
+
+      <script defer src="https://d3h4o2ol298pf7.cloudfront.net/assets/plugins/discourse-deprecation-collector-745b838595db5d2efe17068b8daa4695311e4ee10e7996b49833d3499389676c.gz.js" data-discourse-entrypoint="plugins/discourse-deprecation-collector" nonce="SUjDh8eg8pxdyOmxL6dx8pyGy"></script>
+
+      <script defer src="https://d3h4o2ol298pf7.cloudfront.net/assets/plugins/discourse-details-48148ec534a4c5e9614302186b345123ba1358787c41bc31cbd17231f794fe42.gz.js" data-discourse-entrypoint="plugins/discourse-details" nonce="SUjDh8eg8pxdyOmxL6dx8pyGy"></script>
+
+      <script defer src="https://d3h4o2ol298pf7.cloudfront.net/assets/plugins/discourse-lazy-videos-f629f8bf4e5be1506748ca35e006c18ad8dc0323fbdad3e89694b42906e69219.gz.js" data-discourse-entrypoint="plugins/discourse-lazy-videos" nonce="SUjDh8eg8pxdyOmxL6dx8pyGy"></script>
+
+      <script defer src="https://d3h4o2ol298pf7.cloudfront.net/assets/plugins/discourse-local-dates-3d6e4bc02e4952710b91a53202bb79df0e357173e5c0d82ec38fe0b3db7373a3.gz.js" data-discourse-entrypoint="plugins/discourse-local-dates" nonce="SUjDh8eg8pxdyOmxL6dx8pyGy"></script>
+
+      <script defer src="https://d3h4o2ol298pf7.cloudfront.net/assets/plugins/discourse-presence-deb24d69b99e2298438df9ed81ded0be4299c4b900d457b0e1d99e9d17327a4a.gz.js" data-discourse-entrypoint="plugins/discourse-presence" nonce="SUjDh8eg8pxdyOmxL6dx8pyGy"></script>
+
+      <script defer src="https://d3h4o2ol298pf7.cloudfront.net/assets/plugins/discourse-saved-searches-b8a4242348890628bd075d45defdd81eaafd1c42d5b78e55226fdeae0fdc6755.gz.js" data-discourse-entrypoint="plugins/discourse-saved-searches" nonce="SUjDh8eg8pxdyOmxL6dx8pyGy"></script>
+
+      <script defer src="https://d3h4o2ol298pf7.cloudfront.net/assets/plugins/discourse-signatures-32e0e0e02f5106c5d9190d51e60696abc3090e1d576347884d0d2574b3d3118b.gz.js" data-discourse-entrypoint="plugins/discourse-signatures" nonce="SUjDh8eg8pxdyOmxL6dx8pyGy"></script>
+
+      <script defer src="https://d3h4o2ol298pf7.cloudfront.net/assets/plugins/discourse-solved-fbbaeb33904bc98c8af9873b4e0ea33032365d42d69e600e13d701e4fbf331af.gz.js" data-discourse-entrypoint="plugins/discourse-solved" nonce="SUjDh8eg8pxdyOmxL6dx8pyGy"></script>
+
+      <script defer src="https://d3h4o2ol298pf7.cloudfront.net/assets/plugins/discourse-templates-ca545599d97c779572ebd54e91823bf6b638eaa10df29d243a9fce16e556ce9d.gz.js" data-discourse-entrypoint="plugins/discourse-templates" nonce="SUjDh8eg8pxdyOmxL6dx8pyGy"></script>
+
+      <script defer src="https://d3h4o2ol298pf7.cloudfront.net/assets/plugins/discourse-topic-voting-b1f9178168410d297eecadffcf909ae02a2527a1a998f69afcdf9c6ae658d38e.gz.js" data-discourse-entrypoint="plugins/discourse-topic-voting" nonce="SUjDh8eg8pxdyOmxL6dx8pyGy"></script>
+
+      <script defer src="https://d3h4o2ol298pf7.cloudfront.net/assets/plugins/footnote-79e2a367b53b791240c3504826b87b2787c9d197d77cd422969d592aae9cf23b.gz.js" data-discourse-entrypoint="plugins/footnote" nonce="SUjDh8eg8pxdyOmxL6dx8pyGy"></script>
+
+      <script defer src="https://d3h4o2ol298pf7.cloudfront.net/assets/plugins/footnote_extra-295b457b90cb18fedfdb544868c494c71842a27c0781d3042fa4fd26589204fa.gz.js" data-discourse-entrypoint="plugins/footnote_extra" nonce="SUjDh8eg8pxdyOmxL6dx8pyGy"></script>
+
+      <script defer src="https://d3h4o2ol298pf7.cloudfront.net/assets/plugins/hosted-site-134dbce2c7b578f586484b3d38306068165668c3094b305585ff221e8287a62e.gz.js" data-discourse-entrypoint="plugins/hosted-site" nonce="SUjDh8eg8pxdyOmxL6dx8pyGy"></script>
+
+      <script defer src="https://d3h4o2ol298pf7.cloudfront.net/assets/plugins/hosted-site_admin-018aa9b06b7e57796f22192a82e0f6214b9fc349a193ea01a8bc2a43a80c7f73.gz.js" data-discourse-entrypoint="plugins/hosted-site_admin" nonce="SUjDh8eg8pxdyOmxL6dx8pyGy"></script>
+
+      <script defer src="https://d3h4o2ol298pf7.cloudfront.net/assets/plugins/poll-a07a9613ae3b1cf6f34fa629cf36ef0f4ce6c71b72cda45768dd5a5b734293fa.gz.js" data-discourse-entrypoint="plugins/poll" nonce="SUjDh8eg8pxdyOmxL6dx8pyGy"></script>
+
+      <script defer src="https://d3h4o2ol298pf7.cloudfront.net/assets/plugins/spoiler-alert-398649fb55dd3fbc15869b8bdc345c1a626b23b3bf1627afd9a0994049ad4bf3.gz.js" data-discourse-entrypoint="plugins/spoiler-alert" nonce="SUjDh8eg8pxdyOmxL6dx8pyGy"></script>
+
+
+    <script defer src="https://d3h4o2ol298pf7.cloudfront.net/assets/locales/en-9f7bfe3f70bf030129b5e24f80edb6a2254088d098b797a542cfc1de666112ce.gz.js" data-discourse-entrypoint="locales/en" nonce="SUjDh8eg8pxdyOmxL6dx8pyGy"></script>
+
+
+
+
+      
+      <script defer src="https://d2hlsi21yn5v7f.cloudfront.net/theme-javascripts/8be822c6838f2e7fc6988ed929661cd604aea09f.js?__ws=community.stage.ring.com" data-theme-id="3" nonce="SUjDh8eg8pxdyOmxL6dx8pyGy"></script>
+
+      
+
+    
+    
+    <link id="manifest-link" rel="manifest" href=/manifest.webmanifest crossorigin="use-credentials">
+
+
+      <meta property="og:site_name" content="Ring Community" />
+<meta property="og:type" content="website" />
+<meta name="twitter:card" content="summary" />
+<meta property="og:image" content="https://d3h4o2ol298pf7.cloudfront.net/original/2X/1/1596c9540fafa2a31ec49e4e7edf563c8f8b48fb.svg" />
+<meta property="og:url" content="https://community.stage.ring.com/login" />
+<meta name="twitter:url" content="https://community.stage.ring.com/login" />
+<meta property="og:title" content="Ring Community" />
+<meta name="twitter:title" content="Ring Community" />
+
+
+    
+
+    <meta id="data-discourse-setup" data-cdn="https://d2hlsi21yn5v7f.cloudfront.net" data-base-url="https://community.stage.ring.com" data-base-uri="" data-environment="production" data-letter-avatar-version="5_f40856482fe1e45ac8f1605885140a2d" data-service-worker-url="service-worker.js" data-default-locale="en" data-asset-version="702ce2045455aa14ef2cc53ed624c007" data-disable-custom-css="false" data-highlight-js-path="/highlight-js/community.stage.ring.com/8ca560096c2b0ff3f6aa461e5bf6df6ea43921a5.js" data-svg-sprite-path="/svg-sprite/community.stage.ring.com/svg-3-eb7265f1db0ad88b002633f16c53c6beef1a0476.js" data-enable-js-error-reporting="true" data-color-scheme-is-dark="false" data-user-color-scheme-id="5" data-user-dark-scheme-id="-1" data-s3-cdn="https://d3h4o2ol298pf7.cloudfront.net" data-s3-base-url="//assets-ringqa-ring-prod-us.s3.dualstack.us-east-2.amazonaws.com">
+
+    <meta name="discourse/config/environment" content="%7B%22modulePrefix%22%3A%22discourse%22%2C%22environment%22%3A%22production%22%2C%22rootURL%22%3A%22%22%2C%22locationType%22%3A%22history%22%2C%22historySupportMiddleware%22%3Afalse%2C%22EmberENV%22%3A%7B%22FEATURES%22%3A%7B%7D%2C%22EXTEND_PROTOTYPES%22%3A%7B%22Date%22%3Afalse%2C%22String%22%3Afalse%7D%2C%22_APPLICATION_TEMPLATE_WRAPPER%22%3Afalse%2C%22_DEFAULT_ASYNC_OBSERVERS%22%3Atrue%2C%22_JQUERY_INTEGRATION%22%3Atrue%7D%2C%22APP%22%3A%7B%22name%22%3A%22discourse%22%2C%22version%22%3A%223.3.0.beta3-dev%20359dccf19111002735f41e35595bfce05028ca36%22%2C%22exportApplicationGlobal%22%3Atrue%7D%7D" />
+  </head>
+
+  <body class="">
+      <section id="d-splash">
+  <template class="splash-svg-template">
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      xmlns:xlink="http://www.w3.org/1999/xlink"
+      version="1.1"
+    >
+      <style>
+        :root {
+          --animation-state: paused;
+        }
+
+        /* user picked a theme where the "regular" scheme is dark */
+        /* user picked a theme a light scheme and also enabled a dark scheme */
+
+        /* deal with light scheme first */
+        @media (prefers-color-scheme: light) {
+          :root {
+            --primary: #424242;
+            --secondary: #ffffff;
+            --tertiary: #1998d5;
+            --quaternary: #f1670d;
+            --highlight: #cccccc;
+            --success: #63d6a3;
+          }
+        }
+
+        /* then deal with dark scheme */
+        @media (prefers-color-scheme: dark) {
+          :root {
+            --primary: #424242;
+            --secondary: #ffffff;
+            --tertiary: #1998d5;
+            --quaternary: #f1670d;
+            --highlight: #cccccc;
+            --success: #63d6a3;
+          }
+        }
+
+        /* these styles need to live here because the SVG has a different scope */
+        .dots {
+          animation-name: loader;
+          animation-timing-function: ease-in-out;
+          animation-duration: 3s;
+          animation-iteration-count: infinite;
+          animation-play-state: var(--animation-state);
+          stroke: #fff;
+          stroke-width: 0.5px;
+          transform-origin: center;
+          opacity: 0;
+          r: max(1vw, 11px);
+          cy: 50%;
+          filter: saturate(2) opacity(0.85);
+        }
+
+        .dots:first-child {
+          fill: var(--quaternary);
+        }
+
+        .dots:nth-child(2) {
+          fill: var(--quaternary);
+          animation-delay: 0.15s;
+        }
+
+        .dots:nth-child(3) {
+          fill: var(--highlight);
+          animation-delay: 0.3s;
+        }
+
+        .dots:nth-child(4) {
+          fill: var(--tertiary);
+          animation-delay: 0.45s;
+        }
+
+        .dots:nth-child(5) {
+          fill: var(--tertiary);
+          animation-delay: 0.6s;
+        }
+
+        @keyframes loader {
+          0% {
+            opacity: 0;
+            transform: scale(1);
+          }
+          45% {
+            opacity: 1;
+            transform: scale(0.7);
+          }
+          65% {
+            opacity: 1;
+            transform: scale(0.7);
+          }
+          100% {
+            opacity: 0;
+            transform: scale(1);
+          }
+        }
+      </style>
+
+      <g class="container">
+        <circle class="dots" cx="30vw" />
+        <circle class="dots" cx="40vw" />
+        <circle class="dots" cx="50vw" />
+        <circle class="dots" cx="60vw" />
+        <circle class="dots" cx="70vw" />
+      </g>
+    </svg>
+  </template>
+
+  <style>
+    html {
+      overflow-y: hidden !important;
+    }
+
+    /* user picked a theme where the "regular" scheme is dark */
+    /* user picked a theme a light scheme and also enabled a dark scheme */
+
+    /* deal with light scheme first */
+    @media (prefers-color-scheme: light) {
+      html {
+        background-color: #ffffff;
+      }
+
+      #d-splash .preloader-text-wrapper {
+        color: #424242;
+      }
+    }
+
+    /* then deal with dark scheme */
+    @media (prefers-color-scheme: dark) {
+      html {
+        background-color: #ffffff;
+      }
+
+      #d-splash .preloader-text-wrapper {
+        color: #424242;
+      }
+    }
+
+    #d-splash {
+      display: grid;
+      place-items: center;
+      backface-visibility: hidden;
+      position: absolute;
+      left: 0;
+      top: 0;
+      width: 100%;
+      z-index: 1001;
+      --animation-state: paused;
+    }
+
+    #d-splash .preloader-image {
+      max-width: 100%;
+      height: 100vh;
+    }
+
+    #d-splash .preloader-text-wrapper {
+      position: absolute;
+      opacity: 0;
+      animation: fade-in 0.5s ease-in-out;
+      animation-delay: 1s;
+      animation-fill-mode: forwards;
+      animation-play-state: var(--animation-state);
+      margin-bottom: -4em;
+    }
+
+    #d-splash .preloader-text:after {
+      animation: loading-text 3s infinite;
+      content: "";
+      position: absolute;
+      margin: 0 0.1em;
+      left: 100%;
+    }
+
+    .rtl #d-splash .preloader-text:after {
+      left: 0;
+      right: 100%;
+    }
+
+    @keyframes fade-in {
+      0% {
+        opacity: 0;
+      }
+      100% {
+        opacity: 1;
+      }
+    }
+
+    @keyframes loading-text {
+      0% {
+        content: "";
+      }
+      25% {
+        content: ".";
+      }
+      50% {
+        content: "..";
+      }
+      75% {
+        content: "...";
+      }
+    }
+  </style>
+
+  <img
+    class="preloader-image"
+    src="data:image/svg;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+    alt="Ring Community"
+  />
+
+  <div class="preloader-text-wrapper">
+    <div class="preloader-text">Loading</div>
+  </div>
+
+  <noscript>
+    <style>
+      html {
+        overflow-y: revert !important;
+      }
+
+      #d-splash {
+        display: none;
+      }
+    </style>
+  </noscript>
+
+  <script nonce="SUjDh8eg8pxdyOmxL6dx8pyGy">
+    const DELAY_TARGET=2e3,POLLING_INTERVAL=50,splashSvgTemplate=document.querySelector(".splash-svg-template"),splashTemplateClone=splashSvgTemplate.content.cloneNode(!0),svgElement=splashTemplateClone.querySelector("svg"),svgString=(new XMLSerializer).serializeToString(svgElement),encodedSvg=btoa(svgString),splashWrapper=document.querySelector("#d-splash"),splashImage=splashWrapper&&splashWrapper.querySelector(".preloader-image")
+if(splashImage){splashImage.src=`data:image/svg+xml;base64,${encodedSvg}`
+const e=(performance.timing.connectStart||0)+2e3
+let s,a
+const r=()=>{splashWrapper&&splashWrapper.style.setProperty("--animation-state","running"),svgElement&&svgElement.style.setProperty("--animation-state","running")
+const e=(new XMLSerializer).serializeToString(svgElement),s=btoa(e)
+splashImage.src=`data:image/svg+xml;base64,${s}`,performance.mark("discourse-splash-visible"),t()},t=()=>{clearInterval(s),s=null}
+s=setInterval((()=>{a&&t(),Date.now()>e&&r()}),50),document.addEventListener("discourse-ready",(()=>{a=!0,splashWrapper&&splashWrapper.remove(),performance.mark("discourse-splash-removed")}),{once:!0})}
+
+  </script>
+</section>
+
+
+    <discourse-assets>
+      <discourse-assets-stylesheets>
+        <link href="https://d2hlsi21yn5v7f.cloudfront.net/stylesheets/color_definitions_ring_5_3_120a12a9f06cae1f1b02e1eb8fe4b1e7e48f4825.css?__ws=community.stage.ring.com" media="all" rel="stylesheet" class="light-scheme"/>
+
+  <link href="https://d2hlsi21yn5v7f.cloudfront.net/stylesheets/desktop_39654d376af61709052a79e194abdef7709a3861.css?__ws=community.stage.ring.com" media="all" rel="stylesheet" data-target="desktop"  />
+
+
+
+  <link href="https://d2hlsi21yn5v7f.cloudfront.net/stylesheets/checklist_39654d376af61709052a79e194abdef7709a3861.css?__ws=community.stage.ring.com" media="all" rel="stylesheet" data-target="checklist"  />
+  <link href="https://d2hlsi21yn5v7f.cloudfront.net/stylesheets/discourse-assign_39654d376af61709052a79e194abdef7709a3861.css?__ws=community.stage.ring.com" media="all" rel="stylesheet" data-target="discourse-assign"  />
+  <link href="https://d2hlsi21yn5v7f.cloudfront.net/stylesheets/discourse-auth-no-email_39654d376af61709052a79e194abdef7709a3861.css?__ws=community.stage.ring.com" media="all" rel="stylesheet" data-target="discourse-auth-no-email"  />
+  <link href="https://d2hlsi21yn5v7f.cloudfront.net/stylesheets/discourse-cakeday_39654d376af61709052a79e194abdef7709a3861.css?__ws=community.stage.ring.com" media="all" rel="stylesheet" data-target="discourse-cakeday"  />
+  <link href="https://d2hlsi21yn5v7f.cloudfront.net/stylesheets/discourse-data-explorer_39654d376af61709052a79e194abdef7709a3861.css?__ws=community.stage.ring.com" media="all" rel="stylesheet" data-target="discourse-data-explorer"  />
+  <link href="https://d2hlsi21yn5v7f.cloudfront.net/stylesheets/discourse-details_39654d376af61709052a79e194abdef7709a3861.css?__ws=community.stage.ring.com" media="all" rel="stylesheet" data-target="discourse-details"  />
+  <link href="https://d2hlsi21yn5v7f.cloudfront.net/stylesheets/discourse-lazy-videos_39654d376af61709052a79e194abdef7709a3861.css?__ws=community.stage.ring.com" media="all" rel="stylesheet" data-target="discourse-lazy-videos"  />
+  <link href="https://d2hlsi21yn5v7f.cloudfront.net/stylesheets/discourse-local-dates_39654d376af61709052a79e194abdef7709a3861.css?__ws=community.stage.ring.com" media="all" rel="stylesheet" data-target="discourse-local-dates"  />
+  <link href="https://d2hlsi21yn5v7f.cloudfront.net/stylesheets/discourse-narrative-bot_39654d376af61709052a79e194abdef7709a3861.css?__ws=community.stage.ring.com" media="all" rel="stylesheet" data-target="discourse-narrative-bot"  />
+  <link href="https://d2hlsi21yn5v7f.cloudfront.net/stylesheets/discourse-presence_39654d376af61709052a79e194abdef7709a3861.css?__ws=community.stage.ring.com" media="all" rel="stylesheet" data-target="discourse-presence"  />
+  <link href="https://d2hlsi21yn5v7f.cloudfront.net/stylesheets/discourse-saved-searches_39654d376af61709052a79e194abdef7709a3861.css?__ws=community.stage.ring.com" media="all" rel="stylesheet" data-target="discourse-saved-searches"  />
+  <link href="https://d2hlsi21yn5v7f.cloudfront.net/stylesheets/discourse-signatures_39654d376af61709052a79e194abdef7709a3861.css?__ws=community.stage.ring.com" media="all" rel="stylesheet" data-target="discourse-signatures"  />
+  <link href="https://d2hlsi21yn5v7f.cloudfront.net/stylesheets/discourse-solved_39654d376af61709052a79e194abdef7709a3861.css?__ws=community.stage.ring.com" media="all" rel="stylesheet" data-target="discourse-solved"  />
+  <link href="https://d2hlsi21yn5v7f.cloudfront.net/stylesheets/discourse-templates_39654d376af61709052a79e194abdef7709a3861.css?__ws=community.stage.ring.com" media="all" rel="stylesheet" data-target="discourse-templates"  />
+  <link href="https://d2hlsi21yn5v7f.cloudfront.net/stylesheets/discourse-topic-voting_39654d376af61709052a79e194abdef7709a3861.css?__ws=community.stage.ring.com" media="all" rel="stylesheet" data-target="discourse-topic-voting"  />
+  <link href="https://d2hlsi21yn5v7f.cloudfront.net/stylesheets/footnote_39654d376af61709052a79e194abdef7709a3861.css?__ws=community.stage.ring.com" media="all" rel="stylesheet" data-target="footnote"  />
+  <link href="https://d2hlsi21yn5v7f.cloudfront.net/stylesheets/hosted-site_39654d376af61709052a79e194abdef7709a3861.css?__ws=community.stage.ring.com" media="all" rel="stylesheet" data-target="hosted-site"  />
+  <link href="https://d2hlsi21yn5v7f.cloudfront.net/stylesheets/poll_39654d376af61709052a79e194abdef7709a3861.css?__ws=community.stage.ring.com" media="all" rel="stylesheet" data-target="poll"  />
+  <link href="https://d2hlsi21yn5v7f.cloudfront.net/stylesheets/spoiler-alert_39654d376af61709052a79e194abdef7709a3861.css?__ws=community.stage.ring.com" media="all" rel="stylesheet" data-target="spoiler-alert"  />
+  <link href="https://d2hlsi21yn5v7f.cloudfront.net/stylesheets/discourse-topic-voting_desktop_39654d376af61709052a79e194abdef7709a3861.css?__ws=community.stage.ring.com" media="all" rel="stylesheet" data-target="discourse-topic-voting_desktop"  />
+  <link href="https://d2hlsi21yn5v7f.cloudfront.net/stylesheets/poll_desktop_39654d376af61709052a79e194abdef7709a3861.css?__ws=community.stage.ring.com" media="all" rel="stylesheet" data-target="poll_desktop"  />
+
+  <link href="https://d2hlsi21yn5v7f.cloudfront.net/stylesheets/desktop_theme_3_49f4aab4a63da86716fa43dfb2e027a756f8cb40.css?__ws=community.stage.ring.com" media="all" rel="stylesheet" data-target="desktop_theme" data-theme-id="3" data-theme-name="discourse-ring-theme"/>
+
+      </discourse-assets-stylesheets>
+      <discourse-assets-json>
+        <div class="hidden" id="data-preloaded" data-preloaded="{&quot;site&quot;:&quot;{\&quot;periods\&quot;:[\&quot;all\&quot;,\&quot;yearly\&quot;,\&quot;quarterly\&quot;,\&quot;monthly\&quot;,\&quot;weekly\&quot;,\&quot;daily\&quot;],\&quot;filters\&quot;:[\&quot;latest\&quot;,\&quot;unread\&quot;,\&quot;new\&quot;,\&quot;unseen\&quot;,\&quot;top\&quot;,\&quot;read\&quot;,\&quot;posted\&quot;,\&quot;bookmarks\&quot;,\&quot;hot\&quot;,\&quot;votes\&quot;],\&quot;user_fields\&quot;:[],\&quot;auth_providers\&quot;:[{\&quot;name\&quot;:\&quot;oauth2_basic\&quot;,\&quot;custom_url\&quot;:null,\&quot;pretty_name_override\&quot;:null,\&quot;title_override\&quot;:\&quot;with OAuth2\&quot;,\&quot;frame_width\&quot;:null,\&quot;frame_height\&quot;:null,\&quot;can_connect\&quot;:false,\&quot;can_revoke\&quot;:false,\&quot;icon\&quot;:null}]}&quot;,&quot;siteSettings&quot;:&quot;{\&quot;default_locale\&quot;:\&quot;en\&quot;,\&quot;title\&quot;:\&quot;Ring Community\&quot;,\&quot;short_site_description\&quot;:\&quot;\&quot;,\&quot;exclude_rel_nofollow_domains\&quot;:\&quot;\&quot;,\&quot;logo\&quot;:\&quot;//assets-ringqa-ring-prod-us.s3.dualstack.us-east-2.amazonaws.com/original/2X/1/1596c9540fafa2a31ec49e4e7edf563c8f8b48fb.svg\&quot;,\&quot;logo_small\&quot;:\&quot;//assets-ringqa-ring-prod-us.s3.dualstack.us-east-2.amazonaws.com/original/2X/1/1596c9540fafa2a31ec49e4e7edf563c8f8b48fb.svg\&quot;,\&quot;digest_logo\&quot;:\&quot;\&quot;,\&quot;mobile_logo\&quot;:\&quot;\&quot;,\&quot;logo_dark\&quot;:\&quot;\&quot;,\&quot;logo_small_dark\&quot;:\&quot;\&quot;,\&quot;mobile_logo_dark\&quot;:\&quot;\&quot;,\&quot;large_icon\&quot;:\&quot;\&quot;,\&quot;favicon\&quot;:\&quot;//assets-ringqa-ring-prod-us.s3.dualstack.us-east-2.amazonaws.com/original/2X/e/e0742e0739eb584c19b6c58e39cc252502222e41.svg\&quot;,\&quot;apple_touch_icon\&quot;:\&quot;\&quot;,\&quot;display_local_time_in_user_card\&quot;:false,\&quot;allow_user_locale\&quot;:false,\&quot;set_locale_from_accept_language_header\&quot;:false,\&quot;set_locale_from_cookie\&quot;:false,\&quot;support_mixed_text_direction\&quot;:false,\&quot;suggested_topics\&quot;:5,\&quot;ga_universal_tracking_code\&quot;:\&quot;\&quot;,\&quot;ga_universal_domain_name\&quot;:\&quot;auto\&quot;,\&quot;gtm_container_id\&quot;:\&quot;\&quot;,\&quot;top_menu\&quot;:\&quot;latest|top|categories\&quot;,\&quot;post_menu\&quot;:\&quot;read|like|flag|edit|bookmark|delete|admin|reply\&quot;,\&quot;post_menu_hidden_items\&quot;:\&quot;flag|bookmark|edit|delete|admin\&quot;,\&quot;share_links\&quot;:\&quot;twitter|facebook|email\&quot;,\&quot;allow_username_in_share_links\&quot;:true,\&quot;share_quote_visibility\&quot;:\&quot;all\&quot;,\&quot;share_quote_buttons\&quot;:\&quot;twitter|email\&quot;,\&quot;desktop_category_page_style\&quot;:\&quot;categories_boxes\&quot;,\&quot;category_colors\&quot;:\&quot;BF1E2E|F1592A|F7941D|9EB83B|3AB54A|12A89D|25AAE2|0E76BD|652D90|92278F|ED207B|8C6238|231F20|808281|B3B5B4|E45735\&quot;,\&quot;max_category_nesting\&quot;:2,\&quot;enable_mobile_theme\&quot;:true,\&quot;enable_direct_s3_uploads\&quot;:true,\&quot;enable_upload_debug_mode\&quot;:false,\&quot;default_dark_mode_color_scheme_id\&quot;:-1,\&quot;relative_date_duration\&quot;:7,\&quot;top_page_default_timeframe\&quot;:\&quot;yearly\&quot;,\&quot;fixed_category_positions\&quot;:false,\&quot;fixed_category_positions_on_create\&quot;:false,\&quot;enable_badges\&quot;:true,\&quot;enable_badge_sql\&quot;:false,\&quot;max_favorite_badges\&quot;:2,\&quot;push_notifications_prompt\&quot;:true,\&quot;enable_desktop_push_notifications\&quot;:true,\&quot;vapid_public_key_bytes\&quot;:\&quot;4|172|170|255|127|77|144|8|141|125|156|4|159|84|240|142|203|13|68|162|247|206|58|181|208|212|245|247|142|15|122|73|209|174|13|31|160|116|191|231|217|147|49|29|247|4|213|0|79|27|193|188|66|238|10|145|152|165|142|207|124|11|76|129|141\&quot;,\&quot;enable_user_status\&quot;:false,\&quot;enable_user_tips\&quot;:true,\&quot;page_loading_indicator\&quot;:\&quot;slider\&quot;,\&quot;show_user_menu_avatars\&quot;:false,\&quot;invite_only\&quot;:false,\&quot;login_required\&quot;:true,\&quot;must_approve_users\&quot;:false,\&quot;enable_local_logins\&quot;:false,\&quot;enable_local_logins_via_email\&quot;:true,\&quot;enable_passkeys\&quot;:null,\&quot;allow_new_registrations\&quot;:true,\&quot;enable_signup_cta\&quot;:true,\&quot;facebook_app_id\&quot;:\&quot;\&quot;,\&quot;auth_skip_create_confirm\&quot;:false,\&quot;auth_overrides_email\&quot;:true,\&quot;enable_discourse_connect\&quot;:false,\&quot;discourse_connect_overrides_avatar\&quot;:false,\&quot;hide_email_address_taken\&quot;:false,\&quot;min_username_length\&quot;:2,\&quot;max_username_length\&quot;:30,\&quot;unicode_usernames\&quot;:false,\&quot;min_password_length\&quot;:10,\&quot;min_admin_password_length\&quot;:15,\&quot;email_editable\&quot;:false,\&quot;logout_redirect\&quot;:\&quot;\&quot;,\&quot;full_name_required\&quot;:false,\&quot;enable_names\&quot;:false,\&quot;invite_expiry_days\&quot;:90,\&quot;invites_per_page\&quot;:40,\&quot;delete_user_max_post_age\&quot;:60,\&quot;delete_all_posts_max\&quot;:7,\&quot;prioritize_username_in_ux\&quot;:true,\&quot;enable_user_directory\&quot;:true,\&quot;allow_anonymous_posting\&quot;:false,\&quot;allow_anonymous_likes\&quot;:false,\&quot;anonymous_posting_min_trust_level\&quot;:1,\&quot;allow_users_to_hide_profile\&quot;:false,\&quot;hide_user_profiles_from_public\&quot;:false,\&quot;allow_featured_topic_on_user_profiles\&quot;:true,\&quot;hide_suspension_reasons\&quot;:false,\&quot;ignored_users_count_message_threshold\&quot;:5,\&quot;ignored_users_message_gap_days\&quot;:30,\&quot;user_selected_primary_groups\&quot;:false,\&quot;gravatar_name\&quot;:\&quot;Gravatar\&quot;,\&quot;gravatar_base_url\&quot;:\&quot;www.gravatar.com\&quot;,\&quot;gravatar_login_url\&quot;:\&quot;/emails\&quot;,\&quot;hide_user_activity_tab\&quot;:false,\&quot;enable_group_directory\&quot;:false,\&quot;enable_category_group_moderation\&quot;:false,\&quot;min_post_length\&quot;:20,\&quot;min_first_post_length\&quot;:20,\&quot;min_personal_message_post_length\&quot;:10,\&quot;max_post_length\&quot;:32000,\&quot;topic_featured_link_enabled\&quot;:true,\&quot;min_topic_views_for_delete_confirm\&quot;:30000,\&quot;min_topic_title_length\&quot;:10,\&quot;max_topic_title_length\&quot;:255,\&quot;enable_filtered_replies_view\&quot;:false,\&quot;min_personal_message_title_length\&quot;:2,\&quot;allow_uncategorized_topics\&quot;:false,\&quot;min_title_similar_length\&quot;:10,\&quot;edit_history_visible_to_public\&quot;:true,\&quot;delete_removed_posts_after\&quot;:0,\&quot;traditional_markdown_linebreaks\&quot;:false,\&quot;enable_markdown_typographer\&quot;:true,\&quot;enable_markdown_linkify\&quot;:true,\&quot;markdown_linkify_tlds\&quot;:\&quot;com|net|org|io|onion|co|tv|ru|cn|us|uk|me|de|fr|fi|gov\&quot;,\&quot;markdown_typographer_quotation_marks\&quot;:\&quot;“|”|‘|’\&quot;,\&quot;enable_rich_text_paste\&quot;:true,\&quot;suppress_reply_directly_below\&quot;:true,\&quot;suppress_reply_directly_above\&quot;:true,\&quot;max_reply_history\&quot;:1,\&quot;enable_mentions\&quot;:true,\&quot;max_users_notified_per_group_mention\&quot;:100,\&quot;here_mention\&quot;:\&quot;here\&quot;,\&quot;newuser_max_embedded_media\&quot;:1,\&quot;newuser_max_attachments\&quot;:1,\&quot;default_subcategory_on_read_only_category\&quot;:false,\&quot;show_pinned_excerpt_mobile\&quot;:true,\&quot;show_pinned_excerpt_desktop\&quot;:true,\&quot;display_name_on_posts\&quot;:false,\&quot;show_time_gap_days\&quot;:7,\&quot;short_progress_text_threshold\&quot;:500,\&quot;default_code_lang\&quot;:\&quot;auto\&quot;,\&quot;autohighlight_all_code\&quot;:false,\&quot;highlighted_languages\&quot;:\&quot;bash|c|cpp|csharp|css|diff|go|graphql|ini|java|javascript|json|kotlin|lua|makefile|markdown|objectivec|perl|php|php-template|plaintext|python|python-repl|r|ruby|rust|scss|shell|sql|swift|typescript|xml|yaml|wasm\&quot;,\&quot;show_copy_button_on_codeblocks\&quot;:true,\&quot;enable_emoji\&quot;:true,\&quot;enable_emoji_shortcuts\&quot;:true,\&quot;emoji_set\&quot;:\&quot;twitter\&quot;,\&quot;emoji_autocomplete_min_chars\&quot;:0,\&quot;enable_inline_emoji_translation\&quot;:false,\&quot;emoji_deny_list\&quot;:\&quot;\&quot;,\&quot;code_formatting_style\&quot;:\&quot;code-fences\&quot;,\&quot;allowed_href_schemes\&quot;:\&quot;\&quot;,\&quot;watched_words_regular_expressions\&quot;:false,\&quot;enable_diffhtml_preview\&quot;:false,\&quot;enable_fast_edit\&quot;:true,\&quot;enable_quote_copy\&quot;:true,\&quot;old_post_notice_days\&quot;:14,\&quot;blur_tl0_flagged_posts_media\&quot;:true,\&quot;email_time_window_mins\&quot;:10,\&quot;disable_digest_emails\&quot;:false,\&quot;email_in\&quot;:false,\&quot;enable_imap\&quot;:false,\&quot;enable_smtp\&quot;:false,\&quot;disable_emails\&quot;:\&quot;yes\&quot;,\&quot;bounce_score_threshold\&quot;:4,\&quot;enable_secondary_emails\&quot;:true,\&quot;max_image_size_kb\&quot;:4096,\&quot;max_attachment_size_kb\&quot;:4096,\&quot;authorized_extensions\&quot;:\&quot;jpg|jpeg|png|gif|heic|heif|mp4\&quot;,\&quot;authorized_extensions_for_staff\&quot;:\&quot;\&quot;,\&quot;max_image_width\&quot;:690,\&quot;max_image_height\&quot;:500,\&quot;prevent_anons_from_downloading_files\&quot;:false,\&quot;secure_uploads\&quot;:false,\&quot;secure_uploads_pm_only\&quot;:false,\&quot;enable_s3_uploads\&quot;:false,\&quot;allow_profile_backgrounds\&quot;:false,\&quot;allow_uploaded_avatars\&quot;:0,\&quot;default_avatars\&quot;:\&quot;\&quot;,\&quot;avatar_sizes\&quot;:\&quot;24|48|72|96|144|288\&quot;,\&quot;external_system_avatars_enabled\&quot;:true,\&quot;external_system_avatars_url\&quot;:\&quot;https://avatars.discourse-cdn.com/v4/letter/{first_letter}/{color}/{size}.png\&quot;,\&quot;external_emoji_url\&quot;:\&quot;\&quot;,\&quot;selectable_avatars_mode\&quot;:\&quot;disabled\&quot;,\&quot;selectable_avatars\&quot;:\&quot;\&quot;,\&quot;allow_staff_to_upload_any_file_in_pm\&quot;:true,\&quot;simultaneous_uploads\&quot;:5,\&quot;composer_media_optimization_image_enabled\&quot;:true,\&quot;composer_media_optimization_image_bytes_optimization_threshold\&quot;:524288,\&quot;composer_media_optimization_image_resize_dimensions_threshold\&quot;:1920,\&quot;composer_media_optimization_image_resize_width_target\&quot;:1920,\&quot;composer_media_optimization_image_resize_pre_multiply\&quot;:false,\&quot;composer_media_optimization_image_resize_linear_rgb\&quot;:false,\&quot;composer_media_optimization_image_encode_quality\&quot;:75,\&quot;composer_media_optimization_debug_mode\&quot;:false,\&quot;composer_ios_media_optimisation_image_enabled\&quot;:false,\&quot;video_thumbnails_enabled\&quot;:true,\&quot;min_trust_level_to_allow_profile_background\&quot;:0,\&quot;min_trust_level_to_allow_user_card_background\&quot;:4,\&quot;min_trust_level_to_allow_ignore\&quot;:2,\&quot;tl1_requires_read_posts\&quot;:60,\&quot;tl3_links_no_follow\&quot;:false,\&quot;tl4_delete_posts_and_topics\&quot;:4,\&quot;enforce_second_factor\&quot;:\&quot;no\&quot;,\&quot;moderators_manage_categories_and_groups\&quot;:false,\&quot;moderators_change_post_ownership\&quot;:false,\&quot;moderators_view_emails\&quot;:false,\&quot;use_admin_ip_allowlist\&quot;:false,\&quot;allowed_iframes\&quot;:\&quot;https://www.google.com/maps/embed?|https://www.openstreetmap.org/export/embed.html?|https://calendar.google.com/calendar/embed?|https://codepen.io/|https://community.stage.ring.com/discobot/certificate.svg\&quot;,\&quot;can_permanently_delete\&quot;:false,\&quot;max_oneboxes_per_post\&quot;:50,\&quot;reviewable_claiming\&quot;:\&quot;disabled\&quot;,\&quot;reviewable_default_topics\&quot;:false,\&quot;reviewable_default_visibility\&quot;:\&quot;low\&quot;,\&quot;reviewable_revision_reasons\&quot;:\&quot;Duplicate|Does not meet posting guidelines\&quot;,\&quot;alert_admins_if_errors_per_minute\&quot;:0,\&quot;alert_admins_if_errors_per_hour\&quot;:0,\&quot;max_prints_per_hour_per_user\&quot;:5,\&quot;invite_link_max_redemptions_limit\&quot;:5000,\&quot;invite_link_max_redemptions_limit_users\&quot;:10,\&quot;max_allowed_secondary_emails\&quot;:10,\&quot;enable_chunked_encoding\&quot;:true,\&quot;long_polling_base_url\&quot;:\&quot;/\&quot;,\&quot;background_polling_interval\&quot;:60000,\&quot;polling_interval\&quot;:3000,\&quot;anon_polling_interval\&quot;:25000,\&quot;flush_timings_secs\&quot;:60,\&quot;verbose_localization\&quot;:false,\&quot;max_new_topics\&quot;:500,\&quot;enable_safe_mode\&quot;:true,\&quot;experimental_hashtag_search_result_limit\&quot;:20,\&quot;experimental_form_templates\&quot;:false,\&quot;experimental_new_new_view_groups\&quot;:\&quot;\&quot;,\&quot;experimental_glimmer_topic_list_groups\&quot;:\&quot;\&quot;,\&quot;enable_experimental_lightbox\&quot;:false,\&quot;experimental_topics_filter\&quot;:false,\&quot;glimmer_header_mode\&quot;:\&quot;auto\&quot;,\&quot;warn_critical_js_deprecations\&quot;:true,\&quot;warn_critical_js_deprecations_message\&quot;:\&quot;\&quot;,\&quot;navigation_menu\&quot;:\&quot;header dropdown\&quot;,\&quot;default_navigation_menu_categories\&quot;:\&quot;\&quot;,\&quot;default_navigation_menu_tags\&quot;:\&quot;\&quot;,\&quot;default_sidebar_switch_panel_position\&quot;:\&quot;bottom\&quot;,\&quot;tos_url\&quot;:\&quot;https://ring.com/terms\&quot;,\&quot;privacy_policy_url\&quot;:\&quot;https://ring.com/privacy\&quot;,\&quot;faq_url\&quot;:\&quot;https://support.ring.com/hc/en-us/articles/115004666066\&quot;,\&quot;enable_backups\&quot;:true,\&quot;backup_location\&quot;:\&quot;s3\&quot;,\&quot;maximum_backups\&quot;:3,\&quot;remove_older_backups\&quot;:\&quot;\&quot;,\&quot;include_s3_uploads_in_backups\&quot;:false,\&quot;use_pg_headlines_for_excerpt\&quot;:false,\&quot;min_search_term_length\&quot;:3,\&quot;log_search_queries\&quot;:true,\&quot;search_default_sort_order\&quot;:0,\&quot;version_checks\&quot;:false,\&quot;suppress_uncategorized_badge\&quot;:true,\&quot;header_dropdown_category_count\&quot;:8,\&quot;slug_generation_method\&quot;:\&quot;ascii\&quot;,\&quot;summary_timeline_button\&quot;:false,\&quot;summarization_strategy\&quot;:\&quot;\&quot;,\&quot;topic_views_heat_low\&quot;:1000,\&quot;topic_views_heat_medium\&quot;:2000,\&quot;topic_views_heat_high\&quot;:3500,\&quot;topic_post_like_heat_low\&quot;:0.5,\&quot;topic_post_like_heat_medium\&quot;:1.0,\&quot;topic_post_like_heat_high\&quot;:2.0,\&quot;history_hours_low\&quot;:12,\&quot;history_hours_medium\&quot;:24,\&quot;history_hours_high\&quot;:48,\&quot;cold_age_days_low\&quot;:14,\&quot;cold_age_days_medium\&quot;:90,\&quot;cold_age_days_high\&quot;:180,\&quot;global_notice\&quot;:\&quot;\&quot;,\&quot;general_category_id\&quot;:-1,\&quot;default_composer_category\&quot;:\&quot;\&quot;,\&quot;view_user_route\&quot;:\&quot;summary\&quot;,\&quot;admin_quick_start_topic_id\&quot;:9,\&quot;bootstrap_mode_min_users\&quot;:50,\&quot;bootstrap_mode_enabled\&quot;:false,\&quot;automatically_unpin_topics\&quot;:true,\&quot;read_time_word_count\&quot;:500,\&quot;topic_page_title_includes_category\&quot;:true,\&quot;enable_powered_by_discourse\&quot;:false,\&quot;penalty_include_post_message\&quot;:false,\&quot;svg_icon_subset\&quot;:\&quot;\&quot;,\&quot;allow_bulk_invite\&quot;:true,\&quot;show_category_definitions_in_topic_lists\&quot;:false,\&quot;use_polymorphic_bookmarks\&quot;:true,\&quot;suggest_weekends_in_date_pickers\&quot;:true,\&quot;disable_mailing_list_mode\&quot;:true,\&quot;default_topics_automatic_unpin\&quot;:false,\&quot;mute_all_categories_by_default\&quot;:false,\&quot;enable_offline_indicator\&quot;:false,\&quot;tagging_enabled\&quot;:true,\&quot;tag_style\&quot;:\&quot;box\&quot;,\&quot;max_tags_per_topic\&quot;:2,\&quot;enable_max_tags_per_email_subject\&quot;:false,\&quot;max_tags_per_email_subject\&quot;:5,\&quot;max_tag_length\&quot;:32,\&quot;min_trust_level_to_tag_topics\&quot;:0,\&quot;tag_topic_allowed_groups\&quot;:\&quot;1|2|10\&quot;,\&quot;max_tag_search_results\&quot;:5,\&quot;max_tags_in_filter_list\&quot;:30,\&quot;tags_sort_alphabetically\&quot;:false,\&quot;tags_listed_by_group\&quot;:false,\&quot;suppress_overlapping_tags_in_list\&quot;:false,\&quot;remove_muted_tags_from_latest\&quot;:\&quot;always\&quot;,\&quot;watched_precedence_over_muted\&quot;:false,\&quot;force_lowercase_tags\&quot;:true,\&quot;dashboard_hidden_reports\&quot;:\&quot;\&quot;,\&quot;dashboard_visible_tabs\&quot;:\&quot;moderation|security|reports|features\&quot;,\&quot;dashboard_general_tab_activity_metrics\&quot;:\&quot;page_view_total_reqs|visits|likes|flags|user_to_user_private_messages_with_replies\&quot;,\&quot;discourse_automation_enabled\&quot;:false,\&quot;chat_enabled\&quot;:false,\&quot;enable_public_channels\&quot;:true,\&quot;chat_threads_enabled\&quot;:false,\&quot;chat_channel_retention_days\&quot;:90,\&quot;chat_max_direct_message_users\&quot;:20,\&quot;chat_dm_retention_days\&quot;:0,\&quot;chat_allow_archiving_channels\&quot;:false,\&quot;chat_default_channel_id\&quot;:\&quot;\&quot;,\&quot;default_emoji_reactions\&quot;:\&quot;+1|heart|tada\&quot;,\&quot;chat_minimum_message_length\&quot;:1,\&quot;chat_maximum_message_length\&quot;:6000,\&quot;chat_allow_uploads\&quot;:true,\&quot;max_chat_auto_joined_users\&quot;:10000,\&quot;max_mentions_per_chat_message\&quot;:5,\&quot;chat_separate_sidebar_mode\&quot;:\&quot;never\&quot;,\&quot;chat_editing_grace_period\&quot;:30,\&quot;chat_editing_grace_period_max_diff_low_trust\&quot;:10,\&quot;chat_editing_grace_period_max_diff_high_trust\&quot;:40,\&quot;chat_preferred_mobile_index\&quot;:\&quot;channels\&quot;,\&quot;checklist_enabled\&quot;:true,\&quot;affiliate_enabled\&quot;:true,\&quot;affiliate_amazon_ca\&quot;:\&quot;\&quot;,\&quot;affiliate_amazon_cn\&quot;:\&quot;\&quot;,\&quot;affiliate_amazon_co_jp\&quot;:\&quot;\&quot;,\&quot;affiliate_amazon_co_uk\&quot;:\&quot;\&quot;,\&quot;affiliate_amazon_com\&quot;:\&quot;\&quot;,\&quot;affiliate_amazon_com_au\&quot;:\&quot;\&quot;,\&quot;affiliate_amazon_com_br\&quot;:\&quot;\&quot;,\&quot;affiliate_amazon_com_mx\&quot;:\&quot;\&quot;,\&quot;affiliate_amazon_de\&quot;:\&quot;\&quot;,\&quot;affiliate_amazon_es\&quot;:\&quot;\&quot;,\&quot;affiliate_amazon_fr\&quot;:\&quot;\&quot;,\&quot;affiliate_amazon_in\&quot;:\&quot;\&quot;,\&quot;affiliate_amazon_it\&quot;:\&quot;\&quot;,\&quot;affiliate_amazon_nl\&quot;:\&quot;\&quot;,\&quot;affiliate_ldlc_com\&quot;:\&quot;\&quot;,\&quot;assign_enabled\&quot;:true,\&quot;assigns_public\&quot;:false,\&quot;assigns_user_url_path\&quot;:\&quot;/u/{username}/activity/assigned\&quot;,\&quot;remind_assigns_frequency\&quot;:0,\&quot;pending_assign_reminder_threshold\&quot;:2,\&quot;max_assigned_topics\&quot;:10,\&quot;assign_allowed_on_groups\&quot;:\&quot;3\&quot;,\&quot;enable_assign_status\&quot;:false,\&quot;assign_statuses\&quot;:\&quot;New|In Progress|Done\&quot;,\&quot;cakeday_enabled\&quot;:true,\&quot;cakeday_emoji\&quot;:\&quot;cake\&quot;,\&quot;cakeday_birthday_enabled\&quot;:true,\&quot;cakeday_birthday_emoji\&quot;:\&quot;birthday\&quot;,\&quot;data_explorer_enabled\&quot;:true,\&quot;details_enabled\&quot;:true,\&quot;lazy_videos_enabled\&quot;:true,\&quot;lazy_youtube_enabled\&quot;:true,\&quot;lazy_vimeo_enabled\&quot;:true,\&quot;lazy_tiktok_enabled\&quot;:false,\&quot;discourse_local_dates_email_format\&quot;:\&quot;YYYY-MM-DDTHH:mm:ss[Z]\&quot;,\&quot;discourse_local_dates_enabled\&quot;:true,\&quot;discourse_local_dates_default_formats\&quot;:\&quot;LLL|LTS|LL|LLLL\&quot;,\&quot;discourse_local_dates_default_timezones\&quot;:\&quot;Europe/Paris|America/Los_Angeles\&quot;,\&quot;discourse_math_enabled\&quot;:false,\&quot;discourse_math_provider\&quot;:\&quot;mathjax\&quot;,\&quot;discourse_math_zoom_on_hover\&quot;:false,\&quot;discourse_math_enable_accessibility\&quot;:false,\&quot;discourse_math_enable_asciimath\&quot;:false,\&quot;discourse_narrative_bot_enabled\&quot;:true,\&quot;oauth2_enabled\&quot;:true,\&quot;oauth2_button_title\&quot;:\&quot;with OAuth2\&quot;,\&quot;presence_enabled\&quot;:true,\&quot;presence_max_users_shown\&quot;:5,\&quot;saved_searches_allowed_groups\&quot;:\&quot;14\&quot;,\&quot;max_saved_searches\&quot;:5,\&quot;signatures_enabled\&quot;:true,\&quot;signatures_advanced_mode\&quot;:false,\&quot;signatures_visible_by_default\&quot;:false,\&quot;solved_enabled\&quot;:true,\&quot;allow_solved_on_all_topics\&quot;:false,\&quot;accept_all_solutions_trust_level\&quot;:4,\&quot;empty_box_on_unsolved\&quot;:false,\&quot;show_filter_by_solved_status\&quot;:false,\&quot;discourse_templates_enabled\&quot;:true,\&quot;voting_enabled\&quot;:true,\&quot;voting_show_who_voted\&quot;:true,\&quot;voting_show_votes_on_profile\&quot;:true,\&quot;user_notes_enabled\&quot;:false,\&quot;enable_markdown_footnotes\&quot;:true,\&quot;display_footnotes_inline\&quot;:true,\&quot;hide_admin_customize_themes\&quot;:false,\&quot;hide_admin_customize_colors\&quot;:false,\&quot;poll_enabled\&quot;:true,\&quot;poll_maximum_options\&quot;:20,\&quot;poll_minimum_trust_level_to_create\&quot;:1,\&quot;poll_groupable_user_fields\&quot;:\&quot;\&quot;,\&quot;poll_export_data_explorer_query_id\&quot;:-16,\&quot;poll_default_public\&quot;:true,\&quot;spoiler_enabled\&quot;:true,\&quot;available_locales\&quot;:\&quot;[{\\\&quot;name\\\&quot;:\\\&quot;اللغة العربية\\\&quot;,\\\&quot;value\\\&quot;:\\\&quot;ar\\\&quot;},{\\\&quot;name\\\&quot;:\\\&quot;беларуская мова\\\&quot;,\\\&quot;value\\\&quot;:\\\&quot;be\\\&quot;},{\\\&quot;name\\\&quot;:\\\&quot;български език\\\&quot;,\\\&quot;value\\\&quot;:\\\&quot;bg\\\&quot;},{\\\&quot;name\\\&quot;:\\\&quot;bosanski jezik\\\&quot;,\\\&quot;value\\\&quot;:\\\&quot;bs_BA\\\&quot;},{\\\&quot;name\\\&quot;:\\\&quot;català\\\&quot;,\\\&quot;value\\\&quot;:\\\&quot;ca\\\&quot;},{\\\&quot;name\\\&quot;:\\\&quot;čeština\\\&quot;,\\\&quot;value\\\&quot;:\\\&quot;cs\\\&quot;},{\\\&quot;name\\\&quot;:\\\&quot;dansk\\\&quot;,\\\&quot;value\\\&quot;:\\\&quot;da\\\&quot;},{\\\&quot;name\\\&quot;:\\\&quot;Deutsch\\\&quot;,\\\&quot;value\\\&quot;:\\\&quot;de\\\&quot;},{\\\&quot;name\\\&quot;:\\\&quot;ελληνικά\\\&quot;,\\\&quot;value\\\&quot;:\\\&quot;el\\\&quot;},{\\\&quot;name\\\&quot;:\\\&quot;English (US)\\\&quot;,\\\&quot;value\\\&quot;:\\\&quot;en\\\&quot;},{\\\&quot;name\\\&quot;:\\\&quot;English (UK)\\\&quot;,\\\&quot;value\\\&quot;:\\\&quot;en_GB\\\&quot;},{\\\&quot;name\\\&quot;:\\\&quot;Español\\\&quot;,\\\&quot;value\\\&quot;:\\\&quot;es\\\&quot;},{\\\&quot;name\\\&quot;:\\\&quot;eesti\\\&quot;,\\\&quot;value\\\&quot;:\\\&quot;et\\\&quot;},{\\\&quot;name\\\&quot;:\\\&quot;فارسی\\\&quot;,\\\&quot;value\\\&quot;:\\\&quot;fa_IR\\\&quot;},{\\\&quot;name\\\&quot;:\\\&quot;suomi\\\&quot;,\\\&quot;value\\\&quot;:\\\&quot;fi\\\&quot;},{\\\&quot;name\\\&quot;:\\\&quot;Français\\\&quot;,\\\&quot;value\\\&quot;:\\\&quot;fr\\\&quot;},{\\\&quot;name\\\&quot;:\\\&quot;galego\\\&quot;,\\\&quot;value\\\&quot;:\\\&quot;gl\\\&quot;},{\\\&quot;name\\\&quot;:\\\&quot;עברית\\\&quot;,\\\&quot;value\\\&quot;:\\\&quot;he\\\&quot;},{\\\&quot;name\\\&quot;:\\\&quot;hrvatski jezik\\\&quot;,\\\&quot;value\\\&quot;:\\\&quot;hr\\\&quot;},{\\\&quot;name\\\&quot;:\\\&quot;magyar\\\&quot;,\\\&quot;value\\\&quot;:\\\&quot;hu\\\&quot;},{\\\&quot;name\\\&quot;:\\\&quot;Հայերեն\\\&quot;,\\\&quot;value\\\&quot;:\\\&quot;hy\\\&quot;},{\\\&quot;name\\\&quot;:\\\&quot;Indonesian\\\&quot;,\\\&quot;value\\\&quot;:\\\&quot;id\\\&quot;},{\\\&quot;name\\\&quot;:\\\&quot;Italiano\\\&quot;,\\\&quot;value\\\&quot;:\\\&quot;it\\\&quot;},{\\\&quot;name\\\&quot;:\\\&quot;日本語\\\&quot;,\\\&quot;value\\\&quot;:\\\&quot;ja\\\&quot;},{\\\&quot;name\\\&quot;:\\\&quot;한국어\\\&quot;,\\\&quot;value\\\&quot;:\\\&quot;ko\\\&quot;},{\\\&quot;name\\\&quot;:\\\&quot;lietuvių kalba\\\&quot;,\\\&quot;value\\\&quot;:\\\&quot;lt\\\&quot;},{\\\&quot;name\\\&quot;:\\\&quot;latviešu valoda\\\&quot;,\\\&quot;value\\\&quot;:\\\&quot;lv\\\&quot;},{\\\&quot;name\\\&quot;:\\\&quot;Norsk bokmål\\\&quot;,\\\&quot;value\\\&quot;:\\\&quot;nb_NO\\\&quot;},{\\\&quot;name\\\&quot;:\\\&quot;Nederlands\\\&quot;,\\\&quot;value\\\&quot;:\\\&quot;nl\\\&quot;},{\\\&quot;name\\\&quot;:\\\&quot;polski\\\&quot;,\\\&quot;value\\\&quot;:\\\&quot;pl_PL\\\&quot;},{\\\&quot;name\\\&quot;:\\\&quot;Português\\\&quot;,\\\&quot;value\\\&quot;:\\\&quot;pt\\\&quot;},{\\\&quot;name\\\&quot;:\\\&quot;Português (BR)\\\&quot;,\\\&quot;value\\\&quot;:\\\&quot;pt_BR\\\&quot;},{\\\&quot;name\\\&quot;:\\\&quot;limba română\\\&quot;,\\\&quot;value\\\&quot;:\\\&quot;ro\\\&quot;},{\\\&quot;name\\\&quot;:\\\&quot;Русский\\\&quot;,\\\&quot;value\\\&quot;:\\\&quot;ru\\\&quot;},{\\\&quot;name\\\&quot;:\\\&quot;slovenčina\\\&quot;,\\\&quot;value\\\&quot;:\\\&quot;sk\\\&quot;},{\\\&quot;name\\\&quot;:\\\&quot;slovenščina\\\&quot;,\\\&quot;value\\\&quot;:\\\&quot;sl\\\&quot;},{\\\&quot;name\\\&quot;:\\\&quot;Shqip\\\&quot;,\\\&quot;value\\\&quot;:\\\&quot;sq\\\&quot;},{\\\&quot;name\\\&quot;:\\\&quot;српски језик\\\&quot;,\\\&quot;value\\\&quot;:\\\&quot;sr\\\&quot;},{\\\&quot;name\\\&quot;:\\\&quot;svenska\\\&quot;,\\\&quot;value\\\&quot;:\\\&quot;sv\\\&quot;},{\\\&quot;name\\\&quot;:\\\&quot;Kiswahili\\\&quot;,\\\&quot;value\\\&quot;:\\\&quot;sw\\\&quot;},{\\\&quot;name\\\&quot;:\\\&quot;తెలుగు\\\&quot;,\\\&quot;value\\\&quot;:\\\&quot;te\\\&quot;},{\\\&quot;name\\\&quot;:\\\&quot;ไทย\\\&quot;,\\\&quot;value\\\&quot;:\\\&quot;th\\\&quot;},{\\\&quot;name\\\&quot;:\\\&quot;Türkçe\\\&quot;,\\\&quot;value\\\&quot;:\\\&quot;tr_TR\\\&quot;},{\\\&quot;name\\\&quot;:\\\&quot;ئۇيغۇرچە\\\&quot;,\\\&quot;value\\\&quot;:\\\&quot;ug\\\&quot;},{\\\&quot;name\\\&quot;:\\\&quot;українська мова\\\&quot;,\\\&quot;value\\\&quot;:\\\&quot;uk\\\&quot;},{\\\&quot;name\\\&quot;:\\\&quot;اردو\\\&quot;,\\\&quot;value\\\&quot;:\\\&quot;ur\\\&quot;},{\\\&quot;name\\\&quot;:\\\&quot;tiếng Việt\\\&quot;,\\\&quot;value\\\&quot;:\\\&quot;vi\\\&quot;},{\\\&quot;name\\\&quot;:\\\&quot;简体中文\\\&quot;,\\\&quot;value\\\&quot;:\\\&quot;zh_CN\\\&quot;},{\\\&quot;name\\\&quot;:\\\&quot;繁體中文\\\&quot;,\\\&quot;value\\\&quot;:\\\&quot;zh_TW\\\&quot;}]\&quot;,\&quot;require_invite_code\&quot;:false,\&quot;site_logo_url\&quot;:\&quot;https://d3h4o2ol298pf7.cloudfront.net/original/2X/1/1596c9540fafa2a31ec49e4e7edf563c8f8b48fb.svg\&quot;,\&quot;site_logo_small_url\&quot;:\&quot;https://d3h4o2ol298pf7.cloudfront.net/original/2X/1/1596c9540fafa2a31ec49e4e7edf563c8f8b48fb.svg\&quot;,\&quot;site_mobile_logo_url\&quot;:\&quot;https://d3h4o2ol298pf7.cloudfront.net/original/2X/1/1596c9540fafa2a31ec49e4e7edf563c8f8b48fb.svg\&quot;,\&quot;site_favicon_url\&quot;:\&quot;https://d3h4o2ol298pf7.cloudfront.net/optimized/2X/e/e0742e0739eb584c19b6c58e39cc252502222e41_2_32x32.svg\&quot;,\&quot;site_logo_dark_url\&quot;:\&quot;\&quot;,\&quot;site_logo_small_dark_url\&quot;:\&quot;\&quot;,\&quot;site_mobile_logo_dark_url\&quot;:\&quot;\&quot;}&quot;,&quot;customHTML&quot;:&quot;{\&quot;top\&quot;:\&quot;\&quot;,\&quot;footer\&quot;:\&quot;\&quot;}&quot;,&quot;banner&quot;:&quot;{}&quot;,&quot;customEmoji&quot;:&quot;[]&quot;,&quot;isReadOnly&quot;:&quot;false&quot;,&quot;isStaffWritesOnly&quot;:&quot;false&quot;,&quot;activatedThemes&quot;:&quot;{\&quot;3\&quot;:\&quot;discourse-ring-theme\&quot;}&quot;}"></div>
+      </discourse-assets-json>
+      <discourse-assets-icons></discourse-assets-icons>
+    </discourse-assets>
+
+      
+
+    
+    <noscript data-path="/login">
+      
+        <header>
+  <a href="/">
+    Ring Community
+  </a>
+</header>
+
+
+        <div id="main-outlet" class="wrap" role="main">
+          <!-- preload-content: -->
+            <picture class="logo-container">
+    <img src="https://d3h4o2ol298pf7.cloudfront.net/original/2X/1/1596c9540fafa2a31ec49e4e7edf563c8f8b48fb.svg" alt="Ring Community" class="site-logo" />
+  </picture>
+
+<div class='login-welcome__title'>
+  <h1><a name="welcome-to-ring-communitywelcome-1" class="anchor" href="#welcome-to-ring-communitywelcome-1"></a><a href="#welcome">Welcome to Ring Community</a></h1>
+
+  <p class='login-welcome__description'></p>
+</div>
+
+
+
+          <!-- :preload-content -->
+        </div>
+
+        <footer class="container wrap">
+  <nav class='crawler-nav'>
+    <ul>
+      <li itemscope itemtype='http://schema.org/SiteNavigationElement'>
+        <span itemprop='name'>
+          <a href='/' itemprop="url">Home </a>
+        </span>
+      </li>
+      <li itemscope itemtype='http://schema.org/SiteNavigationElement'>
+        <span itemprop='name'>
+          <a href='/categories' itemprop="url">Categories </a>
+        </span>
+      </li>
+      <li itemscope itemtype='http://schema.org/SiteNavigationElement'>
+        <span itemprop='name'>
+          <a href='/guidelines' itemprop="url">FAQ/Guidelines </a>
+        </span>
+      </li>
+        <li itemscope itemtype='http://schema.org/SiteNavigationElement'>
+          <span itemprop='name'>
+            <a href='https://ring.com/terms' itemprop="url">Terms of Service </a>
+          </span>
+        </li>
+        <li itemscope itemtype='http://schema.org/SiteNavigationElement'>
+          <span itemprop='name'>
+            <a href='https://ring.com/privacy' itemprop="url">Privacy Policy </a>
+          </span>
+        </li>
+    </ul>
+  </nav>
+  <p class='powered-by-link'>Powered by <a href="https://www.discourse.org">Discourse</a>, best viewed with JavaScript enabled</p>
+</footer>
+
+    </noscript>
+
+      
+
+      
+
+    <section id='main'>
+    </section>
+
+      <form id='hidden-login-form' method="post" action="/login" style="display: none;">
+        <input name="username" type="text"     id="signin_username">
+        <input name="password" type="password" id="signin_password">
+        <input name="redirect" type="hidden">
+        <input type="submit" id="signin-button" value="Log In">
+      </form>
+
+    <script defer src="https://d3h4o2ol298pf7.cloudfront.net/assets/start-discourse-9f921142b762fb91207051d0a28e571b9455bab74e7d0e03726024c286cff8d5.gz.js" nonce="SUjDh8eg8pxdyOmxL6dx8pyGy"></script>
+
+    
+
+    <script defer src="https://d3h4o2ol298pf7.cloudfront.net/assets/browser-update-9070f07226d022f68c06506e046ae33f8fe725302ff53955cd3d483f2fc47ff6.gz.js" nonce="SUjDh8eg8pxdyOmxL6dx8pyGy"></script>
+
+      
+
+      
+
+    <script nonce="SUjDh8eg8pxdyOmxL6dx8pyGy">/* Workaround for https://bugs.webkit.org/show_bug.cgi?id=209261 */</script>
+  </body>
+</html>
+
+0
+
+
+
+
+https://community.stage.ring.com

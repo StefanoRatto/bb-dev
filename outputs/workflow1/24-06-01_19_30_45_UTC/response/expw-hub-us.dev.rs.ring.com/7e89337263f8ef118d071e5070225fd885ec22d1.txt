@@ -1,0 +1,143 @@
+GET / HTTP/1.1
+Host: expw-hub-us.dev.rs.ring.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0: Win64: x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 200 OK
+Connection: close
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=utf-8
+Date: Sat, 01 Jun 2024 19:40:14 GMT
+Z-Tx-Id: AC10046E665B791E71C636F7A8
+
+18c7
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <title>Jimmies expw - Login</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"/>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/x-editable/1.5.0/bootstrap3-editable/css/bootstrap-editable.css"/>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"/>
+        <link rel="stylesheet" href="/ui/css/styles.css"/>
+        <link rel="shortcut icon" href="/ui/favicon.ico">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.20.1/moment.min.js"></script>
+        <script src="//cdnjs.cloudflare.com/ajax/libs/x-editable/1.5.0/bootstrap3-editable/js/bootstrap-editable.min.js"></script>
+    </head>
+    <body class="login">
+        <nav class="navbar navbar-inverse navbar-static-top navbar-expw">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar"></button>
+                    <img class="icon" src="/ui/icon.png" />
+                    <a class="navbar-brand" href="/ui">Jimmies <small>expw</small></a>
+                </div>
+                <div id="navbar" class="navbar-collapse collapse">
+                    <ul class="nav navbar-nav">
+                        <li ><a href="/ui/boards">Boards</a></li>
+                        <li ><a href="/ui/access">Access</a></li>
+                        <li ><a href="/ui/scripts">Scripts</a></li>
+                        <li ><a href="/ui/api">API</a></li>
+                    </ul>
+                    
+                    
+                        <form class="navbar-form navbar-nav navbar-right" role="search" method="GET" action="/ui/boards">
+                            <div class="input-group">
+                                
+                                <div class="input-group-addon spacer"></div>
+                                <input class="form-control search" type="text" name="q" value="" placeholder="Search..." />
+                                <div class="input-group-btn">
+                                    <button class="btn btn-default" type="submit">
+                                        <i class="fa fa-fw fa-search"></i>
+                                    </button>
+                                </div>
+                            </div>
+                        </form>
+                    
+                </div>
+            </div>
+        </nav>
+        <div class="container">
+            
+<div class="container">
+    <div class="row">
+        <div class="col-md-4 col-md-offset-4 text-center panel">
+            <h1>Jimmies <small class="text-muted">expw</small></h1>
+            <p class="lead">Please Sign In</p>
+            <p class="small text-muted text-danger"></p>
+            <p class="small text-muted">You'll be redirected</p>
+            <br/>
+            <br/>
+            <br/>
+            <a class="btn btn-primary btn-lg" href="https://ring.okta.com/oauth2/v1/authorize?client_id=0oa60ee7ojxen7M4l1t7&amp;redirect_uri=https%3A%2F%2Fexpw-jimmies-us.dev.rs.ring.com%2Fui%2Foauth&amp;response_type=code&amp;scope=openid&#43;email&#43;profile&#43;groups&#43;offline_access&amp;state=%252Fui%252Flogin%253Fnext%253D%25252Fui%25252F">Log In</a>
+        </div>
+    </div>
+</div>
+
+        </div>
+        <script>
+            function registerCopyButtons() {
+                $('[data-copy]').click(function () {
+                    var $temp = $("<textarea>");
+                    $("body").append($temp);
+                    $temp.val($($(this).data('copy')).text()).select();
+                    document.execCommand("copy");
+                    $temp.remove();
+                    $(this).removeClass(['btn-default', 'btn-primary', 'btn-success', 'btn-info', 'btn-warning', 'btn-danger']);
+                    $(this).addClass('btn-default');
+                });
+            }
+            var autoSearchEnabled = true;
+            $(document).ready(function(){
+                $('[data-toggle="popover"]').popover();
+                registerCopyButtons();
+                $('[data-toggle="tooltip"]').tooltip();
+                $('.time').each(function() {
+                    
+                    $(this).text(moment($(this).text(), "YYYY-MM-DD HH:mm:ss Z").fromNow());
+                });
+                $('.search-field').change(function() {
+                    autoSearchEnabled = false;
+                });
+                var search = $('.search');
+                search.keydown(function(event) {
+                    if (event.originalEvent.key === "Clear") {
+                        $(this).val('');
+                    }
+                });
+                search.keyup(function(event) {
+                    if (autoSearchEnabled) {
+                        var val = $(this).val();
+                        if (/^BHP[KEAUN]/.test(val)) {
+                            $('.search-field').val('kitID');
+                        } else if (/^BHB.[0-9]{4,5}[A-Z]{2}.[0-9]{5}$/.test(val)) {
+                            $('.search-field').val('serialnumber');
+                        } else if (/^RB.{15}$/.test(val)) {
+                            $('.search-field').val('serialnumber');
+                        } else if (/^\d{3,9}$/.test(val)) {
+                            $('.search-field').val('serial');
+                        } else if (/^[A-Za-z]{3}w$/.test(val)) {
+                            $('.search-field').val('world');
+                        } else if (/^(rnd|int|exp|prd|ppd|stg|lod|stx|pst)$/.test(val)) {
+                            $('.search-field').val('pod');
+                        } else {
+                            $('.search-field').val('');
+                        }
+                    }
+                });
+                search.focus();
+            });
+        </script>
+    </body>
+</html>
+
+0
+
+
+
+
+http://expw-hub-us.dev.rs.ring.com

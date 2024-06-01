@@ -12,16 +12,18 @@ timestamp=$($home/now.sh)
 nuclei -ut -silent
 
 # output directory is created
-output_folder=$home/output/workflow1/$timestamp
-mkdir $output_folder
+output_folder=$home/outputs/workflow1/$timestamp
+if ! [ -d $output_folder ]; then
+  mkdir $output_folder
+fi
 
 # confirmation that the script started
-echo "[$timestamp] workflow1.sh started at $output_folder"
+echo "[$timestamp] workflow1.sh started at:   $output_folder"
 
 # loop over programs/scopes
-# all programs scope files with name starting with "urls" are processed
-# all programs scope files with name starting with "_" are ignored
-input_folder=$home/input/
+# all programs scope files with name starting with "urls_" are processed
+# all programs scope files with name starting with "_urls_" are ignored
+input_folder=$home/inputs/
 
 for file in "$input_folder"/*; do
   if [ -f "$file" ]; then
@@ -50,12 +52,12 @@ for file in "$input_folder"/*; do
       elif [[ "$filename" == _urls* ]]; then
         # skips "_urls" input files 
         #echo "SKIPPED:  $filename"
-        sleep 1
+        :
       fi
     else
       # ignores non-text files
       #echo "IGNORED:  $filename"
-      sleep 1
+      :
     fi
   fi
 done
@@ -67,4 +69,4 @@ done
 #aaa
 
 # confirmation that the script completed successfully
-echo "[$timestamp] workflow1.sh completed at $output_folder"
+echo "[$timestamp] workflow1.sh completed at: $output_folder"

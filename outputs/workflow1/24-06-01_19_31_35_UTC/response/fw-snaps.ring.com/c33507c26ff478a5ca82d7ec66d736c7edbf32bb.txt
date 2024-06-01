@@ -1,0 +1,18 @@
+GET / HTTP/1.1
+Host: fw-snaps.ring.com
+User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64; rv:52.0) Gecko/20100101 Firefox/52.0
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 404 Not Found
+Connection: close
+Content-Length: 40
+Content-Type: application/json; charset=utf-8
+Date: Sat, 01 Jun 2024 19:41:37 GMT
+Server: awselb/2.0
+
+{"error":"Not Found","status_code":404}
+
+
+
+https://fw-snaps.ring.com

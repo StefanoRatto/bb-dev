@@ -1,0 +1,18 @@
+GET / HTTP/1.1
+Host: map-service.dev.ring.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0; rv:57.0) Gecko/20100101 Firefox/57.0
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 404 Not Found
+Connection: close
+Content-Length: 19
+Content-Type: text/plain; charset=utf-8
+Date: Sat, 01 Jun 2024 19:41:25 GMT
+X-Content-Type-Options: nosniff
+
+404 page not found
+
+
+
+https://map-service.dev.ring.com

@@ -1,0 +1,19 @@
+GET / HTTP/1.1
+Host: tprs.dev.ring.com
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/113.0
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Content-Length: 42
+Content-Type: application/json
+Date: Sat, 01 Jun 2024 19:43:56 GMT
+X-Amz-Apigw-Id: Ys__fHYKCYcEC4A=
+X-Amzn-Errortype: MissingAuthenticationTokenException
+X-Amzn-Requestid: cb24cca1-28fb-4314-9893-c247a5a78b63
+
+{"message":"Missing Authentication Token"}
+
+
+https://tprs.dev.ring.com

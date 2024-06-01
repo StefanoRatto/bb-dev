@@ -1,0 +1,16 @@
+GET / HTTP/1.1
+Host: comments-api.dev.ring.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.5 Safari/605.1.15 Ddg/15.8
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 404 Not Found
+Connection: close
+Date: Sat, 01 Jun 2024 19:40:16 GMT
+Server: awselb/2.0
+Content-Length: 0
+
+
+
+
+https://comments-api.dev.ring.com

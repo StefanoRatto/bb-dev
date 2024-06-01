@@ -1,0 +1,27 @@
+GET / HTTP/1.1
+Host: share.ring.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/11.1.2 Safari/605.1.15
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Transfer-Encoding: chunked
+Content-Type: application/xml
+Date: Sat, 01 Jun 2024 19:43:31 GMT
+Server: AmazonS3
+Via: 1.1 f4cb5dc388dd91aa43ce5b333fc7c7c2.cloudfront.net (CloudFront)
+X-Amz-Bucket-Region: us-east-1
+X-Amz-Cf-Id: D49VUGiTLR34UxFdRgoUS03dT0zhbv_pfjy6ZBIEESGVHULgAXuZtQ==
+X-Amz-Cf-Pop: IAD79-C2
+X-Cache: Error from cloudfront
+
+113
+<?xml version="1.0" encoding="UTF-8"?>
+<Error><Code>AccessDenied</Code><Message>Access Denied</Message><RequestId>G0YD4T5RFB9X6H4D</RequestId><HostId>7gYLSwglKamjEiHuwWvDCuS9WTXZf6EM4TCOB3C2RdYSe1TUI11ptudxnabbYAV6kXyL5aaWmztwUXoE9CwB83oDIEP5fl+y3LquOS+J+UE=</HostId></Error>
+0
+
+
+
+
+https://share.ring.com

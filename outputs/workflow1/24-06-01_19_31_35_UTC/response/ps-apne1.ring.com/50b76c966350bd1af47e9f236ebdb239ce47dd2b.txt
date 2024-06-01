@@ -1,0 +1,18 @@
+GET / HTTP/1.1
+Host: ps-apne1.ring.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36 Edg/95.0.1020.44
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 404 Not Found
+Connection: close
+Content-Length: 40
+Content-Type: application/json; charset=utf-8
+Date: Sat, 01 Jun 2024 19:43:02 GMT
+Server: awselb/2.0
+
+{"error":"Not Found","status_code":404}
+
+
+
+https://ps-apne1.ring.com

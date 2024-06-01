@@ -1,0 +1,18 @@
+GET / HTTP/1.1
+Host: gql.neighbors.qa.ring.com
+User-Agent: Mozilla/5.0 (X11; CrOS x86_64 15240.0.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 404 Not Found
+Connection: close
+Content-Length: 19
+Content-Type: text/plain; charset=utf-8
+Date: Sat, 01 Jun 2024 19:40:47 GMT
+X-Content-Type-Options: nosniff
+
+404 page not found
+
+
+
+https://gql.neighbors.qa.ring.com

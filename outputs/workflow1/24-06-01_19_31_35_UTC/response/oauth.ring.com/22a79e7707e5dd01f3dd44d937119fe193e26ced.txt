@@ -1,0 +1,19 @@
+GET / HTTP/1.1
+Host: oauth.ring.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 14_1) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.1 Safari/605.1.15
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 404 Not Found
+Connection: close
+Content-Length: 18
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 88d1b0631b192430-IAD
+Content-Type: text/plain; charset=utf-8
+Date: Sat, 01 Jun 2024 19:42:48 GMT
+Server: cloudflare
+
+404 page not found
+
+
+https://oauth.ring.com

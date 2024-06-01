@@ -1,0 +1,31 @@
+GET / HTTP/1.1
+Host: rc3.qa.ring.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.6.1 Safari/605.1.15
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 200 OK
+Connection: close
+Content-Length: 655
+Accept-Ranges: bytes
+Age: 500
+Content-Security-Policy: upgrade-insecure-requests; block-all-mixed-content; connect-src 'self' https://participant.connect.us-east-1.amazonaws.com wss://*.transport.connect.us-east-1.amazonaws.com https://ring-cs-qa.my.connect.aws https://ring-cs-qa-org-merge.my.connect.aws https://ring-prod-conn.awsapps.com https://ring.okta.com; default-src 'self'; img-src 'self' blob: data:; font-src 'self' data:; script-src 'self' 'sha256-8PJuilRnedH5jtd39s1lzIrOB3dTnPSAJ0jUPCS2Yro=' https://cdn.kustomerapp.com; style-src 'self' 'unsafe-inline'; object-src 'none'; worker-src 'self' blob:; frame-src https://dashboard.ring.com https://admin.ring.com https://ring-cs-qa.my.connect.aws https://ring-cs-qa-org-merge.my.connect.aws https://ring-prod-conn.awsapps.com https://ring.okta.com; frame-ancestors https://ringcs--dev.sandbox.lightning.force.com https://ringcs--qa.sandbox.lightning.force.com https:// ringcs--uat.sandbox.lightning.force.com https://zzz-ring-sandbox.kustomerapp.com https://blinkforhome-sandbox.kustomerapp.com https://ring.com https://*.ring.com; base-uri 'none'
+Content-Type: text/html
+Date: Sat, 01 Jun 2024 19:34:57 GMT
+Etag: "a27b50839298bc31ab024156a4780b4d"
+Last-Modified: Fri, 24 May 2024 22:41:19 GMT
+Referrer-Policy: strict-origin-when-cross-origin
+Server: AmazonS3
+Strict-Transport-Security: max-age=31536000
+Vary: Accept-Encoding
+Via: 1.1 f672414ac3f5fcc589dd2a6d8cdee8be.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: y_2MKFk0kPNMRDmBSX8cn2l653xydNue8aONRnn-DNImOa9msEsnVw==
+X-Amz-Cf-Pop: IAD79-C2
+X-Amz-Server-Side-Encryption: AES256
+X-Cache: Hit from cloudfront
+X-Content-Type-Options: nosniff
+
+<!doctype html><html lang="en"><head><link rel="stylesheet" href="/index.55b3c9ab.css"><script src="/index.ac47ddff.js"></script><meta charset="utf-8"><link rel="icon" href="/favicon.e6f08fdd.ico"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="theme-color" content="#000000"><meta name="description" content="Ring Custom Chat & Call (RC3)"><meta name="robots" content="noindex, nofollow"><title>Amazon Connect - Ring CS</title></head><body> <noscript>You need to enable JavaScript to run this app.</noscript> <div id="root"></div> <div id="print-root"></div> <script src="/index.5fdb1491.js" defer></script> </body></html>
+
+
+https://rc3.qa.ring.com

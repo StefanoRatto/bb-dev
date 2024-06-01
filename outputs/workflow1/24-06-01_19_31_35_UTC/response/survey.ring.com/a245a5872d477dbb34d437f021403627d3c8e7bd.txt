@@ -1,0 +1,30 @@
+GET / HTTP/1.1
+Host: survey.ring.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Content-Length: 369
+Content-Type: text/html
+Date: Sat, 01 Jun 2024 19:43:51 GMT
+Expires: Sat, 01 Jun 2024 19:43:51 GMT
+Mime-Version: 1.0
+Server: AkamaiGHost
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+
+<HTML><HEAD>
+<TITLE>Access Denied</TITLE>
+</HEAD><BODY>
+<H1>Access Denied</H1>
+ 
+You don't have permission to access "http&#58;&#47;&#47;survey&#46;ring&#46;com&#47;" on this server.<P>
+Reference&#32;&#35;18&#46;af24c317&#46;1717271031&#46;28814701
+<P>https&#58;&#47;&#47;errors&#46;edgesuite&#46;net&#47;18&#46;af24c317&#46;1717271031&#46;28814701</P>
+</BODY>
+</HTML>
+
+
+
+https://survey.ring.com

@@ -1,0 +1,31 @@
+GET / HTTP/1.1
+Host: nps-assets.ring.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36 Edg/96.0.1054.43
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Transfer-Encoding: chunked
+Content-Type: application/xml
+Date: Sat, 01 Jun 2024 19:42:30 GMT
+Referrer-Policy: strict-origin-when-cross-origin
+Server: AmazonS3
+Strict-Transport-Security: max-age=31536000
+Via: 1.1 5035c434ac92f0eed9f2b400824fa6e8.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: H44uOJoqXd4qvqMOEUCKv_fA1AEZEsN0VtpGIAJBGMQdV2nome3nqw==
+X-Amz-Cf-Pop: IAD89-P2
+X-Cache: Error from cloudfront
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-Xss-Protection: 1; mode=block
+
+f3
+<?xml version="1.0" encoding="UTF-8"?>
+<Error><Code>AccessDenied</Code><Message>Access Denied</Message><RequestId>A0183RBECSWAZ6VS</RequestId><HostId>HDEiBCG1l6AqA8LbsgKuvKHdGD5+NvDC7Aczdibu7UMzttyfwRY5rlIlI3GXiuttFC9GOh3GJq8=</HostId></Error>
+0
+
+
+
+
+http://nps-assets.ring.com

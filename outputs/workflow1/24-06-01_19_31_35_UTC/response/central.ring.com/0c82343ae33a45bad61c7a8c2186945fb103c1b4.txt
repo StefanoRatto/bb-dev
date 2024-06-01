@@ -1,0 +1,27 @@
+GET / HTTP/1.1
+Host: central.ring.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/11.1.2 Safari/605.1.15
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 200 OK
+Connection: close
+Content-Length: 143
+Accept-Ranges: bytes
+Cache-Control: max-age=600, must-revalidate
+Content-Type: text/html; charset=UTF-8
+Date: Sat, 01 Jun 2024 19:40:11 GMT
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Pragma: no-cache
+Server: nginx
+Vary: Accept-Encoding
+Vary: Accept-Encoding,Cookie
+X-Cache: HIT: 4
+X-Cache-Group: normal
+X-Cacheable: SHORT
+X-Powered-By: WP Engine
+
+<script>window.location.href='https://central.ring.com/?option=saml_user_login&redirect_to='+encodeURIComponent(window.location.href);</script>
+
+
+http://central.ring.com

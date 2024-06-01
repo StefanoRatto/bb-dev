@@ -1,0 +1,27 @@
+GET / HTTP/1.1
+Host: engagement-suite.cs-tools.qa.ring.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.5 Safari/605.1.15
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 200 OK
+Connection: close
+Content-Length: 294
+Accept-Ranges: bytes
+Age: 506
+Content-Type: text/html
+Date: Sat, 01 Jun 2024 19:32:36 GMT
+Etag: "704c082d61dfe9734bb2c5959f211ad0"
+Last-Modified: Mon, 06 May 2024 17:06:50 GMT
+Server: AmazonS3
+Vary: Accept-Encoding
+Via: 1.1 1dfba6c05648522e13059c944a28466e.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: 0ysSmYqxOPUxJfp8rYzxtQ916-j2Iqg514jz7-Uki2ARHKm30eSiJg==
+X-Amz-Cf-Pop: IAD55-P3
+X-Amz-Server-Side-Encryption: AES256
+X-Cache: Hit from cloudfront
+
+<!doctype html><html><head><link rel="stylesheet" href="/index.a55930b0.css"><meta charset="utf-8"></head><body> <noscript>You need to enable JavaScript to run this app.</noscript> <div id="root"></div> <div id="print-root"></div> <script src="/index.a7135487.js" defer></script> </body></html>
+
+
+https://engagement-suite.cs-tools.qa.ring.com

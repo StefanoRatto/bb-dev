@@ -1,0 +1,214 @@
+GET / HTTP/1.1
+Host: videorequests.nw.dev.ring.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/119.0
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 200 OK
+Connection: close
+Transfer-Encoding: chunked
+Age: 74959
+Content-Security-Policy-Report-Only: default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://*.ring.com https://*.auryc.com https://*.contentful.com https://*.heapanalytics.com; script-src-elem 'self' 'unsafe-inline' https://*.ring.com https://ring.com https://*.auryc.com https://*.contentful.com https://*.heapanalytics.com https://*.cloudfront.net/; style-src 'self' https://*.ring.com/ https://*.cloudfront.net/; style-src-elem 'self' 'unsafe-inline' https://*.ring.com/ https://*.cloudfront.net/; style-src-attr 'self' 'unsafe-inline'; img-src 'self' blob: data: https://*.ring.com/ https://ring.widen.net/ https://*.cloudfront.net/ https://images.ctfassets.net/ https://heapanalytics.com https://pet-profiles-prod.s3.amazonaws.com; font-src 'self' https://*.ring.com/ https://*.auryc.com https://fonts.gstatic.com; connect-src 'self' https://*.ring.com/ https://ring.com https://*.heapanalytics.com/ https://*.cloudfront.net/ https://*.mapbox.com/ https://*.amazon.com https://*.contentful.com https://*.execute-api.us-east-1.amazonaws.com/ https://*.auryc.com/; media-src 'self' https://videos.ctfassets.net/ https://*.ring.com https://*.amazonaws.com; child-src 'self' blob:; frame-src https://*.ring.com; worker-src 'self' blob:;
+Content-Type: text/html
+Date: Fri, 31 May 2024 22:53:58 GMT
+Etag: W/"2cdd5f30030786fcaf3b69bb0a8c1f08"
+Last-Modified: Fri, 31 May 2024 22:49:32 GMT
+Permissions-Policy: interest-cohort=()
+Server: AmazonS3
+Vary: Accept-Encoding
+Via: 1.1 46aba6b15045c2b494b2c260627fbfda.cloudfront.net (CloudFront), 1.1 b69ecbb6800ade3c34d3338365df5612.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: h1BYSg7HLjYVftQDTwYhRflx6nrBNcMTDdBi_1GWNUpEhBXQlLuZcg==
+X-Amz-Cf-Pop: IAD89-C2
+X-Amz-Cf-Pop: IAD61-P2
+X-Amz-Server-Side-Encryption: AES256
+X-Cache: Miss from cloudfront
+
+2acd
+<!doctype html><html><head><meta charset="utf-8"/><meta name="viewport" content="width=device-width,initial-scale=1"/><title>Ring Neighbors</title><link rel="preload" href="/assets/fonts/Equip-BoldItalic.woff2" as="font" type="font/woff2" crossorigin/><link rel="preload" href="/assets/fonts/Equip-Bold.woff2" as="font" type="font/woff2" crossorigin/><link rel="preload" href="/assets/fonts/Equip-Italic.woff2" as="font" type="font/woff2" crossorigin/><link rel="preload" href="/assets/fonts/Equip-Light.woff2" as="font" type="font/woff2" crossorigin/><link rel="preload" href="/assets/fonts/Equip-LightItalic.woff2" as="font" type="font/woff2" crossorigin/><link rel="preload" href="/assets/fonts/Equip-Medium.woff2" as="font" type="font/woff2" crossorigin/><link rel="preload" href="/assets/fonts/Equip-MediumItalic.woff2" as="font" type="font/woff2" crossorigin/><link rel="preload" href="/assets/fonts/Equip-Regular.woff2" as="font" type="font/woff2" crossorigin/><link rel="preload" href="/assets/fonts/Equip-BoldItalic.eot" as="font" type="font/eot" crossorigin/><link rel="preload" href="/assets/fonts/Equip-Bold.eot" as="font" type="font/eot" crossorigin/><link rel="preload" href="/assets/fonts/Equip-Italic.eot" as="font" type="font/eot" crossorigin/><link rel="preload" href="/assets/fonts/Equip-Light.eot" as="font" type="font/eot" crossorigin/><link rel="preload" href="/assets/fonts/Equip-LightItalic.eot" as="font" type="font/eot" crossorigin/><link rel="preload" href="/assets/fonts/Equip-Medium.eot" as="font" type="font/eot" crossorigin/><link rel="preload" href="/assets/fonts/Equip-MediumItalic.eot" as="font" type="font/eot" crossorigin/><link rel="preload" href="/assets/fonts/Equip-Regular.eot" as="font" type="font/eot" crossorigin/><link rel="preload" href="/assets/fonts/Equip-BoldItalic.woff" as="font" type="font/woff" crossorigin/><link rel="preload" href="/assets/fonts/Equip-Bold.woff" as="font" type="font/woff" crossorigin/><link rel="preload" href="/assets/fonts/Equip-Italic.woff" as="font" type="font/woff" crossorigin/><link rel="preload" href="/assets/fonts/Equip-Light.woff" as="font" type="font/woff" crossorigin/><link rel="preload" href="/assets/fonts/Equip-LightItalic.woff" as="font" type="font/woff" crossorigin/><link rel="preload" href="/assets/fonts/Equip-Medium.woff" as="font" type="font/woff" crossorigin/><link rel="preload" href="/assets/fonts/Equip-MediumItalic.woff" as="font" type="font/woff" crossorigin/><link rel="preload" href="/assets/fonts/Equip-Regular.woff" as="font" type="font/woff" crossorigin/><link rel="preload" href="/assets/fonts/Equip-BoldItalic.ttf" as="font" type="font/ttf" crossorigin/><link rel="preload" href="/assets/fonts/Equip-Bold.ttf" as="font" type="font/ttf" crossorigin/><link rel="preload" href="/assets/fonts/Equip-Italic.ttf" as="font" type="font/ttf" crossorigin/><link rel="preload" href="/assets/fonts/Equip-Light.ttf" as="font" type="font/ttf" crossorigin/><link rel="preload" href="/assets/fonts/Equip-LightItalic.ttf" as="font" type="font/ttf" crossorigin/><link rel="preload" href="/assets/fonts/Equip-Medium.ttf" as="font" type="font/ttf" crossorigin/><link rel="preload" href="/assets/fonts/Equip-MediumItalic.ttf" as="font" type="font/ttf" crossorigin/><link rel="preload" href="/assets/fonts/Equip-Regular.ttf" as="font" type="font/ttf" crossorigin/><link rel="preconnect" href="https://cdn.heapanalytics.com"/><link rel="preconnect" href="https://d1t40axu4ik42k.cloudfront.net"/><meta property="og:title" content="Ring Neighbors" data-react-helmet="true"><meta property="og:image" content="https://neighbors.ring.com/default-post-media.png" data-react-helmet="true"><meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="Ring Neighbors" data-react-helmet="true"><meta name="twitter:image" content="https://neighbors.ring.com/default-post-media.png" data-react-helmet="true"><script>// Heap Analytics Step 1 - Set up Analytics Helper
+    var analyticsHelper = (function () {
+      var CAMPAIGN_TRACKING_ID = 'campaign';
+      var TIME_30_MIN = 1800000;
+      var cookieDomain =
+        window.location.hostname.indexOf('ring.com') < 0
+          ? window.location.hostname
+          : '.ring.com';
+      function getCookie(name) {
+        var match = document.cookie.match(
+          new RegExp(name + '=([^;]*)?(;|$)', 'im'),
+        );
+        return (match && decodeURIComponent(match[1])) || false;
+      }
+      function getQueryParam(name) {
+        var match = window.location.search.match(
+          new RegExp(name + '=(.*?)(&|$|#|\\?)', 'im'),
+        );
+        return (match && decodeURIComponent(match[1])) || '';
+      }
+      function initCampaignTracking() {
+        setCampaignData(
+          getCampaignData() || {
+            data: {
+              utm_source: getQueryParam('utm_source'),
+              utm_medium: getQueryParam('utm_medium'),
+              utm_campaign: getQueryParam('utm_campaign'),
+              utm_content: getQueryParam('utm_content'),
+              utm_term: getQueryParam('utm_term'),
+              referrer: document.referrer,
+              path: document.location.pathname,
+            },
+          },
+        );
+      }
+      function applyCampaignTracking(props) {
+        var campaignData = getCampaignData();
+        if (campaignData) {
+          if (props.session_properties) {
+            assign(props.session_properties, campaignData.data);
+          }
+        }
+      }
+      function getCampaignData() {
+        var cookie = getCookie(CAMPAIGN_TRACKING_ID);
+        return (cookie && JSON.parse(cookie)) || undefined;
+      }
+      function setCampaignData(data) {
+        var expirationDate = new Date();
+        expirationDate.setTime(expirationDate.getTime() + TIME_30_MIN);
+        document.cookie =
+          CAMPAIGN_TRACKING_ID +
+          '=' +
+          encodeURIComponent(JSON.stringify(data)) +
+          ';domain=' +
+          cookieDomain +
+          ';path=/;expires=' +
+          expirationDate.toUTCString();
+      }
+      function assign(obj1, obj2) {
+        for (var key in obj2) {
+          obj1[key] = obj2[key];
+        }
+        return obj1;
+      }
+      var loaded = document.readyState !== 'loading';
+      if (loaded) {
+        initCampaignTracking();
+      } else {
+        document.addEventListener('DOMContentLoaded', initCampaignTracking);
+      }
+      return {
+        applyCampaignTracking: applyCampaignTracking,
+      };
+    })();</script><link rel="icon" href="/favicon.ico"><script defer="defer" src="/943.3706b03717fd0b1aac4a.js"></script><script defer="defer" src="/main.3876db0f0b2cdb52bd48.js"></script><link href="/main.6ada3e9fa106f6404b42.css" rel="stylesheet"></head><body><div id="root"></div><template class="consent-heap"><script>// Heap Analytics Step 2 - Set up URL Obfuscation and Traffic Capture
+      function obfuscateHeap(props) {
+        const replacement = '$1' + 'REDACTED';
+        const pathRegex =
+          /(((account\/)(plan\/|app\/)(devices\/|payment\/|location\/|confirmation\/|plans\/(?:subscribe\/|upgrade\/|cancel\/|remove\/|)))|(cases\/|alerts\/|share\/|user\/viewprofilepage\/user-id\/|orders\/|checkouts\/))([A-Za-z0-9_@.-]+?)(?=\/|\?|$)/g;
+        const queryParamsRegex =
+          /([&?]deviceId=|[&?]locationId=|[&?]PayerID=|[&?]user_email=|[&?]msclkid=|[&?]mkt_tok=|[&?]fbclid=|[&?]token=|[&?]l=|[&?]discount=|[&?]location=|[&?]devices=|[&?]checkout\[email\]=|[&?]invitation_token=|[&?]code=)([A-Za-z0-9_@.-]+?)(?=\/|$|\&|])/g;
+        function applyRegex(str, regex) {
+          return str ? str.replace(regex, replacement) : undefined;
+        }
+        if (analyticsHelper) {
+          analyticsHelper.applyCampaignTracking(props);
+        }
+        if (props.event_properties) {
+          if (props.event_properties.href) {
+            props.event_properties.href = applyRegex(
+              applyRegex(props.event_properties.href, pathRegex),
+              queryParamsRegex,
+            );
+          }
+          if (
+            props.event_properties.hierarchy &&
+            props.event_properties.hierarchy.indexOf('[href') > -1
+          ) {
+            props.event_properties.hierarchy = applyRegex(
+              applyRegex(props.event_properties.hierarchy, pathRegex),
+              queryParamsRegex,
+            );
+          }
+        }
+        if (props.pageview_properties) {
+          props.pageview_properties.path = applyRegex(
+            props.pageview_properties.path,
+            pathRegex,
+          );
+          props.pageview_properties.hash = applyRegex(
+            props.pageview_properties.hash,
+            pathRegex,
+          );
+          props.pageview_properties.previous_page = applyRegex(
+            props.pageview_properties.previous_page,
+            pathRegex,
+          );
+          props.pageview_properties.query = applyRegex(
+            props.pageview_properties.query,
+            queryParamsRegex,
+          );
+        }
+        if (props.session_properties) {
+          props.session_properties.path = applyRegex(
+            props.session_properties.path,
+            pathRegex,
+          );
+          props.session_properties.hash = applyRegex(
+            props.session_properties.hash,
+            pathRegex,
+          );
+          props.session_properties.referrer = applyRegex(
+            props.session_properties.referrer,
+            pathRegex,
+          );
+          props.session_properties.query = applyRegex(
+            props.session_properties.query,
+            queryParamsRegex,
+          );
+        }
+        return props;
+      }
+
+      // Heap Analytics Step 3 - Set up Heap SDK
+      (window.heap = window.heap || []),
+        (heap.load = function (e, t) {
+          (window.heap.appid = e), (window.heap.config = t = t || {});
+          var r = document.createElement('script');
+          (r.type = 'text/javascript'),
+            (r.async = !0),
+            (r.src = 'https://cdn.heapanalytics.com/js/heap-' + e + '.js');
+          var a = document.getElementsByTagName('script')[0];
+          a.parentNode.insertBefore(r, a);
+          for (
+            var n = function (e) {
+                return function () {
+                  if (heap && heap.push) {
+                    heap.push([e].concat(Array.prototype.slice.call(arguments, 0)));
+                  }
+                };
+              },
+              p = [
+                'addEventProperties',
+                'addUserProperties',
+                'clearEventProperties',
+                'identify',
+                'resetIdentity',
+                'removeEventProperty',
+                'setEventProperties',
+                'track',
+                'unsetEventProperty',
+              ],
+              o = 0;
+            o < p.length;
+            o++
+          )
+            heap[p[o]] = n(p[o]);
+        });
+      heap.load('1155664863', {
+        rewrite: obfuscateHeap,
+        disableTextCapture: true,
+      });</script></template></body></html>
+0
+
+
+
+
+http://videorequests.nw.dev.ring.com
