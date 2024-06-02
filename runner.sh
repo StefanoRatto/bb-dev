@@ -49,7 +49,7 @@ while true; do
     #$home/workflow3.sh &
   fi
 
-  # sleeps 30 seconds not to tax the cpu
-  sleep 30
+  # sleeps 1 minute not to tax the cpu
+  sleep 60
 
 done
