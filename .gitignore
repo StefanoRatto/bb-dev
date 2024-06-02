@@ -1,4 +1,4 @@
 # output subfolders
-output/**
+outputs/**
 # scan resume file
 resume.cfg

@@ -1,0 +1,26 @@
+GET / HTTP/1.1
+Host: scheduler-dev.api.projectdiscovery.io
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:96.0) Gecko/20100101 Firefox/96.0
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 530 
+Connection: close
+Content-Length: 16
+Cache-Control: private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Cf-Ray: 88d4ee3408cf1725-IAD
+Content-Type: text/plain; charset=UTF-8
+Date: Sun, 02 Jun 2024 05:09:18 GMT
+Expires: Thu, 01 Jan 1970 00:00:01 GMT
+Nel: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Referrer-Policy: same-origin
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=m0aZmCNTb0I0QoRGEfO3MfqjvWiilX6JjpDhqwmZk8PNyjf7X24j1OKOTRvVmPM9XipXdwfMBYx0Vg8pAKp%2B6sSKF3a%2FZS08LzzKi%2FXz%2B3pgVA1GwqblCHMy6vF1VuX5ltjQcF%2FRaQuNztA8pyvhf4nMaYBFmv4%3D"}],"group":"cf-nel","max_age":604800}
+Server: cloudflare
+Strict-Transport-Security: max-age=0; preload
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+
+error code: 1016
+
+
+http://scheduler-dev.api.projectdiscovery.io

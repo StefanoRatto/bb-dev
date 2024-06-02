@@ -15,7 +15,7 @@ if ! [ -d $output_folder ]; then
 fi
 
 # confirmation that the script started
-echo "[$timestamp] workflow3.sh started at:   $output_folder"
+echo "[$($home/now.sh)] workflow3.sh started at:   $output_folder"
 
 # loop over programs/scopes
 # all programs scope files with name starting with "urls_" are processed
@@ -31,20 +31,24 @@ for file in "$input_folder"/*; do
     if [ "$ext" == "txt" ]; then
       if [[ "$filename" == urls* ]]; then
         #go and be awesome...
-        #echo "GO!!:     $filename"
-        sleep 1
+        #echo "Let's gooo!!:     $filename"
+        :
       elif [[ "$filename" == _urls* ]]; then
         # skips "_urls" input files 
-        #echo "SKIPPED:  $filename"
+        #echo "SKIPPED:       $filename"
+        :
+      else
+        # ignores text files that do not follow the naming convention
+        #echo "IGNORED:       $filename"
         :
       fi
     else
       # ignores non-text files
-      #echo "IGNORED:  $filename"
+      #echo "IGNORED:       $filename"
       :
     fi
   fi
 done
 
 # confirmation that the script completed successfully
-echo "[$timestamp] workflow3.sh completed at: $output_folder"
+echo "[$($home/now.sh)] workflow3.sh completed at: $output_folder"

@@ -21,7 +21,12 @@ echo "      unelegant and simplistic recon automation framework by team7      "
 echo "                                                                        "
 
 # confirmation that the script is running
-echo "[$timestamp] runner.sh is alive with PID $$, ctrl+c to exit"
+echo "[$($home/now.sh)] runner.sh is alive with PID $$, ctrl+c to exit"
+
+# launching all workflow for testing purposes
+$home/workflow1.sh &
+$home/workflow2.sh &
+#$home/workflow3.sh &
 
 # enters the infinite loop
 while true; do
@@ -29,22 +34,18 @@ while true; do
   current_mins=$(date -u +"%M")
   current_hours=$(date -u +"%H")
 
-  # for testing
-  current_mins="00"
-  current_hours="00"
-
   # main scheduler
   if [[ "$current_mins" == "00" ]]; then
     
-    echo "[$timestamp] runner.sh is alive with PID $$, ctrl+c to exit"
+    echo "[$($home/now.sh)] runner.sh is alive with PID $$, ctrl+c to exit"
     
     if [[ "$current_hours" == "00" ]]; then
-      # launches workflows at the top of every hour
+      # launches workflows every day at midnight UTC
+      $home/workflow1.sh &
       $home/workflow2.sh &
     fi
     
     # launches workflows at the top of every hour
-    $home/workflow1.sh &
     #$home/workflow3.sh &
   fi
 

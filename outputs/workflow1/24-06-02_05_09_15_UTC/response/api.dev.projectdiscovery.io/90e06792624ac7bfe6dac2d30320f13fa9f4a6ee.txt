@@ -1,0 +1,24 @@
+GET / HTTP/1.1
+Host: api.dev.projectdiscovery.io
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36 Edg/119.0.0.0
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 200 OK
+Connection: close
+Content-Length: 31
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 88d4ee322b6829b8-IAD
+Content-Type: text/plain; charset=UTF-8
+Date: Sun, 02 Jun 2024 05:09:18 GMT
+Nel: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=3DNgoWt5VavFjHxDeKKKRSXJa1XSQCFLyUHwDjCmaqUGCBTFAJ3yrrOzEd%2FwzEowLJAay4tFwR5hnjAMWGADr5TuhT1aYNql66AydDO8UQjtntmufXlvT9Ws%2FSgvy8gZpTRCKmfzo%2FI77XBmlQ%3D%3D"}],"group":"cf-nel","max_age":604800}
+Server: cloudflare
+Strict-Transport-Security: max-age=0; preload
+Vary: Origin
+X-Content-Type-Options: nosniff
+
+ProjectDiscovery Cloud Platform
+
+
+http://api.dev.projectdiscovery.io

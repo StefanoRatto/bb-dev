@@ -1,0 +1,60 @@
+GET / HTTP/1.1
+Host: chaos.projectdiscovery.io
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:91.0) Gecko/20100101 Firefox/91.0
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 200 OK
+Connection: close
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Age: 32
+Cache-Control: max-age=600
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 88d4ee320f8f3af9-IAD
+Content-Type: text/html; charset=utf-8
+Date: Sun, 02 Jun 2024 05:09:17 GMT
+Expires: Sun, 02 Jun 2024 03:18:01 GMT
+Last-Modified: Sat, 01 Jun 2024 16:22:30 GMT
+Nel: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=4lyGDCyWrieoRaxueWoXfdoZXQu17z6oWGcxJaXqCBxCANCJKpHBZd%2Fwr0CG9YH3%2F9uoA8bENEX6Ctrw4aErBuGRoDsBib9LQThL0qhS0YqYLje8pxiVppoumqG5n9PW2fHRFXZiRQV0du4%3D"}],"group":"cf-nel","max_age":604800}
+Server: cloudflare
+Strict-Transport-Security: max-age=0; preload
+Vary: Accept-Encoding
+Via: 1.1 varnish
+X-Cache: HIT
+X-Cache-Hits: 1
+X-Content-Type-Options: nosniff
+X-Fastly-Request-Id: 8de80aa7e2f5c639db2f4f1d86e64b8a99e796cb
+X-Github-Request-Id: D6FA:A6D81:170E86E:1BDB914:665BE211
+X-Proxy-Cache: MISS
+X-Served-By: cache-iad-kiad7000164-IAD
+X-Timer: S1717304958.783108,VS0,VE3
+
+260
+<!-- index.html for react -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=1024" />
+    <title>Projectdiscovery.io | Chaos</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&family=Montserrat&family=Open+Sans&display=swap"
+      rel="stylesheet"
+    />
+  <link rel="shortcut icon" href="fevicon.png"><link href="app.bundle.css" rel="stylesheet"></head>
+
+  <body style="margin: 0;">
+    <div id="root"></div>
+    <div id="portal_root"></div>
+  <script type="text/javascript" src="app.js"></script></body>
+</html>
+
+0
+
+
+
+
+http://chaos.projectdiscovery.io

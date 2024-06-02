@@ -1,0 +1,4167 @@
+GET / HTTP/1.1
+Host: www.defcon.projectdiscovery.io
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.60 Safari/537.36 Edg/100.0.1185.29
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 200 OK
+Connection: close
+Accept-Ranges: bytes
+Age: 227268
+Content-Type: text/html;charset=utf-8
+Date: Thu, 30 May 2024 14:01:43 GMT
+Etag: W/"bc1a09295e5a9cc07402c74570a14778"
+Expires: Thu, 01 Jan 1970 00:00:00 GMT
+Server: Squarespace
+Set-Cookie: crumb=BR0EC96DSHERNzIzM2QxOWMxNjMyYzNhZThjYmNkNzVjMDM3NTQx;Secure;Path=/
+Strict-Transport-Security: max-age=15552000
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+X-Contextid: 8Z4UJdMT/Zj21hoVm
+X-Frame-Options: SAMEORIGIN
+X-Frame-Options: SAMEORIGIN
+
+<!doctype html>
+<html xmlns:og="http://opengraphprotocol.org/schema/" xmlns:fb="http://www.facebook.com/2008/fbml" lang="en-US"  >
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- This is Squarespace. --><!-- bronze-orchid-fyzr -->
+<base href="">
+<meta charset="utf-8" />
+<title>ProjectDiscovery at DEF CON 31</title>
+<meta http-equiv="Accept-CH" content="Sec-CH-UA-Platform-Version, Sec-CH-UA-Model" /><link rel="icon" type="image/x-icon" href="https://images.squarespace-cdn.com/content/v1/64949c6ff6ca4d644ff0f893/e3524370-ded3-4010-8421-bcae1fc30524/favicon.ico?format=100w"/>
+<link rel="canonical" href="https://defcon.projectdiscovery.io"/>
+<meta property="og:site_name" content="ProjectDiscovery at DEF CON 31"/>
+<meta property="og:title" content="ProjectDiscovery at DEF CON 31"/>
+<meta property="og:url" content="https://defcon.projectdiscovery.io"/>
+<meta property="og:type" content="website"/>
+<meta property="og:image" content="http://static1.squarespace.com/static/64949c6ff6ca4d644ff0f893/t/6495e584b54aba260fc7e87c/1687545220894/Untitled+design+%283%29.png?format=1500w"/>
+<meta property="og:image:width" content="500"/>
+<meta property="og:image:height" content="500"/>
+<meta itemprop="name" content="ProjectDiscovery at DEF CON 31"/>
+<meta itemprop="url" content="https://defcon.projectdiscovery.io"/>
+<meta itemprop="thumbnailUrl" content="http://static1.squarespace.com/static/64949c6ff6ca4d644ff0f893/t/6495e584b54aba260fc7e87c/1687545220894/Untitled+design+%283%29.png?format=1500w"/>
+<link rel="image_src" href="http://static1.squarespace.com/static/64949c6ff6ca4d644ff0f893/t/6495e584b54aba260fc7e87c/1687545220894/Untitled+design+%283%29.png?format=1500w" />
+<meta itemprop="image" content="http://static1.squarespace.com/static/64949c6ff6ca4d644ff0f893/t/6495e584b54aba260fc7e87c/1687545220894/Untitled+design+%283%29.png?format=1500w"/>
+<meta name="twitter:title" content="ProjectDiscovery at DEF CON 31"/>
+<meta name="twitter:image" content="http://static1.squarespace.com/static/64949c6ff6ca4d644ff0f893/t/6495e584b54aba260fc7e87c/1687545220894/Untitled+design+%283%29.png?format=1500w"/>
+<meta name="twitter:url" content="https://defcon.projectdiscovery.io"/>
+<meta name="twitter:card" content="summary"/>
+<meta name="description" content="" />
+<link rel="preconnect" href="https://images.squarespace-cdn.com">
+<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,500;0,700;1,500;1,700">
+<script type="text/javascript" crossorigin="anonymous" defer="defer" nomodule="nomodule" src="//assets.squarespace.com/@sqs/polyfiller/1.6/legacy.js"></script>
+<script type="text/javascript" crossorigin="anonymous" defer="defer" src="//assets.squarespace.com/@sqs/polyfiller/1.6/modern.js"></script>
+<script type="text/javascript">SQUARESPACE_ROLLUPS = {};</script>
+<script>(function(rollups, name) { if (!rollups[name]) { rollups[name] = {}; } rollups[name].js = ["//assets.squarespace.com/universal/scripts-compressed/extract-css-runtime-70e6e419b8ff4b8045f8-min.en-US.js"]; })(SQUARESPACE_ROLLUPS, 'squarespace-extract_css_runtime');</script>
+<script crossorigin="anonymous" src="//assets.squarespace.com/universal/scripts-compressed/extract-css-runtime-70e6e419b8ff4b8045f8-min.en-US.js" defer ></script><script>(function(rollups, name) { if (!rollups[name]) { rollups[name] = {}; } rollups[name].js = ["//assets.squarespace.com/universal/scripts-compressed/extract-css-moment-js-vendor-6f117db4eb7fd4392375-min.en-US.js"]; })(SQUARESPACE_ROLLUPS, 'squarespace-extract_css_moment_js_vendor');</script>
+<script crossorigin="anonymous" src="//assets.squarespace.com/universal/scripts-compressed/extract-css-moment-js-vendor-6f117db4eb7fd4392375-min.en-US.js" defer ></script><script>(function(rollups, name) { if (!rollups[name]) { rollups[name] = {}; } rollups[name].js = ["//assets.squarespace.com/universal/scripts-compressed/cldr-resource-pack-e94539391642d3b99900-min.en-US.js"]; })(SQUARESPACE_ROLLUPS, 'squarespace-cldr_resource_pack');</script>
+<script crossorigin="anonymous" src="//assets.squarespace.com/universal/scripts-compressed/cldr-resource-pack-e94539391642d3b99900-min.en-US.js" defer ></script><script>(function(rollups, name) { if (!rollups[name]) { rollups[name] = {}; } rollups[name].js = ["//assets.squarespace.com/universal/scripts-compressed/common-vendors-stable-3598b219a3c023c1915a-min.en-US.js"]; })(SQUARESPACE_ROLLUPS, 'squarespace-common_vendors_stable');</script>
+<script crossorigin="anonymous" src="//assets.squarespace.com/universal/scripts-compressed/common-vendors-stable-3598b219a3c023c1915a-min.en-US.js" defer ></script><script>(function(rollups, name) { if (!rollups[name]) { rollups[name] = {}; } rollups[name].js = ["//assets.squarespace.com/universal/scripts-compressed/common-vendors-b7826948ae0c27d35476-min.en-US.js"]; })(SQUARESPACE_ROLLUPS, 'squarespace-common_vendors');</script>
+<script crossorigin="anonymous" src="//assets.squarespace.com/universal/scripts-compressed/common-vendors-b7826948ae0c27d35476-min.en-US.js" defer ></script><script>(function(rollups, name) { if (!rollups[name]) { rollups[name] = {}; } rollups[name].js = ["//assets.squarespace.com/universal/scripts-compressed/common-ca709039a55ab8631e7e-min.en-US.js"]; })(SQUARESPACE_ROLLUPS, 'squarespace-common');</script>
+<script crossorigin="anonymous" src="//assets.squarespace.com/universal/scripts-compressed/common-ca709039a55ab8631e7e-min.en-US.js" defer ></script><script>(function(rollups, name) { if (!rollups[name]) { rollups[name] = {}; } rollups[name].js = ["//assets.squarespace.com/universal/scripts-compressed/performance-b70b316548c4dbb3e0dd-min.en-US.js"]; })(SQUARESPACE_ROLLUPS, 'squarespace-performance');</script>
+<script crossorigin="anonymous" src="//assets.squarespace.com/universal/scripts-compressed/performance-b70b316548c4dbb3e0dd-min.en-US.js" defer ></script><script data-name="static-context">Static = window.Static || {}; Static.SQUARESPACE_CONTEXT = {"facebookAppId":"314192535267336","facebookApiVersion":"v6.0","rollups":{"squarespace-announcement-bar":{"js":"//assets.squarespace.com/universal/scripts-compressed/announcement-bar-f5e166398f68a61e662f-min.en-US.js"},"squarespace-audio-player":{"css":"//assets.squarespace.com/universal/styles-compressed/audio-player-9fb16b1675c0ff315dae-min.en-US.css","js":"//assets.squarespace.com/universal/scripts-compressed/audio-player-1bf932b43965a7ee4fbb-min.en-US.js"},"squarespace-blog-collection-list":{"css":"//assets.squarespace.com/universal/styles-compressed/blog-collection-list-0106e2d3707028a62a85-min.en-US.css","js":"//assets.squarespace.com/universal/scripts-compressed/blog-collection-list-bb0683614c41f8a11085-min.en-US.js"},"squarespace-calendar-block-renderer":{"css":"//assets.squarespace.com/universal/styles-compressed/calendar-block-renderer-0e361398b7723c9dc63e-min.en-US.css","js":"//assets.squarespace.com/universal/scripts-compressed/calendar-block-renderer-90bf6109d7f9529faf8a-min.en-US.js"},"squarespace-chartjs-helpers":{"css":"//assets.squarespace.com/universal/styles-compressed/chartjs-helpers-e1c09c17d776634c0edc-min.en-US.css","js":"//assets.squarespace.com/universal/scripts-compressed/chartjs-helpers-ae72e538cdd8d3806898-min.en-US.js"},"squarespace-comments":{"css":"//assets.squarespace.com/universal/styles-compressed/comments-24b74a0326eae0cd5049-min.en-US.css","js":"//assets.squarespace.com/universal/scripts-compressed/comments-6a7d5c6470cfc1bf449f-min.en-US.js"},"squarespace-custom-css-popup":{"css":"//assets.squarespace.com/universal/styles-compressed/custom-css-popup-9852bb3e9a5b8206262c-min.en-US.css","js":"//assets.squarespace.com/universal/scripts-compressed/custom-css-popup-ac39f31a32e6276c6b87-min.en-US.js"},"squarespace-dialog":{"css":"//assets.squarespace.com/universal/styles-compressed/dialog-be76ee4d94877d8a5c32-min.en-US.css","js":"//assets.squarespace.com/universal/scripts-compressed/dialog-5fad3a9717c811658631-min.en-US.js"},"squarespace-events-collection":{"css":"//assets.squarespace.com/universal/styles-compressed/events-collection-0e361398b7723c9dc63e-min.en-US.css","js":"//assets.squarespace.com/universal/scripts-compressed/events-collection-49534988d3b5a2f639b6-min.en-US.js"},"squarespace-form-rendering-utils":{"js":"//assets.squarespace.com/universal/scripts-compressed/form-rendering-utils-a05db6cb0e7323b29fa7-min.en-US.js"},"squarespace-forms":{"css":"//assets.squarespace.com/universal/styles-compressed/forms-8d93ba2c12ff0765b64c-min.en-US.css","js":"//assets.squarespace.com/universal/scripts-compressed/forms-953994245c1347b8d72b-min.en-US.js"},"squarespace-gallery-collection-list":{"css":"//assets.squarespace.com/universal/styles-compressed/gallery-collection-list-0106e2d3707028a62a85-min.en-US.css","js":"//assets.squarespace.com/universal/scripts-compressed/gallery-collection-list-64b8938cf9ce62400835-min.en-US.js"},"squarespace-image-zoom":{"css":"//assets.squarespace.com/universal/styles-compressed/image-zoom-0106e2d3707028a62a85-min.en-US.css","js":"//assets.squarespace.com/universal/scripts-compressed/image-zoom-84d849c1eade7a08d59e-min.en-US.js"},"squarespace-pinterest":{"css":"//assets.squarespace.com/universal/styles-compressed/pinterest-0106e2d3707028a62a85-min.en-US.css","js":"//assets.squarespace.com/universal/scripts-compressed/pinterest-1d74306ec409d6fbfb22-min.en-US.js"},"squarespace-popup-overlay":{"css":"//assets.squarespace.com/universal/styles-compressed/popup-overlay-b2bf7df4402e207cd72c-min.en-US.css","js":"//assets.squarespace.com/universal/scripts-compressed/popup-overlay-3fc66fb91506f355347a-min.en-US.js"},"squarespace-product-quick-view":{"css":"//assets.squarespace.com/universal/styles-compressed/product-quick-view-4aec27f1bd826750e9db-min.en-US.css","js":"//assets.squarespace.com/universal/scripts-compressed/product-quick-view-b3283c3f1e9e7f764e8a-min.en-US.js"},"squarespace-products-collection-item-v2":{"css":"//assets.squarespace.com/universal/styles-compressed/products-collection-item-v2-0106e2d3707028a62a85-min.en-US.css","js":"//assets.squarespace.com/universal/scripts-compressed/products-collection-item-v2-fc4cdbcf05cd6cd955d4-min.en-US.js"},"squarespace-products-collection-list-v2":{"css":"//assets.squarespace.com/universal/styles-compressed/products-collection-list-v2-0106e2d3707028a62a85-min.en-US.css","js":"//assets.squarespace.com/universal/scripts-compressed/products-collection-list-v2-b9efee358f56ea8bf33b-min.en-US.js"},"squarespace-search-page":{"css":"//assets.squarespace.com/universal/styles-compressed/search-page-dcc0462e30efbd6dc562-min.en-US.css","js":"//assets.squarespace.com/universal/scripts-compressed/search-page-d336028d4348f1d434c0-min.en-US.js"},"squarespace-search-preview":{"js":"//assets.squarespace.com/universal/scripts-compressed/search-preview-4abf20a9822c9ae76ebd-min.en-US.js"},"squarespace-simple-liking":{"css":"//assets.squarespace.com/universal/styles-compressed/simple-liking-a9eb87c1b73b199ce387-min.en-US.css","js":"//assets.squarespace.com/universal/scripts-compressed/simple-liking-177101dab03c3e13f3eb-min.en-US.js"},"squarespace-social-buttons":{"css":"//assets.squarespace.com/universal/styles-compressed/social-buttons-98ee3a678d356d849b76-min.en-US.css","js":"//assets.squarespace.com/universal/scripts-compressed/social-buttons-d792c7df445248333ed8-min.en-US.js"},"squarespace-tourdates":{"css":"//assets.squarespace.com/universal/styles-compressed/tourdates-0106e2d3707028a62a85-min.en-US.css","js":"//assets.squarespace.com/universal/scripts-compressed/tourdates-e26e971ffd0d3a7d6f4f-min.en-US.js"},"squarespace-website-overlays-manager":{"css":"//assets.squarespace.com/universal/styles-compressed/website-overlays-manager-6dfb472f441e39d78b13-min.en-US.css","js":"//assets.squarespace.com/universal/scripts-compressed/website-overlays-manager-b95dcd45aaf3d48318ac-min.en-US.js"}},"pageType":2,"website":{"id":"64949c6ff6ca4d644ff0f893","identifier":"bronze-orchid-fyzr","websiteType":1,"contentModifiedOn":1688731015535,"cloneable":false,"hasBeenCloneable":false,"siteStatus":{},"language":"en-US","timeZone":"America/New_York","machineTimeZoneOffset":-14400000,"timeZoneOffset":-14400000,"timeZoneAbbr":"EDT","siteTitle":"ProjectDiscovery at DEF CON 31","fullSiteTitle":"ProjectDiscovery at DEF CON 31","siteDescription":"","logoImageId":"64961003bbdf7e4bf9f68e1c","socialLogoImageId":"6495e584b54aba260fc7e87c","shareButtonOptions":{"6":true,"1":true,"2":true,"8":true,"7":true,"4":true,"3":true},"logoImageUrl":"//images.squarespace-cdn.com/content/v1/64949c6ff6ca4d644ff0f893/706a5899-d92e-4e44-b920-a5662384afaa/Projectdiscovery-Icon-Primary.png","socialLogoImageUrl":"//images.squarespace-cdn.com/content/v1/64949c6ff6ca4d644ff0f893/eed363d3-c756-4070-9f67-9680ff1f2135/Untitled+design+%283%29.png","authenticUrl":"https://defcon.projectdiscovery.io","internalUrl":"https://bronze-orchid-fyzr.squarespace.com","baseUrl":"https://defcon.projectdiscovery.io","primaryDomain":"defcon.projectdiscovery.io","sslSetting":3,"isHstsEnabled":true,"socialAccounts":[{"serviceId":62,"screenname":"Twitter","addedOn":1687461644335,"profileUrl":"https://twitter.com/pdiscoveryio","iconEnabled":true,"serviceName":"twitter-unauth"},{"serviceId":73,"screenname":"GitHub","addedOn":1687461665717,"profileUrl":"https://github.com/projectdiscovery","iconEnabled":true,"serviceName":"github-unauth"},{"serviceId":81,"screenname":"Discord","addedOn":1687461656340,"profileUrl":"https://discord.gg/projectdiscovery","iconEnabled":true,"serviceName":"discord-unauth"}],"typekitId":"","statsMigrated":false,"imageMetadataProcessingEnabled":false,"captchaSettings":{"enabledForDonations":false},"showOwnerLogin":false},"websiteSettings":{"id":"64949c6ff6ca4d644ff0f896","websiteId":"64949c6ff6ca4d644ff0f893","subjects":[],"country":"US","state":"MD","simpleLikingEnabled":true,"mobileInfoBarSettings":{"isContactEmailEnabled":false,"isContactPhoneNumberEnabled":false,"isLocationEnabled":false,"isBusinessHoursEnabled":false},"commentLikesAllowed":true,"commentAnonAllowed":true,"commentThreaded":true,"commentApprovalRequired":false,"commentAvatarsOn":true,"commentSortType":2,"commentFlagThreshold":0,"commentFlagsAllowed":true,"commentEnableByDefault":true,"commentDisableAfterDaysDefault":0,"disqusShortname":"","commentsEnabled":false,"storeSettings":{"returnPolicy":null,"termsOfService":null,"privacyPolicy":null,"expressCheckout":false,"continueShoppingLinkUrl":"/","useLightCart":false,"showNoteField":false,"shippingCountryDefaultValue":"US","billToShippingDefaultValue":false,"showShippingPhoneNumber":true,"isShippingPhoneRequired":false,"showBillingPhoneNumber":true,"isBillingPhoneRequired":false,"currenciesSupported":["USD","CAD","GBP","AUD","EUR","CHF","NOK","SEK","DKK","NZD","SGD","MXN","HKD","CZK","ILS","MYR","RUB","PHP","PLN","THB","BRL","ARS","COP","IDR","INR","JPY","ZAR"],"defaultCurrency":"USD","selectedCurrency":"USD","measurementStandard":1,"showCustomCheckoutForm":false,"checkoutPageMarketingOptInEnabled":true,"enableMailingListOptInByDefault":false,"sameAsRetailLocation":false,"merchandisingSettings":{"scarcityEnabledOnProductItems":false,"scarcityEnabledOnProductBlocks":false,"scarcityMessageType":"DEFAULT_SCARCITY_MESSAGE","scarcityThreshold":10,"multipleQuantityAllowedForServices":true,"restockNotificationsEnabled":false,"restockNotificationsSuccessText":"","restockNotificationsMailingListSignUpEnabled":false,"relatedProductsEnabled":false,"relatedProductsOrdering":"random","soldOutVariantsDropdownDisabled":false,"productComposerOptedIn":false,"productComposerABTestOptedOut":false,"productReviewsEnabled":false},"minimumOrderSubtotalEnabled":false,"minimumOrderSubtotal":{"currency":"USD","value":"0.00"},"isLive":false,"multipleQuantityAllowedForServices":true},"useEscapeKeyToLogin":false,"ssBadgeType":1,"ssBadgePosition":4,"ssBadgeVisibility":1,"ssBadgeDevices":1,"pinterestOverlayOptions":{"mode":"disabled"},"ampEnabled":false,"userAccountsSettings":{"loginAllowed":false,"signupAllowed":false}},"cookieSettings":{"isCookieBannerEnabled":false,"isRestrictiveCookiePolicyEnabled":false,"isRestrictiveCookiePolicyAbsolute":false,"cookieBannerText":"","cookieBannerTheme":"","cookieBannerVariant":"","cookieBannerPosition":"","cookieBannerCtaVariant":"","cookieBannerCtaText":"","cookieBannerAcceptType":"OPT_IN","cookieBannerOptOutCtaText":"","cookieBannerHasOptOut":false,"cookieBannerHasManageCookies":true,"cookieBannerManageCookiesLabel":""},"websiteCloneable":false,"collection":{"title":"Home","id":"64949ecfe5ce6b7ee745bf64","fullUrl":"/","type":10,"permissionType":1},"subscribed":false,"appDomain":"squarespace.com","templateTweakable":true,"tweakJSON":{"form-use-theme-colors":"false","header-logo-height":"80px","header-mobile-logo-max-height":"40px","header-vert-padding":"2vw","header-width":"Inset","maxPageWidth":"1800px","pagePadding":"4vw","tweak-blog-alternating-side-by-side-image-aspect-ratio":"1:1 Square","tweak-blog-alternating-side-by-side-image-spacing":"5%","tweak-blog-alternating-side-by-side-meta-spacing":"15px","tweak-blog-alternating-side-by-side-primary-meta":"Categories","tweak-blog-alternating-side-by-side-read-more-spacing":"5px","tweak-blog-alternating-side-by-side-secondary-meta":"Date","tweak-blog-basic-grid-columns":"2","tweak-blog-basic-grid-image-aspect-ratio":"3:2 Standard","tweak-blog-basic-grid-image-spacing":"30px","tweak-blog-basic-grid-meta-spacing":"15px","tweak-blog-basic-grid-primary-meta":"Categories","tweak-blog-basic-grid-read-more-spacing":"15px","tweak-blog-basic-grid-secondary-meta":"Date","tweak-blog-item-custom-width":"60","tweak-blog-item-show-author-profile":"true","tweak-blog-item-width":"Narrow","tweak-blog-masonry-columns":"2","tweak-blog-masonry-horizontal-spacing":"150px","tweak-blog-masonry-image-spacing":"25px","tweak-blog-masonry-meta-spacing":"20px","tweak-blog-masonry-primary-meta":"Categories","tweak-blog-masonry-read-more-spacing":"5px","tweak-blog-masonry-secondary-meta":"Date","tweak-blog-masonry-vertical-spacing":"100px","tweak-blog-side-by-side-image-aspect-ratio":"1:1 Square","tweak-blog-side-by-side-image-spacing":"6%","tweak-blog-side-by-side-meta-spacing":"20px","tweak-blog-side-by-side-primary-meta":"Categories","tweak-blog-side-by-side-read-more-spacing":"5px","tweak-blog-side-by-side-secondary-meta":"Date","tweak-blog-single-column-image-spacing":"40px","tweak-blog-single-column-meta-spacing":"30px","tweak-blog-single-column-primary-meta":"Categories","tweak-blog-single-column-read-more-spacing":"30px","tweak-blog-single-column-secondary-meta":"Date","tweak-events-stacked-show-thumbnails":"true","tweak-events-stacked-thumbnail-size":"3:2 Standard","tweak-fixed-header":"false","tweak-fixed-header-style":"Scroll Back","tweak-global-animations-animation-curve":"ease","tweak-global-animations-animation-delay":"1.0s","tweak-global-animations-animation-duration":"0.65s","tweak-global-animations-animation-style":"fade","tweak-global-animations-animation-type":"flex","tweak-global-animations-complexity-level":"detailed","tweak-global-animations-enabled":"true","tweak-portfolio-grid-basic-custom-height":"50","tweak-portfolio-grid-overlay-custom-height":"50","tweak-portfolio-hover-follow-acceleration":"10%","tweak-portfolio-hover-follow-animation-duration":"Medium","tweak-portfolio-hover-follow-animation-type":"Fade","tweak-portfolio-hover-follow-delimiter":"Forward Slash","tweak-portfolio-hover-follow-front":"false","tweak-portfolio-hover-follow-layout":"Inline","tweak-portfolio-hover-follow-size":"75","tweak-portfolio-hover-follow-text-spacing-x":"1.5","tweak-portfolio-hover-follow-text-spacing-y":"1.5","tweak-portfolio-hover-static-animation-duration":"Medium","tweak-portfolio-hover-static-animation-type":"Scale Up","tweak-portfolio-hover-static-delimiter":"Forward Slash","tweak-portfolio-hover-static-front":"false","tweak-portfolio-hover-static-layout":"Stacked","tweak-portfolio-hover-static-size":"75","tweak-portfolio-hover-static-text-spacing-x":"1.5","tweak-portfolio-hover-static-text-spacing-y":"1.5","tweak-portfolio-index-background-animation-duration":"Medium","tweak-portfolio-index-background-animation-type":"Fade","tweak-portfolio-index-background-custom-height":"50","tweak-portfolio-index-background-delimiter":"None","tweak-portfolio-index-background-height":"Large","tweak-portfolio-index-background-horizontal-alignment":"Center","tweak-portfolio-index-background-link-format":"Stacked","tweak-portfolio-index-background-persist":"false","tweak-portfolio-index-background-vertical-alignment":"Middle","tweak-portfolio-index-background-width":"Full Bleed","tweak-product-basic-item-click-action":"None","tweak-product-basic-item-gallery-aspect-ratio":"3:4 Three-Four (Vertical)","tweak-product-basic-item-gallery-design":"Slideshow","tweak-product-basic-item-gallery-width":"50%","tweak-product-basic-item-hover-action":"None","tweak-product-basic-item-image-spacing":"3vw","tweak-product-basic-item-image-zoom-factor":"1.75","tweak-product-basic-item-product-variant-display":"Dropdown","tweak-product-basic-item-thumbnail-placement":"Side","tweak-product-basic-item-variant-picker-layout":"Dropdowns","tweak-products-add-to-cart-button":"false","tweak-products-columns":"3","tweak-products-gutter-column":"2vw","tweak-products-gutter-row":"3vw","tweak-products-header-text-alignment":"Middle","tweak-products-image-aspect-ratio":"1:1 Square","tweak-products-image-text-spacing":"1vw","tweak-products-mobile-columns":"1","tweak-products-text-alignment":"Left","tweak-products-width":"Inset","tweak-transparent-header":"false"},"templateId":"5c5a519771c10ba3470d8101","templateVersion":"7.1","pageFeatures":[1,2,4],"gmRenderKey":"QUl6YVN5Q0JUUk9xNkx1dkZfSUUxcjQ2LVQ0QWVUU1YtMGQ3bXk4","templateScriptsRootUrl":"https://static1.squarespace.com/static/vta/5c5a519771c10ba3470d8101/scripts/","betaFeatureFlags":["campaigns_discount_section_in_automations","override_block_styles","campaigns_import_discounts","is_feature_gate_refresh_enabled","collection_typename_switching","visitor_react_forms","google_consent_v2","customer_accounts_email_verification","campaigns_new_image_layout_picker","commsplat_forms_visitor_profile","member_areas_feature","commerce_subscription_renewal_notifications","nested_categories_migration_enabled","digital_products_personal_plan_access","commerce_etsy_product_import","pdp_subs_otp_buttons","hideable_header_footer","unify_edit_mode_p2","enable_css_variable_tweaks","campaigns_thumbnail_layout","supports_versioned_template_assets","campaigns_discount_section_in_blasts","themes","send_local_pickup_ready_email","hideable_header_footer_for_videos","hideable_header_footer_for_memberareas","campaigns_global_uc_ab","commerce_etsy_shipping_import","new_stacked_index","commerce_clearpay","scripts_defer","commerce_paywall_renewal_notifications","commerce_site_visitor_metrics","pdp_subs_otp_visitor_site","hide_header_footer_beta","crm_redesign_phase_1","crm_product_contacts_use_mfe","proposals_ga","accounting_orders_sync","fluid_engine_clean_up_grid_contextual_change","customer_account_creation_recaptcha","marketing_landing_page","toggle_preview_new_shortcut","background_art_onboarding","i18n_beta_website_locales","hideable_header_footer_for_courses","website_fonts","commerce_order_status_access","nested_categories","fluid_engine"],"videoAssetsFeatureFlags":["mux-data-video-collection","mux-data-course-collection"],"impersonatedSession":false,"tzData":{"zones":[[-300,"US","E%sT",null]],"rules":{"US":[[1967,2006,null,"Oct","lastSun","2:00","0","S"],[1987,2006,null,"Apr","Sun>=1","2:00","1:00","D"],[2007,"max",null,"Mar","Sun>=8","2:00","1:00","D"],[2007,"max",null,"Nov","Sun>=1","2:00","0","S"]]}},"showAnnouncementBar":false,"recaptchaEnterpriseContext":{"recaptchaEnterpriseSiteKey":"6LdDFQwjAAAAAPigEvvPgEVbb7QBm-TkVJdDTlAv"},"i18nContext":{"timeZoneData":{"id":"America/New_York","name":"Eastern Time"}},"env":"PRODUCTION"};</script><script type="application/ld+json">{"url":"https://defcon.projectdiscovery.io","name":"ProjectDiscovery at DEF CON 31","description":"","image":"//images.squarespace-cdn.com/content/v1/64949c6ff6ca4d644ff0f893/706a5899-d92e-4e44-b920-a5662384afaa/Projectdiscovery-Icon-Primary.png","@context":"http://schema.org","@type":"WebSite"}</script><link rel="stylesheet" type="text/css" href="https://static1.squarespace.com/static/versioned-site-css/64949c6ff6ca4d644ff0f893/17/5c5a519771c10ba3470d8101/64949c6ff6ca4d644ff0f89c/1528/site.css"/><!-- Fathom - beautiful, simple website analytics -->
+<script src="https://cdn.usefathom.com/script.js" data-site="OBHELKZS" defer></script>
+<!-- / Fathom --><script>Static.COOKIE_BANNER_CAPABLE = true;</script>
+<!-- End of Squarespace Headers -->
+    
+      <link rel="stylesheet" type="text/css" href="https://static1.squarespace.com/static/vta/5c5a519771c10ba3470d8101/versioned-assets/1716308142457-NTLQBPORVVYGYH5NWZVQ/static.css">
+    
+  </head>
+
+  <body
+    id="collection-64949ecfe5ce6b7ee745bf64"
+    class="
+      primary-button-style-solid primary-button-shape-petal secondary-button-style-outline secondary-button-shape-rounded tertiary-button-style-solid tertiary-button-shape-rounded  form-field-style-solid form-field-shape-square form-field-border-all form-field-checkbox-type-icon form-field-checkbox-fill-solid form-field-checkbox-color-inverted form-field-checkbox-shape-square form-field-checkbox-layout-stack form-field-radio-type-icon form-field-radio-fill-solid form-field-radio-color-normal form-field-radio-shape-pill form-field-radio-layout-stack form-field-survey-fill-solid form-field-survey-color-normal form-field-survey-shape-pill form-field-hover-focus-outline form-submit-button-style-label header-overlay-alignment-center header-width-inset   tweak-fixed-header-style-scroll-back tweak-blog-alternating-side-by-side-width-inset tweak-blog-alternating-side-by-side-image-aspect-ratio-11-square tweak-blog-alternating-side-by-side-text-alignment-left tweak-blog-alternating-side-by-side-read-more-style-show tweak-blog-alternating-side-by-side-image-text-alignment-middle tweak-blog-alternating-side-by-side-delimiter-bullet tweak-blog-alternating-side-by-side-meta-position-top tweak-blog-alternating-side-by-side-primary-meta-categories tweak-blog-alternating-side-by-side-secondary-meta-date tweak-blog-alternating-side-by-side-excerpt-show tweak-blog-basic-grid-width-inset tweak-blog-basic-grid-image-aspect-ratio-32-standard tweak-blog-basic-grid-text-alignment-center tweak-blog-basic-grid-delimiter-bullet tweak-blog-basic-grid-image-placement-above tweak-blog-basic-grid-read-more-style-show tweak-blog-basic-grid-primary-meta-categories tweak-blog-basic-grid-secondary-meta-date tweak-blog-basic-grid-excerpt-show tweak-blog-item-width-narrow tweak-blog-item-text-alignment-left tweak-blog-item-meta-position-above-title tweak-blog-item-show-categories tweak-blog-item-show-date tweak-blog-item-show-author-name tweak-blog-item-show-author-profile tweak-blog-item-delimiter-dash tweak-blog-masonry-width-full tweak-blog-masonry-text-alignment-center tweak-blog-masonry-primary-meta-categories tweak-blog-masonry-secondary-meta-date tweak-blog-masonry-meta-position-top tweak-blog-masonry-read-more-style-show tweak-blog-masonry-delimiter-space tweak-blog-masonry-image-placement-above tweak-blog-masonry-excerpt-show tweak-blog-side-by-side-width-inset tweak-blog-side-by-side-image-placement-left tweak-blog-side-by-side-image-aspect-ratio-11-square tweak-blog-side-by-side-primary-meta-categories tweak-blog-side-by-side-secondary-meta-date tweak-blog-side-by-side-meta-position-top tweak-blog-side-by-side-text-alignment-left tweak-blog-side-by-side-image-text-alignment-middle tweak-blog-side-by-side-read-more-style-show tweak-blog-side-by-side-delimiter-bullet tweak-blog-side-by-side-excerpt-show tweak-blog-single-column-width-inset tweak-blog-single-column-text-alignment-center tweak-blog-single-column-image-placement-above tweak-blog-single-column-delimiter-bullet tweak-blog-single-column-read-more-style-show tweak-blog-single-column-primary-meta-categories tweak-blog-single-column-secondary-meta-date tweak-blog-single-column-meta-position-top tweak-blog-single-column-content-excerpt-and-title tweak-events-stacked-width-inset tweak-events-stacked-height-small tweak-events-stacked-show-past-events tweak-events-stacked-show-thumbnails tweak-events-stacked-thumbnail-size-32-standard tweak-events-stacked-date-style-side-tag tweak-events-stacked-show-time tweak-events-stacked-show-location tweak-events-stacked-ical-gcal-links tweak-events-stacked-show-excerpt  tweak-global-animations-enabled tweak-global-animations-complexity-level-detailed tweak-global-animations-animation-style-fade tweak-global-animations-animation-type-flex tweak-global-animations-animation-curve-ease tweak-portfolio-grid-basic-width-inset tweak-portfolio-grid-basic-height-medium tweak-portfolio-grid-basic-image-aspect-ratio-43-four-three tweak-portfolio-grid-basic-text-alignment-left tweak-portfolio-grid-basic-hover-effect-zoom tweak-portfolio-grid-overlay-width-full tweak-portfolio-grid-overlay-height-small tweak-portfolio-grid-overlay-image-aspect-ratio-43-four-three tweak-portfolio-grid-overlay-text-placement-center tweak-portfolio-grid-overlay-show-text-after-hover tweak-portfolio-index-background-link-format-stacked tweak-portfolio-index-background-width-full-bleed tweak-portfolio-index-background-height-large  tweak-portfolio-index-background-vertical-alignment-middle tweak-portfolio-index-background-horizontal-alignment-center tweak-portfolio-index-background-delimiter-none tweak-portfolio-index-background-animation-type-fade tweak-portfolio-index-background-animation-duration-medium tweak-portfolio-hover-follow-layout-inline  tweak-portfolio-hover-follow-delimiter-forward-slash tweak-portfolio-hover-follow-animation-type-fade tweak-portfolio-hover-follow-animation-duration-medium tweak-portfolio-hover-static-layout-stacked  tweak-portfolio-hover-static-delimiter-forward-slash tweak-portfolio-hover-static-animation-type-scale-up tweak-portfolio-hover-static-animation-duration-medium tweak-product-basic-item-product-variant-display-dropdown tweak-product-basic-item-product-subscription-display-radio tweak-product-basic-item-product-subscription-border-shape-square tweak-product-basic-item-width-full tweak-product-basic-item-gallery-aspect-ratio-34-three-four-vertical tweak-product-basic-item-text-alignment-left tweak-product-basic-item-navigation-breadcrumbs tweak-product-basic-item-description-position-below-price tweak-product-basic-item-description-position-mobile-below-add-to-cart-button tweak-product-basic-item-content-alignment-top tweak-product-basic-item-gallery-design-slideshow tweak-product-basic-item-gallery-placement-left tweak-product-basic-item-thumbnail-placement-side tweak-product-basic-item-click-action-none tweak-product-basic-item-hover-action-none tweak-product-basic-item-variant-picker-layout-dropdowns tweak-product-basic-item-add-to-cart-standalone tweak-product-basic-item-add-to-cart-mobile-standalone tweak-products-width-inset tweak-products-image-aspect-ratio-11-square tweak-products-text-alignment-left  tweak-products-price-show tweak-products-nested-category-type-top tweak-products-category-title tweak-products-header-text-alignment-middle tweak-products-breadcrumbs image-block-poster-text-alignment-center image-block-card-content-position-center image-block-card-text-alignment-left image-block-overlap-content-position-center image-block-overlap-text-alignment-left image-block-collage-content-position-top image-block-collage-text-alignment-left image-block-stack-text-alignment-left hide-opentable-icons opentable-style-dark tweak-product-quick-view-button-style-floating tweak-product-quick-view-button-position-bottom tweak-product-quick-view-lightbox-excerpt-display-truncate tweak-product-quick-view-lightbox-show-arrows tweak-product-quick-view-lightbox-show-close-button tweak-product-quick-view-lightbox-controls-weight-light native-currency-code-usd collection-type-page collection-64949ecfe5ce6b7ee745bf64 collection-layout-default homepage mobile-style-available sqs-seven-one
+      
+        show-pdp-subs-otp
+      
+      
+        pdp_subs_otp_buttons_enabled
+      
+      
+      
+        
+          
+            
+              
+            
+          
+        
+      
+    "
+    tabindex="-1"
+  >
+    <div
+      id="siteWrapper"
+      class="clearfix site-wrapper"
+    >
+      
+        <div id="floatingCart" class="floating-cart hidden">
+          <a href="/cart" class="icon icon--stroke icon--fill icon--cart sqs-custom-cart">
+            <span class="Cart-inner">
+              
+
+
+
+  <svg class="icon icon--cart" viewBox="0 0 31 24">
+  <g class="svg-icon cart-icon--odd">
+    <circle fill="none" stroke-miterlimit="10" cx="22.5" cy="21.5" r="1"/>
+    <circle fill="none" stroke-miterlimit="10" cx="9.5" cy="21.5" r="1"/>
+    <path fill="none" stroke-miterlimit="10" d="M0,1.5h5c0.6,0,1.1,0.4,1.1,1l1.7,13
+      c0.1,0.5,0.6,1,1.1,1h15c0.5,0,1.2-0.4,1.4-0.9l3.3-8.1c0.2-0.5-0.1-0.9-0.6-0.9H12"/>
+  </g>
+</svg>
+
+              <div class="legacy-cart icon-cart-quantity">
+                <span class="sqs-cart-quantity">0</span>
+              </div>
+            </span>
+          </a>
+        </div>
+      
+
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <header
+    data-test="header"
+    id="header"
+    
+    class="
+      
+        
+      
+      header theme-col--primary
+    "
+    data-section-theme=""
+    data-controller="Header"
+    data-current-styles="{
+&quot;layout&quot;: &quot;brandingCenter&quot;,
+&quot;action&quot;: {
+&quot;buttonText&quot;: &quot;Get Started&quot;,
+&quot;newWindow&quot;: false
+},
+&quot;showSocial&quot;: true,
+&quot;socialOptions&quot;: {
+&quot;socialBorderShape&quot;: &quot;none&quot;,
+&quot;socialBorderStyle&quot;: &quot;solid&quot;,
+&quot;socialBorderThickness&quot;: {
+&quot;unit&quot;: &quot;px&quot;,
+&quot;value&quot;: 1.0
+}
+},
+&quot;menuOverlayAnimation&quot;: &quot;fade&quot;,
+&quot;cartStyle&quot;: &quot;cart&quot;,
+&quot;cartText&quot;: &quot;Cart&quot;,
+&quot;showEmptyCartState&quot;: true,
+&quot;cartOptions&quot;: {
+&quot;iconType&quot;: &quot;stroke-1&quot;,
+&quot;cartBorderShape&quot;: &quot;none&quot;,
+&quot;cartBorderStyle&quot;: &quot;outline&quot;,
+&quot;cartBorderThickness&quot;: {
+&quot;unit&quot;: &quot;px&quot;,
+&quot;value&quot;: 1.0
+}
+},
+&quot;showButton&quot;: false,
+&quot;showCart&quot;: false,
+&quot;showAccountLogin&quot;: true,
+&quot;headerStyle&quot;: &quot;solid&quot;,
+&quot;languagePicker&quot;: {
+&quot;enabled&quot;: false,
+&quot;iconEnabled&quot;: false,
+&quot;iconType&quot;: &quot;globe&quot;,
+&quot;flagShape&quot;: &quot;shiny&quot;,
+&quot;languageFlags&quot;: [ ]
+},
+&quot;mobileOptions&quot;: {
+&quot;layout&quot;: &quot;logoLeftNavRight&quot;,
+&quot;menuIcon&quot;: &quot;doubleLineHamburger&quot;,
+&quot;menuIconOptions&quot;: {
+&quot;style&quot;: &quot;doubleLineHamburger&quot;,
+&quot;thickness&quot;: {
+&quot;unit&quot;: &quot;px&quot;,
+&quot;value&quot;: 1.0
+}
+}
+},
+&quot;dynamicOptions&quot;: {
+&quot;border&quot;: {
+&quot;enabled&quot;: false,
+&quot;position&quot;: &quot;allSides&quot;,
+&quot;thickness&quot;: {
+&quot;unit&quot;: &quot;px&quot;,
+&quot;value&quot;: 4.0
+},
+&quot;color&quot;: {
+&quot;type&quot;: &quot;SITE_PALETTE_COLOR&quot;,
+&quot;sitePaletteColor&quot;: {
+&quot;colorName&quot;: &quot;black&quot;,
+&quot;alphaModifier&quot;: 1.0
+}
+}
+}
+},
+&quot;solidOptions&quot;: {
+&quot;headerOpacity&quot;: {
+&quot;unit&quot;: &quot;%&quot;,
+&quot;value&quot;: 100.0
+},
+&quot;border&quot;: {
+&quot;enabled&quot;: false,
+&quot;position&quot;: &quot;allSides&quot;,
+&quot;thickness&quot;: {
+&quot;unit&quot;: &quot;px&quot;,
+&quot;value&quot;: 4.0
+},
+&quot;color&quot;: {
+&quot;type&quot;: &quot;SITE_PALETTE_COLOR&quot;,
+&quot;sitePaletteColor&quot;: {
+&quot;colorName&quot;: &quot;black&quot;,
+&quot;alphaModifier&quot;: 1.0
+}
+}
+},
+&quot;dropShadow&quot;: {
+&quot;enabled&quot;: false,
+&quot;blur&quot;: {
+&quot;unit&quot;: &quot;px&quot;,
+&quot;value&quot;: 30.0
+},
+&quot;spread&quot;: {
+&quot;unit&quot;: &quot;px&quot;,
+&quot;value&quot;: 0.0
+},
+&quot;distance&quot;: {
+&quot;unit&quot;: &quot;px&quot;,
+&quot;value&quot;: 0.0
+},
+&quot;color&quot;: {
+&quot;type&quot;: &quot;SITE_PALETTE_COLOR&quot;,
+&quot;sitePaletteColor&quot;: {
+&quot;colorName&quot;: &quot;black&quot;,
+&quot;alphaModifier&quot;: 1.0
+}
+}
+},
+&quot;blurBackground&quot;: {
+&quot;enabled&quot;: false,
+&quot;blurRadius&quot;: {
+&quot;unit&quot;: &quot;px&quot;,
+&quot;value&quot;: 12.0
+}
+},
+&quot;backgroundColor&quot;: {
+&quot;type&quot;: &quot;SITE_PALETTE_COLOR&quot;,
+&quot;sitePaletteColor&quot;: {
+&quot;colorName&quot;: &quot;black&quot;,
+&quot;alphaModifier&quot;: 1.0
+}
+},
+&quot;navigationColor&quot;: {
+&quot;type&quot;: &quot;SITE_PALETTE_COLOR&quot;,
+&quot;sitePaletteColor&quot;: {
+&quot;colorName&quot;: &quot;lightAccent&quot;,
+&quot;alphaModifier&quot;: 1.0
+}
+}
+},
+&quot;gradientOptions&quot;: {
+&quot;gradientType&quot;: &quot;faded&quot;,
+&quot;headerOpacity&quot;: {
+&quot;unit&quot;: &quot;%&quot;,
+&quot;value&quot;: 90.0
+},
+&quot;border&quot;: {
+&quot;enabled&quot;: false,
+&quot;position&quot;: &quot;allSides&quot;,
+&quot;thickness&quot;: {
+&quot;unit&quot;: &quot;px&quot;,
+&quot;value&quot;: 4.0
+},
+&quot;color&quot;: {
+&quot;type&quot;: &quot;SITE_PALETTE_COLOR&quot;,
+&quot;sitePaletteColor&quot;: {
+&quot;colorName&quot;: &quot;black&quot;,
+&quot;alphaModifier&quot;: 1.0
+}
+}
+},
+&quot;dropShadow&quot;: {
+&quot;enabled&quot;: false,
+&quot;blur&quot;: {
+&quot;unit&quot;: &quot;px&quot;,
+&quot;value&quot;: 30.0
+},
+&quot;spread&quot;: {
+&quot;unit&quot;: &quot;px&quot;,
+&quot;value&quot;: 0.0
+},
+&quot;distance&quot;: {
+&quot;unit&quot;: &quot;px&quot;,
+&quot;value&quot;: 0.0
+},
+&quot;color&quot;: {
+&quot;type&quot;: &quot;SITE_PALETTE_COLOR&quot;,
+&quot;sitePaletteColor&quot;: {
+&quot;colorName&quot;: &quot;black&quot;,
+&quot;alphaModifier&quot;: 1.0
+}
+}
+},
+&quot;blurBackground&quot;: {
+&quot;enabled&quot;: false,
+&quot;blurRadius&quot;: {
+&quot;unit&quot;: &quot;px&quot;,
+&quot;value&quot;: 12.0
+}
+},
+&quot;backgroundColor&quot;: {
+&quot;type&quot;: &quot;SITE_PALETTE_COLOR&quot;,
+&quot;sitePaletteColor&quot;: {
+&quot;colorName&quot;: &quot;white&quot;,
+&quot;alphaModifier&quot;: 1.0
+}
+},
+&quot;navigationColor&quot;: {
+&quot;type&quot;: &quot;SITE_PALETTE_COLOR&quot;,
+&quot;sitePaletteColor&quot;: {
+&quot;colorName&quot;: &quot;black&quot;,
+&quot;alphaModifier&quot;: 1.0
+}
+}
+},
+&quot;dropShadowOptions&quot;: {
+&quot;enabled&quot;: false,
+&quot;blur&quot;: {
+&quot;unit&quot;: &quot;px&quot;,
+&quot;value&quot;: 30.0
+},
+&quot;spread&quot;: {
+&quot;unit&quot;: &quot;px&quot;,
+&quot;value&quot;: 0.0
+},
+&quot;distance&quot;: {
+&quot;unit&quot;: &quot;px&quot;,
+&quot;value&quot;: 0.0
+},
+&quot;color&quot;: {
+&quot;type&quot;: &quot;SITE_PALETTE_COLOR&quot;,
+&quot;sitePaletteColor&quot;: {
+&quot;colorName&quot;: &quot;black&quot;,
+&quot;alphaModifier&quot;: 1.0
+}
+}
+},
+&quot;borderOptions&quot;: {
+&quot;enabled&quot;: false,
+&quot;position&quot;: &quot;allSides&quot;,
+&quot;thickness&quot;: {
+&quot;unit&quot;: &quot;px&quot;,
+&quot;value&quot;: 4.0
+},
+&quot;color&quot;: {
+&quot;type&quot;: &quot;SITE_PALETTE_COLOR&quot;,
+&quot;sitePaletteColor&quot;: {
+&quot;colorName&quot;: &quot;black&quot;,
+&quot;alphaModifier&quot;: 1.0
+}
+}
+},
+&quot;showPromotedElement&quot;: false,
+&quot;buttonVariant&quot;: &quot;primary&quot;,
+&quot;blurBackground&quot;: {
+&quot;enabled&quot;: false,
+&quot;blurRadius&quot;: {
+&quot;unit&quot;: &quot;px&quot;,
+&quot;value&quot;: 12.0
+}
+},
+&quot;headerOpacity&quot;: {
+&quot;unit&quot;: &quot;%&quot;,
+&quot;value&quot;: 100.0
+}
+}"
+    data-section-id="header"
+    data-header-style="solid"
+    data-language-picker="{
+&quot;enabled&quot;: false,
+&quot;iconEnabled&quot;: false,
+&quot;iconType&quot;: &quot;globe&quot;,
+&quot;flagShape&quot;: &quot;shiny&quot;,
+&quot;languageFlags&quot;: [ ]
+}"
+    
+    data-first-focusable-element
+    tabindex="-1"
+    style="
+      
+        
+          --headerDropShadowColor: hsla(var(--black-hsl), 1);
+        
+        
+          --headerBorderColor: hsla(var(--black-hsl), 1);
+        
+      
+      
+        --solidHeaderBackgroundColor: hsla(var(--black-hsl), 1);
+      
+      
+        --solidHeaderNavigationColor: hsla(var(--lightAccent-hsl), 1);
+      
+      
+        --gradientHeaderBackgroundColor: hsla(var(--white-hsl), 1);
+      
+      
+        --gradientHeaderNavigationColor: hsla(var(--black-hsl), 1);
+      
+    "
+  >
+    
+<div class="sqs-announcement-bar-dropzone"></div>
+
+    <div class="header-announcement-bar-wrapper">
+      
+      <a
+        href="#page"
+        class="header-skip-link sqs-button-element--primary"
+      >
+        Skip to Content
+      </a>
+      
+
+
+<style>
+    @supports (-webkit-backdrop-filter: none) or (backdrop-filter: none) {
+        .header-blur-background {
+            
+                -webkit-backdrop-filter: blur(12px);
+                backdrop-filter: blur(12px);
+            
+            
+        }
+    }
+</style>
+      <div
+        class="header-border"
+        data-header-style="solid"
+        data-header-usability-enabled="true"
+        data-header-border="false"
+        data-test="header-border"
+        style="
+
+
+  
+    border-width: 0px !important;
+  
+
+
+
+
+
+
+
+  
+
+
+
+"
+      ></div>
+      <div
+        class="header-dropshadow"
+        data-header-style="solid"
+        data-header-usability-enabled="true"
+        data-header-dropshadow="false"
+        data-test="header-dropshadow"
+        style="
+
+
+  
+"
+      ></div>
+      
+      
+        <div >
+          <div
+            class="header-background-solid"
+            data-header-style="solid"
+            data-test="header-background-solid"
+            
+            
+            style="opacity: calc(100 * .01)"
+          ></div>
+        </div>
+      
+
+      <div class='header-inner container--fluid
+        
+        
+        
+         header-mobile-layout-logo-left-nav-right
+        
+        
+        
+        
+        
+        
+        
+        
+        
+         header-layout-branding-center
+        
+        
+        
+        
+        
+        '
+        style="
+
+
+  
+    padding: 0;
+  
+
+
+
+
+
+
+
+"
+        data-test="header-inner"
+        >
+        <!-- Background -->
+        <div class="header-background theme-bg--primary"></div>
+
+        <div class="header-display-desktop" data-content-field="site-title">
+          
+
+          
+
+          
+
+          
+
+          
+
+          
+          
+            
+            <!-- Social -->
+            
+              
+            
+          
+            
+            <!-- Title and nav wrapper -->
+            <div class="header-title-nav-wrapper">
+              
+
+              
+
+              
+                
+                <!-- Nav -->
+                <div class="header-nav">
+                  <div class="header-nav-wrapper">
+                    <nav class="header-nav-list">
+                      
+
+
+  
+    <div class="header-nav-item header-nav-item--collection header-nav-item--active header-nav-item--homepage">
+      <a
+        href="/"
+        data-animation-role="header-element"
+        
+          aria-current="page"
+        
+      >
+        Home
+      </a>
+    </div>
+  
+  
+  
+
+
+  
+    <div class="header-nav-item header-nav-item--collection">
+      <a
+        href="/countdown"
+        data-animation-role="header-element"
+        
+      >
+        Countdown
+      </a>
+    </div>
+  
+  
+  
+
+
+  
+    <div class="header-nav-item header-nav-item--collection">
+      <a
+        href="/demolab"
+        data-animation-role="header-element"
+        
+      >
+        Demo Lab
+      </a>
+    </div>
+  
+  
+  
+
+
+    <div class="header-nav-item header-nav-item--external">
+      <a href="https://nux.gg/defcon31-cocktails"  target="_blank"  data-animation-role="header-element">Event</a>
+    </div>
+  
+
+
+
+
+                    </nav>
+                  </div>
+                </div>
+              
+                
+                <!-- Title -->
+                
+                  <div
+                    class="
+                      header-title
+                      
+                    "
+                    data-animation-role="header-element"
+                  >
+                    
+                      <div class="header-title-logo">
+                        <a href="/" data-animation-role="header-element">
+                        
+<img elementtiming="nbf-header-logo-desktop" src="//images.squarespace-cdn.com/content/v1/64949c6ff6ca4d644ff0f893/706a5899-d92e-4e44-b920-a5662384afaa/Projectdiscovery-Icon-Primary.png?format=1500w" alt="ProjectDiscovery at DEF CON 31" style="display:block" fetchpriority="high" loading="eager" decoding="async" data-loader="raw">
+
+                        </a>
+                      </div>
+
+                    
+                    
+                  </div>
+                
+              
+              
+            </div>
+          
+            
+            <!-- Actions -->
+            <div class="header-actions header-actions--right">
+              
+              
+                
+                  <div class="header-actions-action header-actions-action--social">
+                    
+                      
+                        <a class="icon icon--fill  header-icon header-icon-border-shape-none header-icon-border-style-solid"  href="https://twitter.com/pdiscoveryio" target="_blank" aria-label="Twitter">
+                          <svg viewBox="23 23 64 64">
+                            <use xlink:href="#twitter-unauth-icon" width="110" height="110"></use>
+                          </svg>
+                        </a>
+                      
+                        <a class="icon icon--fill  header-icon header-icon-border-shape-none header-icon-border-style-solid"  href="https://github.com/projectdiscovery" target="_blank" aria-label="GitHub">
+                          <svg viewBox="23 23 64 64">
+                            <use xlink:href="#github-unauth-icon" width="110" height="110"></use>
+                          </svg>
+                        </a>
+                      
+                        <a class="icon icon--fill  header-icon header-icon-border-shape-none header-icon-border-style-solid"  href="https://discord.gg/projectdiscovery" target="_blank" aria-label="Discord">
+                          <svg viewBox="23 23 64 64">
+                            <use xlink:href="#discord-unauth-icon" width="110" height="110"></use>
+                          </svg>
+                        </a>
+                      
+                    
+                  </div>
+                
+              
+
+              
+
+            
+            
+
+              
+              <div class="showOnMobile">
+                
+              </div>
+
+              
+              <div class="showOnDesktop">
+                
+              </div>
+
+              
+            </div>
+          
+            
+
+
+<style>
+  .top-bun, 
+  .patty, 
+  .bottom-bun {
+    height: 1px;
+  }
+</style>
+
+<!-- Burger -->
+<div class="header-burger
+
+  menu-overlay-has-visible-non-navigation-items
+
+" data-animation-role="header-element">
+  <button class="header-burger-btn burger" data-test="header-burger">
+    <span hidden class="js-header-burger-open-title visually-hidden">Open Menu</span>
+    <span hidden class="js-header-burger-close-title visually-hidden">Close Menu</span>
+    <div class="burger-box">
+      <div class="burger-inner header-menu-icon-doubleLineHamburger">
+        <div class="top-bun"></div>
+        <div class="patty"></div>
+        <div class="bottom-bun"></div>
+      </div>
+    </div>
+  </button>
+</div>
+
+          
+          
+          
+          
+          
+
+        </div>
+        <div class="header-display-mobile" data-content-field="site-title">
+          
+            
+            <!-- Social -->
+            
+              
+            
+          
+            
+            <!-- Title and nav wrapper -->
+            <div class="header-title-nav-wrapper">
+              
+
+              
+
+              
+                
+                <!-- Nav -->
+                <div class="header-nav">
+                  <div class="header-nav-wrapper">
+                    <nav class="header-nav-list">
+                      
+
+
+  
+    <div class="header-nav-item header-nav-item--collection header-nav-item--active header-nav-item--homepage">
+      <a
+        href="/"
+        data-animation-role="header-element"
+        
+          aria-current="page"
+        
+      >
+        Home
+      </a>
+    </div>
+  
+  
+  
+
+
+  
+    <div class="header-nav-item header-nav-item--collection">
+      <a
+        href="/countdown"
+        data-animation-role="header-element"
+        
+      >
+        Countdown
+      </a>
+    </div>
+  
+  
+  
+
+
+  
+    <div class="header-nav-item header-nav-item--collection">
+      <a
+        href="/demolab"
+        data-animation-role="header-element"
+        
+      >
+        Demo Lab
+      </a>
+    </div>
+  
+  
+  
+
+
+    <div class="header-nav-item header-nav-item--external">
+      <a href="https://nux.gg/defcon31-cocktails"  target="_blank"  data-animation-role="header-element">Event</a>
+    </div>
+  
+
+
+
+
+                    </nav>
+                  </div>
+                </div>
+              
+                
+                <!-- Title -->
+                
+                  <div
+                    class="
+                      header-title
+                      
+                    "
+                    data-animation-role="header-element"
+                  >
+                    
+                      <div class="header-title-logo">
+                        <a href="/" data-animation-role="header-element">
+                        
+<img elementtiming="nbf-header-logo-desktop" src="//images.squarespace-cdn.com/content/v1/64949c6ff6ca4d644ff0f893/706a5899-d92e-4e44-b920-a5662384afaa/Projectdiscovery-Icon-Primary.png?format=1500w" alt="ProjectDiscovery at DEF CON 31" style="display:block" fetchpriority="high" loading="eager" decoding="async" data-loader="raw">
+
+                        </a>
+                      </div>
+
+                    
+                    
+                  </div>
+                
+              
+              
+            </div>
+          
+            
+            <!-- Actions -->
+            <div class="header-actions header-actions--right">
+              
+              
+                
+                  <div class="header-actions-action header-actions-action--social">
+                    
+                      
+                        <a class="icon icon--fill  header-icon header-icon-border-shape-none header-icon-border-style-solid"  href="https://twitter.com/pdiscoveryio" target="_blank" aria-label="Twitter">
+                          <svg viewBox="23 23 64 64">
+                            <use xlink:href="#twitter-unauth-icon" width="110" height="110"></use>
+                          </svg>
+                        </a>
+                      
+                        <a class="icon icon--fill  header-icon header-icon-border-shape-none header-icon-border-style-solid"  href="https://github.com/projectdiscovery" target="_blank" aria-label="GitHub">
+                          <svg viewBox="23 23 64 64">
+                            <use xlink:href="#github-unauth-icon" width="110" height="110"></use>
+                          </svg>
+                        </a>
+                      
+                        <a class="icon icon--fill  header-icon header-icon-border-shape-none header-icon-border-style-solid"  href="https://discord.gg/projectdiscovery" target="_blank" aria-label="Discord">
+                          <svg viewBox="23 23 64 64">
+                            <use xlink:href="#discord-unauth-icon" width="110" height="110"></use>
+                          </svg>
+                        </a>
+                      
+                    
+                  </div>
+                
+              
+
+              
+
+            
+            
+
+              
+              <div class="showOnMobile">
+                
+              </div>
+
+              
+              <div class="showOnDesktop">
+                
+              </div>
+
+              
+            </div>
+          
+            
+
+
+<style>
+  .top-bun, 
+  .patty, 
+  .bottom-bun {
+    height: 1px;
+  }
+</style>
+
+<!-- Burger -->
+<div class="header-burger
+
+  menu-overlay-has-visible-non-navigation-items
+
+" data-animation-role="header-element">
+  <button class="header-burger-btn burger" data-test="header-burger">
+    <span hidden class="js-header-burger-open-title visually-hidden">Open Menu</span>
+    <span hidden class="js-header-burger-close-title visually-hidden">Close Menu</span>
+    <div class="burger-box">
+      <div class="burger-inner header-menu-icon-doubleLineHamburger">
+        <div class="top-bun"></div>
+        <div class="patty"></div>
+        <div class="bottom-bun"></div>
+      </div>
+    </div>
+  </button>
+</div>
+
+          
+          
+          
+          
+          
+        </div>
+      </div>
+    </div>
+    <!-- (Mobile) Menu Navigation -->
+    <div class="header-menu header-menu--folder-list
+      
+      
+      
+      
+      
+      "
+      data-section-theme=""
+      data-current-styles="{
+&quot;layout&quot;: &quot;brandingCenter&quot;,
+&quot;action&quot;: {
+&quot;buttonText&quot;: &quot;Get Started&quot;,
+&quot;newWindow&quot;: false
+},
+&quot;showSocial&quot;: true,
+&quot;socialOptions&quot;: {
+&quot;socialBorderShape&quot;: &quot;none&quot;,
+&quot;socialBorderStyle&quot;: &quot;solid&quot;,
+&quot;socialBorderThickness&quot;: {
+&quot;unit&quot;: &quot;px&quot;,
+&quot;value&quot;: 1.0
+}
+},
+&quot;menuOverlayAnimation&quot;: &quot;fade&quot;,
+&quot;cartStyle&quot;: &quot;cart&quot;,
+&quot;cartText&quot;: &quot;Cart&quot;,
+&quot;showEmptyCartState&quot;: true,
+&quot;cartOptions&quot;: {
+&quot;iconType&quot;: &quot;stroke-1&quot;,
+&quot;cartBorderShape&quot;: &quot;none&quot;,
+&quot;cartBorderStyle&quot;: &quot;outline&quot;,
+&quot;cartBorderThickness&quot;: {
+&quot;unit&quot;: &quot;px&quot;,
+&quot;value&quot;: 1.0
+}
+},
+&quot;showButton&quot;: false,
+&quot;showCart&quot;: false,
+&quot;showAccountLogin&quot;: true,
+&quot;headerStyle&quot;: &quot;solid&quot;,
+&quot;languagePicker&quot;: {
+&quot;enabled&quot;: false,
+&quot;iconEnabled&quot;: false,
+&quot;iconType&quot;: &quot;globe&quot;,
+&quot;flagShape&quot;: &quot;shiny&quot;,
+&quot;languageFlags&quot;: [ ]
+},
+&quot;mobileOptions&quot;: {
+&quot;layout&quot;: &quot;logoLeftNavRight&quot;,
+&quot;menuIcon&quot;: &quot;doubleLineHamburger&quot;,
+&quot;menuIconOptions&quot;: {
+&quot;style&quot;: &quot;doubleLineHamburger&quot;,
+&quot;thickness&quot;: {
+&quot;unit&quot;: &quot;px&quot;,
+&quot;value&quot;: 1.0
+}
+}
+},
+&quot;dynamicOptions&quot;: {
+&quot;border&quot;: {
+&quot;enabled&quot;: false,
+&quot;position&quot;: &quot;allSides&quot;,
+&quot;thickness&quot;: {
+&quot;unit&quot;: &quot;px&quot;,
+&quot;value&quot;: 4.0
+},
+&quot;color&quot;: {
+&quot;type&quot;: &quot;SITE_PALETTE_COLOR&quot;,
+&quot;sitePaletteColor&quot;: {
+&quot;colorName&quot;: &quot;black&quot;,
+&quot;alphaModifier&quot;: 1.0
+}
+}
+}
+},
+&quot;solidOptions&quot;: {
+&quot;headerOpacity&quot;: {
+&quot;unit&quot;: &quot;%&quot;,
+&quot;value&quot;: 100.0
+},
+&quot;border&quot;: {
+&quot;enabled&quot;: false,
+&quot;position&quot;: &quot;allSides&quot;,
+&quot;thickness&quot;: {
+&quot;unit&quot;: &quot;px&quot;,
+&quot;value&quot;: 4.0
+},
+&quot;color&quot;: {
+&quot;type&quot;: &quot;SITE_PALETTE_COLOR&quot;,
+&quot;sitePaletteColor&quot;: {
+&quot;colorName&quot;: &quot;black&quot;,
+&quot;alphaModifier&quot;: 1.0
+}
+}
+},
+&quot;dropShadow&quot;: {
+&quot;enabled&quot;: false,
+&quot;blur&quot;: {
+&quot;unit&quot;: &quot;px&quot;,
+&quot;value&quot;: 30.0
+},
+&quot;spread&quot;: {
+&quot;unit&quot;: &quot;px&quot;,
+&quot;value&quot;: 0.0
+},
+&quot;distance&quot;: {
+&quot;unit&quot;: &quot;px&quot;,
+&quot;value&quot;: 0.0
+},
+&quot;color&quot;: {
+&quot;type&quot;: &quot;SITE_PALETTE_COLOR&quot;,
+&quot;sitePaletteColor&quot;: {
+&quot;colorName&quot;: &quot;black&quot;,
+&quot;alphaModifier&quot;: 1.0
+}
+}
+},
+&quot;blurBackground&quot;: {
+&quot;enabled&quot;: false,
+&quot;blurRadius&quot;: {
+&quot;unit&quot;: &quot;px&quot;,
+&quot;value&quot;: 12.0
+}
+},
+&quot;backgroundColor&quot;: {
+&quot;type&quot;: &quot;SITE_PALETTE_COLOR&quot;,
+&quot;sitePaletteColor&quot;: {
+&quot;colorName&quot;: &quot;black&quot;,
+&quot;alphaModifier&quot;: 1.0
+}
+},
+&quot;navigationColor&quot;: {
+&quot;type&quot;: &quot;SITE_PALETTE_COLOR&quot;,
+&quot;sitePaletteColor&quot;: {
+&quot;colorName&quot;: &quot;lightAccent&quot;,
+&quot;alphaModifier&quot;: 1.0
+}
+}
+},
+&quot;gradientOptions&quot;: {
+&quot;gradientType&quot;: &quot;faded&quot;,
+&quot;headerOpacity&quot;: {
+&quot;unit&quot;: &quot;%&quot;,
+&quot;value&quot;: 90.0
+},
+&quot;border&quot;: {
+&quot;enabled&quot;: false,
+&quot;position&quot;: &quot;allSides&quot;,
+&quot;thickness&quot;: {
+&quot;unit&quot;: &quot;px&quot;,
+&quot;value&quot;: 4.0
+},
+&quot;color&quot;: {
+&quot;type&quot;: &quot;SITE_PALETTE_COLOR&quot;,
+&quot;sitePaletteColor&quot;: {
+&quot;colorName&quot;: &quot;black&quot;,
+&quot;alphaModifier&quot;: 1.0
+}
+}
+},
+&quot;dropShadow&quot;: {
+&quot;enabled&quot;: false,
+&quot;blur&quot;: {
+&quot;unit&quot;: &quot;px&quot;,
+&quot;value&quot;: 30.0
+},
+&quot;spread&quot;: {
+&quot;unit&quot;: &quot;px&quot;,
+&quot;value&quot;: 0.0
+},
+&quot;distance&quot;: {
+&quot;unit&quot;: &quot;px&quot;,
+&quot;value&quot;: 0.0
+},
+&quot;color&quot;: {
+&quot;type&quot;: &quot;SITE_PALETTE_COLOR&quot;,
+&quot;sitePaletteColor&quot;: {
+&quot;colorName&quot;: &quot;black&quot;,
+&quot;alphaModifier&quot;: 1.0
+}
+}
+},
+&quot;blurBackground&quot;: {
+&quot;enabled&quot;: false,
+&quot;blurRadius&quot;: {
+&quot;unit&quot;: &quot;px&quot;,
+&quot;value&quot;: 12.0
+}
+},
+&quot;backgroundColor&quot;: {
+&quot;type&quot;: &quot;SITE_PALETTE_COLOR&quot;,
+&quot;sitePaletteColor&quot;: {
+&quot;colorName&quot;: &quot;white&quot;,
+&quot;alphaModifier&quot;: 1.0
+}
+},
+&quot;navigationColor&quot;: {
+&quot;type&quot;: &quot;SITE_PALETTE_COLOR&quot;,
+&quot;sitePaletteColor&quot;: {
+&quot;colorName&quot;: &quot;black&quot;,
+&quot;alphaModifier&quot;: 1.0
+}
+}
+},
+&quot;dropShadowOptions&quot;: {
+&quot;enabled&quot;: false,
+&quot;blur&quot;: {
+&quot;unit&quot;: &quot;px&quot;,
+&quot;value&quot;: 30.0
+},
+&quot;spread&quot;: {
+&quot;unit&quot;: &quot;px&quot;,
+&quot;value&quot;: 0.0
+},
+&quot;distance&quot;: {
+&quot;unit&quot;: &quot;px&quot;,
+&quot;value&quot;: 0.0
+},
+&quot;color&quot;: {
+&quot;type&quot;: &quot;SITE_PALETTE_COLOR&quot;,
+&quot;sitePaletteColor&quot;: {
+&quot;colorName&quot;: &quot;black&quot;,
+&quot;alphaModifier&quot;: 1.0
+}
+}
+},
+&quot;borderOptions&quot;: {
+&quot;enabled&quot;: false,
+&quot;position&quot;: &quot;allSides&quot;,
+&quot;thickness&quot;: {
+&quot;unit&quot;: &quot;px&quot;,
+&quot;value&quot;: 4.0
+},
+&quot;color&quot;: {
+&quot;type&quot;: &quot;SITE_PALETTE_COLOR&quot;,
+&quot;sitePaletteColor&quot;: {
+&quot;colorName&quot;: &quot;black&quot;,
+&quot;alphaModifier&quot;: 1.0
+}
+}
+},
+&quot;showPromotedElement&quot;: false,
+&quot;buttonVariant&quot;: &quot;primary&quot;,
+&quot;blurBackground&quot;: {
+&quot;enabled&quot;: false,
+&quot;blurRadius&quot;: {
+&quot;unit&quot;: &quot;px&quot;,
+&quot;value&quot;: 12.0
+}
+},
+&quot;headerOpacity&quot;: {
+&quot;unit&quot;: &quot;%&quot;,
+&quot;value&quot;: 100.0
+}
+}"
+      data-section-id="overlay-nav"
+      data-show-account-login="true"
+      data-test="header-menu">
+      <div class="header-menu-bg theme-bg--primary"></div>
+      <div class="header-menu-nav">
+        <nav class="header-menu-nav-list">
+          <div data-folder="root" class="header-menu-nav-folder">
+            <div class="header-menu-nav-folder-content">
+              <!-- Menu Navigation -->
+<div class="header-menu-nav-wrapper">
+  
+    
+      
+        
+          
+            <div class="container header-menu-nav-item header-menu-nav-item--collection header-menu-nav-item--active header-menu-nav-item--homepage">
+              <a
+                href="/"
+                
+                  aria-current="page"
+                
+              >
+                <div class="header-menu-nav-item-content">
+                  Home
+                </div>
+              </a>
+            </div>
+          
+        
+      
+    
+      
+        
+          
+            <div class="container header-menu-nav-item header-menu-nav-item--collection">
+              <a
+                href="/countdown"
+                
+              >
+                <div class="header-menu-nav-item-content">
+                  Countdown
+                </div>
+              </a>
+            </div>
+          
+        
+      
+    
+      
+        
+          
+            <div class="container header-menu-nav-item header-menu-nav-item--collection">
+              <a
+                href="/demolab"
+                
+              >
+                <div class="header-menu-nav-item-content">
+                  Demo Lab
+                </div>
+              </a>
+            </div>
+          
+        
+      
+    
+      
+        
+          <div class="container header-menu-nav-item header-menu-nav-item--external">
+            <a href="https://nux.gg/defcon31-cocktails"  target="_blank" >Event</a>
+          </div>
+        
+      
+    
+  
+</div>
+
+              
+            </div>
+            
+              <div class="header-menu-actions social-accounts">
+                
+                  
+                    <div class="header-menu-actions-action header-menu-actions-action--social mobile">
+                      <a class="icon icon--lg icon--fill  header-icon header-icon-border-shape-none header-icon-border-style-solid"  href="https://twitter.com/pdiscoveryio" target="_blank" aria-label="Twitter">
+                        <svg viewBox="23 23 64 64">
+                          <use xlink:href="#twitter-unauth-icon" width="110" height="110"></use>
+                        </svg>
+                      </a>
+                    </div>
+                  
+                    <div class="header-menu-actions-action header-menu-actions-action--social mobile">
+                      <a class="icon icon--lg icon--fill  header-icon header-icon-border-shape-none header-icon-border-style-solid"  href="https://github.com/projectdiscovery" target="_blank" aria-label="GitHub">
+                        <svg viewBox="23 23 64 64">
+                          <use xlink:href="#github-unauth-icon" width="110" height="110"></use>
+                        </svg>
+                      </a>
+                    </div>
+                  
+                    <div class="header-menu-actions-action header-menu-actions-action--social mobile">
+                      <a class="icon icon--lg icon--fill  header-icon header-icon-border-shape-none header-icon-border-style-solid"  href="https://discord.gg/projectdiscovery" target="_blank" aria-label="Discord">
+                        <svg viewBox="23 23 64 64">
+                          <use xlink:href="#discord-unauth-icon" width="110" height="110"></use>
+                        </svg>
+                      </a>
+                    </div>
+                  
+                
+              </div>
+            
+            
+            
+          </div>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+
+
+
+      <main id="page" class="container" role="main">
+        
+          
+<article class="sections" id="sections" data-page-sections="64949ecfe5ce6b7ee745bf71">
+  
+  
+    
+    
+
+
+  
+
+
+<section
+  data-test="page-section"
+  
+  data-section-theme="black"
+  class='page-section has-section-divider
+    
+      full-bleed-section
+      layout-engine-section
+    
+    background-width--full-bleed
+    
+      section-height--small
+    
+    
+      content-width--wide
+    
+    horizontal-alignment--center
+    vertical-alignment--bottom
+    
+    
+    black'
+  
+  data-section-id="64949ecfe5ce6b7ee745bf74"
+  
+  data-controller="SectionWrapperController"
+  data-current-styles="{
+&quot;backgroundImage&quot;: {
+&quot;id&quot;: &quot;64949ecfe5ce6b7ee745bf6a&quot;,
+&quot;recordType&quot;: 2,
+&quot;addedOn&quot;: 1565127490162,
+&quot;updatedOn&quot;: 1654527766859,
+&quot;starred&quot;: false,
+&quot;passthrough&quot;: false,
+&quot;workflowState&quot;: 1,
+&quot;publishOn&quot;: 1565127490162,
+&quot;authorId&quot;: &quot;64949bedf5c8da6bfd3dd537&quot;,
+&quot;systemDataId&quot;: &quot;1649102908650-V2UBTH8UJZ69A78FIIHH&quot;,
+&quot;systemDataVariants&quot;: &quot;1733x1028,100w,300w,500w,750w,1000w,1500w&quot;,
+&quot;systemDataSourceType&quot;: &quot;JPG&quot;,
+&quot;filename&quot;: &quot;Stocksy_txpd700c813nuL100_Medium_1232017+%281%29.jpg&quot;,
+&quot;mediaFocalPoint&quot;: {
+&quot;x&quot;: 0.480991980991981,
+&quot;y&quot;: 0.31999999999999995,
+&quot;source&quot;: 3
+},
+&quot;colorData&quot;: {
+&quot;topLeftAverage&quot;: &quot;dadeeb&quot;,
+&quot;topRightAverage&quot;: &quot;cbd2df&quot;,
+&quot;bottomLeftAverage&quot;: &quot;e0e4ef&quot;,
+&quot;bottomRightAverage&quot;: &quot;cfd3df&quot;,
+&quot;centerAverage&quot;: &quot;573e38&quot;,
+&quot;suggestedBgColor&quot;: &quot;d3d7e2&quot;
+},
+&quot;urlId&quot;: &quot;reimx1u3o9pv9smqg8spfsqhnoapn7-g96ax-65ldy&quot;,
+&quot;title&quot;: &quot;&quot;,
+&quot;body&quot;: null,
+&quot;likeCount&quot;: 0,
+&quot;commentCount&quot;: 0,
+&quot;publicCommentCount&quot;: 0,
+&quot;commentState&quot;: 2,
+&quot;unsaved&quot;: false,
+&quot;author&quot;: {
+&quot;id&quot;: &quot;64949bedf5c8da6bfd3dd537&quot;,
+&quot;displayName&quot;: &quot;Brendan O'Leary&quot;,
+&quot;firstName&quot;: &quot;Brendan&quot;,
+&quot;lastName&quot;: &quot;O'Leary&quot;,
+&quot;bio&quot;: &quot;&quot;
+},
+&quot;assetUrl&quot;: &quot;https://images.squarespace-cdn.com/content/v1/624b503b5190ea02985eed8d/1649102908650-V2UBTH8UJZ69A78FIIHH/Stocksy_txpd700c813nuL100_Medium_1232017%2B%25281%2529.jpg&quot;,
+&quot;contentType&quot;: &quot;image/jpeg&quot;,
+&quot;items&quot;: [ ],
+&quot;pushedServices&quot;: { },
+&quot;pendingPushedServices&quot;: { },
+&quot;originalSize&quot;: &quot;1733x1028&quot;,
+&quot;recordTypeLabel&quot;: &quot;image&quot;
+},
+&quot;imageOverlayOpacity&quot;: 0.25,
+&quot;backgroundWidth&quot;: &quot;background-width--full-bleed&quot;,
+&quot;sectionHeight&quot;: &quot;section-height--small&quot;,
+&quot;customSectionHeight&quot;: 1,
+&quot;horizontalAlignment&quot;: &quot;horizontal-alignment--center&quot;,
+&quot;verticalAlignment&quot;: &quot;vertical-alignment--bottom&quot;,
+&quot;contentWidth&quot;: &quot;content-width--wide&quot;,
+&quot;customContentWidth&quot;: 50,
+&quot;sectionTheme&quot;: &quot;black&quot;,
+&quot;sectionAnimation&quot;: &quot;none&quot;,
+&quot;backgroundMode&quot;: &quot;generative&quot;,
+&quot;generative&quot;: {
+&quot;type&quot;: &quot;bokeh&quot;,
+&quot;seed&quot;: 44,
+&quot;count&quot;: 9,
+&quot;size&quot;: 15,
+&quot;speed&quot;: 50,
+&quot;backgroundColor&quot;: {
+&quot;type&quot;: &quot;SITE_PALETTE_COLOR&quot;,
+&quot;sitePaletteColor&quot;: {
+&quot;id&quot;: &quot;black&quot;,
+&quot;alpha&quot;: 1.0
+}
+},
+&quot;color1&quot;: {
+&quot;type&quot;: &quot;SITE_PALETTE_COLOR&quot;,
+&quot;sitePaletteColor&quot;: {
+&quot;id&quot;: &quot;black&quot;,
+&quot;alpha&quot;: 1.0
+}
+},
+&quot;color2&quot;: {
+&quot;type&quot;: &quot;SITE_PALETTE_COLOR&quot;,
+&quot;sitePaletteColor&quot;: {
+&quot;id&quot;: &quot;lightAccent&quot;,
+&quot;alpha&quot;: 1.0
+}
+},
+&quot;color3&quot;: {
+&quot;type&quot;: &quot;SITE_PALETTE_COLOR&quot;,
+&quot;sitePaletteColor&quot;: {
+&quot;id&quot;: &quot;white&quot;,
+&quot;alpha&quot;: 1.0
+}
+},
+&quot;invertColors&quot;: false,
+&quot;noiseIntensity&quot;: 0,
+&quot;noiseScale&quot;: 0,
+&quot;distortionScaleX&quot;: 0,
+&quot;distortionScaleY&quot;: 0,
+&quot;distortionSpeed&quot;: 0,
+&quot;distortionIntensity&quot;: 0,
+&quot;lightIntensity&quot;: 27,
+&quot;lightX&quot;: 72,
+&quot;bevelRotation&quot;: 0,
+&quot;bevelSize&quot;: 0,
+&quot;bevelStrength&quot;: 0,
+&quot;complexity&quot;: 0,
+&quot;cutoff&quot;: 0,
+&quot;isBevelEnabled&quot;: false,
+&quot;isBlurEnabled&quot;: false,
+&quot;scale&quot;: 0,
+&quot;speedMorph&quot;: 0,
+&quot;speedTravel&quot;: 0,
+&quot;steps&quot;: 0,
+&quot;travelDirection&quot;: 0,
+&quot;noiseBias&quot;: 0,
+&quot;animateNoise&quot;: false,
+&quot;distortionComplexity&quot;: 0,
+&quot;distortionDirection&quot;: 0,
+&quot;distortionMorphSpeed&quot;: 0,
+&quot;distortionSeed&quot;: 0,
+&quot;distortionSmoothness&quot;: 0,
+&quot;linearGradientStartColorDistance&quot;: 0,
+&quot;linearGradientEndColorDistance&quot;: 0,
+&quot;linearGradientAngle&quot;: 0,
+&quot;linearGradientAngleMotion&quot;: 0,
+&quot;linearGradientRepeat&quot;: 0,
+&quot;radialGradientRadius&quot;: 0,
+&quot;radialGradientPositionX&quot;: 0,
+&quot;radialGradientPositionY&quot;: 0,
+&quot;radialGradientFollowCursor&quot;: false,
+&quot;radialGradientFollowSpeed&quot;: 0,
+&quot;imageScale&quot;: 0,
+&quot;imageCount&quot;: 0,
+&quot;patternEnabled&quot;: false,
+&quot;patternSize&quot;: 0,
+&quot;patternOffsetX&quot;: 0,
+&quot;patternOffsetY&quot;: 0,
+&quot;patternSpaceX&quot;: 0,
+&quot;patternSpaceY&quot;: 0,
+&quot;waveEnabled&quot;: false,
+&quot;waveSpeed&quot;: 0,
+&quot;waveComplexity&quot;: 0,
+&quot;waveDepth&quot;: 0,
+&quot;waveShadowDepth&quot;: 0,
+&quot;boxSize&quot;: 0.0,
+&quot;scaleX&quot;: 0,
+&quot;scaleY&quot;: 0,
+&quot;scaleZ&quot;: 0,
+&quot;isMorphEnabled&quot;: false,
+&quot;lightY&quot;: 0,
+&quot;lightZ&quot;: 0,
+&quot;noiseRange&quot;: 0,
+&quot;positionFactor&quot;: 0,
+&quot;scaleFactor&quot;: 0,
+&quot;colorFactor&quot;: 0,
+&quot;sizeVariance&quot;: 0,
+&quot;wobble&quot;: 0,
+&quot;morph&quot;: 0,
+&quot;scrollMovement&quot;: 0,
+&quot;patternScaleX&quot;: 0,
+&quot;patternScaleY&quot;: 0,
+&quot;patternPowerX&quot;: 0,
+&quot;patternPowerY&quot;: 0,
+&quot;patternAmount&quot;: 0,
+&quot;surfaceHeight&quot;: 0,
+&quot;colorStop1&quot;: 0,
+&quot;colorStop2&quot;: 0,
+&quot;colorStop3&quot;: 0,
+&quot;colorStop4&quot;: 0,
+&quot;gradientDistortionX&quot;: 0,
+&quot;gradientDistortionY&quot;: 0,
+&quot;curveX&quot;: 0,
+&quot;curveY&quot;: 0,
+&quot;curveFunnel&quot;: 0,
+&quot;fogIntensity&quot;: 0,
+&quot;repeat&quot;: 0,
+&quot;rotation&quot;: 0,
+&quot;rotationSpeed&quot;: 0,
+&quot;blur&quot;: 0,
+&quot;complexityY&quot;: 9,
+&quot;complexityZ&quot;: 18,
+&quot;amplitudeY&quot;: 55,
+&quot;amplitudeZ&quot;: 84,
+&quot;offset&quot;: 99,
+&quot;lightAngle&quot;: 41,
+&quot;alpha&quot;: 35
+}
+}"
+  data-current-context="{
+&quot;video&quot;: {
+&quot;playbackSpeed&quot;: 0.5,
+&quot;filter&quot;: 1,
+&quot;filterStrength&quot;: 0,
+&quot;zoom&quot;: 0,
+&quot;videoSourceProvider&quot;: &quot;none&quot;
+},
+&quot;backgroundImageId&quot;: null,
+&quot;backgroundMediaEffect&quot;: {
+&quot;type&quot;: &quot;none&quot;
+},
+&quot;divider&quot;: {
+&quot;enabled&quot;: true,
+&quot;type&quot;: &quot;wavy&quot;,
+&quot;width&quot;: {
+&quot;unit&quot;: &quot;vw&quot;,
+&quot;value&quot;: 100.0
+},
+&quot;height&quot;: {
+&quot;unit&quot;: &quot;vw&quot;,
+&quot;value&quot;: 6.0
+},
+&quot;isFlipX&quot;: false,
+&quot;isFlipY&quot;: false,
+&quot;offset&quot;: {
+&quot;unit&quot;: &quot;px&quot;,
+&quot;value&quot;: 0.0
+},
+&quot;stroke&quot;: {
+&quot;style&quot;: &quot;none&quot;,
+&quot;color&quot;: {
+&quot;type&quot;: &quot;THEME_COLOR&quot;
+},
+&quot;thickness&quot;: {
+&quot;unit&quot;: &quot;px&quot;,
+&quot;value&quot;: 6.0
+},
+&quot;dashLength&quot;: {
+&quot;unit&quot;: &quot;px&quot;,
+&quot;value&quot;: 5.0
+},
+&quot;gapLength&quot;: {
+&quot;unit&quot;: &quot;px&quot;,
+&quot;value&quot;: 15.0
+},
+&quot;linecap&quot;: &quot;square&quot;
+}
+},
+&quot;typeName&quot;: &quot;page&quot;
+}"
+  data-animation="none"
+  data-fluid-engine-section
+   
+  
+    
+  
+  
+>
+  <div
+    class="section-border"
+    
+      data-controller="SectionDivider"
+      style="clip-path: url(#section-divider-64949ecfe5ce6b7ee745bf74);"
+    
+  >
+    <div class="section-background">
+    
+      
+  <div
+  class="section-background-content"
+  data-controller="BackgroundBokeh"
+  >
+  <div class="section-background-canvas background-fx-canvas"></div>
+</div>
+
+    
+    </div>
+  </div>
+  <div
+    class='content-wrapper'
+    style='
+      
+        
+      
+    '
+  >
+    <div
+      class="content"
+      
+    >
+      
+      
+      
+      
+      
+      
+      <div data-fluid-engine="true"><style>
+
+.fe-64949ecfe5ce6b7ee745bf73 {
+  --grid-gutter: calc(var(--sqs-mobile-site-gutter, 6vw) - 11.0px);
+  --cell-max-width: calc( ( var(--sqs-site-max-width, 1500px) - (11.0px * (8 - 1)) ) / 8 );
+
+  display: grid;
+  position: relative;
+  grid-area: 1/1/-1/-1;
+  grid-template-rows: repeat(14,minmax(24px, auto));
+  grid-template-columns:
+    minmax(var(--grid-gutter), 1fr)
+    repeat(8, minmax(0, var(--cell-max-width)))
+    minmax(var(--grid-gutter), 1fr);
+  row-gap: 11.0px;
+  column-gap: 11.0px;
+}
+
+@media (min-width: 768px) {
+  .background-width--inset .fe-64949ecfe5ce6b7ee745bf73 {
+    --inset-padding: calc(var(--sqs-site-gutter) * 2);
+  }
+
+  .fe-64949ecfe5ce6b7ee745bf73 {
+    --grid-gutter: calc(var(--sqs-site-gutter, 4vw) - 11.0px);
+    --cell-max-width: calc( ( var(--sqs-site-max-width, 1500px) - (11.0px * (24 - 1)) ) / 24 );
+    --inset-padding: 0vw;
+
+    --row-height-scaling-factor: 0.0215;
+    --container-width: min(var(--sqs-site-max-width, 1500px), calc(100vw - var(--sqs-site-gutter, 4vw) * 2 - var(--inset-padding) ));
+
+    grid-template-rows: repeat(18,minmax(calc(var(--container-width) * var(--row-height-scaling-factor)), auto));
+    grid-template-columns:
+      minmax(var(--grid-gutter), 1fr)
+      repeat(24, minmax(0, var(--cell-max-width)))
+      minmax(var(--grid-gutter), 1fr);
+  }
+}
+
+
+  .fe-block-yui_3_17_2_1_1687461578227_10178 {
+    grid-area: 1/2/7/10;
+    z-index: 2;
+
+    @media (max-width: 767px) {
+      
+    }
+  }
+
+  .fe-block-yui_3_17_2_1_1687461578227_10178 .sqs-block {
+    justify-content: center;
+  }
+
+  .fe-block-yui_3_17_2_1_1687461578227_10178 .sqs-block-alignment-wrapper {
+    align-items: center;
+  }
+
+  @media (min-width: 768px) {
+    .fe-block-yui_3_17_2_1_1687461578227_10178 {
+      grid-area: 1/10/11/18;
+      z-index: 2;
+
+      
+    }
+
+    .fe-block-yui_3_17_2_1_1687461578227_10178 .sqs-block {
+      justify-content: center;
+    }
+
+    .fe-block-yui_3_17_2_1_1687461578227_10178 .sqs-block-alignment-wrapper {
+      align-items: center;
+    }
+  }
+
+  .fe-block-757945563da63c564d7e {
+    grid-area: 7/2/11/10;
+    z-index: 0;
+
+    @media (max-width: 767px) {
+      
+    }
+  }
+
+  .fe-block-757945563da63c564d7e .sqs-block {
+    justify-content: center;
+  }
+
+  .fe-block-757945563da63c564d7e .sqs-block-alignment-wrapper {
+    align-items: center;
+  }
+
+  @media (min-width: 768px) {
+    .fe-block-757945563da63c564d7e {
+      grid-area: 12/3/17/25;
+      z-index: 0;
+
+      
+    }
+
+    .fe-block-757945563da63c564d7e .sqs-block {
+      justify-content: flex-start;
+    }
+
+    .fe-block-757945563da63c564d7e .sqs-block-alignment-wrapper {
+      align-items: flex-start;
+    }
+  }
+
+  .fe-block-6039155c8efe25909b64 {
+    grid-area: 12/4/14/8;
+    z-index: 1;
+
+    @media (max-width: 767px) {
+      
+    }
+  }
+
+  .fe-block-6039155c8efe25909b64 .sqs-block {
+    justify-content: center;
+  }
+
+  .fe-block-6039155c8efe25909b64 .sqs-block-alignment-wrapper {
+    align-items: center;
+  }
+
+  @media (min-width: 768px) {
+    .fe-block-6039155c8efe25909b64 {
+      grid-area: 17/12/19/16;
+      z-index: 1;
+
+      
+    }
+
+    .fe-block-6039155c8efe25909b64 .sqs-block {
+      justify-content: center;
+    }
+
+    .fe-block-6039155c8efe25909b64 .sqs-block-alignment-wrapper {
+      align-items: center;
+    }
+  }
+
+</style><div class="fluid-engine fe-64949ecfe5ce6b7ee745bf73"><div class="fe-block fe-block-yui_3_17_2_1_1687461578227_10178"><div class="sqs-block image-block sqs-block-image sqs-stretched" data-block-type="5" id="block-yui_3_17_2_1_1687461578227_10178"><div class="sqs-block-content">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+    
+  
+    <div
+      class="
+        image-block-outer-wrapper
+        layout-caption-below
+        design-layout-fluid
+        image-position-center
+        combination-animation-site-default
+        individual-animation-site-default
+      "
+      data-test="image-block-fluid-outer-wrapper"
+    >
+      <div
+        class="fluid-image-animation-wrapper sqs-image sqs-block-alignment-wrapper"
+        data-animation-role="image"
+        
+  
+
+      >
+        <div
+          class="fluid-image-container sqs-image-content"
+          
+          style="overflow: hidden;-webkit-mask-image: -webkit-radial-gradient(white, black);position: relative;width: 100%;height: 100%;"
+        >
+          
+
+          
+          
+
+          
+            
+              <div class="content-fit">
+                
+            
+            
+            
+            
+            
+            
+            <img data-stretch="false" data-src="https://images.squarespace-cdn.com/content/v1/64949c6ff6ca4d644ff0f893/a1e4420e-4abf-46f6-b6c8-0e1641ecde36/Header+version+2.png" data-image="https://images.squarespace-cdn.com/content/v1/64949c6ff6ca4d644ff0f893/a1e4420e-4abf-46f6-b6c8-0e1641ecde36/Header+version+2.png" data-image-dimensions="1908x1173" data-image-focal-point="0.5,0.5" alt="" data-load="false" elementtiming="system-image-block" src="https://images.squarespace-cdn.com/content/v1/64949c6ff6ca4d644ff0f893/a1e4420e-4abf-46f6-b6c8-0e1641ecde36/Header+version+2.png" width="1908" height="1173" alt="" sizes="(max-width: 640px) 100vw, (max-width: 767px) 100vw, 33.33333333333333vw" style="display:block;object-fit: contain; object-position: 50% 50%" srcset="https://images.squarespace-cdn.com/content/v1/64949c6ff6ca4d644ff0f893/a1e4420e-4abf-46f6-b6c8-0e1641ecde36/Header+version+2.png?format=100w 100w, https://images.squarespace-cdn.com/content/v1/64949c6ff6ca4d644ff0f893/a1e4420e-4abf-46f6-b6c8-0e1641ecde36/Header+version+2.png?format=300w 300w, https://images.squarespace-cdn.com/content/v1/64949c6ff6ca4d644ff0f893/a1e4420e-4abf-46f6-b6c8-0e1641ecde36/Header+version+2.png?format=500w 500w, https://images.squarespace-cdn.com/content/v1/64949c6ff6ca4d644ff0f893/a1e4420e-4abf-46f6-b6c8-0e1641ecde36/Header+version+2.png?format=750w 750w, https://images.squarespace-cdn.com/content/v1/64949c6ff6ca4d644ff0f893/a1e4420e-4abf-46f6-b6c8-0e1641ecde36/Header+version+2.png?format=1000w 1000w, https://images.squarespace-cdn.com/content/v1/64949c6ff6ca4d644ff0f893/a1e4420e-4abf-46f6-b6c8-0e1641ecde36/Header+version+2.png?format=1500w 1500w, https://images.squarespace-cdn.com/content/v1/64949c6ff6ca4d644ff0f893/a1e4420e-4abf-46f6-b6c8-0e1641ecde36/Header+version+2.png?format=2500w 2500w" loading="lazy" decoding="async" data-loader="sqs">
+
+            
+              
+            
+            <div class="fluidImageOverlay"></div>
+          
+              </div>
+            
+          
+
+        </div>
+      </div>
+    </div>
+    <style>
+      .sqs-block-image .sqs-block-content {
+        height: 100%;
+        width: 100%;
+      }
+
+      
+        .fe-block-yui_3_17_2_1_1687461578227_10178 .fluidImageOverlay {
+          position: absolute;
+          top: 0;
+          left: 0;
+          width: 100%;
+          height: 100%;
+          mix-blend-mode: normal;
+          
+            
+            
+          
+          
+            opacity: 0;
+          
+        }
+      
+    </style>
+  
+
+
+  
+
+
+</div></div></div><div class="fe-block fe-block-757945563da63c564d7e"><div class="sqs-block html-block sqs-block-html" data-block-type="2" data-border-radii="&#123;&quot;topLeft&quot;:&#123;&quot;unit&quot;:&quot;px&quot;,&quot;value&quot;:0.0&#125;,&quot;topRight&quot;:&#123;&quot;unit&quot;:&quot;px&quot;,&quot;value&quot;:0.0&#125;,&quot;bottomLeft&quot;:&#123;&quot;unit&quot;:&quot;px&quot;,&quot;value&quot;:0.0&#125;,&quot;bottomRight&quot;:&#123;&quot;unit&quot;:&quot;px&quot;,&quot;value&quot;:0.0&#125;&#125;" id="block-757945563da63c564d7e"><div class="sqs-block-content">
+  <script class="TextAttributes-props" type="application/json">[ {
+"type": "highlight",
+"id": "457d3d64-ddef-4477-b0b3-2db01e04e756",
+"shape": "scribble",
+"isFront": false,
+"isAnimationEnabled": true,
+"animation": "draw",
+"duration": 0.5,
+"direction": "right",
+"color": {
+"type": "THEME_COLOR"
+},
+"thickness": {
+"unit": "em",
+"value": 0.1
+},
+"linecap": "square"
+}, {
+"type": "highlight",
+"id": "6dd95692-f4d9-4676-b940-df1179e8847e",
+"shape": "scribble",
+"isFront": false,
+"isAnimationEnabled": true,
+"animation": "draw",
+"duration": 0.5,
+"direction": "right",
+"color": {
+"type": "THEME_COLOR"
+},
+"thickness": {
+"unit": "em",
+"value": 0.1
+},
+"linecap": "square"
+} ]</script>
+
+
+<div class="sqs-html-content">
+  <div class="sqsrte-scaled-text-container"><span class="sqsrte-scaled-text"><h1 style="text-align:center;white-space:pre-wrap;">ProjectDiscovery Does DEF CON</h1></span></div><p style="text-align:center;white-space:pre-wrap;" class="sqsrte-large">Find us roaming the show floor, at LineCon, at our <span class="sqsrte-text-highlight" data-text-attribute-id="457d3d64-ddef-4477-b0b3-2db01e04e756"><a href="https://nux.gg/defcon31-cocktails" target="_blank"><span class="sqsrte-text-color--lightAccent">happy hour</span></a></span>, <br>or participate in our <span class="sqsrte-text-highlight" data-text-attribute-id="6dd95692-f4d9-4676-b940-df1179e8847e"><a href="/countdown"><span class="sqsrte-text-color--lightAccent">bounty program</span></a></span> throughout the event. </p>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+</div></div></div><div class="fe-block fe-block-6039155c8efe25909b64"><div class="sqs-block button-block sqs-block-button sqs-stretched" data-block-type="53" id="block-6039155c8efe25909b64"><div class="sqs-block-content">
+
+<div
+  class="sqs-block-button-container sqs-block-button-container--center"
+  data-animation-role="button"
+  data-alignment="center"
+  data-button-size="small"
+  data-button-type="tertiary"
+>
+  <a
+    href="https://www.eventbrite.com/e/countdown-to-discovery-cocktails-and-conversations-tickets-657600479737?aff=oddtdtcreator"
+    class="sqs-block-button-element--small sqs-button-element--tertiary sqs-block-button-element"
+    target="_blank"
+  >
+    Event RSVP
+  </a>
+</div>
+</div></div></div></div></div>
+    </div>
+  
+    <button class='background-pause-button' aria-label="Pause Background"></button>
+<button class='background-pause-button paused' aria-label="Play Background"></button>
+
+  
+  </div>
+  
+
+
+<div
+  class="section-divider-display"
+  style="
+    --stroke-thickness: 0;
+    --stroke-dasharray: 0;
+    --stroke-linecap: square;
+    
+      
+    
+  "
+>
+  <style>
+    .has-section-divider[data-section-id="64949ecfe5ce6b7ee745bf74"] {
+      padding-bottom: var(--divider-height);
+      z-index: var(--z-index);
+    }
+
+    .has-section-divider[data-section-id="64949ecfe5ce6b7ee745bf74"] .background-pause-button {
+      bottom: calc(14px + var(--divider-height));
+    }
+
+    .has-section-divider[data-section-id="64949ecfe5ce6b7ee745bf74"] .section-divider-svg-clip {
+      display: block;
+    }
+
+    .has-section-divider[data-section-id="64949ecfe5ce6b7ee745bf74"].background-width--inset:not(.content-collection):not(.gallery-section):not(.user-items-list-section) {
+      padding-bottom: calc(var(--sqs-site-gutter) + var(--divider-height));
+    }
+
+    .has-section-divider[data-section-id="64949ecfe5ce6b7ee745bf74"].background-width--inset:not(.content-collection):not(.gallery-section):not(.user-items-list-section) .section-background {
+      bottom: calc(var(--sqs-site-gutter) + var(--divider-height));
+    }
+
+    .has-section-divider[data-section-id="64949ecfe5ce6b7ee745bf74"] .section-divider-block {
+      height: var(--divider-height);
+    }
+  </style>
+  
+  <style data-section-divider-style>
+    .has-section-divider[data-section-id="64949ecfe5ce6b7ee745bf74"] {
+      padding-bottom: 6vw;
+    }
+    .has-section-divider[data-section-id="64949ecfe5ce6b7ee745bf74"].background-width--inset:not(.content-collection):not(.gallery-section):not(.user-items-list-section) {
+      padding-bottom: calc(var(--sqs-site-gutter) + 6vw);
+    }
+  </style>
+  <div class="section-divider-block"></div>
+  <svg class="section-divider-svg-clip">
+    <clipPath
+      id="section-divider-64949ecfe5ce6b7ee745bf74"
+      clipPathUnits="objectBoundingBox"
+    >
+      <path class="section-divider-clip" d="M0,0" />
+    </clipPath>
+  </svg>
+  <svg class="section-divider-svg-stroke" viewBox="0 0 1 1" preserveAspectRatio="none">
+    <path class="section-divider-stroke" d="M0,0" vector-effect="non-scaling-stroke" />
+  </svg>
+</div>
+
+</section>
+
+  
+    
+    
+
+
+  
+
+
+<section
+  data-test="page-section"
+  
+  data-section-theme=""
+  class='page-section 
+    
+      full-bleed-section
+      layout-engine-section
+    
+    background-width--full-bleed
+    
+      section-height--medium
+    
+    
+      content-width--wide
+    
+    horizontal-alignment--center
+    vertical-alignment--middle
+    
+      
+    
+    
+    '
+  
+  data-section-id="64949ecfe5ce6b7ee745bf77"
+  
+  data-controller="SectionWrapperController"
+  data-current-styles="{
+&quot;imageOverlayOpacity&quot;: 0.15,
+&quot;backgroundWidth&quot;: &quot;background-width--full-bleed&quot;,
+&quot;sectionHeight&quot;: &quot;section-height--medium&quot;,
+&quot;customSectionHeight&quot;: 11,
+&quot;horizontalAlignment&quot;: &quot;horizontal-alignment--center&quot;,
+&quot;verticalAlignment&quot;: &quot;vertical-alignment--middle&quot;,
+&quot;contentWidth&quot;: &quot;content-width--wide&quot;,
+&quot;customContentWidth&quot;: 50,
+&quot;sectionTheme&quot;: &quot;&quot;,
+&quot;sectionAnimation&quot;: &quot;none&quot;,
+&quot;backgroundMode&quot;: &quot;image&quot;
+}"
+  data-current-context="{
+&quot;video&quot;: {
+&quot;playbackSpeed&quot;: 0.5,
+&quot;filter&quot;: 1,
+&quot;filterStrength&quot;: 0,
+&quot;zoom&quot;: 0,
+&quot;videoSourceProvider&quot;: &quot;none&quot;
+},
+&quot;backgroundImageId&quot;: null,
+&quot;backgroundMediaEffect&quot;: {
+&quot;type&quot;: &quot;none&quot;
+},
+&quot;divider&quot;: {
+&quot;enabled&quot;: false
+},
+&quot;typeName&quot;: &quot;page&quot;
+}"
+  data-animation="none"
+  data-fluid-engine-section
+   
+  
+    
+  
+  
+>
+  <div
+    class="section-border"
+    
+  >
+    <div class="section-background">
+    
+      
+    
+    </div>
+  </div>
+  <div
+    class='content-wrapper'
+    style='
+      
+        
+      
+    '
+  >
+    <div
+      class="content"
+      
+    >
+      
+      
+      
+      
+      
+      
+      <div data-fluid-engine="true"><style>
+
+.fe-64949ecfe5ce6b7ee745bf76 {
+  --grid-gutter: calc(var(--sqs-mobile-site-gutter, 6vw) - 11.0px);
+  --cell-max-width: calc( ( var(--sqs-site-max-width, 1500px) - (11.0px * (8 - 1)) ) / 8 );
+
+  display: grid;
+  position: relative;
+  grid-area: 1/1/-1/-1;
+  grid-template-rows: repeat(106,minmax(24px, auto));
+  grid-template-columns:
+    minmax(var(--grid-gutter), 1fr)
+    repeat(8, minmax(0, var(--cell-max-width)))
+    minmax(var(--grid-gutter), 1fr);
+  row-gap: 11.0px;
+  column-gap: 11.0px;
+}
+
+@media (min-width: 768px) {
+  .background-width--inset .fe-64949ecfe5ce6b7ee745bf76 {
+    --inset-padding: calc(var(--sqs-site-gutter) * 2);
+  }
+
+  .fe-64949ecfe5ce6b7ee745bf76 {
+    --grid-gutter: calc(var(--sqs-site-gutter, 4vw) - 11.0px);
+    --cell-max-width: calc( ( var(--sqs-site-max-width, 1500px) - (11.0px * (24 - 1)) ) / 24 );
+    --inset-padding: 0vw;
+
+    --row-height-scaling-factor: 0.0215;
+    --container-width: min(var(--sqs-site-max-width, 1500px), calc(100vw - var(--sqs-site-gutter, 4vw) * 2 - var(--inset-padding) ));
+
+    grid-template-rows: repeat(65,minmax(calc(var(--container-width) * var(--row-height-scaling-factor)), auto));
+    grid-template-columns:
+      minmax(var(--grid-gutter), 1fr)
+      repeat(24, minmax(0, var(--cell-max-width)))
+      minmax(var(--grid-gutter), 1fr);
+  }
+}
+
+
+  .fe-block-7fd08cd677e8faad2a8f {
+    grid-area: 1/2/14/10;
+    z-index: 0;
+
+    @media (max-width: 767px) {
+      
+    }
+  }
+
+  .fe-block-7fd08cd677e8faad2a8f .sqs-block {
+    justify-content: center;
+  }
+
+  .fe-block-7fd08cd677e8faad2a8f .sqs-block-alignment-wrapper {
+    align-items: center;
+  }
+
+  @media (min-width: 768px) {
+    .fe-block-7fd08cd677e8faad2a8f {
+      grid-area: 1/2/15/13;
+      z-index: 0;
+
+      
+    }
+
+    .fe-block-7fd08cd677e8faad2a8f .sqs-block {
+      justify-content: center;
+    }
+
+    .fe-block-7fd08cd677e8faad2a8f .sqs-block-alignment-wrapper {
+      align-items: center;
+    }
+  }
+
+  .fe-block-46d3ac55bf21c9ff240f {
+    grid-area: 15/2/20/10;
+    z-index: 1;
+
+    @media (max-width: 767px) {
+      
+    }
+  }
+
+  .fe-block-46d3ac55bf21c9ff240f .sqs-block {
+    justify-content: center;
+  }
+
+  .fe-block-46d3ac55bf21c9ff240f .sqs-block-alignment-wrapper {
+    align-items: center;
+  }
+
+  @media (min-width: 768px) {
+    .fe-block-46d3ac55bf21c9ff240f {
+      grid-area: 1/15/15/26;
+      z-index: 1;
+
+      
+    }
+
+    .fe-block-46d3ac55bf21c9ff240f .sqs-block {
+      justify-content: center;
+    }
+
+    .fe-block-46d3ac55bf21c9ff240f .sqs-block-alignment-wrapper {
+      align-items: center;
+    }
+  }
+
+  .fe-block-yui_3_17_2_1_1687461578227_16309 {
+    grid-area: 20/2/22/7;
+    z-index: 5;
+
+    @media (max-width: 767px) {
+      
+    }
+  }
+
+  .fe-block-yui_3_17_2_1_1687461578227_16309 .sqs-block {
+    justify-content: center;
+  }
+
+  .fe-block-yui_3_17_2_1_1687461578227_16309 .sqs-block-alignment-wrapper {
+    align-items: center;
+  }
+
+  @media (min-width: 768px) {
+    .fe-block-yui_3_17_2_1_1687461578227_16309 {
+      grid-area: 12/15/14/20;
+      z-index: 5;
+
+      
+    }
+
+    .fe-block-yui_3_17_2_1_1687461578227_16309 .sqs-block {
+      justify-content: center;
+    }
+
+    .fe-block-yui_3_17_2_1_1687461578227_16309 .sqs-block-alignment-wrapper {
+      align-items: center;
+    }
+  }
+
+  .fe-block-ed952b4ad4d0ed8c1eb5 {
+    grid-area: 23/2/36/10;
+    z-index: 4;
+
+    @media (max-width: 767px) {
+      
+    }
+  }
+
+  .fe-block-ed952b4ad4d0ed8c1eb5 .sqs-block {
+    justify-content: center;
+  }
+
+  .fe-block-ed952b4ad4d0ed8c1eb5 .sqs-block-alignment-wrapper {
+    align-items: center;
+  }
+
+  @media (min-width: 768px) {
+    .fe-block-ed952b4ad4d0ed8c1eb5 {
+      grid-area: 33/2/47/13;
+      z-index: 4;
+
+      
+    }
+
+    .fe-block-ed952b4ad4d0ed8c1eb5 .sqs-block {
+      justify-content: center;
+    }
+
+    .fe-block-ed952b4ad4d0ed8c1eb5 .sqs-block-alignment-wrapper {
+      align-items: center;
+    }
+  }
+
+  .fe-block-a5135c968e29319657a4 {
+    grid-area: 37/2/45/10;
+    z-index: 5;
+
+    @media (max-width: 767px) {
+      
+    }
+  }
+
+  .fe-block-a5135c968e29319657a4 .sqs-block {
+    justify-content: center;
+  }
+
+  .fe-block-a5135c968e29319657a4 .sqs-block-alignment-wrapper {
+    align-items: center;
+  }
+
+  @media (min-width: 768px) {
+    .fe-block-a5135c968e29319657a4 {
+      grid-area: 33/15/47/26;
+      z-index: 5;
+
+      
+    }
+
+    .fe-block-a5135c968e29319657a4 .sqs-block {
+      justify-content: center;
+    }
+
+    .fe-block-a5135c968e29319657a4 .sqs-block-alignment-wrapper {
+      align-items: center;
+    }
+  }
+
+  .fe-block-9d0f143e4c7d02bb9491 {
+    grid-area: 45/2/47/7;
+    z-index: 7;
+
+    @media (max-width: 767px) {
+      
+    }
+  }
+
+  .fe-block-9d0f143e4c7d02bb9491 .sqs-block {
+    justify-content: center;
+  }
+
+  .fe-block-9d0f143e4c7d02bb9491 .sqs-block-alignment-wrapper {
+    align-items: center;
+  }
+
+  @media (min-width: 768px) {
+    .fe-block-9d0f143e4c7d02bb9491 {
+      grid-area: 44/15/46/20;
+      z-index: 7;
+
+      
+    }
+
+    .fe-block-9d0f143e4c7d02bb9491 .sqs-block {
+      justify-content: center;
+    }
+
+    .fe-block-9d0f143e4c7d02bb9491 .sqs-block-alignment-wrapper {
+      align-items: center;
+    }
+  }
+
+  .fe-block-yui_3_17_2_1_1687461578227_47521 {
+    grid-area: 47/2/49/7;
+    z-index: 8;
+
+    @media (max-width: 767px) {
+      
+    }
+  }
+
+  .fe-block-yui_3_17_2_1_1687461578227_47521 .sqs-block {
+    justify-content: center;
+  }
+
+  .fe-block-yui_3_17_2_1_1687461578227_47521 .sqs-block-alignment-wrapper {
+    align-items: center;
+  }
+
+  @media (min-width: 768px) {
+    .fe-block-yui_3_17_2_1_1687461578227_47521 {
+      grid-area: 44/20/46/24;
+      z-index: 8;
+
+      
+    }
+
+    .fe-block-yui_3_17_2_1_1687461578227_47521 .sqs-block {
+      justify-content: center;
+    }
+
+    .fe-block-yui_3_17_2_1_1687461578227_47521 .sqs-block-alignment-wrapper {
+      align-items: center;
+    }
+  }
+
+  .fe-block-d64abf1bf90cc6a82a09 {
+    grid-area: 51/2/64/10;
+    z-index: 2;
+
+    @media (max-width: 767px) {
+      
+    }
+  }
+
+  .fe-block-d64abf1bf90cc6a82a09 .sqs-block {
+    justify-content: center;
+  }
+
+  .fe-block-d64abf1bf90cc6a82a09 .sqs-block-alignment-wrapper {
+    align-items: center;
+  }
+
+  @media (min-width: 768px) {
+    .fe-block-d64abf1bf90cc6a82a09 {
+      grid-area: 17/15/31/26;
+      z-index: 2;
+
+      
+    }
+
+    .fe-block-d64abf1bf90cc6a82a09 .sqs-block {
+      justify-content: center;
+    }
+
+    .fe-block-d64abf1bf90cc6a82a09 .sqs-block-alignment-wrapper {
+      align-items: center;
+    }
+  }
+
+  .fe-block-7abcfc3cb631fd5c8a11 {
+    grid-area: 64/2/73/10;
+    z-index: 5;
+
+    @media (max-width: 767px) {
+      
+    }
+  }
+
+  .fe-block-7abcfc3cb631fd5c8a11 .sqs-block {
+    justify-content: center;
+  }
+
+  .fe-block-7abcfc3cb631fd5c8a11 .sqs-block-alignment-wrapper {
+    align-items: center;
+  }
+
+  @media (min-width: 768px) {
+    .fe-block-7abcfc3cb631fd5c8a11 {
+      grid-area: 17/3/31/14;
+      z-index: 5;
+
+      
+    }
+
+    .fe-block-7abcfc3cb631fd5c8a11 .sqs-block {
+      justify-content: center;
+    }
+
+    .fe-block-7abcfc3cb631fd5c8a11 .sqs-block-alignment-wrapper {
+      align-items: center;
+    }
+  }
+
+  .fe-block-yui_3_17_2_1_1687461578227_26943 {
+    grid-area: 74/2/76/7;
+    z-index: 6;
+
+    @media (max-width: 767px) {
+      
+    }
+  }
+
+  .fe-block-yui_3_17_2_1_1687461578227_26943 .sqs-block {
+    justify-content: center;
+  }
+
+  .fe-block-yui_3_17_2_1_1687461578227_26943 .sqs-block-alignment-wrapper {
+    align-items: center;
+  }
+
+  @media (min-width: 768px) {
+    .fe-block-yui_3_17_2_1_1687461578227_26943 {
+      grid-area: 28/8/30/13;
+      z-index: 6;
+
+      
+    }
+
+    .fe-block-yui_3_17_2_1_1687461578227_26943 .sqs-block {
+      justify-content: center;
+    }
+
+    .fe-block-yui_3_17_2_1_1687461578227_26943 .sqs-block-alignment-wrapper {
+      align-items: center;
+    }
+  }
+
+  .fe-block-bfa82e308b9248a2792a {
+    grid-area: 77/2/90/10;
+    z-index: 1;
+
+    @media (max-width: 767px) {
+      
+    }
+  }
+
+  .fe-block-bfa82e308b9248a2792a .sqs-block {
+    justify-content: center;
+  }
+
+  .fe-block-bfa82e308b9248a2792a .sqs-block-alignment-wrapper {
+    align-items: center;
+  }
+
+  @media (min-width: 768px) {
+    .fe-block-bfa82e308b9248a2792a {
+      grid-area: 50/14/64/25;
+      z-index: 1;
+
+      
+    }
+
+    .fe-block-bfa82e308b9248a2792a .sqs-block {
+      justify-content: center;
+    }
+
+    .fe-block-bfa82e308b9248a2792a .sqs-block-alignment-wrapper {
+      align-items: center;
+    }
+  }
+
+  .fe-block-8c1f717dce26e0be2843 {
+    grid-area: 91/2/105/10;
+    z-index: 4;
+
+    @media (max-width: 767px) {
+      
+    }
+  }
+
+  .fe-block-8c1f717dce26e0be2843 .sqs-block {
+    justify-content: center;
+  }
+
+  .fe-block-8c1f717dce26e0be2843 .sqs-block-alignment-wrapper {
+    align-items: center;
+  }
+
+  @media (min-width: 768px) {
+    .fe-block-8c1f717dce26e0be2843 {
+      grid-area: 49/2/66/13;
+      z-index: 4;
+
+      
+    }
+
+    .fe-block-8c1f717dce26e0be2843 .sqs-block {
+      justify-content: center;
+    }
+
+    .fe-block-8c1f717dce26e0be2843 .sqs-block-alignment-wrapper {
+      align-items: center;
+    }
+  }
+
+</style><div class="fluid-engine fe-64949ecfe5ce6b7ee745bf76"><div class="fe-block fe-block-7fd08cd677e8faad2a8f"><div class="sqs-block image-block sqs-block-image" data-block-type="5" id="block-7fd08cd677e8faad2a8f"><div class="sqs-block-content">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+    
+  
+    <div
+      class="
+        image-block-outer-wrapper
+        layout-caption-below
+        design-layout-fluid
+        image-position-left
+        combination-animation-collide
+        individual-animation-none
+      "
+      data-test="image-block-fluid-outer-wrapper"
+    >
+      <div
+        class="fluid-image-animation-wrapper sqs-image sqs-block-alignment-wrapper"
+        data-animation-role="image"
+        
+  data-animation-override
+
+      >
+        <div
+          class="fluid-image-container sqs-image-content"
+          
+          style="overflow: hidden;-webkit-mask-image: -webkit-radial-gradient(white, black);position: relative;width: 100%;height: 100%;"
+        >
+          
+
+          
+          
+
+          
+            
+              <div class="content-fit">
+                
+            
+            
+            
+            
+            
+            
+            <img data-stretch="false" data-src="https://images.squarespace-cdn.com/content/v1/64949c6ff6ca4d644ff0f893/55c84ae8-119c-4d9f-a804-b08b419bdafc/Countdown+to+Discovery+%281%29.png" data-image="https://images.squarespace-cdn.com/content/v1/64949c6ff6ca4d644ff0f893/55c84ae8-119c-4d9f-a804-b08b419bdafc/Countdown+to+Discovery+%281%29.png" data-image-dimensions="2178x1782" data-image-focal-point="0.5,0.5" alt="" data-load="false" elementtiming="system-image-block" src="https://images.squarespace-cdn.com/content/v1/64949c6ff6ca4d644ff0f893/55c84ae8-119c-4d9f-a804-b08b419bdafc/Countdown+to+Discovery+%281%29.png" width="2178" height="1782" alt="" sizes="(max-width: 640px) 100vw, (max-width: 767px) 100vw, 45.83333333333333vw" style="display:block;object-fit: contain; object-position: 50% 50%" srcset="https://images.squarespace-cdn.com/content/v1/64949c6ff6ca4d644ff0f893/55c84ae8-119c-4d9f-a804-b08b419bdafc/Countdown+to+Discovery+%281%29.png?format=100w 100w, https://images.squarespace-cdn.com/content/v1/64949c6ff6ca4d644ff0f893/55c84ae8-119c-4d9f-a804-b08b419bdafc/Countdown+to+Discovery+%281%29.png?format=300w 300w, https://images.squarespace-cdn.com/content/v1/64949c6ff6ca4d644ff0f893/55c84ae8-119c-4d9f-a804-b08b419bdafc/Countdown+to+Discovery+%281%29.png?format=500w 500w, https://images.squarespace-cdn.com/content/v1/64949c6ff6ca4d644ff0f893/55c84ae8-119c-4d9f-a804-b08b419bdafc/Countdown+to+Discovery+%281%29.png?format=750w 750w, https://images.squarespace-cdn.com/content/v1/64949c6ff6ca4d644ff0f893/55c84ae8-119c-4d9f-a804-b08b419bdafc/Countdown+to+Discovery+%281%29.png?format=1000w 1000w, https://images.squarespace-cdn.com/content/v1/64949c6ff6ca4d644ff0f893/55c84ae8-119c-4d9f-a804-b08b419bdafc/Countdown+to+Discovery+%281%29.png?format=1500w 1500w, https://images.squarespace-cdn.com/content/v1/64949c6ff6ca4d644ff0f893/55c84ae8-119c-4d9f-a804-b08b419bdafc/Countdown+to+Discovery+%281%29.png?format=2500w 2500w" loading="lazy" decoding="async" data-loader="sqs">
+
+            
+              
+            
+            <div class="fluidImageOverlay"></div>
+          
+              </div>
+            
+          
+
+        </div>
+      </div>
+    </div>
+    <style>
+      .sqs-block-image .sqs-block-content {
+        height: 100%;
+        width: 100%;
+      }
+
+      
+        .fe-block-7fd08cd677e8faad2a8f .fluidImageOverlay {
+          position: absolute;
+          top: 0;
+          left: 0;
+          width: 100%;
+          height: 100%;
+          mix-blend-mode: normal;
+          
+            
+            
+          
+          
+            opacity: 0;
+          
+        }
+      
+    </style>
+  
+
+
+  
+
+
+</div></div></div><div class="fe-block fe-block-46d3ac55bf21c9ff240f"><div class="sqs-block html-block sqs-block-html" data-block-type="2" data-border-radii="&#123;&quot;topLeft&quot;:&#123;&quot;unit&quot;:&quot;px&quot;,&quot;value&quot;:0.0&#125;,&quot;topRight&quot;:&#123;&quot;unit&quot;:&quot;px&quot;,&quot;value&quot;:0.0&#125;,&quot;bottomLeft&quot;:&#123;&quot;unit&quot;:&quot;px&quot;,&quot;value&quot;:0.0&#125;,&quot;bottomRight&quot;:&#123;&quot;unit&quot;:&quot;px&quot;,&quot;value&quot;:0.0&#125;&#125;" id="block-46d3ac55bf21c9ff240f"><div class="sqs-block-content">
+  <script class="TextAttributes-props" type="application/json">[ {
+"type": "highlight",
+"id": "8da5a2b3-4b92-449a-be07-f74174a319fc",
+"shape": "scribble",
+"isFront": false,
+"isAnimationEnabled": true,
+"animation": "draw",
+"duration": 0.5,
+"direction": "right",
+"color": {
+"type": "THEME_COLOR"
+},
+"thickness": {
+"unit": "em",
+"value": 0.1
+},
+"linecap": "square"
+}, {
+"type": "highlight",
+"id": "cf1a0dc0-1898-4832-90f5-b576d07a7556",
+"shape": "scribble",
+"isFront": false,
+"isAnimationEnabled": false,
+"animation": "draw",
+"duration": 0.5,
+"direction": "right",
+"color": {
+"type": "THEME_COLOR"
+},
+"thickness": {
+"unit": "em",
+"value": 0.1
+},
+"linecap": "square"
+} ]</script>
+
+
+<div class="sqs-html-content">
+  <h2 style="white-space:pre-wrap;">Countdown to Discovery</h2><p class="sqsrte-large" style="white-space:pre-wrap;">Learn how to contribute <span class="sqsrte-text-highlight" data-text-attribute-id="8da5a2b3-4b92-449a-be07-f74174a319fc"><a href="https://nux.gg/nuclei-templates" target="_blank"><span class="sqsrte-text-color--black">Nuclei Templates</span></a></span> or directly to <span class="sqsrte-text-highlight" data-text-attribute-id="cf1a0dc0-1898-4832-90f5-b576d07a7556"><a href="https://projectdiscovery.io" target="_blank"><span class="sqsrte-text-color--black">ProjectDiscovery tools</span></a></span>, and win cool prizes.</p>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+</div></div></div><div class="fe-block fe-block-yui_3_17_2_1_1687461578227_16309"><div class="sqs-block button-block sqs-block-button sqs-stretched" data-block-type="53" id="block-yui_3_17_2_1_1687461578227_16309"><div class="sqs-block-content">
+
+<div
+  class="sqs-block-button-container sqs-block-button-container--center"
+  data-animation-role="button"
+  data-alignment="center"
+  data-button-size="medium"
+  data-button-type="primary"
+>
+  <a
+    href="/countdown"
+    class="sqs-block-button-element--medium sqs-button-element--primary sqs-block-button-element"
+    
+  >
+    Join the countdown
+  </a>
+</div>
+</div></div></div><div class="fe-block fe-block-ed952b4ad4d0ed8c1eb5"><div class="sqs-block image-block sqs-block-image sqs-stretched" data-block-type="5" id="block-ed952b4ad4d0ed8c1eb5"><div class="sqs-block-content">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+    
+  
+    <div
+      class="
+        image-block-outer-wrapper
+        layout-caption-below
+        design-layout-fluid
+        image-position-right
+        combination-animation-collide
+        individual-animation-none
+      "
+      data-test="image-block-fluid-outer-wrapper"
+    >
+      <div
+        class="fluid-image-animation-wrapper sqs-image sqs-block-alignment-wrapper"
+        data-animation-role="image"
+        
+  data-animation-override
+
+      >
+        <div
+          class="fluid-image-container sqs-image-content"
+          
+          style="overflow: hidden;-webkit-mask-image: -webkit-radial-gradient(white, black);position: relative;width: 100%;height: 100%;"
+        >
+          
+
+          
+          
+
+          
+            
+              <div class="content-fit">
+                
+            
+            
+            
+            
+            
+            
+            <img data-stretch="false" data-src="https://images.squarespace-cdn.com/content/v1/64949c6ff6ca4d644ff0f893/7d4275cf-f9f3-4220-b656-1f2cc42dee60/DEF+CON+Demo+lab.png" data-image="https://images.squarespace-cdn.com/content/v1/64949c6ff6ca4d644ff0f893/7d4275cf-f9f3-4220-b656-1f2cc42dee60/DEF+CON+Demo+lab.png" data-image-dimensions="2133x1813" data-image-focal-point="0.5,0.5" alt="" data-load="false" elementtiming="system-image-block" src="https://images.squarespace-cdn.com/content/v1/64949c6ff6ca4d644ff0f893/7d4275cf-f9f3-4220-b656-1f2cc42dee60/DEF+CON+Demo+lab.png" width="2133" height="1813" alt="" sizes="(max-width: 640px) 100vw, (max-width: 767px) 100vw, 45.83333333333333vw" style="display:block;object-fit: contain; object-position: 50% 50%" srcset="https://images.squarespace-cdn.com/content/v1/64949c6ff6ca4d644ff0f893/7d4275cf-f9f3-4220-b656-1f2cc42dee60/DEF+CON+Demo+lab.png?format=100w 100w, https://images.squarespace-cdn.com/content/v1/64949c6ff6ca4d644ff0f893/7d4275cf-f9f3-4220-b656-1f2cc42dee60/DEF+CON+Demo+lab.png?format=300w 300w, https://images.squarespace-cdn.com/content/v1/64949c6ff6ca4d644ff0f893/7d4275cf-f9f3-4220-b656-1f2cc42dee60/DEF+CON+Demo+lab.png?format=500w 500w, https://images.squarespace-cdn.com/content/v1/64949c6ff6ca4d644ff0f893/7d4275cf-f9f3-4220-b656-1f2cc42dee60/DEF+CON+Demo+lab.png?format=750w 750w, https://images.squarespace-cdn.com/content/v1/64949c6ff6ca4d644ff0f893/7d4275cf-f9f3-4220-b656-1f2cc42dee60/DEF+CON+Demo+lab.png?format=1000w 1000w, https://images.squarespace-cdn.com/content/v1/64949c6ff6ca4d644ff0f893/7d4275cf-f9f3-4220-b656-1f2cc42dee60/DEF+CON+Demo+lab.png?format=1500w 1500w, https://images.squarespace-cdn.com/content/v1/64949c6ff6ca4d644ff0f893/7d4275cf-f9f3-4220-b656-1f2cc42dee60/DEF+CON+Demo+lab.png?format=2500w 2500w" loading="lazy" decoding="async" data-loader="sqs">
+
+            
+              
+            
+            <div class="fluidImageOverlay"></div>
+          
+              </div>
+            
+          
+
+        </div>
+      </div>
+    </div>
+    <style>
+      .sqs-block-image .sqs-block-content {
+        height: 100%;
+        width: 100%;
+      }
+
+      
+        .fe-block-ed952b4ad4d0ed8c1eb5 .fluidImageOverlay {
+          position: absolute;
+          top: 0;
+          left: 0;
+          width: 100%;
+          height: 100%;
+          mix-blend-mode: normal;
+          
+            
+            
+          
+          
+            opacity: 0;
+          
+        }
+      
+    </style>
+  
+
+
+  
+
+
+</div></div></div><div class="fe-block fe-block-a5135c968e29319657a4"><div class="sqs-block html-block sqs-block-html" data-block-type="2" data-border-radii="&#123;&quot;topLeft&quot;:&#123;&quot;unit&quot;:&quot;px&quot;,&quot;value&quot;:0.0&#125;,&quot;topRight&quot;:&#123;&quot;unit&quot;:&quot;px&quot;,&quot;value&quot;:0.0&#125;,&quot;bottomLeft&quot;:&#123;&quot;unit&quot;:&quot;px&quot;,&quot;value&quot;:0.0&#125;,&quot;bottomRight&quot;:&#123;&quot;unit&quot;:&quot;px&quot;,&quot;value&quot;:0.0&#125;&#125;" id="block-a5135c968e29319657a4"><div class="sqs-block-content">
+
+<div class="sqs-html-content">
+  <h2 style="white-space:pre-wrap;">DEF CON Demo Lab</h2><p class="sqsrte-large" style="white-space:pre-wrap;">Join us at the DEF CON Demo Labs for an end-to-end demonstration of the power of Nuclei and nuclei templates in recon, attack surface management, and vulnerability detection.</p><p class="sqsrte-large" style="white-space:pre-wrap;">Saturday, August 12 @ 2 - 3:55 pm.</p>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+</div></div></div><div class="fe-block fe-block-9d0f143e4c7d02bb9491"><div class="sqs-block button-block sqs-block-button sqs-stretched" data-block-type="53" id="block-9d0f143e4c7d02bb9491"><div class="sqs-block-content">
+
+<div
+  class="sqs-block-button-container sqs-block-button-container--center"
+  data-animation-role="button"
+  data-alignment="center"
+  data-button-size="medium"
+  data-button-type="primary"
+>
+  <a
+    href="https://nux.gg/defcon-demolab"
+    class="sqs-block-button-element--medium sqs-button-element--primary sqs-block-button-element"
+    target="_blank"
+  >
+    Demolab RSVP
+  </a>
+</div>
+</div></div></div><div class="fe-block fe-block-yui_3_17_2_1_1687461578227_47521"><div class="sqs-block button-block sqs-block-button sqs-stretched" data-block-type="53" id="block-yui_3_17_2_1_1687461578227_47521"><div class="sqs-block-content">
+
+<div
+  class="sqs-block-button-container sqs-block-button-container--center"
+  data-animation-role="button"
+  data-alignment="center"
+  data-button-size="large"
+  data-button-type="secondary"
+>
+  <a
+    href="/demolab"
+    class="sqs-block-button-element--large sqs-button-element--secondary sqs-block-button-element"
+    
+  >
+    Learn more
+  </a>
+</div>
+</div></div></div><div class="fe-block fe-block-d64abf1bf90cc6a82a09"><div class="sqs-block image-block sqs-block-image" data-block-type="5" id="block-d64abf1bf90cc6a82a09"><div class="sqs-block-content">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+    
+  
+    <div
+      class="
+        image-block-outer-wrapper
+        layout-caption-below
+        design-layout-fluid
+        image-position-left
+        combination-animation-collide
+        individual-animation-none
+      "
+      data-test="image-block-fluid-outer-wrapper"
+    >
+      <div
+        class="fluid-image-animation-wrapper sqs-image sqs-block-alignment-wrapper"
+        data-animation-role="image"
+        
+  data-animation-override
+
+      >
+        <div
+          class="fluid-image-container sqs-image-content"
+          
+          style="overflow: hidden;-webkit-mask-image: -webkit-radial-gradient(white, black);position: relative;width: 100%;height: 100%;"
+        >
+          
+
+          
+          
+
+          
+            
+              <div class="content-fit">
+                
+            
+            
+            
+            
+            
+            
+            <img data-stretch="false" data-src="https://images.squarespace-cdn.com/content/v1/64949c6ff6ca4d644ff0f893/52357bd1-c53c-4abe-aff5-fb64ee022b70/Coctails+%26+Conversations.png" data-image="https://images.squarespace-cdn.com/content/v1/64949c6ff6ca4d644ff0f893/52357bd1-c53c-4abe-aff5-fb64ee022b70/Coctails+%26+Conversations.png" data-image-dimensions="2209x1922" data-image-focal-point="0.5,0.5" alt="" data-load="false" elementtiming="system-image-block" src="https://images.squarespace-cdn.com/content/v1/64949c6ff6ca4d644ff0f893/52357bd1-c53c-4abe-aff5-fb64ee022b70/Coctails+%26+Conversations.png" width="2209" height="1922" alt="" sizes="(max-width: 640px) 100vw, (max-width: 767px) 100vw, 45.83333333333333vw" style="display:block;object-fit: contain; object-position: 50% 50%" srcset="https://images.squarespace-cdn.com/content/v1/64949c6ff6ca4d644ff0f893/52357bd1-c53c-4abe-aff5-fb64ee022b70/Coctails+%26+Conversations.png?format=100w 100w, https://images.squarespace-cdn.com/content/v1/64949c6ff6ca4d644ff0f893/52357bd1-c53c-4abe-aff5-fb64ee022b70/Coctails+%26+Conversations.png?format=300w 300w, https://images.squarespace-cdn.com/content/v1/64949c6ff6ca4d644ff0f893/52357bd1-c53c-4abe-aff5-fb64ee022b70/Coctails+%26+Conversations.png?format=500w 500w, https://images.squarespace-cdn.com/content/v1/64949c6ff6ca4d644ff0f893/52357bd1-c53c-4abe-aff5-fb64ee022b70/Coctails+%26+Conversations.png?format=750w 750w, https://images.squarespace-cdn.com/content/v1/64949c6ff6ca4d644ff0f893/52357bd1-c53c-4abe-aff5-fb64ee022b70/Coctails+%26+Conversations.png?format=1000w 1000w, https://images.squarespace-cdn.com/content/v1/64949c6ff6ca4d644ff0f893/52357bd1-c53c-4abe-aff5-fb64ee022b70/Coctails+%26+Conversations.png?format=1500w 1500w, https://images.squarespace-cdn.com/content/v1/64949c6ff6ca4d644ff0f893/52357bd1-c53c-4abe-aff5-fb64ee022b70/Coctails+%26+Conversations.png?format=2500w 2500w" loading="lazy" decoding="async" data-loader="sqs">
+
+            
+              
+            
+            <div class="fluidImageOverlay"></div>
+          
+              </div>
+            
+          
+
+        </div>
+      </div>
+    </div>
+    <style>
+      .sqs-block-image .sqs-block-content {
+        height: 100%;
+        width: 100%;
+      }
+
+      
+        .fe-block-d64abf1bf90cc6a82a09 .fluidImageOverlay {
+          position: absolute;
+          top: 0;
+          left: 0;
+          width: 100%;
+          height: 100%;
+          mix-blend-mode: normal;
+          
+            
+            
+          
+          
+            opacity: 0;
+          
+        }
+      
+    </style>
+  
+
+
+  
+
+
+</div></div></div><div class="fe-block fe-block-7abcfc3cb631fd5c8a11"><div class="sqs-block html-block sqs-block-html" data-block-type="2" data-border-radii="&#123;&quot;topLeft&quot;:&#123;&quot;unit&quot;:&quot;px&quot;,&quot;value&quot;:0.0&#125;,&quot;topRight&quot;:&#123;&quot;unit&quot;:&quot;px&quot;,&quot;value&quot;:0.0&#125;,&quot;bottomLeft&quot;:&#123;&quot;unit&quot;:&quot;px&quot;,&quot;value&quot;:0.0&#125;,&quot;bottomRight&quot;:&#123;&quot;unit&quot;:&quot;px&quot;,&quot;value&quot;:0.0&#125;&#125;" id="block-7abcfc3cb631fd5c8a11"><div class="sqs-block-content">
+  <script class="TextAttributes-props" type="application/json">[ {
+"type": "highlight",
+"id": "cc788e50-faca-4af7-8ea8-fdb7a8a72130",
+"shape": "scribble",
+"isFront": false,
+"isAnimationEnabled": true,
+"animation": "draw",
+"duration": 0.5,
+"direction": "right",
+"color": {
+"type": "THEME_COLOR"
+},
+"thickness": {
+"unit": "em",
+"value": 0.1
+},
+"linecap": "square"
+} ]</script>
+
+
+<div class="sqs-html-content">
+  <h2 style="white-space:pre-wrap;">Cocktails &amp; Conversations</h2><p class="sqsrte-large" style="white-space:pre-wrap;">Join <span class="sqsrte-text-highlight" data-text-attribute-id="cc788e50-faca-4af7-8ea8-fdb7a8a72130">ProjectDiscovery</span> at the Cabinet of Curiosity <strong>Thursday, August 10, 9 pm - 12 am</strong>. </p><p class="sqsrte-large" style="white-space:pre-wrap;">Answer a riddle to access wondrous treasures, enjoy delicious drinks, and lively conversations.</p>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+</div></div></div><div class="fe-block fe-block-yui_3_17_2_1_1687461578227_26943"><div class="sqs-block button-block sqs-block-button sqs-stretched" data-block-type="53" id="block-yui_3_17_2_1_1687461578227_26943"><div class="sqs-block-content">
+
+<div
+  class="sqs-block-button-container sqs-block-button-container--center"
+  data-animation-role="button"
+  data-alignment="center"
+  data-button-size="medium"
+  data-button-type="primary"
+>
+  <a
+    href="https://nux.gg/defcon31-cocktails"
+    class="sqs-block-button-element--medium sqs-button-element--primary sqs-block-button-element"
+    target="_blank"
+  >
+    RSVP
+  </a>
+</div>
+</div></div></div><div class="fe-block fe-block-bfa82e308b9248a2792a"><div class="sqs-block image-block sqs-block-image" data-block-type="5" id="block-bfa82e308b9248a2792a"><div class="sqs-block-content">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+    
+  
+    <div
+      class="
+        image-block-outer-wrapper
+        layout-caption-below
+        design-layout-fluid
+        image-position-left
+        combination-animation-collide
+        individual-animation-none
+      "
+      data-test="image-block-fluid-outer-wrapper"
+    >
+      <div
+        class="fluid-image-animation-wrapper sqs-image sqs-block-alignment-wrapper"
+        data-animation-role="image"
+        
+  data-animation-override
+
+      >
+        <div
+          class="fluid-image-container sqs-image-content"
+          
+          style="overflow: hidden;-webkit-mask-image: -webkit-radial-gradient(white, black);position: relative;width: 100%;height: 100%;"
+        >
+          
+
+          
+          
+
+          
+            
+              <div class="content-fit">
+                
+            
+            
+            
+            
+            
+            
+            <img data-stretch="false" data-src="https://images.squarespace-cdn.com/content/v1/64949c6ff6ca4d644ff0f893/2248b9b2-96e2-43aa-9b48-a490de64e755/ProsVJo.png" data-image="https://images.squarespace-cdn.com/content/v1/64949c6ff6ca4d644ff0f893/2248b9b2-96e2-43aa-9b48-a490de64e755/ProsVJo.png" data-image-dimensions="4744x3969" data-image-focal-point="0.5,0.5" alt="" data-load="false" elementtiming="system-image-block" src="https://images.squarespace-cdn.com/content/v1/64949c6ff6ca4d644ff0f893/2248b9b2-96e2-43aa-9b48-a490de64e755/ProsVJo.png" width="4744" height="3969" alt="" sizes="(max-width: 640px) 100vw, (max-width: 767px) 100vw, 45.83333333333333vw" style="display:block;object-fit: contain; object-position: 50% 50%" srcset="https://images.squarespace-cdn.com/content/v1/64949c6ff6ca4d644ff0f893/2248b9b2-96e2-43aa-9b48-a490de64e755/ProsVJo.png?format=100w 100w, https://images.squarespace-cdn.com/content/v1/64949c6ff6ca4d644ff0f893/2248b9b2-96e2-43aa-9b48-a490de64e755/ProsVJo.png?format=300w 300w, https://images.squarespace-cdn.com/content/v1/64949c6ff6ca4d644ff0f893/2248b9b2-96e2-43aa-9b48-a490de64e755/ProsVJo.png?format=500w 500w, https://images.squarespace-cdn.com/content/v1/64949c6ff6ca4d644ff0f893/2248b9b2-96e2-43aa-9b48-a490de64e755/ProsVJo.png?format=750w 750w, https://images.squarespace-cdn.com/content/v1/64949c6ff6ca4d644ff0f893/2248b9b2-96e2-43aa-9b48-a490de64e755/ProsVJo.png?format=1000w 1000w, https://images.squarespace-cdn.com/content/v1/64949c6ff6ca4d644ff0f893/2248b9b2-96e2-43aa-9b48-a490de64e755/ProsVJo.png?format=1500w 1500w, https://images.squarespace-cdn.com/content/v1/64949c6ff6ca4d644ff0f893/2248b9b2-96e2-43aa-9b48-a490de64e755/ProsVJo.png?format=2500w 2500w" loading="lazy" decoding="async" data-loader="sqs">
+
+            
+              
+            
+            <div class="fluidImageOverlay"></div>
+          
+              </div>
+            
+          
+
+        </div>
+      </div>
+    </div>
+    <style>
+      .sqs-block-image .sqs-block-content {
+        height: 100%;
+        width: 100%;
+      }
+
+      
+        .fe-block-bfa82e308b9248a2792a .fluidImageOverlay {
+          position: absolute;
+          top: 0;
+          left: 0;
+          width: 100%;
+          height: 100%;
+          mix-blend-mode: normal;
+          
+            
+            
+          
+          
+            opacity: 0;
+          
+        }
+      
+    </style>
+  
+
+
+  
+
+
+</div></div></div><div class="fe-block fe-block-8c1f717dce26e0be2843"><div class="sqs-block html-block sqs-block-html" data-block-type="2" data-border-radii="&#123;&quot;topLeft&quot;:&#123;&quot;unit&quot;:&quot;px&quot;,&quot;value&quot;:0.0&#125;,&quot;topRight&quot;:&#123;&quot;unit&quot;:&quot;px&quot;,&quot;value&quot;:0.0&#125;,&quot;bottomLeft&quot;:&#123;&quot;unit&quot;:&quot;px&quot;,&quot;value&quot;:0.0&#125;,&quot;bottomRight&quot;:&#123;&quot;unit&quot;:&quot;px&quot;,&quot;value&quot;:0.0&#125;&#125;" id="block-8c1f717dce26e0be2843"><div class="sqs-block-content">
+
+<div class="sqs-html-content">
+  <h2 style="white-space:pre-wrap;">ProsVJoes</h2><p class="sqsrte-large" style="white-space:pre-wrap;">Our very own Community Manager Pj Metz will be participating in <a href="http://prosversusjoes.net" target="_blank">ProsVJoes</a>, a CTF event that pits a team of red hat security professionals against a blue hat team of regular joes! </p><p class="sqsrte-large" style="white-space:pre-wrap;">This event is part of BsidesLV, so if you'd like to see Pj stressed out about protecting a Windows and Linux box, come through <strong>The Tuscany in Las Vegas on August 8 and 9</strong>. </p><p class="sqsrte-large" style="white-space:pre-wrap;">If you say hi, he might have a sticker for you!&nbsp;</p>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+</div></div></div></div></div>
+    </div>
+  
+  </div>
+  
+</section>
+
+  
+    
+    
+
+
+  
+
+
+<section
+  data-test="page-section"
+  
+  data-section-theme="black-bold"
+  class='page-section 
+    
+      full-bleed-section
+      layout-engine-section
+    
+    background-width--full-bleed
+    
+      section-height--small
+    
+    
+      content-width--wide
+    
+    horizontal-alignment--center
+    vertical-alignment--middle
+    
+      
+    
+    
+    black-bold'
+  
+  data-section-id="64949ecfe5ce6b7ee745bf7a"
+  
+  data-controller="SectionWrapperController"
+  data-current-styles="{
+&quot;imageOverlayOpacity&quot;: 0.15,
+&quot;backgroundWidth&quot;: &quot;background-width--full-bleed&quot;,
+&quot;sectionHeight&quot;: &quot;section-height--small&quot;,
+&quot;customSectionHeight&quot;: 10,
+&quot;horizontalAlignment&quot;: &quot;horizontal-alignment--center&quot;,
+&quot;verticalAlignment&quot;: &quot;vertical-alignment--middle&quot;,
+&quot;contentWidth&quot;: &quot;content-width--wide&quot;,
+&quot;customContentWidth&quot;: 50,
+&quot;sectionTheme&quot;: &quot;black-bold&quot;,
+&quot;sectionAnimation&quot;: &quot;none&quot;,
+&quot;backgroundMode&quot;: &quot;image&quot;
+}"
+  data-current-context="{
+&quot;video&quot;: {
+&quot;playbackSpeed&quot;: 0.5,
+&quot;filter&quot;: 1,
+&quot;filterStrength&quot;: 0,
+&quot;zoom&quot;: 0,
+&quot;videoSourceProvider&quot;: &quot;none&quot;
+},
+&quot;backgroundImageId&quot;: null,
+&quot;backgroundMediaEffect&quot;: {
+&quot;type&quot;: &quot;none&quot;
+},
+&quot;divider&quot;: {
+&quot;enabled&quot;: false
+},
+&quot;typeName&quot;: &quot;page&quot;
+}"
+  data-animation="none"
+  data-fluid-engine-section
+   
+  
+    
+  
+  
+>
+  <div
+    class="section-border"
+    
+  >
+    <div class="section-background">
+    
+      
+    
+    </div>
+  </div>
+  <div
+    class='content-wrapper'
+    style='
+      
+        
+      
+    '
+  >
+    <div
+      class="content"
+      
+    >
+      
+      
+      
+      
+      
+      
+      <div data-fluid-engine="true"><style>
+
+.fe-64949ecfe5ce6b7ee745bf79 {
+  --grid-gutter: calc(var(--sqs-mobile-site-gutter, 6vw) - 11.0px);
+  --cell-max-width: calc( ( var(--sqs-site-max-width, 1500px) - (11.0px * (8 - 1)) ) / 8 );
+
+  display: grid;
+  position: relative;
+  grid-area: 1/1/-1/-1;
+  grid-template-rows: repeat(14,minmax(24px, auto));
+  grid-template-columns:
+    minmax(var(--grid-gutter), 1fr)
+    repeat(8, minmax(0, var(--cell-max-width)))
+    minmax(var(--grid-gutter), 1fr);
+  row-gap: 11.0px;
+  column-gap: 11.0px;
+}
+
+@media (min-width: 768px) {
+  .background-width--inset .fe-64949ecfe5ce6b7ee745bf79 {
+    --inset-padding: calc(var(--sqs-site-gutter) * 2);
+  }
+
+  .fe-64949ecfe5ce6b7ee745bf79 {
+    --grid-gutter: calc(var(--sqs-site-gutter, 4vw) - 11.0px);
+    --cell-max-width: calc( ( var(--sqs-site-max-width, 1500px) - (11.0px * (24 - 1)) ) / 24 );
+    --inset-padding: 0vw;
+
+    --row-height-scaling-factor: 0.0215;
+    --container-width: min(var(--sqs-site-max-width, 1500px), calc(100vw - var(--sqs-site-gutter, 4vw) * 2 - var(--inset-padding) ));
+
+    grid-template-rows: repeat(16,minmax(calc(var(--container-width) * var(--row-height-scaling-factor)), auto));
+    grid-template-columns:
+      minmax(var(--grid-gutter), 1fr)
+      repeat(24, minmax(0, var(--cell-max-width)))
+      minmax(var(--grid-gutter), 1fr);
+  }
+}
+
+
+  .fe-block-f5fcf516c2329d9e157c {
+    grid-area: 1/2/2/10;
+    z-index: 4;
+
+    @media (max-width: 767px) {
+      
+    }
+  }
+
+  .fe-block-f5fcf516c2329d9e157c .sqs-block {
+    justify-content: center;
+  }
+
+  .fe-block-f5fcf516c2329d9e157c .sqs-block-alignment-wrapper {
+    align-items: center;
+  }
+
+  @media (min-width: 768px) {
+    .fe-block-f5fcf516c2329d9e157c {
+      grid-area: 1/2/2/26;
+      z-index: 6;
+
+      
+    }
+
+    .fe-block-f5fcf516c2329d9e157c .sqs-block {
+      justify-content: center;
+    }
+
+    .fe-block-f5fcf516c2329d9e157c .sqs-block-alignment-wrapper {
+      align-items: center;
+    }
+  }
+
+  .fe-block-b6adae4a62024b6e7663 {
+    grid-area: 2/2/6/10;
+    z-index: 0;
+
+    @media (max-width: 767px) {
+      
+    }
+  }
+
+  .fe-block-b6adae4a62024b6e7663 .sqs-block {
+    justify-content: center;
+  }
+
+  .fe-block-b6adae4a62024b6e7663 .sqs-block-alignment-wrapper {
+    align-items: center;
+  }
+
+  @media (min-width: 768px) {
+    .fe-block-b6adae4a62024b6e7663 {
+      grid-area: 3/2/8/7;
+      z-index: 4;
+
+      
+    }
+
+    .fe-block-b6adae4a62024b6e7663 .sqs-block {
+      justify-content: flex-end;
+    }
+
+    .fe-block-b6adae4a62024b6e7663 .sqs-block-alignment-wrapper {
+      align-items: flex-end;
+    }
+  }
+
+  .fe-block-7e16d01f4191e00d4288 {
+    grid-area: 6/2/8/10;
+    z-index: 2;
+
+    @media (max-width: 767px) {
+      
+    }
+  }
+
+  .fe-block-7e16d01f4191e00d4288 .sqs-block {
+    justify-content: center;
+  }
+
+  .fe-block-7e16d01f4191e00d4288 .sqs-block-alignment-wrapper {
+    align-items: center;
+  }
+
+  @media (min-width: 768px) {
+    .fe-block-7e16d01f4191e00d4288 {
+      grid-area: 7/11/9/17;
+      z-index: 3;
+
+      
+    }
+
+    .fe-block-7e16d01f4191e00d4288 .sqs-block {
+      justify-content: center;
+    }
+
+    .fe-block-7e16d01f4191e00d4288 .sqs-block-alignment-wrapper {
+      align-items: center;
+    }
+  }
+
+  .fe-block-7aefa1e14d9bb6c6c491 {
+    grid-area: 8/3/10/9;
+    z-index: 1;
+
+    @media (max-width: 767px) {
+      
+    }
+  }
+
+  .fe-block-7aefa1e14d9bb6c6c491 .sqs-block {
+    justify-content: center;
+  }
+
+  .fe-block-7aefa1e14d9bb6c6c491 .sqs-block-alignment-wrapper {
+    align-items: center;
+  }
+
+  @media (min-width: 768px) {
+    .fe-block-7aefa1e14d9bb6c6c491 {
+      grid-area: 10/11/12/17;
+      z-index: 1;
+
+      
+    }
+
+    .fe-block-7aefa1e14d9bb6c6c491 .sqs-block {
+      justify-content: center;
+    }
+
+    .fe-block-7aefa1e14d9bb6c6c491 .sqs-block-alignment-wrapper {
+      align-items: center;
+    }
+  }
+
+  .fe-block-94e4a3375e112871578f {
+    grid-area: 11/2/15/10;
+    z-index: 3;
+
+    @media (max-width: 767px) {
+      
+    }
+  }
+
+  .fe-block-94e4a3375e112871578f .sqs-block {
+    justify-content: center;
+  }
+
+  .fe-block-94e4a3375e112871578f .sqs-block-alignment-wrapper {
+    align-items: center;
+  }
+
+  @media (min-width: 768px) {
+    .fe-block-94e4a3375e112871578f {
+      grid-area: 12/20/17/26;
+      z-index: 5;
+
+      
+    }
+
+    .fe-block-94e4a3375e112871578f .sqs-block {
+      justify-content: flex-start;
+    }
+
+    .fe-block-94e4a3375e112871578f .sqs-block-alignment-wrapper {
+      align-items: flex-start;
+    }
+  }
+
+</style><div class="fluid-engine fe-64949ecfe5ce6b7ee745bf79"><div class="fe-block fe-block-f5fcf516c2329d9e157c"><div class="sqs-block horizontalrule-block sqs-block-horizontalrule" data-block-type="47" id="block-f5fcf516c2329d9e157c"><div class="sqs-block-content"><hr /></div></div></div><div class="fe-block fe-block-b6adae4a62024b6e7663"><div class="sqs-block html-block sqs-block-html" data-block-type="2" data-border-radii="&#123;&quot;topLeft&quot;:&#123;&quot;unit&quot;:&quot;px&quot;,&quot;value&quot;:0.0&#125;,&quot;topRight&quot;:&#123;&quot;unit&quot;:&quot;px&quot;,&quot;value&quot;:0.0&#125;,&quot;bottomLeft&quot;:&#123;&quot;unit&quot;:&quot;px&quot;,&quot;value&quot;:0.0&#125;,&quot;bottomRight&quot;:&#123;&quot;unit&quot;:&quot;px&quot;,&quot;value&quot;:0.0&#125;&#125;" id="block-b6adae4a62024b6e7663"><div class="sqs-block-content">
+
+<div class="sqs-html-content">
+  <h1 style="white-space:pre-wrap;">RS</h1>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+</div></div></div><div class="fe-block fe-block-7e16d01f4191e00d4288"><div class="sqs-block html-block sqs-block-html" data-block-type="2" data-border-radii="&#123;&quot;topLeft&quot;:&#123;&quot;unit&quot;:&quot;px&quot;,&quot;value&quot;:0.0&#125;,&quot;topRight&quot;:&#123;&quot;unit&quot;:&quot;px&quot;,&quot;value&quot;:0.0&#125;,&quot;bottomLeft&quot;:&#123;&quot;unit&quot;:&quot;px&quot;,&quot;value&quot;:0.0&#125;,&quot;bottomRight&quot;:&#123;&quot;unit&quot;:&quot;px&quot;,&quot;value&quot;:0.0&#125;&#125;" id="block-7e16d01f4191e00d4288"><div class="sqs-block-content">
+
+<div class="sqs-html-content">
+  <p style="text-align:center;white-space:pre-wrap;" class="">Please let us know if you can make it to our DEF CON Happy Hour!</p>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+</div></div></div><div class="fe-block fe-block-7aefa1e14d9bb6c6c491"><div class="sqs-block button-block sqs-block-button sqs-stretched" data-block-type="53" id="block-7aefa1e14d9bb6c6c491"><div class="sqs-block-content">
+
+<div
+  class="sqs-block-button-container sqs-block-button-container--center"
+  data-animation-role="button"
+  data-alignment="center"
+  data-button-size="medium"
+  data-button-type="primary"
+>
+  <a
+    href="https://nux.gg/defcon31-cocktails"
+    class="sqs-block-button-element--medium sqs-button-element--primary sqs-block-button-element"
+    
+  >
+    I'll Be There!
+  </a>
+</div>
+</div></div></div><div class="fe-block fe-block-94e4a3375e112871578f"><div class="sqs-block html-block sqs-block-html" data-block-type="2" data-border-radii="&#123;&quot;topLeft&quot;:&#123;&quot;unit&quot;:&quot;px&quot;,&quot;value&quot;:0.0&#125;,&quot;topRight&quot;:&#123;&quot;unit&quot;:&quot;px&quot;,&quot;value&quot;:0.0&#125;,&quot;bottomLeft&quot;:&#123;&quot;unit&quot;:&quot;px&quot;,&quot;value&quot;:0.0&#125;,&quot;bottomRight&quot;:&#123;&quot;unit&quot;:&quot;px&quot;,&quot;value&quot;:0.0&#125;&#125;" id="block-94e4a3375e112871578f"><div class="sqs-block-content">
+
+<div class="sqs-html-content">
+  <h1 style="text-align:right;white-space:pre-wrap;">VP</h1>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+</div></div></div></div></div>
+    </div>
+  
+  </div>
+  
+</section>
+
+  
+</article>
+
+
+          
+
+          
+            
+          
+        
+      </main>
+      <script type="text/javascript">
+        const firstSection = document.querySelector('.page-section');
+        const header = document.querySelector('.header');
+        const mobileOverlayNav = document.querySelector('.header-menu');
+        const sectionBackground = firstSection ? firstSection.querySelector('.section-background') : null;
+        const headerHeight = header ? header.getBoundingClientRect().height : 0;
+        const firstSectionHasBackground = firstSection ? firstSection.className.indexOf('has-background') >= 0 : false;
+        const isFirstSectionInset = firstSection ? firstSection.className.indexOf('background-width--inset') >= 0 : false;
+        const isLayoutEngineSection = firstSection ? firstSection.className.indexOf('layout-engine-section') >= 0 : false;
+
+        if (firstSection) {
+          firstSection.style.paddingTop = headerHeight + 'px';
+        }
+        if (sectionBackground && isLayoutEngineSection) {
+          if (isFirstSectionInset) {
+            sectionBackground.style.top = headerHeight + 'px';
+          } else {
+            sectionBackground.style.top = '';
+          }
+        }
+        //# sourceURL=headerPositioning.js
+      </script>
+
+      
+        <footer class="sections" id="footer-sections" data-footer-sections>
+  
+  
+  
+  
+  
+  
+    
+    
+
+
+  
+
+
+<section
+  data-test="page-section"
+  
+  data-section-theme="light"
+  class='page-section 
+    
+      full-bleed-section
+      layout-engine-section
+    
+    background-width--full-bleed
+    
+      section-height--small
+    
+    
+      content-width--wide
+    
+    horizontal-alignment--center
+    vertical-alignment--bottom
+    
+      
+    
+    
+    light'
+  
+  data-section-id="64949c6ff6ca4d644ff0f8ad"
+  
+  data-controller="SectionWrapperController"
+  data-current-styles="{
+&quot;imageOverlayOpacity&quot;: 0.15,
+&quot;backgroundWidth&quot;: &quot;background-width--full-bleed&quot;,
+&quot;sectionHeight&quot;: &quot;section-height--small&quot;,
+&quot;customSectionHeight&quot;: 1,
+&quot;horizontalAlignment&quot;: &quot;horizontal-alignment--center&quot;,
+&quot;verticalAlignment&quot;: &quot;vertical-alignment--bottom&quot;,
+&quot;contentWidth&quot;: &quot;content-width--wide&quot;,
+&quot;customContentWidth&quot;: 50,
+&quot;sectionTheme&quot;: &quot;light&quot;,
+&quot;sectionAnimation&quot;: &quot;none&quot;,
+&quot;backgroundMode&quot;: &quot;image&quot;
+}"
+  data-current-context="{
+&quot;video&quot;: {
+&quot;playbackSpeed&quot;: 0.5,
+&quot;filter&quot;: 1,
+&quot;filterStrength&quot;: 0,
+&quot;zoom&quot;: 0,
+&quot;videoSourceProvider&quot;: &quot;none&quot;
+},
+&quot;backgroundImageId&quot;: null,
+&quot;backgroundMediaEffect&quot;: {
+&quot;type&quot;: &quot;none&quot;
+},
+&quot;divider&quot;: {
+&quot;enabled&quot;: false
+},
+&quot;typeName&quot;: &quot;page&quot;
+}"
+  data-animation="none"
+  data-fluid-engine-section
+   
+  
+    
+  
+  
+>
+  <div
+    class="section-border"
+    
+  >
+    <div class="section-background">
+    
+      
+    
+    </div>
+  </div>
+  <div
+    class='content-wrapper'
+    style='
+      
+        
+      
+    '
+  >
+    <div
+      class="content"
+      
+    >
+      
+      
+      
+      
+      
+      
+      <div data-fluid-engine="true"><style>
+
+.fe-64949c6ff6ca4d644ff0f8ac {
+  --grid-gutter: calc(var(--sqs-mobile-site-gutter, 6vw) - 11.0px);
+  --cell-max-width: calc( ( var(--sqs-site-max-width, 1500px) - (11.0px * (8 - 1)) ) / 8 );
+
+  display: grid;
+  position: relative;
+  grid-area: 1/1/-1/-1;
+  grid-template-rows: repeat(5,minmax(24px, auto));
+  grid-template-columns:
+    minmax(var(--grid-gutter), 1fr)
+    repeat(8, minmax(0, var(--cell-max-width)))
+    minmax(var(--grid-gutter), 1fr);
+  row-gap: 11.0px;
+  column-gap: 11.0px;
+}
+
+@media (min-width: 768px) {
+  .background-width--inset .fe-64949c6ff6ca4d644ff0f8ac {
+    --inset-padding: calc(var(--sqs-site-gutter) * 2);
+  }
+
+  .fe-64949c6ff6ca4d644ff0f8ac {
+    --grid-gutter: calc(var(--sqs-site-gutter, 4vw) - 11.0px);
+    --cell-max-width: calc( ( var(--sqs-site-max-width, 1500px) - (11.0px * (24 - 1)) ) / 24 );
+    --inset-padding: 0vw;
+
+    --row-height-scaling-factor: 0.0215;
+    --container-width: min(var(--sqs-site-max-width, 1500px), calc(100vw - var(--sqs-site-gutter, 4vw) * 2 - var(--inset-padding) ));
+
+    grid-template-rows: repeat(6,minmax(calc(var(--container-width) * var(--row-height-scaling-factor)), auto));
+    grid-template-columns:
+      minmax(var(--grid-gutter), 1fr)
+      repeat(24, minmax(0, var(--cell-max-width)))
+      minmax(var(--grid-gutter), 1fr);
+  }
+}
+
+
+  .fe-block-854a0d66923b70b2e222 {
+    grid-area: 1/2/4/10;
+    z-index: 0;
+
+    @media (max-width: 767px) {
+      
+    }
+  }
+
+  .fe-block-854a0d66923b70b2e222 .sqs-block {
+    justify-content: flex-start;
+  }
+
+  .fe-block-854a0d66923b70b2e222 .sqs-block-alignment-wrapper {
+    align-items: flex-start;
+  }
+
+  @media (min-width: 768px) {
+    .fe-block-854a0d66923b70b2e222 {
+      grid-area: 1/8/4/20;
+      z-index: 0;
+
+      
+    }
+
+    .fe-block-854a0d66923b70b2e222 .sqs-block {
+      justify-content: flex-start;
+    }
+
+    .fe-block-854a0d66923b70b2e222 .sqs-block-alignment-wrapper {
+      align-items: flex-start;
+    }
+  }
+
+  .fe-block-456681cb89cc50c0a187 {
+    grid-area: 5/2/6/10;
+    z-index: 1;
+
+    @media (max-width: 767px) {
+      
+    }
+  }
+
+  .fe-block-456681cb89cc50c0a187 .sqs-block {
+    justify-content: flex-start;
+  }
+
+  .fe-block-456681cb89cc50c0a187 .sqs-block-alignment-wrapper {
+    align-items: flex-start;
+  }
+
+  @media (min-width: 768px) {
+    .fe-block-456681cb89cc50c0a187 {
+      grid-area: 5/8/7/20;
+      z-index: 1;
+
+      
+    }
+
+    .fe-block-456681cb89cc50c0a187 .sqs-block {
+      justify-content: flex-start;
+    }
+
+    .fe-block-456681cb89cc50c0a187 .sqs-block-alignment-wrapper {
+      align-items: flex-start;
+    }
+  }
+
+</style><div class="fluid-engine fe-64949c6ff6ca4d644ff0f8ac"><div class="fe-block fe-block-854a0d66923b70b2e222"><div class="sqs-block html-block sqs-block-html" data-block-type="2" data-border-radii="&#123;&quot;topLeft&quot;:&#123;&quot;unit&quot;:&quot;px&quot;,&quot;value&quot;:0.0&#125;,&quot;topRight&quot;:&#123;&quot;unit&quot;:&quot;px&quot;,&quot;value&quot;:0.0&#125;,&quot;bottomLeft&quot;:&#123;&quot;unit&quot;:&quot;px&quot;,&quot;value&quot;:0.0&#125;,&quot;bottomRight&quot;:&#123;&quot;unit&quot;:&quot;px&quot;,&quot;value&quot;:0.0&#125;&#125;" id="block-854a0d66923b70b2e222"><div class="sqs-block-content">
+
+<div class="sqs-html-content">
+  <h4 style="text-align:center;white-space:pre-wrap;">#COUNTDOWNTODISCOVERY</h4><p style="text-align:center;white-space:pre-wrap;" class="sqsrte-small"><a href="https://projectdiscovery.io">ProjectDiscovery</a> | <a href="https://projectdiscovery.io#/community">Community</a> | <a href="https://policies.projectdiscovery.io">Privacy</a> | <a href="https://nuclei.sh">Nuclei Cloud</a></p>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+</div></div></div><div class="fe-block fe-block-456681cb89cc50c0a187"><div class="sqs-block socialaccountlinks-v2-block sqs-block-socialaccountlinks-v2" data-block-type="54" id="block-456681cb89cc50c0a187"><div class="sqs-block-content">
+
+
+
+<div class="sqs-svg-icon--outer social-icon-alignment-center social-icons-color- social-icons-size-large social-icons-style-regular " >
+  <style>
+    #block-456681cb89cc50c0a187 .social-icons-style-border .sqs-svg-icon--wrapper {
+      
+        box-shadow: 0 0 0 2px inset;
+      
+      border: none; 
+    }
+  </style>
+  <nav class="sqs-svg-icon--list">
+    <a href="https://twitter.com/pdiscoveryio" target="_blank" class="sqs-svg-icon--wrapper twitter-unauth" aria-label="Twitter">
+      <div>
+        <svg class="sqs-svg-icon--social" viewBox="0 0 64 64">
+          <use class="sqs-use--icon" xlink:href="#twitter-unauth-icon"></use>
+          <use class="sqs-use--mask" xlink:href="#twitter-unauth-mask"></use>
+        </svg>
+      </div>
+    </a><a href="https://github.com/projectdiscovery" target="_blank" class="sqs-svg-icon--wrapper github-unauth" aria-label="GitHub">
+      <div>
+        <svg class="sqs-svg-icon--social" viewBox="0 0 64 64">
+          <use class="sqs-use--icon" xlink:href="#github-unauth-icon"></use>
+          <use class="sqs-use--mask" xlink:href="#github-unauth-mask"></use>
+        </svg>
+      </div>
+    </a><a href="https://discord.gg/projectdiscovery" target="_blank" class="sqs-svg-icon--wrapper discord-unauth" aria-label="Discord">
+      <div>
+        <svg class="sqs-svg-icon--social" viewBox="0 0 64 64">
+          <use class="sqs-use--icon" xlink:href="#discord-unauth-icon"></use>
+          <use class="sqs-use--mask" xlink:href="#discord-unauth-mask"></use>
+        </svg>
+      </div>
+    </a>
+  </nav>
+</div>
+</div></div></div></div></div>
+    </div>
+  
+  </div>
+  
+</section>
+
+  
+</footer>
+
+      
+    </div>
+
+    <script defer="defer" src="https://static1.squarespace.com/static/vta/5c5a519771c10ba3470d8101/scripts/site-bundle.fdb3342ec883d35bb41feb2170752cde.js" type="text/javascript"></script>
+    <svg xmlns="http://www.w3.org/2000/svg" version="1.1" style="display:none" data-usage="social-icons-svg"><symbol id="twitter-unauth-icon" viewBox="0 0 64 64"><path d="M48,22.1c-1.2,0.5-2.4,0.9-3.8,1c1.4-0.8,2.4-2.1,2.9-3.6c-1.3,0.8-2.7,1.3-4.2,1.6 C41.7,19.8,40,19,38.2,19c-3.6,0-6.6,2.9-6.6,6.6c0,0.5,0.1,1,0.2,1.5c-5.5-0.3-10.3-2.9-13.5-6.9c-0.6,1-0.9,2.1-0.9,3.3 c0,2.3,1.2,4.3,2.9,5.5c-1.1,0-2.1-0.3-3-0.8c0,0,0,0.1,0,0.1c0,3.2,2.3,5.8,5.3,6.4c-0.6,0.1-1.1,0.2-1.7,0.2c-0.4,0-0.8,0-1.2-0.1 c0.8,2.6,3.3,4.5,6.1,4.6c-2.2,1.8-5.1,2.8-8.2,2.8c-0.5,0-1.1,0-1.6-0.1c2.9,1.9,6.4,2.9,10.1,2.9c12.1,0,18.7-10,18.7-18.7 c0-0.3,0-0.6,0-0.8C46,24.5,47.1,23.4,48,22.1z"/></symbol><symbol id="twitter-unauth-mask" viewBox="0 0 64 64"><path d="M0,0v64h64V0H0z M44.7,25.5c0,0.3,0,0.6,0,0.8C44.7,35,38.1,45,26.1,45c-3.7,0-7.2-1.1-10.1-2.9 c0.5,0.1,1,0.1,1.6,0.1c3.1,0,5.9-1,8.2-2.8c-2.9-0.1-5.3-2-6.1-4.6c0.4,0.1,0.8,0.1,1.2,0.1c0.6,0,1.2-0.1,1.7-0.2 c-3-0.6-5.3-3.3-5.3-6.4c0,0,0-0.1,0-0.1c0.9,0.5,1.9,0.8,3,0.8c-1.8-1.2-2.9-3.2-2.9-5.5c0-1.2,0.3-2.3,0.9-3.3 c3.2,4,8.1,6.6,13.5,6.9c-0.1-0.5-0.2-1-0.2-1.5c0-3.6,2.9-6.6,6.6-6.6c1.9,0,3.6,0.8,4.8,2.1c1.5-0.3,2.9-0.8,4.2-1.6 c-0.5,1.5-1.5,2.8-2.9,3.6c1.3-0.2,2.6-0.5,3.8-1C47.1,23.4,46,24.5,44.7,25.5z"/></symbol><symbol id="github-unauth-icon" viewBox="0 0 64 64"><path d="M32,16c-8.8,0-16,7.2-16,16c0,7.1,4.6,13.1,10.9,15.2 c0.8,0.1,1.1-0.3,1.1-0.8c0-0.4,0-1.4,0-2.7c-4.5,1-5.4-2.1-5.4-2.1c-0.7-1.8-1.8-2.3-1.8-2.3c-1.5-1,0.1-1,0.1-1 c1.6,0.1,2.5,1.6,2.5,1.6c1.4,2.4,3.7,1.7,4.7,1.3c0.1-1,0.6-1.7,1-2.1c-3.6-0.4-7.3-1.8-7.3-7.9c0-1.7,0.6-3.2,1.6-4.3 c-0.2-0.4-0.7-2,0.2-4.2c0,0,1.3-0.4,4.4,1.6c1.3-0.4,2.6-0.5,4-0.5c1.4,0,2.7,0.2,4,0.5c3.1-2.1,4.4-1.6,4.4-1.6 c0.9,2.2,0.3,3.8,0.2,4.2c1,1.1,1.6,2.5,1.6,4.3c0,6.1-3.7,7.5-7.3,7.9c0.6,0.5,1.1,1.5,1.1,3c0,2.1,0,3.9,0,4.4 c0,0.4,0.3,0.9,1.1,0.8C43.4,45.1,48,39.1,48,32C48,23.2,40.8,16,32,16z"/></symbol><symbol id="github-unauth-mask" viewBox="0 0 64 64"><path d="M0,0v64h64V0H0z M37.1,47.2c-0.8,0.2-1.1-0.3-1.1-0.8c0-0.5,0-2.3,0-4.4c0-1.5-0.5-2.5-1.1-3 c3.6-0.4,7.3-1.7,7.3-7.9c0-1.7-0.6-3.2-1.6-4.3c0.2-0.4,0.7-2-0.2-4.2c0,0-1.3-0.4-4.4,1.6c-1.3-0.4-2.6-0.5-4-0.5 c-1.4,0-2.7,0.2-4,0.5c-3.1-2.1-4.4-1.6-4.4-1.6c-0.9,2.2-0.3,3.8-0.2,4.2c-1,1.1-1.6,2.5-1.6,4.3c0,6.1,3.7,7.5,7.3,7.9 c-0.5,0.4-0.9,1.1-1,2.1c-0.9,0.4-3.2,1.1-4.7-1.3c0,0-0.8-1.5-2.5-1.6c0,0-1.6,0-0.1,1c0,0,1,0.5,1.8,2.3c0,0,0.9,3.1,5.4,2.1 c0,1.3,0,2.3,0,2.7c0,0.4-0.3,0.9-1.1,0.8C20.6,45.1,16,39.1,16,32c0-8.8,7.2-16,16-16c8.8,0,16,7.2,16,16 C48,39.1,43.4,45.1,37.1,47.2z"/></symbol><symbol id="discord-unauth-icon" viewBox="0 0 64 64"><path d="M42.3963 22.8955C40.4842 22.0182 38.4337 21.3718 36.2899 21.0016C36.2508 20.9944 36.2118 21.0123 36.1917 21.048C35.928 21.517 35.6359 22.1289 35.4314 22.6098C33.1255 22.2646 30.8315 22.2646 28.5729 22.6098C28.3683 22.1182 28.0656 21.517 27.8007 21.048C27.7806 21.0135 27.7416 20.9956 27.7026 21.0016C25.5599 21.3706 23.5095 22.017 21.5962 22.8955C21.5796 22.9027 21.5654 22.9146 21.556 22.93C17.6667 28.7405 16.6013 34.4081 17.124 40.0055C17.1263 40.0329 17.1417 40.0591 17.163 40.0757C19.729 41.9601 22.2146 43.1041 24.6541 43.8624C24.6931 43.8743 24.7345 43.8601 24.7594 43.8279C25.3364 43.0399 25.8508 42.209 26.2918 41.3352C26.3179 41.284 26.293 41.2233 26.2398 41.203C25.4239 40.8935 24.647 40.5162 23.8997 40.0876C23.8405 40.0531 23.8358 39.9686 23.8902 39.9281C24.0475 39.8102 24.2048 39.6876 24.3549 39.5638C24.3821 39.5412 24.42 39.5364 24.4519 39.5507C29.3616 41.7923 34.6769 41.7923 39.5287 39.5507C39.5606 39.5352 39.5985 39.54 39.6268 39.5626C39.7771 39.6864 39.9343 39.8102 40.0928 39.9281C40.1472 39.9686 40.1436 40.0531 40.0845 40.0876C39.3372 40.5245 38.5602 40.8935 37.7431 41.2019C37.6899 41.2221 37.6663 41.284 37.6923 41.3352C38.1428 42.2077 38.6572 43.0387 39.2236 43.8267C39.2473 43.8601 39.2898 43.8743 39.3289 43.8624C41.7802 43.1041 44.2658 41.9601 46.8318 40.0757C46.8543 40.0591 46.8685 40.0341 46.8708 40.0067C47.4964 33.5355 45.8231 27.9143 42.4353 22.9312C42.427 22.9146 42.4128 22.9027 42.3963 22.8955ZM27.025 36.5973C25.5469 36.5973 24.3289 35.2402 24.3289 33.5736C24.3289 31.907 25.5233 30.55 27.025 30.55C28.5386 30.55 29.7448 31.9189 29.7211 33.5736C29.7211 35.2402 28.5268 36.5973 27.025 36.5973ZM36.9934 36.5973C35.5153 36.5973 34.2974 35.2402 34.2974 33.5736C34.2974 31.907 35.4917 30.55 36.9934 30.55C38.507 30.55 39.7132 31.9189 39.6895 33.5736C39.6895 35.2402 38.507 36.5973 36.9934 36.5973Z" /></symbol><symbol id="discord-unauth-mask" viewBox="0 0 64 64"><path fill-rule="evenodd" clip-rule="evenodd" d="M64 0H0V64H64V0ZM36.23 20.0021C36.42 20.0021 40.8 20.3921 43.57 22.6221C45.07 24.0021 48 31.9321 47.98 38.7821C47.9812 38.9047 47.9501 39.0253 47.89 39.1321C45.87 42.6521 40.35 43.6521 39.09 43.6521C38.9798 43.6529 38.8709 43.628 38.772 43.5794C38.673 43.5308 38.5868 43.4598 38.52 43.3721L37.25 41.6221C39.1718 41.1872 40.9765 40.3412 42.54 39.1421C42.6637 39.0161 42.7351 38.8481 42.7401 38.6716C42.7451 38.4951 42.6832 38.3233 42.5669 38.1905C42.4506 38.0578 42.2884 37.9738 42.1128 37.9556C41.9372 37.9373 41.7612 37.9861 41.62 38.0921C41.59 38.1221 38.35 40.8721 32 40.8721C25.65 40.8721 22.36 38.0921 22.36 38.0921C22.2189 37.9861 22.0429 37.9373 21.8673 37.9556C21.6917 37.9738 21.5295 38.0578 21.4132 38.1905C21.2968 38.3233 21.2349 38.4951 21.2399 38.6716C21.2449 38.8481 21.3164 39.0161 21.44 39.1421C23.0035 40.3412 24.8083 41.1872 26.73 41.6221L25.46 43.3721C25.3933 43.4598 25.307 43.5308 25.2081 43.5794C25.1091 43.628 25.0003 43.6529 24.89 43.6521C23.63 43.6121 18.09 42.6821 16.09 39.1321C16.0299 39.0253 15.9989 38.9047 16 38.7821C16 31.9321 18.93 24.0021 20.4 22.6521C23.2 20.3921 27.58 20.0021 27.77 20.0021C27.9146 19.9908 28.0591 20.0252 28.1829 20.1006C28.3068 20.176 28.4037 20.2885 28.46 20.4221C28.5436 20.6103 28.6138 20.8041 28.67 21.0021C26.4824 21.3233 24.3773 22.0635 22.47 23.1821C22.3885 23.232 22.3178 23.2979 22.2623 23.3757C22.2068 23.4536 22.1676 23.5419 22.1471 23.6353C22.1265 23.7287 22.125 23.8252 22.1427 23.9192C22.1604 24.0132 22.1969 24.1026 22.25 24.1821C22.2981 24.2656 22.3628 24.3383 22.4402 24.3956C22.5176 24.4529 22.606 24.4936 22.6999 24.5152C22.7937 24.5368 22.891 24.5388 22.9857 24.5211C23.0804 24.5033 23.1704 24.4662 23.25 24.4121C25.9097 22.9176 28.9092 22.1326 31.96 22.1326C35.0108 22.1326 38.0103 22.9176 40.67 24.4121C40.7497 24.4662 40.8397 24.5033 40.9344 24.5211C41.029 24.5388 41.1263 24.5368 41.2202 24.5152C41.3141 24.4936 41.4025 24.4529 41.4799 24.3956C41.5573 24.3383 41.622 24.2656 41.67 24.1821C41.7231 24.1026 41.7596 24.0132 41.7773 23.9192C41.795 23.8252 41.7935 23.7287 41.773 23.6353C41.7525 23.5419 41.7133 23.4536 41.6578 23.3757C41.6023 23.2979 41.5316 23.232 41.45 23.1821C39.5679 22.0696 37.4907 21.3263 35.33 20.9921C35.3895 20.7952 35.4596 20.6015 35.54 20.4121C35.5991 20.2813 35.697 20.1718 35.8204 20.0984C35.9439 20.0251 36.0869 19.9915 36.23 20.0021ZM26.4843 35.7456C26.7961 35.8958 27.1345 35.983 27.48 36.0021C28.1619 35.9409 28.793 35.6163 29.2392 35.0972C29.6855 34.5781 29.9118 33.9054 29.87 33.2221C29.9141 32.5308 29.6836 31.85 29.2286 31.3276C28.7736 30.8052 28.1309 30.4834 27.44 30.4321C26.7474 30.4809 26.1021 30.8016 25.645 31.3243C25.1879 31.8469 24.9561 32.5292 25 33.2221C24.9798 33.5676 25.0279 33.9137 25.1416 34.2406C25.2554 34.5675 25.4326 34.8687 25.6629 35.1269C25.8933 35.3852 26.1724 35.5955 26.4843 35.7456ZM34.6952 35.1102C35.1499 35.6304 35.791 35.9508 36.48 36.0021H36.52C36.8656 35.983 37.204 35.8958 37.5158 35.7456C37.8276 35.5955 38.1067 35.3852 38.3371 35.1269C38.5675 34.8687 38.7447 34.5675 38.8584 34.2406C38.9722 33.9137 39.0203 33.5676 39 33.2221C39.0216 32.8726 38.9732 32.5223 38.8576 32.1917C38.742 31.8612 38.5615 31.5571 38.3268 31.2972C38.092 31.0373 37.8078 30.8269 37.4907 30.6784C37.1735 30.5298 36.8299 30.4461 36.48 30.4321C35.7892 30.4834 35.1465 30.8052 34.6915 31.3276C34.2365 31.85 34.006 32.5308 34.05 33.2221C34.0087 33.9118 34.2405 34.59 34.6952 35.1102Z" /></symbol></svg>
+
+  </body>
+</html>
+
+
+
+http://www.defcon.projectdiscovery.io

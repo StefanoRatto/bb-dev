@@ -1,0 +1,23 @@
+GET / HTTP/1.1
+Host: dns.projectdiscovery.io
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36 Edg/110.0.1587.57
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 404 Not Found
+Connection: close
+Content-Length: 18
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 88d4ee318e5e7ff3-IAD
+Content-Type: text/plain
+Date: Sun, 02 Jun 2024 05:09:18 GMT
+Nel: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=%2Bq%2B1DsRME6%2B6lBl%2BmPQJ4Hoa5dxt%2F1J9dCNr0Q5SpUjmd%2BxfYGJGe%2BqQq%2FBHxN3REf9femTPkaBhHk0yWntCW9y0szCLAuUC%2FrjSvT4KUBsnHOkhO%2F3ynTpxe46V%2BfOKB4fqh6vsHFPv"}],"group":"cf-nel","max_age":604800}
+Server: cloudflare
+Strict-Transport-Security: max-age=0; preload
+X-Content-Type-Options: nosniff
+
+404 page not found
+
+
+https://dns.projectdiscovery.io

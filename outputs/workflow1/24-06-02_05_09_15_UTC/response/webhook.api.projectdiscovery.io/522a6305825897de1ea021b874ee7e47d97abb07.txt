@@ -1,0 +1,24 @@
+GET / HTTP/1.1
+Host: webhook.api.projectdiscovery.io
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_6_8) AppleWebKit/534.30 (KHTML, like Gecko) Chrome/12.0.742.122 Safari/534.30
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 200 OK
+Connection: close
+Content-Length: 31
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 88d4ee6eea050774-IAD
+Content-Type: text/plain; charset=UTF-8
+Date: Sun, 02 Jun 2024 05:09:27 GMT
+Nel: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=ohLam7j0izjAN%2B%2F%2BUJAA39nuuU%2BZb8AgsYtnjy8allUrxqwERBWfKSnNI39fn1atqnqU208j8FJGcLwJF4GehjVrkRKAAsndF5GUuvnnrOExpXoSGkSyhB6yEaYalrlbs4UzMSwt99zBQrY7vIaAIt0%3D"}],"group":"cf-nel","max_age":604800}
+Server: cloudflare
+Strict-Transport-Security: max-age=0; preload
+Vary: Origin
+X-Content-Type-Options: nosniff
+
+ProjectDiscovery Cloud Platform
+
+
+http://webhook.api.projectdiscovery.io

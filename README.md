@@ -12,18 +12,23 @@ Config file to store all configuration parameters and secrets for the framework.
 
 Bash script that prints the current timnestamp in the format ```+%y-%m-%d_%H_%M_%S_UTC```
 
+Usage:
+```Bash
+Bash ./now.sh
+```
+
+### ```email.sh```
+
+Bash utility script that sends emails. Subject and body are specified via command line arguments and the configuration parameters are read from ```.bb-dev_config```.
+
+```Bash
+Bash ./email.sh "Subject" "Absolute path to message body text file"
+```
+
 ### ```runner.sh```
 
 ```runner.sh``` is being kept always running on the host in a "runner.sh" tmux session and is responsible for the persistence of the entire framework. ```runner.sh``` launches all workflows at different times/cadences, depending on the workflows.
 At the current stage, ```runner.sh``` supports hourly and daily cadences.
-
-### ```email.sh```
-
-Bash script that...
-
-```Bash
-Bash code here
-```
 
 ### ```workflow1.sh```
 
@@ -57,7 +62,6 @@ This workflow is all about ```subfinder``` -> ```nmap```
 Required underlying tools:
 * ```subfinder```
 * ```nmap```
-* ```s```
 
 ```Bash
 Bash code here

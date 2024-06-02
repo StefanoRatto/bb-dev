@@ -1,0 +1,23 @@
+GET / HTTP/1.1
+Host: www-api.projectdiscovery.io
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 XTPT/1.0
+Accept-Charset: utf-8
+Accept-Encoding: gzip
+
+HTTP/1.1 200 OK
+Connection: close
+Content-Length: 46
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 88d4ee77c8895b41-IAD
+Content-Type: text/plain; charset=utf-8
+Date: Sun, 02 Jun 2024 05:09:28 GMT
+Nel: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=%2F51lblcnGxNF0%2BxfOVPtRVWNzZh%2F%2FOINGphV9Q1eD%2FCjpRF86DsQwan74EOVMc4XXiJrdXG11zrj6MRNasYtVc3Z7F4KM8UNmH4BpqQ146nKFg0HroKPl6VauYYLfz6uqExqTelGRYseDJK2uA%3D%3D"}],"group":"cf-nel","max_age":604800}
+Server: cloudflare
+Strict-Transport-Security: max-age=0; preload
+X-Content-Type-Options: nosniff
+
+The answer to life, universe, everything is 42
+
+
+http://www-api.projectdiscovery.io
