@@ -45,7 +45,7 @@ for file in "$input_folder"/*; do
           # ideal and most comprehensive nmap command line options (too slow)
           #nmap -sV --script="vuln,auth,exploit,malware,intrusive" -oG output.gnmap $line >> output_folder/nmap_$filename
           # current nmap command line options (still suuuuper slow)
-          nmap -sV --script="vuln,auth,exploit" $line 2> /dev/null >> $output_folder/nmap_$filename
+          nmap -sV --script=vulscan/vulscan.nse, $line 2> /dev/null >> $output_folder/nmap_$filename
           # adding an empty line in between all host scans
           echo >> $output_folder/nmap_$filename
         done < "$output_folder/subfinder_$filename"

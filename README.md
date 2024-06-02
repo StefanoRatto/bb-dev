@@ -62,6 +62,8 @@ This workflow is all about ```subfinder``` -> ```nmap```
 Required underlying tools:
 * ```subfinder```
 * ```nmap```
+* ```nmap-vulscan```
+* ```nmap-vulners```
 
 ```Bash
 Bash code here
