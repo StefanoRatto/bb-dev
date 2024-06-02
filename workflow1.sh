@@ -75,15 +75,9 @@ done
 if grep -qE "medium|high|critical" "$output_folder/nuclei_$filename"; then
 #if grep -qE "medium|critical" "$output_folder/nuclei_$filename"; then
   grep -E "medium|high|critical" "$output_folder/nuclei_$filename" > "$output_folder/notify_$filename"
+  sed -i 's/$/\n/' $output_folder/notify_$filename
   $home/email.sh "bb-dev - workflow1/$timestamp" "$output_folder/notify_$filename" > /dev/null 2>&1
 fi
-
-# if nuclei finds any medium, high or critical, the workflow sends an email notification
-#cat $output_folder/nuclei_$filename | grep -E "medium|high|critical" >> $output_folder/notify_$filename
-#if [ -e "$output_folder/notify_$filename" ]; then
-#  sed -i 's/$/\n/' $output_folder/notify_$filename
-#  $home/email.sh "bb-dev - workflow1/$timestamp" "$output_folder/notify_$filename" > /dev/null 2>&1
-#fi
 
 # confirmation that the script completed successfully
 echo "[$($home/now.sh)] workflow1.sh completed at: $output_folder"

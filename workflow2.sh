@@ -41,8 +41,13 @@ for file in "$input_folder"/*; do
         # reads the input file from subfinder, then runs nmap on each host and appends the results in the output file
         while IFS= read -r line
         do
-          nmap -sV --script="vuln,auth,exploit" -oG output.gnmap $line >> output_folder/nmap_$filename
+          echo $line >> $output_folder/nmap_$filename
+          # ideal and most comprehensive nmap command line options (too slow)
           #nmap -sV --script="vuln,auth,exploit,malware,intrusive" -oG output.gnmap $line >> output_folder/nmap_$filename
+          # current nmap command line options (still suuuuper slow)
+          nmap -sV --script="vuln,auth,exploit" $line 2> /dev/null >> $output_folder/nmap_$filename
+          # adding an empty line in between all host scans
+          echo >> $output_folder/nmap_$filename
         done < "$output_folder/subfinder_$filename"
 
       elif [[ "$filename" == _urls* ]]; then
@@ -51,7 +56,7 @@ for file in "$input_folder"/*; do
         :
       else
         # ignores text files that do not follow the naming convention
-        #echo "SKIPPED:       $filename"
+        #echo "IGNORED:       $filename"
         :
       fi
     else
