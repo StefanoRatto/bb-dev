@@ -73,6 +73,22 @@ Bash code here
 
 ## ```workflow3.sh```
 
+This workflow is all about ```subfinder``` -> ```httpx``` -> ```changed``` 
+
+Required underlying tools:
+* ```subfinder```
+* ```httpx```
+* ```changed```
+
+```Bash
+Bash code here
+```
+### TODOs
+  - Aaa
+  - Aaa
+
+## ```workflow4.sh```
+
 Bash script that...
 
 ```Bash
