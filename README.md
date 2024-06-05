@@ -2,13 +2,11 @@
 
 First attempt at a recon automation framework, bear with me...
 
-## Tools
-
-### ```.bb-dev_config```
+## ```.bb-dev_config```
 
 Config file to store all configuration parameters and secrets for the framework. It is meant to be stored in the user's home folder and assigned 600 permissions.
 
-### ```now.sh```
+## ```now.sh```
 
 Bash script that prints the current timnestamp in the format ```+%y-%m-%d_%H_%M_%S_UTC```
 
@@ -17,7 +15,7 @@ Usage:
 Bash ./now.sh
 ```
 
-### ```email.sh```
+## ```email.sh```
 
 Bash utility script that sends emails. Subject and body are specified via command line arguments and the configuration parameters are read from ```.bb-dev_config```.
 
@@ -25,12 +23,12 @@ Bash utility script that sends emails. Subject and body are specified via comman
 Bash ./email.sh "Subject" "Absolute path to message body text file"
 ```
 
-### ```runner.sh```
+## ```runner.sh```
 
 ```runner.sh``` is being kept always running on the host in a "runner.sh" tmux session and is responsible for the persistence of the entire framework. ```runner.sh``` launches all workflows at different times/cadences, depending on the workflows.
 At the current stage, ```runner.sh``` supports hourly and daily cadences.
 
-### ```workflow1.sh```
+## ```workflow1.sh```
 
 This workflow is all about ```subfinder``` -> ```httpx``` -> ```nuclei``` 
 
@@ -47,11 +45,11 @@ Required underlying tools:
 Bash code here
 ```
 
-#### TODOs
+### TODOs
   - Aaa
   - Aaa
   
-### ```workflow2.sh```
+## ```workflow2.sh```
 
 This workflow is all about ```subfinder``` -> ```nmap```
 
@@ -69,25 +67,25 @@ Required underlying tools:
 Bash code here
 ```
 
-#### TODOs
+### TODOs
   - Aaa
   - Aaa
 
-### ```workflow3.sh```
+## ```workflow3.sh```
 
 Bash script that...
 
 ```Bash
 Bash code here
 ```
-#### TODOs
+### TODOs
   - Aaa
   - Aaa
 
-## Licensing
+# Licensing
 
 The tool is licensed under the [GNU General Public License](https://www.gnu.org/licenses/gpl-3.0.en.html).
 
-## Legal disclaimer
+# Legal disclaimer
 
 Usage of this tool to interact with targets without prior mutual consent is illegal. It's the end user's responsibility to obey all applicable local, state and federal laws. Developers assume no liability and are not responsible for any misuse or damage caused by this program. Only use for educational purposes.

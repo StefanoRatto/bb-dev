@@ -23,24 +23,19 @@ echo "                                                                        "
 # confirmation that the script is running
 echo "[$($home/now.sh)] runner.sh is alive with PID $$, ctrl+c to exit"
 
-# launching all workflow for testing purposes
-$home/workflow1.sh &
-$home/workflow2.sh &
-#$home/workflow3.sh &
-
 # enters the infinite loop
 while true; do
 
   current_mins=$(date -u +"%M")
   current_hours=$(date -u +"%H")
-
+  
   # main scheduler
   if [[ "$current_mins" == "00" ]]; then
     
     echo "[$($home/now.sh)] runner.sh is alive with PID $$, ctrl+c to exit"
     
-    if [[ "$current_hours" == "00" ]]; then
-      # launches workflows every day at midnight UTC
+    if [[ "$current_hours" == "06" ]]; then
+      # launches workflows every day at 6:00 AM UTC
       $home/workflow1.sh &
       $home/workflow2.sh &
     fi

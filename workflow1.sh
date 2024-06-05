@@ -35,11 +35,16 @@ for file in "$input_folder"/*; do
       if [[ "$filename" == urls* ]]; then
         #go and be awesome...
         #echo "Let's gooo!!:  $filename"
-        
+        echo 1
         # subfinder
-        subfinder -dL $input_folder/$filename -silent \
-          > $output_folder/subfinder_$filename
-
+        #subfinder -dL $input_folder/$filename -silent \
+        #  > $output_folder/subfinder_$filename
+        while IFS= read -r line; do
+          echo 2
+          echo $line >> $output_folder/subfinder_$filename
+          subfinder -d $line -silent >> $output_folder/subfinder_$filename
+        done < "$input_folder/$filename"
+        echo 3
         # httpx
         httpx -list $output_folder/subfinder_$filename \
           -silent -no-color -title -tech-detect -status-code -no-fallback -follow-redirects \
@@ -73,8 +78,19 @@ done
 
 # if nuclei finds any medium, high or critical, the workflow sends an email notification
 if grep -qE "medium|high|critical" "$output_folder/nuclei_$filename"; then
-#if grep -qE "medium|critical" "$output_folder/nuclei_$filename"; then
-  grep -E "medium|high|critical" "$output_folder/nuclei_$filename" > "$output_folder/notify_$filename"
+  grep -E "medium|high|critical" "$output_folder/nuclei_$filename" > "$output_folder/temp_$filename"
+  awk '!seen[$0]++' "$output_folder/temp_$filename"
+
+  while IFS= read -r line; do
+    if ! [ grep -qE "$line" "$output_folder/../results_$filename"]; then
+      echo $line >> "$output_folder/../results_$filename"
+      echo $line >> "$output_folder/notify_$filename"
+    fi
+  done < "$output_folder/temp_$filename"
+  
+  rm $output_folder/temp_$filename
+  
+  #grep -E "medium|high|critical" "$output_folder/nuclei_$filename" > "$output_folder/notify_$filename"
   sed -i 's/$/\n/' $output_folder/notify_$filename
   $home/email.sh "bb-dev - workflow1/$timestamp" "$output_folder/notify_$filename" > /dev/null 2>&1
 fi
