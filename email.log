@@ -13,3 +13,6 @@ Jun 02 09:07:50 localhost sendemail[2674036]: Email was sent successfully!  From
 Jun 02 09:57:20 localhost sendemail[2694711]: Email was sent successfully!  From: <team7261737465@aol.com> To: <team7261737465@gmail.com> Subject: [bb-dev - workflow1/24-06-02_14_11_53_UTC] Server: [smtp.aol.com:587]
 Jun 02 14:48:16 localhost sendemail[2810614]: Email was sent successfully!  From: <team7261737465@aol.com> To: <team7261737465@gmail.com> Subject: [bb-dev - workflow1/24-06-02_19_01_41_UTC] Server: [smtp.aol.com:587]
 Jun 02 19:47:03 localhost sendemail[2881033]: Email was sent successfully!  From: <team7261737465@aol.com> To: <team7261737465@gmail.com> Subject: [bb-dev - workflow1/24-06-03_00_00_43_UTC] Server: [smtp.aol.com:587]
+Jun 07 07:19:57 localhost sendemail[20614]: Email was sent successfully!  From: <team7261737465@aol.com> To: <team7261737465@gmail.com> Subject: [bb-dev - workflow1/24-06-07_11_31_30_UTC] Server: [smtp.aol.com:587]
+Jun 07 08:32:44 localhost sendemail[36298]: Email was sent successfully!  From: <team7261737465@aol.com> To: <team7261737465@gmail.com> Subject: [bb-dev - workflow1/24-06-07_12_44_33_UTC] Server: [smtp.aol.com:587]
+Jun 07 13:59:01 localhost sendemail[103214]: EXITING: Received SIGINT

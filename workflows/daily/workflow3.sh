@@ -1,5 +1,9 @@
 #!/bin/bash
 
+# test echo message
+echo "Hello from $0"
+exit 0
+
 # define home folder
 home=$(pwd)
 #echo $home
@@ -20,7 +24,7 @@ echo "[$($home/now.sh)] workflow3.sh started at:   $output_folder"
 # loop over programs/scopes
 # all programs scope files with name starting with "urls_" are processed
 # all programs scope files with name starting with "_urls_" are ignored
-input_folder=$home/inputs/
+input_folder=$home/inputs
 
 for file in "$input_folder"/*; do
   if [ -f "$file" ]; then

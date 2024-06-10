@@ -1,5 +1,9 @@
 #!/bin/bash
 
+# test echo message
+echo "Hello from $0"
+exit 0
+
 # define home folder
 home=$(pwd)
 #echo $home
@@ -23,7 +27,7 @@ echo "[$($home/now.sh)] workflow1.sh started at:   $output_folder"
 # loop over programs/scopes
 # all programs scope files with name starting with "urls_" are processed
 # all programs scope files with name starting with "_urls_" are ignored
-input_folder=$home/inputs/
+input_folder=$home/inputs
 
 for file in "$input_folder"/*; do
   if [ -f "$file" ]; then
@@ -35,16 +39,21 @@ for file in "$input_folder"/*; do
       if [[ "$filename" == urls* ]]; then
         #go and be awesome...
         #echo "Let's gooo!!:  $filename"
-        echo 1
+        
+        # "cleaning" the fqdns from the scope files
+        sed -i 's/*.//g' $input_folder/$filename      
+        sed -i 's/http:\/\///g' $input_folder/$filename
+        sed -i 's/https:\/\///g' $input_folder/$filename
+       
+        # creating the subfinder output file with the content of the input file
+        cp $input_folder/$filename $output_folder/subfinder_$filename
+        # adding a new line to solve a formatting problem
+        echo >> $output_folder/subfinder_$filename
+        
         # subfinder
-        #subfinder -dL $input_folder/$filename -silent \
-        #  > $output_folder/subfinder_$filename
-        while IFS= read -r line; do
-          echo 2
-          echo $line >> $output_folder/subfinder_$filename
-          subfinder -d $line -silent >> $output_folder/subfinder_$filename
-        done < "$input_folder/$filename"
-        echo 3
+        subfinder -dL $input_folder/$filename -silent \
+          >> $output_folder/subfinder_$filename
+
         # httpx
         httpx -list $output_folder/subfinder_$filename \
           -silent -no-color -title -tech-detect -status-code -no-fallback -follow-redirects \
@@ -80,9 +89,11 @@ done
 if grep -qE "medium|high|critical" "$output_folder/nuclei_$filename"; then
   grep -E "medium|high|critical" "$output_folder/nuclei_$filename" > "$output_folder/temp_$filename"
   awk '!seen[$0]++' "$output_folder/temp_$filename"
-
+  
+  # if an entry is not in the results file, then the entry is added to the results file 
+  # and also added to the notify file, which is the file that will be sent over email
   while IFS= read -r line; do
-    if ! [ grep -qE "$line" "$output_folder/../results_$filename"]; then
+    if ! [ grep -qE "$line" "$output_folder/../results_$filename" ]; then
       echo $line >> "$output_folder/../results_$filename"
       echo $line >> "$output_folder/notify_$filename"
     fi

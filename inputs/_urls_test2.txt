@@ -1,0 +1,2 @@
+shop.gitlab.com
+levelup.gitlab.com

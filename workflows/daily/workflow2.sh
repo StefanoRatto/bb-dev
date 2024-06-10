@@ -1,5 +1,9 @@
 #!/bin/bash
 
+# test echo message
+echo "Hello from $0"
+exit 0
+
 # define home folder
 home=$(pwd)
 #echo $home
@@ -20,7 +24,7 @@ echo "[$($home/now.sh)] workflow2.sh started at:   $output_folder"
 # loop over programs/scopes
 # all programs scope files with name starting with "urls_" are processed
 # all programs scope files with name starting with "_urls_" are ignored
-input_folder=$home/inputs/
+input_folder=$home/inputs
 
 for file in "$input_folder"/*; do
   if [ -f "$file" ]; then
@@ -33,9 +37,19 @@ for file in "$input_folder"/*; do
         #go and be awesome...
         #echo "Let's gooo!!:     $filename"
         
+        # "cleaning" the fqdns from the scope files
+        sed -i 's/*.//g' $input_folder/$filename      
+        sed -i 's/http:\/\///g' $input_folder/$filename
+        sed -i 's/https:\/\///g' $input_folder/$filename
+       
+        # creating the subfinder output file with the content of the input file
+        cp $input_folder/$filename $output_folder/subfinder_$filename
+        # adding a new line to solve a formatting problem
+        echo >> $output_folder/subfinder_$filename
+        
         # subfinder
         subfinder -dL $input_folder/$filename -silent \
-          > $output_folder/subfinder_$filename
+          >> $output_folder/subfinder_$filename
 
         # nmap
         # reads the input file from subfinder, then runs nmap on each host and appends the results in the output file

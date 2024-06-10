@@ -26,7 +26,7 @@ Bash ./email.sh "Subject" "Absolute path to message body text file"
 ## ```runner.sh```
 
 ```runner.sh``` is being kept always running on the host in a "runner.sh" tmux session and is responsible for the persistence of the entire framework. ```runner.sh``` launches all workflows at different times/cadences, depending on the workflows.
-At the current stage, ```runner.sh``` supports hourly and daily cadences.
+At the current stage, ```runner.sh``` supports hourly and daily cadences. For a workflow to be picked up by ```runner.sh```, the workflow script needs to be called ```workflow#.sh```.
 
 ## ```workflow1.sh```
 
@@ -41,13 +41,10 @@ Required underlying tools:
 * ```httpx```
 * ```nuclei```
 
-```Bash
-Bash code here
-```
-
 ### TODOs
-  - Aaa
-  - Aaa
+- Get rid of duplicate results
+- Implement the persistent result file and grab the notifications to be sent by email from that
+- ...
   
 ## ```workflow2.sh```
 
