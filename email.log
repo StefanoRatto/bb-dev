@@ -16,3 +16,9 @@ Jun 02 19:47:03 localhost sendemail[2881033]: Email was sent successfully!  From
 Jun 07 07:19:57 localhost sendemail[20614]: Email was sent successfully!  From: <team7261737465@aol.com> To: <team7261737465@gmail.com> Subject: [bb-dev - workflow1/24-06-07_11_31_30_UTC] Server: [smtp.aol.com:587]
 Jun 07 08:32:44 localhost sendemail[36298]: Email was sent successfully!  From: <team7261737465@aol.com> To: <team7261737465@gmail.com> Subject: [bb-dev - workflow1/24-06-07_12_44_33_UTC] Server: [smtp.aol.com:587]
 Jun 07 13:59:01 localhost sendemail[103214]: EXITING: Received SIGINT
+Jun 10 00:12:14 localhost sendemail[811381]: Email was sent successfully!  From: <team7261737465@aol.com> To: <team7261737465@gmail.com> Subject: [bb-dev - workflow1/24-06-10_05_12_11_UTC] Server: [smtp.aol.com:587]
+Jun 10 00:16:11 localhost sendemail[812304]: Email was sent successfully!  From: <team7261737465@aol.com> To: <team7261737465@gmail.com> Subject: [bb-dev - workflow1/24-06-10_05_16_05_UTC] Server: [smtp.aol.com:587]
+Jun 10 00:16:15 localhost sendemail[812408]: ERROR => Message body file specified [/home/raste/dev/bb-dev/outputs/workflow1/24-06-10_05_16_15_UTC/notify_urls_test.txt] does not exist!
+Jun 10 00:20:07 localhost sendemail[813297]: Email was sent successfully!  From: <team7261737465@aol.com> To: <team7261737465@gmail.com> Subject: [bb-dev - workflow1/24-06-10_05_20_04_UTC] Server: [smtp.aol.com:587]
+Jun 10 01:05:47 localhost sendemail[823920]: Email was sent successfully!  From: <team7261737465@aol.com> To: <team7261737465@gmail.com> Subject: [bb-dev - workflow1/24-06-10_05_23_17_UTC] Server: [smtp.aol.com:587]
+Jun 10 01:40:38 localhost sendemail[832276]: Email was sent successfully!  From: <team7261737465@aol.com> To: <team7261737465@gmail.com> Subject: [bb-dev - workflow1/24-06-10_06_40_35_UTC] Server: [smtp.aol.com:587]

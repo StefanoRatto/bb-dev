@@ -37,8 +37,6 @@ while true; do
     
     if [[ "$current_hours" == "06" ]]; then
       # launches workflows every day at 6:00 AM UTC
-      #$home/workflow1.sh &
-      #$home/workflow2.sh &
       for file in "$home_daily"*; do
         if [ -f "$file" ]; then
         
@@ -72,7 +70,6 @@ while true; do
     fi
     
     # launches workflows at the top of every hour
-    #$home/workflow3.sh &
     for file in "$home_hourly"*; do
       if [ -f "$file" ]; then
       
@@ -85,7 +82,7 @@ while true; do
             $file &
 
           elif [[ "$filename" == _urls* ]]; then
-            # skips "_urls" input files 
+            # skips all workflows with name starting with "_"
             #echo "SKIPPED:       $filename"
             :
 
@@ -99,7 +96,7 @@ while true; do
           # ignores non-text files
           #echo "IGNORED:       $filename"
           :
-          
+
         fi
       fi
     done

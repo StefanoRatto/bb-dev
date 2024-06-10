@@ -1,12 +1,7 @@
 #!/bin/bash
 
-# test echo message
-echo "Hello from $0"
-exit 0
-
 # define home folder
 home=$(pwd)
-#echo $home
 
 # define time stamp
 timestamp=$($home/now.sh)
@@ -87,23 +82,29 @@ done
 
 # if nuclei finds any medium, high or critical, the workflow sends an email notification
 if grep -qE "medium|high|critical" "$output_folder/nuclei_$filename"; then
-  grep -E "medium|high|critical" "$output_folder/nuclei_$filename" > "$output_folder/temp_$filename"
-  awk '!seen[$0]++' "$output_folder/temp_$filename"
   
+  # copies all mediums, highs and crits to a temp file
+  grep -E "medium|high|critical" "$output_folder/nuclei_$filename" > "$output_folder/temp_$filename"
+  
+  # removes duplicate lines
+  awk '!seen[$0]++' "$output_folder/temp_$filename" > temp && mv temp "$output_folder/temp_$filename"
+
   # if an entry is not in the results file, then the entry is added to the results file 
   # and also added to the notify file, which is the file that will be sent over email
   while IFS= read -r line; do
-    if ! [ grep -qE "$line" "$output_folder/../results_$filename" ]; then
-      echo $line >> "$output_folder/../results_$filename"
+    if ! grep -qF "$line" "$home/outputs/workflow1/results_$filename"; then
+      echo $line >> "$home/outputs/workflow1/results_$filename"
       echo $line >> "$output_folder/notify_$filename"
     fi
   done < "$output_folder/temp_$filename"
   
   rm $output_folder/temp_$filename
   
-  #grep -E "medium|high|critical" "$output_folder/nuclei_$filename" > "$output_folder/notify_$filename"
-  sed -i 's/$/\n/' $output_folder/notify_$filename
-  $home/email.sh "bb-dev - workflow1/$timestamp" "$output_folder/notify_$filename" > /dev/null 2>&1
+  # if there is new content to be notify over, then the email is sent
+  if [ -f "$output_folder/notify_$filename" ]; then
+    sed -i 's/$/ /' $output_folder/notify_$filename
+    $home/email.sh "bb-dev - workflow1/$timestamp" "$output_folder/notify_$filename" > /dev/null 2>&1
+  fi
 fi
 
 # confirmation that the script completed successfully
