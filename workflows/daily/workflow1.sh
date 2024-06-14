@@ -6,14 +6,16 @@ home=$(pwd)
 # define time stamp
 timestamp=$($home/now.sh)
 #echo $timestamp
+current_year=$(date -u +"%Y")
+current_month=$(date -u +"%m")
 
 # update nuclei templates database
 nuclei -ut -silent
 
 # output directory is created
-output_folder=$home/outputs/workflow1/$timestamp
+output_folder=$home/outputs/workflow1/$current_year/$current_month/$timestamp
 if ! [ -d $output_folder ]; then
-  mkdir $output_folder
+  mkdir -p $output_folder
 fi
 
 # confirmation that the script started

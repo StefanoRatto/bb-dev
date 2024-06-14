@@ -1,0 +1,11 @@
+# Nmap 7.80 scan initiated Thu Jun 13 21:59:55 2024 as: nmap --script vulners,vulscan -oN temp.txt shop.github.com
+Nmap scan report for shop.github.com (140.82.114.4)
+Host is up (0.0016s latency).
+rDNS record for 140.82.114.4: lb-140-82-114-4-iad.github.com
+Not shown: 997 filtered ports
+PORT    STATE SERVICE
+22/tcp  open  ssh
+80/tcp  open  http
+443/tcp open  https
+
+# Nmap done at Thu Jun 13 22:00:00 2024 -- 1 IP address (1 host up) scanned in 4.66 seconds
