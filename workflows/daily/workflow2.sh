@@ -52,79 +52,19 @@ for file in "$input_folder"/*; do
         subfinder -dL $input_folder/$filename -silent \
           >> $output_folder/subfinder_$filename
 
-        # # nmap
-        # # reads the input file from subfinder, then runs nmap on each host and appends the results in the output file
-        # while IFS= read -r line; do
-        #   echo $line >> $output_folder/nmap_$filename
-        #   # ideal and most comprehensive nmap command line options (too slow)
-        #   #nmap -sV --script="vuln,auth,exploit,malware,intrusive" -oG output.gnmap $line >> $output_folder/nmap_$filename
-        #   # best nmap command line options (still slow...)
-        #   nmap -sV --script=vulscan/vulscan.nse,nmap-vulners/ -oX - $line 2> /dev/null >> $output_folder/nmap_$filename
-        #   # adding an empty line in between all host scans
-        #   echo >> $output_folder/nmap_$filename
-        # done < "$output_folder/subfinder_$filename"
-
         # nmap
         # reads the input file from subfinder, then runs nmap on each host and appends the results in the output file
         while IFS= read -r line; do
           
-          # best nmap command line options (still slow...)
-          scan_results=$(nmap -sV c -oX - $line 2> /dev/null)
+          # best nmap command line options
+          nmap -sV --script vulners,vuln -p- --script-args mincvss=8.0 - $line 2> /dev/null > $output_folder/nmap_$filename
           
-          # extracts cves from the scan results
-          cves=$(echo "$scan_results" | grep -oP '(?<=<cve>)[^<]+')
-
-          # initializes an array to store CVEs with high cvssv3 scores
-          high_cvss_cves=()
-
-          # loops through each cve and retrieve the cvssv3 score
-          for cve in $cves; do
-              cvss_score=$(curl -s "https://services.nvd.nist.gov/rest/json/cve/2.0/$cve?apiKey=$NIST_NVD_API_KEY" | jq -r '.vulnerabilities[0].cve.metrics.cvssMetricV31[0].cvssData.baseScore // .vulnerabilities[0].cve.metrics.cvssMetricV30[0].cvssData.baseScore')
-              if [[ $(echo "$cvss_score >= 8.0" | bc -l) -eq 1 ]]; then
-                  high_cvss_cves+=("$cve (CVSSv3: $cvss_score)")
-              fi
-          done
-
-          # outputs the results to the file
-          if [ ${#high_cvss_cves[@]} -ne 0 ]; then
-              echo "Host: $host" >> "$output_folder/nmap_$filename"
-              for entry in "${high_cvss_cves[@]}"; do
-                  echo "  $entry" >> "$output_folder/nmap_$filename"
-              done
-              echo "" >> "$output_folder/nmap_$filename"
-          fi
-        done < "$output_folder/subfinder_$filename"
+          # CVE_ID="CVE-2021-44228"
+          # echo $(echo "$(curl -s -H "apiKey: $NIST_NVD_API_KEY" "https://services.nvd.nist.gov/rest/json/cves/2.0?cveId=$CVE_ID")" | jq -r '.vulnerabilities[0].cve.metrics.cvssMetricV31[0].cvssData.baseScore')
+          # echo $(curl -s "https://services.nvd.nist.gov/rest/json/cve/2.0/$cve_id?apiKey=$nvd_api_key" | jq -r '.vulnerabilities[0].cve.metrics.cvssMetricV31[0].cvssData.baseScore // .vulnerabilities[0].cve.metrics.cvssMetricV30[0].cvssData.baseScore')
+          # exit 0
         
-        # nmap
-        # reads the input file from subfinder, then runs nmap on each host and appends the results in the output file
-        # while IFS= read -r host; do
-        #     # performs the nmap vulnerability scan
-        #     #scan_results=$(nmap --script vulnscan.nse --script nmap-vulners -oX - $host)
-        #     scan_results=$(nmap --script=vulscan/vulscan.nse,nmap-vulners/ -oX - $host 2> /dev/null)
-
-        #     # extracts cves from the scan results
-        #     cves=$(echo "$scan_results" | grep -oP '(?<=<cve>)[^<]+')
-
-        #     # initializes an array to store CVEs with high cvssv3 scores
-        #     high_cvss_cves=()
-
-        #     # loops through each cve and retrieve the cvssv3 score
-        #     for cve in $cves; do
-        #         cvss_score=$(curl -s "https://services.nvd.nist.gov/rest/json/cve/2.0/$cve?apiKey=$NIST_NVD_API_KEY" | jq -r '.vulnerabilities[0].cve.metrics.cvssMetricV31[0].cvssData.baseScore // .vulnerabilities[0].cve.metrics.cvssMetricV30[0].cvssData.baseScore')
-        #         if [[ $(echo "$cvss_score >= 8.0" | bc -l) -eq 1 ]]; then
-        #             high_cvss_cves+=("$cve (CVSSv3: $cvss_score)")
-        #         fi
-        #     done
-
-        #     # outputs the results to the file
-        #     if [ ${#high_cvss_cves[@]} -ne 0 ]; then
-        #         echo "Host: $host" >> "$output_folder/nmap_$filename"
-        #         for entry in "${high_cvss_cves[@]}"; do
-        #             echo "  $entry" >> "$output_folder/nmap_$filename"
-        #         done
-        #         echo "" >> "$output_folder/nmap_$filename"
-        #     fi
-        # done < "$output_folder/subfinder_$filename"
+        done < "$output_folder/subfinder_$filename"
 
       elif [[ "$filename" == _urls* ]]; then
         # skips "_urls" input files 
@@ -142,38 +82,6 @@ for file in "$input_folder"/*; do
     fi
   fi
 done
-
-# # if nuclei finds any medium, high or critical, the workflow sends an email notification
-# if grep -qE "medium|high|critical" "$output_folder/nuclei_$filename"; then
-  
-#   # copies all mediums, highs and crits to a temp file
-#   grep -E "medium|high|critical" "$output_folder/nuclei_$filename" > "$output_folder/temp_$filename"
-  
-#   # removes duplicate lines
-#   awk '!seen[$0]++' "$output_folder/temp_$filename" > temp && mv temp "$output_folder/temp_$filename"
-
-#   # if an entry is not in the results file, then the entry is added to the results file 
-#   # and also added to the notify file, which is the file that will be sent over email
-#   while IFS= read -r line; do
-#     if ! grep -qF "$line" "$home/outputs/workflow1/results_$filename"; then
-#       echo $line >> "$home/outputs/workflow1/results_$filename"
-#       echo $line >> "$output_folder/notify_$filename"
-#     fi
-#   done < "$output_folder/temp_$filename"
-  
-#   rm $output_folder/temp_$filename
-  
-#   # if there is new content to be notify over, then the email is sent
-#   if [ -f "$output_folder/notify_$filename" ]; then
-#     sed -i 's/$/ /' $output_folder/notify_$filename
-#     $home/email.sh "bb-dev - workflow1/$timestamp" "$output_folder/notify_$filename" > /dev/null 2>&1
-#   fi
-# fi
-# CVE_ID="CVE-2021-44228"
-# echo $(echo "$(curl -s -H "apiKey: $NIST_NVD_API_KEY" "https://services.nvd.nist.gov/rest/json/cves/2.0?cveId=$CVE_ID")" | jq -r '.vulnerabilities[0].cve.metrics.cvssMetricV31[0].cvssData.baseScore')
-# echo $(curl -s "https://services.nvd.nist.gov/rest/json/cve/2.0/$cve_id?apiKey=$nvd_api_key" | jq -r '.vulnerabilities[0].cve.metrics.cvssMetricV31[0].cvssData.baseScore // .vulnerabilities[0].cve.metrics.cvssMetricV30[0].cvssData.baseScore')
-# exit 0
-
 
 # confirmation that the script completed successfully
 echo "[$($home/now.sh)] workflow2.sh completed at: $output_folder"
