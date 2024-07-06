@@ -96,23 +96,30 @@ done
 # removing empty lines in the nmap output file
 sed -i '/^$/d' $output_folder/nmap_$filename
 
-# copies all CVEs to a temp file
+# copying all CVEs to a temp file
 grep -E "CVE-" "$output_folder/nmap_$filename" > "$output_folder/temp_$filename"
 
-# removes duplicate lines
+# replacing all tab characters with spaces
+sed -i 's/\t/ /g' "$output_folder/temp_$filename"
+
+# removing duplicate spaces in each line
+sed -i 's/  */ /g' "$output_folder/temp_$filename"
+
+# removing duplicate lines
 awk '!seen[$0]++' "$output_folder/temp_$filename" > temp && mv temp "$output_folder/temp_$filename"
 
 # if an entry is not in the results file, then the entry is added to the results file 
 # and also added to the notify file, which is the file that will be sent over email
 while IFS= read -r line; do
-  if ! grep -qF "$line" "$home/outputs/workflow2/results_$filename"; then
+  if ! grep -Fxq "$line" "$home/outputs/workflow2/results_$filename"; then
     echo $line >> "$home/outputs/workflow2/results_$filename"
     echo $line >> "$output_folder/notify_$filename"
   fi
+
 done < "$output_folder/temp_$filename"
 
 rm $output_folder/temp_$filename
-  
+
 # if there is new content to be notify over, then the email is sent
 if [ -f "$output_folder/notify_$filename" ]; then
   sed -i 's/$/ /' $output_folder/notify_$filename
