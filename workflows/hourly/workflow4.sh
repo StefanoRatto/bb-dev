@@ -2,20 +2,21 @@
 
 # test echo message
 echo "Hello from $0"
-exit 0
 
 # define home folder
-home=$(dirname "$PWD")
+home=$(pwd)
 #echo $home
 
 # define time stamp
 timestamp=$($home/now.sh)
 #echo $timestamp
+current_year=$(date -u +"%Y")
+current_month=$(date -u +"%m")
 
 # output directory is created
-output_folder=$home/outputs/workflow4/$timestamp
+output_folder=$home/outputs/workflow4/$current_year/$current_month/$timestamp
 if ! [ -d $output_folder ]; then
-  mkdir $output_folder
+  mkdir -p $output_folder
 fi
 
 # confirmation that the script started

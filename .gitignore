@@ -2,3 +2,5 @@
 outputs/**
 # scan resume file
 resume.cfg
+# email log file
+email.log
