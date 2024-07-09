@@ -34,8 +34,11 @@ for file in "$input_folder"/*; do
       if [[ "$filename" == urls* ]]; then
         #go and be awesome...
         #echo "Let's gooo!!:     $filename"
-                #go and be awesome...
-        #echo "Let's gooo!!:     $filename"
+
+        # if the results file does not exist, then it is created
+        if [ ! -f "$home/outputs/workflow4/results_$filename" ]; then
+            touch "$home/outputs/workflow4/results_$filename"
+        fi
         
         # "cleaning" the fqdns from the scope files
         sed -i 's/*.//g' $input_folder/$filename      
@@ -51,8 +54,7 @@ for file in "$input_folder"/*; do
         subfinder -dL $input_folder/$filename -silent \
           >> $output_folder/subfinder_$filename
         
-
-
+        # do stuff
 
       elif [[ "$filename" == _urls* ]]; then
         # skips "_urls" input files 

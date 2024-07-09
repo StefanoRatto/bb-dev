@@ -38,6 +38,11 @@ for file in "$input_folder"/*; do
         #go and be awesome...
         #echo "Let's gooo!!:     $filename"
         
+        # if the results file does not exist, then it is created
+        if [ ! -f "$home/outputs/workflow2/results_$filename" ]; then
+            touch "$home/outputs/workflow2/results_$filename"
+        fi
+
         # "cleaning" the fqdns from the scope files
         sed -i 's/*.//g' $input_folder/$filename      
         sed -i 's/http:\/\///g' $input_folder/$filename
@@ -76,6 +81,38 @@ for file in "$input_folder"/*; do
         
         done < "$output_folder/subfinder_$filename"
 
+        # removing empty lines in the nmap output file
+        sed -i '/^$/d' $output_folder/nmap_$filename
+
+        # copying all CVEs to a temp file
+        grep -E "CVE-" "$output_folder/nmap_$filename" > "$output_folder/temp_$filename"
+
+        # replacing all tab characters with spaces
+        sed -i 's/\t/ /g' "$output_folder/temp_$filename"
+
+        # removing duplicate spaces in each line
+        sed -i 's/  */ /g' "$output_folder/temp_$filename"
+
+        # removing duplicate lines
+        awk '!seen[$0]++' "$output_folder/temp_$filename" > temp && mv temp "$output_folder/temp_$filename"
+
+        # if an entry is not in the results file, then the entry is added to the results file 
+        # and also added to the notify file, which is the file that will be sent over email
+        while IFS= read -r line; do
+          if ! grep -Fxq "$line" "$home/outputs/workflow2/results_$filename"; then
+            echo $line >> "$home/outputs/workflow2/results_$filename"
+            echo $line >> "$output_folder/notify_$filename"
+          fi
+        done < "$output_folder/temp_$filename"
+
+        rm $output_folder/temp_$filename
+
+        # if there is new content to be notify over, then the email is sent
+        if [ -f "$output_folder/notify_$filename" ]; then
+          sed -i 's/$/ /' $output_folder/notify_$filename
+          $home/email.sh "bb-dev - workflow2/$timestamp/$filename" "$output_folder/notify_$filename" > /dev/null 2>&1
+        fi
+
       elif [[ "$filename" == _urls* ]]; then
         # skips "_urls" input files 
         #echo "SKIPPED:       $filename"
@@ -92,39 +129,6 @@ for file in "$input_folder"/*; do
     fi
   fi
 done
-
-# removing empty lines in the nmap output file
-sed -i '/^$/d' $output_folder/nmap_$filename
-
-# copying all CVEs to a temp file
-grep -E "CVE-" "$output_folder/nmap_$filename" > "$output_folder/temp_$filename"
-
-# replacing all tab characters with spaces
-sed -i 's/\t/ /g' "$output_folder/temp_$filename"
-
-# removing duplicate spaces in each line
-sed -i 's/  */ /g' "$output_folder/temp_$filename"
-
-# removing duplicate lines
-awk '!seen[$0]++' "$output_folder/temp_$filename" > temp && mv temp "$output_folder/temp_$filename"
-
-# if an entry is not in the results file, then the entry is added to the results file 
-# and also added to the notify file, which is the file that will be sent over email
-while IFS= read -r line; do
-  if ! grep -Fxq "$line" "$home/outputs/workflow2/results_$filename"; then
-    echo $line >> "$home/outputs/workflow2/results_$filename"
-    echo $line >> "$output_folder/notify_$filename"
-  fi
-
-done < "$output_folder/temp_$filename"
-
-rm $output_folder/temp_$filename
-
-# if there is new content to be notify over, then the email is sent
-if [ -f "$output_folder/notify_$filename" ]; then
-  sed -i 's/$/ /' $output_folder/notify_$filename
-  $home/email.sh "bb-dev - workflow2/$timestamp" "$output_folder/notify_$filename" > /dev/null 2>&1
-fi
 
 # confirmation that the script completed successfully
 echo "[$($home/now.sh)] workflow2.sh completed at: $output_folder"
