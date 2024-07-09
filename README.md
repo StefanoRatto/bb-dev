@@ -30,29 +30,28 @@ At the current stage, ```runner.sh``` supports hourly and daily cadences. For a 
 
 ## ```workflow1.sh```
 
-This workflow is all about ```subfinder``` -> ```httpx``` -> ```nuclei``` 
+This workflow is all about ```subfinder``` -> ```httpx``` -> ```nuclei```.
 
 ```workflow1.sh``` is run by ```runner.sh``` at the top of every hour. It loops over programs/scopes files in the ```$home/inputs/``` folder, where all scope files have names starting with ```urls_*``` or ```_urls_*```. Files with name starting with ```urls_*``` are processed, while all programs scope files with name starting with ```_urls_*``` are ignored.
 
-```workflow1.sh``` then processes all URLs/FQDNs in the scope files and runs each one of them thru the pipe ```subfinder``` -> ```httpx``` -> ```nuclei```. All results are saved in the ```$home/outputs/workflow1/``` folder in text files with names starting respectively with ```subfinder_urls_*```, ```httpx_urls_*``` and ```nuclei_urls_*```.
+```workflow1.sh``` then processes all URLs/FQDNs in the scope files and runs each one of them thru the pipe ```subfinder``` -> ```httpx``` -> ```nuclei```. All results are saved in the ```$home/outputs/workflow1/``` folder and ```/$YEAR/$MONTH/$TIMESTAMP``` subfolders, in text files with names starting respectively with ```subfinder_*```, ```httpx_*``` and ```nuclei_*```.
+
+Finally, ```workflow1.sh``` sends an email notification containing any unique vulnerability detected by ```nuclei``` with severity medium, high or critical.
 
 Required underlying tools:
 * ```subfinder```
 * ```httpx```
 * ```nuclei```
-
-### TODOs
-- Get rid of duplicate results
-- Implement the persistent result file and grab the notifications to be sent by email from that
-- ...
   
 ## ```workflow2.sh```
 
-This workflow is all about ```subfinder``` -> ```nmap```
+This workflow is all about ```subfinder``` -> ```nmap```  ->  ```nmap-vulscan```/```nmap-vulners```.
 
 ```workflow2.sh``` is run by ```runner.sh``` every day at midnight. It loops over programs/scopes files in the ```$home/inputs/``` folder, where all scope files have names starting with ```urls_*``` or ```_urls_*```. Files with name starting with ```urls_*``` are processed, while all programs scope files with name starting with ```_urls_*``` are ignored.
 
-```workflow2.sh``` then processes all URLs/FQDNs in the scope files and runs each one of them thru the pipe ```subfinder``` -> ```nmap```. All results are saved in the ```$home/outputs/workflow2/``` folder in text files with names starting respectively with ```subfinder_urls_*``` and ```nmap_urls_*```.
+```workflow2.sh``` then processes all URLs/FQDNs in the scope files and runs each one of them thru the pipe ```subfinder``` -> ```nmap```. All results are saved in the ```$home/outputs/workflow2/``` folder and ```/$YEAR/$MONTH/$TIMESTAMP``` subfolders, in text files with names starting respectively with ```subfinder_*``` and ```nmap_*```.
+
+Finally, ```workflow2.sh``` sends an email notification containing any unique detected CVE with CVSSv3 score of 8.0 or above.
 
 Required underlying tools:
 * ```subfinder```
@@ -60,17 +59,28 @@ Required underlying tools:
 * ```nmap-vulscan```
 * ```nmap-vulners```
 
-```Bash
-Bash code here
-```
+## ```workflow3.sh```
+
+This workflow is all about ```subfinder``` -> ```httpx``` -> ```gau```.
+
+```workflow3.sh``` is run by ```runner.sh``` every day at midnight. It loops over programs/scopes files in the ```$home/inputs/``` folder, where all scope files have names starting with ```urls_*``` or ```_urls_*```. Files with name starting with ```urls_*``` are processed, while all programs scope files with name starting with ```_urls_*``` are ignored.
+
+```workflow3.sh``` then processes all URLs/FQDNs in the scope files and runs each one of them thru the pipe ```subfinder``` -> ```httpx``` -> ```gau```. All results are saved in the ```$home/outputs/workflow3/``` folder and ```/$YEAR/$MONTH/$TIMESTAMP``` subfolders, in text files with names starting respectively with ```subfinder_*```, ```httpx_*``` and ```gau_*```.
+
+Finally, ```workflow3.sh``` sends an email notification containing any unique "interesting" URL, as defined in the worlflow itself.
+
+Required underlying tools:
+* ```subfinder```
+* ```httpx```
+* ```gau```
 
 ### TODOs
   - Aaa
   - Aaa
 
-## ```workflow3.sh```
+## ```workflow4.sh```
 
-This workflow is all about ```subfinder``` -> ```httpx``` -> ```changed``` 
+This workflow is all about ```subfinder``` -> ```httpx``` -> ```changed```.
 
 Required underlying tools:
 * ```subfinder```
@@ -84,7 +94,7 @@ Bash code here
   - Aaa
   - Aaa
 
-## ```workflow4.sh```
+## ```workflow5.sh```
 
 Bash script that...
 
