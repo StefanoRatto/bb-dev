@@ -67,7 +67,7 @@ This workflow is all about ```subfinder``` -> ```httpx``` -> ```gau```.
 
 ```workflow3.sh``` then processes all URLs/FQDNs in the scope files and runs each one of them thru the pipe ```subfinder``` -> ```httpx``` -> ```gau```. All results are saved in the ```$home/outputs/workflow3/``` folder and ```/$YEAR/$MONTH/$TIMESTAMP``` subfolders, in text files with names starting respectively with ```subfinder_*```, ```httpx_*``` and ```gau_*```.
 
-Finally, ```workflow3.sh``` sends an email notification containing any unique "interesting" URL, as defined in the worlflow itself.
+Finally, ```workflow3.sh``` sends an email notification containing any unique "interesting" URL, as defined in the workflow itself.
 
 Required underlying tools:
 * ```subfinder```
