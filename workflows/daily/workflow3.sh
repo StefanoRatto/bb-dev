@@ -70,8 +70,9 @@ for file in "$input_folder"/*; do
         #   AWS CLI config file (".aws/config")
         #   ASP.NET "Web.config" file
         #   WordPress "wp-config.php" file
+        #   "/etc/passwd" file
         #   ...more to come
-        grep -E "\.git|\.ssh|\.aws/config|Web\.config|wp-config\.php|yt6wb" \
+        grep -E "\.git|\.ssh|\.aws/config|Web\.config|wp-config\.php|passwd" \
           "$output_folder/gau_$filename" > "$output_folder/temp_$filename"
 
         # removing empty lines in the gau output file
