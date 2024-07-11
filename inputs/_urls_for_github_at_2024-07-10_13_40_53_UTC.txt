@@ -1,0 +1,15 @@
+*.githubusercontent.com
+gist.github.com
+api.github.com
+classroom.github.com
+github.blog
+github.com
+*.github.net
+blog.github.com
+enterprise.github.com
+*.githubapp.com
+*.github.io
+education.github.com
+community.github.com
+shop.github.com
+http://education.github.com/forum

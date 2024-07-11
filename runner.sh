@@ -8,19 +8,24 @@ home_hourly=$home/workflows/hourly/
 # define time stamp
 timestamp=$($home/now.sh)
 
+# if the log file does not exist, then it is created
+if [ ! -f "$home/runner.log" ]; then
+    touch "$home/runner.log"
+fi
+
 # welcome to runner.sh
-echo "                                                                        "
-echo " ██████╗ ██╗   ██╗███╗  ██╗███╗  ██╗███████╗██████╗     ██████╗██╗  ██╗ "
-echo " ██╔══██╗██║   ██║████╗ ██║████╗ ██║██╔════╝██╔══██╗   ██╔════╝██║  ██║ "
-echo " ██████╔╝██║   ██║██╔██╗██║██╔██╗██║█████╗  ██████╔╝   ╚█████╗ ███████║ "
-echo " ██╔══██╗██║   ██║██║╚████║██║╚████║██╔══╝  ██╔══██╗    ╚═══██╗██╔══██║ "
-echo " ██║  ██║╚██████╔╝██║ ╚███║██║ ╚███║███████╗██║  ██║██╗██████╔╝██║  ██║ "
-echo " ╚═╝  ╚═╝ ╚═════╝ ╚═╝  ╚══╝╚═╝  ╚══╝╚══════╝╚═╝  ╚═╝╚═╝╚═════╝ ╚═╝  ╚═╝ "
-echo "      unelegant and simplistic recon automation framework by team7      "
-echo "                                                                        "
+echo "                                                                        " | tee -a "$home/runner.log"
+echo " ██████╗ ██╗   ██╗███╗  ██╗███╗  ██╗███████╗██████╗     ██████╗██╗  ██╗ " | tee -a "$home/runner.log"
+echo " ██╔══██╗██║   ██║████╗ ██║████╗ ██║██╔════╝██╔══██╗   ██╔════╝██║  ██║ " | tee -a "$home/runner.log"
+echo " ██████╔╝██║   ██║██╔██╗██║██╔██╗██║█████╗  ██████╔╝   ╚█████╗ ███████║ " | tee -a "$home/runner.log"
+echo " ██╔══██╗██║   ██║██║╚████║██║╚████║██╔══╝  ██╔══██╗    ╚═══██╗██╔══██║ " | tee -a "$home/runner.log"
+echo " ██║  ██║╚██████╔╝██║ ╚███║██║ ╚███║███████╗██║  ██║██╗██████╔╝██║  ██║ " | tee -a "$home/runner.log"
+echo " ╚═╝  ╚═╝ ╚═════╝ ╚═╝  ╚══╝╚═╝  ╚══╝╚══════╝╚═╝  ╚═╝╚═╝╚═════╝ ╚═╝  ╚═╝ " | tee -a "$home/runner.log"
+echo "      unelegant and simplistic recon automation framework by team7      " | tee -a "$home/runner.log"
+echo "                                                                        " | tee -a "$home/runner.log"
 
 # confirmation that the script is running
-echo "[$($home/now.sh)] runner.sh is alive with PID $$, ctrl+c to exit"
+echo "[$($home/now.sh)] runner.sh is alive with PID $$, ctrl+c to exit" | tee -a "$home/runner.log"
 
 # enters the infinite loop
 while true; do
@@ -33,7 +38,7 @@ while true; do
   # main scheduler
   if [[ "$current_mins" == "00" ]]; then
     
-    echo "[$($home/now.sh)] runner.sh is alive with PID $$, ctrl+c to exit"
+    echo "[$($home/now.sh)] runner.sh is alive with PID $$, ctrl+c to exit" | tee -a "$home/runner.log"
     
     if [[ "$current_hours" == "06" ]]; then
       # launches workflows every day at 6:00 AM UTC

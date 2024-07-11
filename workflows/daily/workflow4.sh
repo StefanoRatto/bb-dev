@@ -10,6 +10,11 @@ timestamp=$($home/now.sh)
 current_year=$(date -u +"%Y")
 current_month=$(date -u +"%m")
 
+# if the log file does not exist, then it is created
+if [ ! -f "$home/runner.log" ]; then
+    touch "$home/runner.log"
+fi
+
 # output directory is created
 output_folder=$home/outputs/workflow4/$current_year/$current_month/$timestamp
 if ! [ -d $output_folder ]; then
@@ -17,7 +22,7 @@ if ! [ -d $output_folder ]; then
 fi
 
 # confirmation that the script started
-echo "[$($home/now.sh)] workflow4.sh started at:   $output_folder"
+echo "[$($home/now.sh)] workflow4.sh started at:   $output_folder" | tee -a "$home/runner.log"
 
 # loop over programs/scopes
 # all programs scope files with name starting with "urls_" are processed
@@ -74,4 +79,4 @@ for file in "$input_folder"/*; do
 done
 
 # confirmation that the script completed successfully
-echo "[$($home/now.sh)] workflow4.sh completed at: $output_folder"
+echo "[$($home/now.sh)] workflow4.sh completed at: $output_folder" | tee -a "$home/runner.log"

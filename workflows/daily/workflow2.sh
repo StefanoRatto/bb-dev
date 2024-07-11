@@ -10,8 +10,13 @@ timestamp=$($home/now.sh)
 current_year=$(date -u +"%Y")
 current_month=$(date -u +"%m")
 
+# if the log file does not exist, then it is created
+if [ ! -f "$home/runner.log" ]; then
+    touch "$home/runner.log"
+fi
+
 # reading config to retrieve nist nvd api key
-source ~/.bb-dev_config
+#source ~/.bb-dev_config
 
 # output directory is created
 output_folder=$home/outputs/workflow2/$current_year/$current_month/$timestamp
@@ -20,7 +25,7 @@ if ! [ -d $output_folder ]; then
 fi
 
 # confirmation that the script started
-echo "[$($home/now.sh)] workflow2.sh started at:   $output_folder"
+echo "[$($home/now.sh)] workflow2.sh started at:   $output_folder" | tee -a "$home/runner.log"
 
 # loops over programs/scopes
 # all programs scope files with name starting with "urls_" are processed
@@ -131,4 +136,4 @@ for file in "$input_folder"/*; do
 done
 
 # confirmation that the script completed successfully
-echo "[$($home/now.sh)] workflow2.sh completed at: $output_folder"
+echo "[$($home/now.sh)] workflow2.sh completed at: $output_folder" | tee -a "$home/runner.log"
