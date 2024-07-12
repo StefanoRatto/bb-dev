@@ -20,4 +20,4 @@ sendemail -l email.log					 \
   -o tls=yes						         \
   -xu $EMAIL_SENDER_USERNAME		 \
   -xp $EMAIL_SENDER_PASSWORD	   \
-  -o message-file="$2"
+  -o message-file="$2" 2> /dev/null

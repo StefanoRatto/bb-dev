@@ -49,9 +49,9 @@ for file in "$input_folder"/*; do
         fi
 
         # "cleaning" the fqdns from the scope files
-        sed -i 's/*.//g' $input_folder/$filename      
-        sed -i 's/http:\/\///g' $input_folder/$filename
-        sed -i 's/https:\/\///g' $input_folder/$filename
+        sed -i 's/*.//g' $input_folder/$filename 2> /dev/null
+        sed -i 's/http:\/\///g' $input_folder/$filename 2> /dev/null
+        sed -i 's/https:\/\///g' $input_folder/$filename 2> /dev/null
        
         # creating the subfinder output file with the content of the input file
         cp $input_folder/$filename $output_folder/subfinder_$filename
@@ -60,7 +60,7 @@ for file in "$input_folder"/*; do
         
         # subfinder
         subfinder -dL $input_folder/$filename -silent \
-          >> $output_folder/subfinder_$filename
+          >> $output_folder/subfinder_$filename 2> /dev/null
 
         # nmap
         # reads the input file from subfinder, then runs nmap on each host 
@@ -68,14 +68,15 @@ for file in "$input_folder"/*; do
         while IFS= read -r line; do
 
           # first a quick scan on all ports to see which ones are open
-          open_ports=$(nmap -T5 -p- --min-rate=10000 --open -oG - $line | \
-            grep -oP '\d+/open' | cut -d'/' -f1 | tr '\n' ',' | sed 's/,$//')
+          open_ports=$(nmap -T5 -p- --min-rate=10000 --open -oG - $line 2> /dev/null | \
+            grep -oP '\d+/open' 2> /dev/null | cut -d'/' -f1 2> /dev/null | \
+            tr '\n' ',' 2> /dev/null | sed 's/,$//' 2> /dev/null)
           # then a vuln scan only on the open ports
           nmap -sV --script vulners,vuln -p $open_ports --script-args mincvss=8.0 - $line \
             2> /dev/null >> $output_folder/temp_$filename
           
           # formatting the nmap putput file pre-pending each line with the target host
-          sed "s/^/$line /" $output_folder/temp_$filename >> $output_folder/nmap_$filename
+          sed "s/^/$line /" $output_folder/temp_$filename 2> /dev/null >> $output_folder/nmap_$filename
           rm $output_folder/temp_$filename
 
           # cvssv3 score lookup via nist nvd api v2.0 code snippet
@@ -87,19 +88,20 @@ for file in "$input_folder"/*; do
         done < "$output_folder/subfinder_$filename"
 
         # removing empty lines in the nmap output file
-        sed -i '/^$/d' $output_folder/nmap_$filename
+        sed -i '/^$/d' $output_folder/nmap_$filename 2> /dev/null
 
         # copying all CVEs to a temp file
-        grep -E "CVE-" "$output_folder/nmap_$filename" > "$output_folder/temp_$filename"
+        grep -E "CVE-" "$output_folder/nmap_$filename" 2> /dev/null > "$output_folder/temp_$filename"
 
         # replacing all tab characters with spaces
-        sed -i 's/\t/ /g' "$output_folder/temp_$filename"
+        sed -i 's/\t/ /g' "$output_folder/temp_$filename" 2> /dev/null
 
         # removing duplicate spaces in each line
-        sed -i 's/  */ /g' "$output_folder/temp_$filename"
+        sed -i 's/  */ /g' "$output_folder/temp_$filename" 2> /dev/null
 
         # removing duplicate lines
-        awk '!seen[$0]++' "$output_folder/temp_$filename" > temp && mv temp "$output_folder/temp_$filename"
+        awk '!seen[$0]++' "$output_folder/temp_$filename" 2> /dev/null \
+          > temp && mv temp "$output_folder/temp_$filename"
 
         # if an entry is not in the results file, then the entry is added to the results file 
         # and also added to the notify file, which is the file that will be sent over email
@@ -114,8 +116,9 @@ for file in "$input_folder"/*; do
 
         # if there is new content to be notify over, then the email is sent
         if [ -f "$output_folder/notify_$filename" ]; then
-          sed -i 's/$/ /' $output_folder/notify_$filename
-          $home/email.sh "bb-dev - workflow2/$timestamp/$filename" "$output_folder/notify_$filename" > /dev/null 2>&1
+          sed -i 's/$/ /' $output_folder/notify_$filename 2> /dev/null
+          $home/email.sh "bb-dev - workflow2/$timestamp/$filename" \
+            "$output_folder/notify_$filename" > /dev/null 2>&1
         fi
 
       elif [[ "$filename" == _urls* ]]; then

@@ -46,9 +46,9 @@ for file in "$input_folder"/*; do
         fi
         
         # "cleaning" the fqdns from the scope files
-        sed -i 's/*.//g' $input_folder/$filename      
-        sed -i 's/http:\/\///g' $input_folder/$filename
-        sed -i 's/https:\/\///g' $input_folder/$filename
+        sed -i 's/*.//g' $input_folder/$filename 2> /dev/null 
+        sed -i 's/http:\/\///g' $input_folder/$filename 2> /dev/null
+        sed -i 's/https:\/\///g' $input_folder/$filename 2> /dev/null
        
         # creating the subfinder output file with the content of the input file
         cp $input_folder/$filename $output_folder/subfinder_$filename
@@ -57,7 +57,7 @@ for file in "$input_folder"/*; do
         
         # subfinder
         subfinder -dL $input_folder/$filename -silent \
-          >> $output_folder/subfinder_$filename
+          >> $output_folder/subfinder_$filename 2> /dev/null
         
         # do stuff
 

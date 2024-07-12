@@ -48,9 +48,9 @@ for file in "$input_folder"/*; do
         fi
 
         # "cleaning" the fqdns from the scope files
-        sed -i 's/*.//g' $input_folder/$filename      
-        sed -i 's/http:\/\///g' $input_folder/$filename
-        sed -i 's/https:\/\///g' $input_folder/$filename
+        sed -i 's/*.//g' $input_folder/$filename 2> /dev/null 
+        sed -i 's/http:\/\///g' $input_folder/$filename 2> /dev/null
+        sed -i 's/https:\/\///g' $input_folder/$filename 2> /dev/null
        
         # creating the subfinder output file with the content of the input file
         cp $input_folder/$filename $output_folder/subfinder_$filename
@@ -58,19 +58,19 @@ for file in "$input_folder"/*; do
         echo >> $output_folder/subfinder_$filename
         
         # subfinder
-        subfinder -dL $input_folder/$filename -silent \
+        subfinder -dL $input_folder/$filename -silent 2> /dev/null \
           >> $output_folder/subfinder_$filename
 
         # httpx
         httpx -list $output_folder/subfinder_$filename \
           -silent -no-color -title -tech-detect -status-code -no-fallback -follow-redirects \
-          -mc 200 -screenshot -srd $output_folder > $output_folder/httpx_$filename
+          -mc 200 -screenshot -srd $output_folder 2> /dev/null > $output_folder/httpx_$filename
 
         # nuclei reads a list of urls, so the httpx output as is needs to be "cleaned"
-        awk '{print $1}' $output_folder/httpx_$filename > $output_folder/temp_$filename
+        awk '{print $1}' $output_folder/httpx_$filename 2> /dev/null > $output_folder/temp_$filename
         # nuclei
         nuclei -l $output_folder/temp_$filename -s critical,high,medium,low \
-          -silent -no-color > $output_folder/nuclei_$filename
+          -silent -no-color 2> /dev/null > $output_folder/nuclei_$filename
         # the temporary file needed by nuclei gets deleted
         rm $output_folder/temp_$filename
 
@@ -78,16 +78,18 @@ for file in "$input_folder"/*; do
         if grep -qE "medium|high|critical" "$output_folder/nuclei_$filename"; then
           
           # copies all mediums, highs and crits to a temp file
-          grep -E "medium|high|critical" "$output_folder/nuclei_$filename" > "$output_folder/temp_$filename"
+          grep -E "medium|high|critical" "$output_folder/nuclei_$filename" 2> /dev/null \
+            > "$output_folder/temp_$filename"
           
           # replacing all tab characters with spaces
-          sed -i 's/\t/ /g' "$output_folder/temp_$filename"
+          sed -i 's/\t/ /g' "$output_folder/temp_$filename" 2> /dev/null
 
           # removing duplicate spaces in each line
-          sed -i 's/  */ /g' "$output_folder/temp_$filename"
+          sed -i 's/  */ /g' "$output_folder/temp_$filename" 2> /dev/null
 
           # removes duplicate lines
-          awk '!seen[$0]++' "$output_folder/temp_$filename" > temp && mv temp "$output_folder/temp_$filename"
+          awk '!seen[$0]++' "$output_folder/temp_$filename" 2> /dev/null \
+            > temp && mv temp "$output_folder/temp_$filename"
 
           # if an entry is not in the results file, then the entry is added to the results file 
           # and also added to the notify file, which is the file that will be sent over email
@@ -102,8 +104,9 @@ for file in "$input_folder"/*; do
           
           # if there is new content to be notify over, then the email is sent
           if [ -f "$output_folder/notify_$filename" ]; then
-            sed -i 's/$/ /' $output_folder/notify_$filename
-            $home/email.sh "bb-dev - workflow1/$timestamp/$filename" "$output_folder/notify_$filename" > /dev/null 2>&1
+            sed -i 's/$/ /' $output_folder/notify_$filename 2> /dev/null
+            $home/email.sh "bb-dev - workflow1/$timestamp/$filename" \
+              "$output_folder/notify_$filename" > /dev/null 2>&1
           fi
         fi
 
