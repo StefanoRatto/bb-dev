@@ -46,9 +46,9 @@ for file in "$input_folder"/*; do
         fi
 
         # "cleaning" the fqdns from the scope files
-        sed -i 's/*.//g' $input_folder/$filename      
-        sed -i 's/http:\/\///g' $input_folder/$filename
-        sed -i 's/https:\/\///g' $input_folder/$filename
+        sed -i 's/*.//g' $input_folder/$filename 2> /dev/null   
+        sed -i 's/http:\/\///g' $input_folder/$filename 2> /dev/null
+        sed -i 's/https:\/\///g' $input_folder/$filename 2> /dev/null
        
         # creating the subfinder output file with the content of the input file
         cp $input_folder/$filename $output_folder/subfinder_$filename
@@ -57,7 +57,7 @@ for file in "$input_folder"/*; do
         
         # subfinder
         subfinder -dL $input_folder/$filename -silent \
-          >> $output_folder/subfinder_$filename
+          >> $output_folder/subfinder_$filename 2> /dev/null
         
         # gau
         # reads the input file from subfinder, then runs gau on each host 
@@ -81,16 +81,17 @@ for file in "$input_folder"/*; do
           "$output_folder/gau_$filename" > "$output_folder/temp_$filename"
 
         # removing empty lines in the gau output file
-        sed -i '/^$/d' $output_folder/temp_$filename
+        sed -i '/^$/d' $output_folder/temp_$filename 2> /dev/null
 
         # replacing all tab characters with spaces
-        sed -i 's/\t/ /g' "$output_folder/temp_$filename"
+        sed -i 's/\t/ /g' "$output_folder/temp_$filename" 2> /dev/null
 
         # removing duplicate spaces in each line
-        sed -i 's/  */ /g' "$output_folder/temp_$filename"
+        sed -i 's/  */ /g' "$output_folder/temp_$filename" 2> /dev/null
 
         # removing duplicate lines
-        awk '!seen[$0]++' "$output_folder/temp_$filename" > temp && mv temp "$output_folder/temp_$filename"
+        awk '!seen[$0]++' "$output_folder/temp_$filename" \
+          > temp && mv temp "$output_folder/temp_$filename" 2> /dev/null
 
         # if an entry is not in the results file, then the entry is added to the results file 
         # and also added to the notify file, which is the file that will be sent over email
@@ -105,8 +106,9 @@ for file in "$input_folder"/*; do
 
         # if there is new content to be notify over, then the email is sent
         if [ -f "$output_folder/notify_$filename" ]; then
-          sed -i 's/$/ /' $output_folder/notify_$filename
-          $home/email.sh "bb-dev - workflow3/$timestamp/$filename" "$output_folder/notify_$filename" > /dev/null 2>&1
+          sed -i 's/$/ /' $output_folder/notify_$filename 2> /dev/null
+          $home/email.sh "bb-dev - workflow3/$timestamp/$filename" \
+            "$output_folder/notify_$filename" > /dev/null 2>&1
         fi
 
       elif [[ "$filename" == _urls* ]]; then
