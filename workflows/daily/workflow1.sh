@@ -102,7 +102,7 @@ for file in "$input_folder"/*; do
           
           rm $output_folder/temp_$filename
           
-          # if there is new content to be notify over, then the email is sent
+          # if there is new content to be notified over, then the email is sent
           if [ -f "$output_folder/notify_$filename" ]; then
             sed -i 's/$/ /' $output_folder/notify_$filename 2> /dev/null
             $home/email.sh "bb-dev - workflow1/$timestamp/$filename" \

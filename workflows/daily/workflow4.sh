@@ -82,14 +82,17 @@ for file in "$input_folder"/*; do
 
           # checking if the checksum file exists
           if [ -f "$hashes_folder/$hashfile" ]; then
-            # Read the previous checksum
+            # reading the previous checksum
             previous_checksum=$(cat "$hashes_folder/$hashfile" | awk '{ print $2 }' 2> /dev/null)
 
             # comparing the current checksum with the previous checksum
             if [ "$current_checksum" != "$previous_checksum" ]; then
-              echo "$url CHANGED"
+              # if there is new content to be notified over, then the email is sent
+              echo "$timestamp $url has changed!" >> "$home/outputs/workflow4/results_$filename"
+              echo "$timestamp $url has changed!" >> $output_folder/notify_$filename 2> /dev/null
+            fi
             else
-              echo "$url nah..."
+              :
             fi
           else
             touch "$hashes_folder/$hashfile" 2> /dev/null
@@ -98,6 +101,13 @@ for file in "$input_folder"/*; do
           # saving the current checksum to the file
           echo "$url $current_checksum" > "$hashes_folder/$hashfile"
         done < "$output_folder/httpx_$filename"
+
+        # if there is new content to be notified over, then the email is sent
+        if [ -f "$output_folder/notify_$filename" ]; then
+          sed -i 's/$/ /' $output_folder/notify_$filename 2> /dev/null
+          $home/email.sh "bb-dev - workflow4/$timestamp/$filename" \
+            "$output_folder/notify_$filename" > /dev/null 2>&1
+        fi
 
       elif [[ "$filename" == _urls* ]]; then
         # skips "_urls" input files 
