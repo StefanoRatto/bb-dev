@@ -74,36 +74,19 @@ Required underlying tools:
 * ```httpx```
 * ```gau```
 
-### TODOs
-  - Aaa
-  - Aaa
-
 ## ```workflow4.sh```
 
-This workflow is all about ```subfinder``` -> ```httpx``` -> ```changed```.
+This workflow is all about being notified if a website changes (i.e. gets updated) and it uses ```subfinder```, ```httpx``` and a combination of checksum technologies glued together with ```bash```.
+
+```workflow4.sh``` is run by ```runner.sh``` every day at midnight. It loops over programs/scopes files in the ```$home/inputs/``` folder, where all scope files have names starting with ```urls_*``` or ```_urls_*```. Files with name starting with ```urls_*``` are processed, while all programs scope files with name starting with ```_urls_*``` are ignored.
+
+```workflow4.sh``` then processes all URLs/FQDNs in the scope files and runs each one of them thru the pipe ```subfinder``` -> ```httpx```. All results are saved in the ```$home/outputs/workflow4/``` folder and ```/$YEAR/$MONTH/$TIMESTAMP``` subfolders, in text files with names starting respectively with ```subfinder_*``` and ```httpx_*```.
+
+Finally, for each URL from ```httpx``` that returned status 200, ```workflow4.sh``` grabs the homepage, calculates the SHA512 of its content and compares it to the hash for the same URL calculated the privious time the workflow has run. Then, if the hash has changed, it sends an email notification containing the URL whose content supposedly changed.
 
 Required underlying tools:
 * ```subfinder```
 * ```httpx```
-* ```changed```
-
-```Bash
-Bash code here
-```
-### TODOs
-  - Aaa
-  - Aaa
-
-## ```workflow5.sh```
-
-Bash script that...
-
-```Bash
-Bash code here
-```
-### TODOs
-  - Aaa
-  - Aaa
 
 # Licensing
 
