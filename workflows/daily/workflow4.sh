@@ -89,7 +89,7 @@ for file in "$input_folder"/*; do
             if [ "$current_checksum" != "$previous_checksum" ]; then
               # if there is new content to be notified over, then the email is sent
               echo "$timestamp $url has changed!" >> "$home/outputs/workflow4/results_$filename"
-              echo "$timestamp $url has changed!" >> $output_folder/notify_$filename 2> /dev/null
+              echo "$timestamp $url has changed!" >> "$output_folder/notify_$filename" 2> /dev/null
             else
               :
             fi
