@@ -21,6 +21,12 @@ if ! [ -d $output_folder ]; then
   mkdir -p $output_folder
 fi
 
+# hashes directory is created
+hashes_folder=$home/outputs/workflow4/hashes
+if ! [ -d $hashes_folder ]; then
+  mkdir -p $hashes_folder
+fi
+
 # confirmation that the script started
 echo "[$($home/now.sh)] workflow4.sh started at:   $output_folder" | tee -a "$home/runner.log"
 
@@ -59,7 +65,39 @@ for file in "$input_folder"/*; do
         subfinder -dL $input_folder/$filename -silent \
           >> $output_folder/subfinder_$filename 2> /dev/null
         
-        # do stuff
+        # httpx
+        httpx -list $output_folder/subfinder_$filename -silent -no-color -no-fallback \
+          -mc 200 2> /dev/null > $output_folder/httpx_$filename
+
+        while IFS= read -r url; do
+        
+          # generating a filename-friendly version of the URL
+          hashfile=$(echo "$url" | sha256sum | awk '{ print $1 }' 2> /dev/null).txt
+
+          # fetching the website content
+          content=$(curl -s "$url" 2> /dev/null)
+
+          # generating checksum of the content
+          current_checksum=$(echo "$content" | sha512sum | awk '{ print $1 }' 2> /dev/null)
+
+          # checking if the checksum file exists
+          if [ -f "$hashes_folder/$hashfile" ]; then
+            # Read the previous checksum
+            previous_checksum=$(cat "$hashes_folder/$hashfile" | awk '{ print $2 }' 2> /dev/null)
+
+            # comparing the current checksum with the previous checksum
+            if [ "$current_checksum" != "previous_checksum" ]; then
+              echo "$url CHANGED"
+            else
+              echo "$url nah..."
+            fi
+          else
+            touch "$hashes_folder/$hashfile" 2> /dev/null
+          fi
+
+          # saving the current checksum to the file
+          echo "$url $current_checksum" > "$hashes_folder/$hashfile"
+        done < "$output_folder/httpx_$filename"
 
       elif [[ "$filename" == _urls* ]]; then
         # skips "_urls" input files 
