@@ -66,11 +66,11 @@ for file in "$input_folder"/*; do
           >> $output_folder/subfinder_$filename 2> /dev/null
         
         # httpx
-        httpx -list $output_folder/subfinder_$filename -silent -no-color -no-fallback \
-          -mc 200 2> /dev/null > $output_folder/httpx_$filename
+        httpx -list $output_folder/subfinder_$filename -silent -no-color -follow-redirects \
+          -mc 200 2> /dev/null | cut -d' ' -f1 > $output_folder/httpx_$filename
 
+        # checking if any website has changed
         while IFS= read -r url; do
-        
           # generating a filename-friendly version of the URL
           hashfile=$(echo "$url" | sha256sum | awk '{ print $1 }' 2> /dev/null).txt
 
@@ -86,7 +86,7 @@ for file in "$input_folder"/*; do
             previous_checksum=$(cat "$hashes_folder/$hashfile" | awk '{ print $2 }' 2> /dev/null)
 
             # comparing the current checksum with the previous checksum
-            if [ "$current_checksum" != "previous_checksum" ]; then
+            if [ "$current_checksum" != "$previous_checksum" ]; then
               echo "$url CHANGED"
             else
               echo "$url nah..."
