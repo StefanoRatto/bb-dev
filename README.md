@@ -19,6 +19,9 @@ Bash ./now.sh
 
 Bash utility script that sends emails. Subject and body are specified via command line arguments and the configuration parameters are read from ```.bb-dev_config```.
 
+Required underlying tools:
+* ```subfinder```
+
 ```Bash
 Bash ./email.sh "Subject" "Absolute path to message body text file"
 ```
