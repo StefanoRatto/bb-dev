@@ -24,7 +24,7 @@ Bash ./email.sh "Subject" "Absolute path to message body text file"
 ```
 
 Required underlying tools:
-* ```sendemaaaaail```
+* ```sendemail```
 
 ## ```runner.sh```
 
