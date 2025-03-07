@@ -15,9 +15,9 @@ from urllib.request import urlopen, Request
 
 def main(args):
 
-    sender_email = "c3rlzmfuby5yyxr0bw@gmail.com"
-    receiver_email = "team7261737465@gmail.com"
-    password = "kavj hhkd zpak ryqo"
+    sender_email = ""
+    receiver_email = ""
+    password = ""
 
     print(f"[{datetime.now().astimezone().isoformat()}] Running with PID {os.getpid()}, Ctrl-C to exit.")
 
